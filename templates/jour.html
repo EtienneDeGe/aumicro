@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% from "macros.html" import avatar, media, actions %}
+{% block title %}Invités politiques du {{ date_longue(jour)|lower }}{% endblock %}
+{% block description %}Les {{ passages|length }} invités politiques à la radio le {{ date_longue(jour)|lower }} : horaires, émissions, direct et replays.{% endblock %}
+{% block main %}
+<div class="jour-h">
+  <div>
+    <div class="eyebrow">Invités politiques à la radio</div>
+    <h1>{{ date_longue(jour) }}</h1>
+    <p class="meta">{{ passages|length }} passage{{ "s" if passages|length > 1 }} · {{ nb_radios }} radio{{ "s" if nb_radios > 1 }}</p>
+  </div>
+  <div class="jour-nav">
+    {% if prec %}<a class="btn-rond" href="{{ base }}{{ prec[:4] }}/{{ prec[5:7] }}/{{ prec[8:] }}/" aria-label="Jour précédent ({{ date_courte(prec) }})">‹</a>{% else %}<span class="btn-rond" aria-hidden="true">‹</span>{% endif %}
+    <select id="choix-jour" aria-label="Choisir un jour">
+      {% for j in jours|reverse %}<option value="{{ j[:4] }}/{{ j[5:7] }}/{{ j[8:] }}/" {% if j == jour %}selected{% endif %}>{{ date_courte(j) }}</option>{% endfor %}
+    </select>
+    {% if suiv %}<a class="btn-rond" href="{{ base }}{{ suiv[:4] }}/{{ suiv[5:7] }}/{{ suiv[8:] }}/" aria-label="Jour suivant ({{ date_courte(suiv) }})">›</a>{% else %}<span class="btn-rond" aria-hidden="true">›</span>{% endif %}
+  </div>
+</div>
+{% for p in periodes %}
+<section class="periode">
+  <h2 class="periode-t">{{ p.nom }} <span>{{ p.plage }}</span></h2>
+  <div class="frise">
+  {% for heure, liste in p.creneaux %}
+    <div class="slot">
+      <div class="heure">{{ heure }}</div>
+      <div class="cards">
+      {% for x in liste %}
+        <article class="carte">
+          <div class="carte-h">{{ avatar(x.personne, x.nom) }}
+            <div class="who"><a class="nom" href="{{ base }}personnalites/{{ x.personne }}/">{{ x.nom }}</a><div class="fn">{{ x.fonction }}</div></div>
+            {% if x.statut == "annonce" %}<span class="badge">Annoncé</span>{% endif %}
+          </div>
+          {{ media(x) }}
+          {{ actions(x) }}
+        </article>
+      {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+</section>
+{% endfor %}
+{% endblock %}
+{% block scripts %}
+<script>
+document.getElementById("choix-jour").addEventListener("change", e => { location.href = "{{ base }}" + e.target.value; });
+</script>
+{% endblock %}

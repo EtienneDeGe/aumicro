@@ -1,0 +1,50 @@
+{
+  "france-inter": {
+    "nom": "France Inter",
+    "abr": "Inter",
+    "teinte": 200,
+    "direct": "https://www.radiofrance.fr/franceinter"
+  },
+  "franceinfo": {
+    "nom": "franceinfo",
+    "abr": "fi",
+    "teinte": 48,
+    "direct": "https://www.francetvinfo.fr"
+  },
+  "rtl": {
+    "nom": "RTL",
+    "abr": "RTL",
+    "teinte": 350,
+    "direct": "https://www.rtl.fr"
+  },
+  "europe1": {
+    "nom": "Europe 1",
+    "abr": "E1",
+    "teinte": 220,
+    "direct": "https://www.europe1.fr"
+  },
+  "rmc": {
+    "nom": "RMC",
+    "abr": "RMC",
+    "teinte": 25,
+    "direct": "https://rmc.bfmtv.com"
+  },
+  "rfi": {
+    "nom": "RFI",
+    "abr": "RFI",
+    "teinte": 0,
+    "direct": "https://www.rfi.fr/fr/"
+  },
+  "sudradio": {
+    "nom": "Sud Radio",
+    "abr": "SR",
+    "teinte": 190,
+    "direct": "https://www.sudradio.fr"
+  },
+  "radioclassique": {
+    "nom": "Radio Classique",
+    "abr": "RC",
+    "teinte": 270,
+    "direct": "https://www.radioclassique.fr"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "inter-7h50": {
+    "nom": "L'invité de 7h50",
+    "radio": "france-inter",
+    "animateur": "Benjamin Duhamel",
+    "actif": true
+  },
+  "inter-8h20": {
+    "nom": "Le grand entretien de 8h20",
+    "radio": "france-inter",
+    "animateur": "Benjamin Duhamel",
+    "actif": true
+  },
+  "inter-7h50-we": {
+    "nom": "L'invité de 7h50 du week-end",
+    "radio": "france-inter",
+    "animateur": "Quentin Lafay",
+    "actif": true
+  },
+  "fi-830": {
+    "nom": "8h30 franceinfo",
+    "radio": "franceinfo",
+    "animateur": "Simon Le Baron et Agathe Lambret",
+    "actif": true
+  },
+  "rmc-face-a-face": {
+    "nom": "Face à Face",
+    "radio": "rmc",
+    "animateur": "Apolline de Malherbe",
+    "actif": true
+  },
+  "rtl-elysee-2027": {
+    "nom": "Élysée 2027",
+    "radio": "rtl",
+    "animateur": "Olivier Bost",
+    "actif": true
+  },
+  "rtl-grand-jury": {
+    "nom": "Le Grand Jury",
+    "radio": "rtl",
+    "animateur": "Olivier Bost",
+    "actif": true
+  },
+  "rmc-bourdin-direct": {
+    "nom": "Bourdin Direct",
+    "radio": "rmc",
+    "actif": false
+  },
+  "rmc-interview": {
+    "nom": "L'interview RMC",
+    "radio": "rmc",
+    "actif": false
+  },
+  "rmc-face-aux-gg": {
+    "nom": "Face aux GG",
+    "radio": "rmc",
+    "actif": false
+  },
+  "sud-invite-politique": {
+    "nom": "L'invité politique",
+    "radio": "sudradio",
+    "actif": false
+  },
+  "rfi-invite-matin": {
+    "nom": "L'invité du matin",
+    "radio": "rfi",
+    "actif": false
+  },
+  "e1-grande-interview": {
+    "nom": "La grande interview",
+    "radio": "europe1",
+    "actif": false
+  },
+  "e1-punchline": {
+    "nom": "Punchline",
+    "radio": "europe1",
+    "actif": false
+  },
+  "rc-invite-politique": {
+    "nom": "L'invité politique",
+    "radio": "radioclassique",
+    "actif": false
+  },
+  "fi-instant-politique": {
+    "nom": "L'instant politique",
+    "radio": "franceinfo",
+    "actif": false
+  },
+  "fi-1820": {
+    "nom": "18h20 franceinfo",
+    "radio": "franceinfo",
+    "actif": false
+  },
+  "rtl-invite": {
+    "nom": "L'invité de RTL",
+    "radio": "rtl",
+    "actif": false
+  }
+}

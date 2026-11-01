@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% from "macros.html" import avatar, media, actions %}
+{% block title %}{{ p.nom }} : passages à la radio{% endblock %}
+{% block description %}Tous les passages radio de {{ p.nom }} : {{ p.passages|length }} interview{{ "s" if p.passages|length > 1 }}, avec liens vers les replays.{% endblock %}
+{% block main %}
+<a class="retour" href="{{ base }}personnalites/">← Toutes les personnalités</a>
+<div class="fiche-h">
+  {{ avatar(p.slug, p.nom, p.photo, "av-xl") }}
+  <div><div class="eyebrow">Personnalité</div><h1>{{ p.nom }}</h1><p class="fn">{{ p.dernier.fonction }}</p>
+  {% if p.credit_photo %}<p class="credit">Photo : {{ p.credit_photo }}</p>{% endif %}</div>
+</div>
+<dl class="stats">
+  <div><dt>Passages</dt><dd>{{ p.passages|length }}</dd></div>
+  <div><dt>Radios</dt><dd>{{ p.radios|length }}</dd></div>
+  <div><dt>Premier passage</dt><dd>{{ date_courte(p.premier.date) }}</dd></div>
+  <div><dt>Dernier passage</dt><dd>{{ date_courte(p.dernier.date) }}</dd></div>
+</dl>
+<div class="radios">{% for nom, n in p.radios %}<span>{{ nom }} <b>×{{ n }}</b></span>{% endfor %}</div>
+<h2 class="sec">Historique des passages</h2>
+<ol class="histo">
+{% for x in p.passages %}
+  <li>
+    <div class="quand"><a href="{{ base }}{{ x.date[:4] }}/{{ x.date[5:7] }}/{{ x.date[8:] }}/">{{ date_courte(x.date) }}</a><div class="h">{{ x.heure }}</div></div>
+    <div class="corps">{{ media(x) }}<div class="fn">En tant que : {{ x.fonction }}</div>{{ actions(x) }}</div>
+  </li>
+{% endfor %}
+</ol>
+{% endblock %}

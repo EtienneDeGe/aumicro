@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% from "macros.html" import avatar %}
+{% block title %}Personnalités{% endblock %}
+{% block description %}Toutes les personnalités politiques invitées à la radio et l'historique de leurs passages.{% endblock %}
+{% block main %}
+<div class="eyebrow">Annuaire</div>
+<h1>Personnalités</h1>
+<div class="outils">
+  <input id="recherche" class="recherche" type="search" placeholder="Rechercher un nom ou une fonction" aria-label="Rechercher une personnalité">
+  <span class="compte" id="compte">{{ fiches|length }} personnalités</span>
+</div>
+<div class="grille">
+{% for f in fiches %}
+  <a class="perso" href="{{ base }}personnalites/{{ f.slug }}/" data-q="{{ (f.nom ~ ' ' ~ f.dernier.fonction)|lower }}">
+    {{ avatar(f.slug, f.nom, f.photo) }}
+    <div class="who"><div class="nom">{{ f.nom }}</div><div class="fn">{{ f.dernier.fonction }}</div>
+      <div class="stat">{{ f.passages|length }} passage{{ "s" if f.passages|length > 1 }} · dernier le {{ date_courte(f.dernier.date) }}</div></div>
+  </a>
+{% endfor %}
+</div>
+<p class="vide" id="vide" hidden>Aucune personnalité ne correspond à cette recherche.</p>
+{% endblock %}
+{% block scripts %}
+<script>
+const norm = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+const champ = document.getElementById("recherche"), cartes = [...document.querySelectorAll(".perso")];
+cartes.forEach(c => c.dataset.q = norm(c.dataset.q));
+champ.addEventListener("input", () => {
+  const q = norm(champ.value.trim()); let n = 0;
+  cartes.forEach(c => { const ok = !q || c.dataset.q.includes(q); c.hidden = !ok; if (ok) n++; });
+  document.getElementById("compte").textContent = n + " personnalité" + (n > 1 ? "s" : "");
+  document.getElementById("vide").hidden = n > 0;
+});
+</script>
+{% endblock %}

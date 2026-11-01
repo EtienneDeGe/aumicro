@@ -1,0 +1,18 @@
+{% macro avatar(slug, nom, photo=None, cls="") -%}
+{% if photo %}<img class="av {{ cls }}" src="{{ photo }}" alt="" loading="lazy">{% else %}<div class="av {{ cls }}" style="--h:{{ teinte(slug) }}" aria-hidden="true">{{ initiales(nom) }}</div>{% endif %}
+{%- endmacro %}
+
+{% macro media(x) -%}
+<div class="media">
+  <span class="logo" style="--h:{{ x.radio.teinte }}" aria-hidden="true">{{ x.radio.abr }}</span>
+  <div><div class="emi">{{ x.em.nom }}</div><div class="anim">{% if x.animateur %}avec {{ x.animateur }} · {% endif %}{{ x.radio.nom }}</div></div>
+</div>
+{%- endmacro %}
+
+{% macro actions(x) -%}
+<div class="actions">
+  <a class="btn btn-live" href="{{ x.radio.direct }}" target="_blank" rel="noopener"><span class="dot"></span>Direct {{ x.radio.nom }}</a>
+  {% if x.replay %}<a class="btn btn-replay" href="{{ x.replay }}" target="_blank" rel="noopener">Replay</a>
+  {% else %}<span class="btn btn-off">Replay à venir</span>{% endif %}
+</div>
+{%- endmacro %}

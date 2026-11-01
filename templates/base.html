@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{% block title %}{% endblock %} · {{ site.nom }}</title>
+<meta name="description" content="{% block description %}Les invités politiques de la radio, jour par jour, avec les liens vers le direct et les replays.{% endblock %}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="{{ base }}static/style.css">
+<link rel="icon" href="{{ base }}static/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-in">
+    <a href="{{ base }}" class="brand"><i aria-hidden="true"></i>{{ site.nom }}</a>
+    <nav aria-label="Navigation principale">
+      <a href="{{ base }}" {% if page == "jour" %}aria-current="page"{% endif %}>Agenda</a>
+      <a href="{{ base }}personnalites/" {% if page == "pers" %}aria-current="page"{% endif %}>Personnalités</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+{% block main %}{% endblock %}
+</main>
+<footer class="wrap pied">
+  <p>{{ site.nom }} recense les invités politiques des grandes radios françaises. Les fonctions indiquées sont celles du jour du passage.</p>
+</footer>
+{% block scripts %}{% endblock %}
+</body>
+</html>
