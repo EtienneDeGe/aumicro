@@ -1,0 +1,58 @@
+[
+  {
+    "heure": "07:40",
+    "emission": "rtl-invite-7h40",
+    "personne": "roland-lescure",
+    "fonction": "Ministre de l'Économie et des Finances",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/000d3f81-0463-4edd-bfdb-081c831230ee.mp3?_=1792562581",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "eric-ciotti",
+    "fonction": "Président de l’Union des droites",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/420697fb-8d5a-439f-affc-3627b26b1e4b.mp3?_=1792563475&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Laurence Ferrari"
+  },
+  {
+    "heure": "08:20",
+    "emission": "inter-8h20",
+    "personne": "francois-hollande",
+    "fonction": "Ancien Président de la République et député PS de Corrèze",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-8h20-le-grand-entretien/l-invite-de-8h20-le-grand-entretien-du-mercredi-21-octobre-2026-6513669",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "marine-le-pen",
+    "fonction": "Candidate RN à la présidentielle présidente du groupe RN à l'Assemblée nationale",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/violences-du-17-octobre-presidentielle-propos-antisemites-attribues-a-jordan-bardella-le-8h30-franceinfo-de-marine-le-pen_8226034.html",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "rmc-face-a-face",
+    "personne": "linda-kebbab",
+    "fonction": "Secrétaire nationale du syndicat de police UN1TÉ",
+    "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/0bce5c0e-5099-4dd4-9c7c-331b27eb0fab/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=0bce5c0e-5099-4dd4-9c7c-331b27eb0fab&category=News%2CSociety+%26+Culture&episode_published_at=2026-10-21T07%3A00%3A00&episode_title=Face+%C3%A0+Face+%3A+Linda+Kebbab+-+21%2F10&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "christophe-bechu",
+    "fonction": "Maire d'Angers et Secrétaire général d'Horizons",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-760",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Jacques Cardoze"
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "heure": "07:50",
+    "emission": "inter-7h50",
+    "personne": "segolene-royal",
+    "fonction": "Candidate à la primaire socialiste, est notre invitée, au lendemain d'un débat animé entre les différents concurrents à la présidentielle",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50/l-invite-de-7h50-du-lundi-05-octobre-2026-6131111",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "maud-bregeon",
+    "fonction": "Porte-parole du gouvernement et ministre déléguée de l'Énergie",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/f6b56a68-49ed-4336-952d-5f1ba8d3b90b.mp3?_=1791182780&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Laurence Ferrari"
+  },
+  {
+    "heure": "08:15",
+    "emission": "rc-invite-matinale",
+    "personne": "richard-ferrand",
+    "fonction": "Président du Conseil constitutionnel",
+    "ecouter": "https://podcasts.audiomeans.fr/l-invite-de-la-matinale-a0fcb873fd2b/richard-ferrand-president-du-conseil-constitutionnel-369b83f0e0e9",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "mathilde-panot",
+    "fonction": "Députée du Val-de-Marne, présidente du groupe LFI à l'Assemblée nationale",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/mobilisation-lyceenne-et-debordements-le-8h30-franceinfo-de-mathilde-panot_8202284.html",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "philippe-baptiste",
+    "fonction": "Ministre de l'Enseignement supérieur de la Recherche et de l'Espace",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-750",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Jacques Cardoze"
+  }
+]

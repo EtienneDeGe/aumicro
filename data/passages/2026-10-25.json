@@ -1,0 +1,20 @@
+[
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "sandro-gozi",
+    "fonction": "Politicien italien",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/attaque-raciste-dans-les-yvelines-manifestations-en-france-le-8h30-franceinfo-de-sandro-gozi_8211644.html",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "12:00",
+    "emission": "rtl-grand-jury",
+    "personne": "olivier-faure",
+    "fonction": "Homme politique français",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/f215cc6a-c680-441a-8220-e54dce19b54e.mp3?_=1792931582",
+    "voir": null,
+    "statut": "confirme"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "heure": "07:40",
+    "emission": "rtl-invite-7h40",
+    "personne": "olivier-faure",
+    "fonction": "Homme politique français",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/2573621d-4378-427a-b0fb-7c68b525a063.mp3?_=1790920981",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "francois-xavier-bellamy",
+    "fonction": "Député européen et Vice-Président des Républicains",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/86b82d01-5b6c-4006-a099-b33862ef56a9.mp3?_=1790921976&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Romain Desarbres"
+  },
+  {
+    "heure": "08:15",
+    "emission": "rc-invite-matinale",
+    "personne": "patrick-martin",
+    "fonction": "Président du MEDEF",
+    "ecouter": "https://podcasts.audiomeans.fr/l-invite-de-la-matinale-a0fcb873fd2b/patrick-martin-president-du-medef-8ccd82def367",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "rmc-face-a-face",
+    "personne": "edouard-geffray",
+    "fonction": "Ministre de l’Éducation nationale",
+    "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/6118c03d-af88-4513-8eaf-a8ca2ff3d0b3/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=6118c03d-af88-4513-8eaf-a8ca2ff3d0b3&category=News%2CSociety+%26+Culture&episode_published_at=2026-10-02T06%3A53%3A44&episode_title=Face+%C3%A0+Face+%3A+%C3%89douard+Geffray+-+02%2F10&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
+    "voir": null,
+    "statut": "confirme"
+  }
+]

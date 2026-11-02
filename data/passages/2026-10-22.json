@@ -1,0 +1,76 @@
+[
+  {
+    "heure": "07:40",
+    "emission": "rtl-invite-7h40",
+    "personne": "laure-lavalette",
+    "fonction": "Députée RN et porte-parole du parti",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/fdfdbd40-a333-4aa1-bfa6-caf48dcf5ca4.mp3?_=1792648981",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:50",
+    "emission": "inter-7h50",
+    "personne": "bally-bagayoko",
+    "fonction": "Maire LFI de Saint-Denis et Pierrefitte-sur-Seine (93)",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50/l-invite-de-7h50-du-jeudi-22-octobre-2026-4889480",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "robert-menard",
+    "fonction": "Maire divers droite de Béziers",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/87ad9d5a-9bdb-4125-960c-19b11ba701f4.mp3?_=1792651389&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Laurence Ferrari"
+  },
+  {
+    "heure": "08:15",
+    "emission": "rc-invite-matinale",
+    "personne": "bruno-bouchard",
+    "fonction": "Président de l'Université Paris-Dauphine PSL",
+    "ecouter": "https://podcasts.audiomeans.fr/l-invite-de-la-matinale-a0fcb873fd2b/bruno-bouchard-president-de-l-universite-paris-dauphine---psl-mathematicien-238389564c6f",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:20",
+    "emission": "inter-8h20",
+    "personne": "antoine-bristielle",
+    "fonction": "Directeur de l’Observatoire de l’opinion à la fondation Jean Jaurès ne sont pas d'accord de l'emploi du terme guerre civile après le 17 octobre",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-8h20-le-grand-entretien/l-invite-de-8h20-le-grand-entretien-du-jeudi-22-octobre-2026-6854751",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "olivier-faure",
+    "fonction": "Premier secrétaire du parti socialiste",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/mobilisation-du-24-octobre-couvre-feux-crise-sociale-le-8h30-franceinfo-d-olivier-faure_8227639.html",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "rmc-face-a-face",
+    "personne": "manuel-bompard",
+    "fonction": "Coordinateur national de La France Insoumise et député des Bouches-du-Rhône",
+    "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/c4a1fef8-b5d2-439b-bd6e-cfa82f3546b3/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=c4a1fef8-b5d2-439b-bd6e-cfa82f3546b3&category=News%2CSociety+%26+Culture&episode_published_at=2026-10-22T06%3A53%3A15&episode_title=Face+%C3%A0+Face+%3A+Manuel+Bompard+-+22%2F10&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "jean-didier-berger",
+    "fonction": "Ministre délégué auprès du ministre de l'Intérieur",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-761",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Jacques Cardoze"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "heure": "07:40",
+    "emission": "rtl-invite-7h40",
+    "personne": "eric-zemmour",
+    "fonction": "Journaliste, écrivain et homme politique français",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/31eb8bc1-13cf-4a2d-8d9f-e99f54584b09.mp3?_=1791784981",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "michel-barnier",
+    "fonction": "Ancien premier ministre et député LR de Paris",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/d449cf21-1d48-4c39-8db9-979e188b43a0.mp3?_=1791786122&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Laurence Ferrari"
+  },
+  {
+    "heure": "08:15",
+    "emission": "rc-invite-matinale",
+    "personne": "francois-zimeray",
+    "fonction": "Avocat à Paris et à la Cour pénale internationale, ancien député européen",
+    "ecouter": "https://podcasts.audiomeans.fr/l-invite-de-la-matinale-a0fcb873fd2b/francois-zimeray-la-certitude-morale-est-la-pire-adversaire-des-droits-de-lhomme-176db4f3",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:20",
+    "emission": "inter-8h20",
+    "personne": "raphael-glucksmann",
+    "fonction": "Le co-président de Place Publique",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-8h20-le-grand-entretien/l-invite-de-8h20-le-grand-entretien-du-lundi-12-octobre-2026-8406439",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "rmc-face-a-face",
+    "personne": "maud-bregeon",
+    "fonction": "Porte-parole du Gouvernement et ministre déléguée à l'Énergie",
+    "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/710d8b90-12c3-4d25-aec7-6f4dc7c5c435/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=710d8b90-12c3-4d25-aec7-6f4dc7c5c435&category=News%2CSociety+%26+Culture&episode_published_at=2026-10-12T07%3A02%3A49&episode_title=Face+%C3%A0+Face+%3A+Maud+Bregeon+-+12%2F10&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "jonas-haddad",
+    "fonction": "Porte parole des Républicains, vice président de la région Normandie",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-749",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Jacques Cardoze"
+  }
+]

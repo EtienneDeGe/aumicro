@@ -211,16 +211,29 @@
   "photo_fichier": "Philippe Juvin 02.JPG",
   "qid": "Q445705"
  },
+ "pos:Q104844640": "directeur des antennes et des programmes",
+ "pos:Q106987409": "président-directeur du musée du Louvre",
+ "pos:Q108399360": "directeur général adjoint",
+ "pos:Q108552181": "président du musée d'Orsay",
  "pos:Q113637637": "directeur général de l'enseignement scolaire",
  "pos:Q121594": "professeur",
  "pos:Q121998": "ambassadeur",
+ "pos:Q1240569": "professeur émérite",
  "pos:Q1255921": "président ou présidente",
  "pos:Q1266327": "ministre de la Recherche",
+ "pos:Q126727848": "président de l'Union des étudiants juifs de France",
  "pos:Q130297510": "directeur de cabinet du ministre de l'Économie et des Finances",
+ "pos:Q140686": "président ou présidente",
  "pos:Q1450482": "collaborateur parlementaire",
  "pos:Q1501800": "directeur général ou directrice générale",
  "pos:Q16059954": "ministre de l'Éducation nationale",
+ "pos:Q16532929": "administrateur ou administratrice",
+ "pos:Q17618208": "secrétaire général de la présidence de la République",
+ "pos:Q18705668": "membre de l'Académie française",
+ "pos:Q189010": "notaire",
  "pos:Q20722965": "grand maître du Grand Orient de France",
+ "pos:Q22132694": "directeur ou directrice de musée",
+ "pos:Q23958341": "président du jury du festival de Cannes",
  "pos:Q2406696": "conseiller de tribunal administratif",
  "pos:Q2420458": "président ou présidente d'université",
  "pos:Q25293795": "ambassadeur de France en Israël",
@@ -228,20 +241,30 @@
  "pos:Q25378518": "directeur général délégué ou directrice générale déléguée",
  "pos:Q26253853": "ambassadeur de France à Monaco",
  "pos:Q2994439": "conservateur de bibliothèque",
+ "pos:Q30020981": "directeur de cabinet du Premier ministre",
  "pos:Q3029430": "directeur ou directrice de recherche au CNRS",
  "pos:Q3029564": "Direction générale des Impôts",
  "pos:Q30461": "président ou présidente",
+ "pos:Q3254304": "secrétaire perpétuel de l'Académie française",
+ "pos:Q42178": "vice-président",
  "pos:Q428322": "président-directeur général ou présidente-directrice générale",
  "pos:Q484876": "directeur général ou directrice générale",
  "pos:Q5280566": "directeur de la communication",
+ "pos:Q55168644": "membre du conseil d'administration",
+ "pos:Q58910656": "directeur du Trésor",
  "pos:Q589298": "rédacteur ou rédactrice en chef",
  "pos:Q59142848": "directeur de cabinet du ministre de la Justice",
+ "pos:Q62078932": "conseiller ou conseillère à la Cour de cassation",
  "pos:Q64154210": "directeur adjoint ou directrice adjointe",
+ "pos:Q64840924": "procureur national antiterroriste",
  "pos:Q6501749": "secrétaire général ou secrétaire générale",
  "pos:Q65939186": "président de la SNCF",
+ "pos:Q66712770": "secrétaire général adjoint ou secrétaire générale adjointe",
  "pos:Q6827278": "directeur ou directrice scientifique",
+ "pos:Q7579842": "directeur des sports",
  "pos:Q7886203": "gouverneur de la Banque de France",
  "pos:Q79482247": "membre du collège de la Haute Autorité pour la transparence de la vie publique",
+ "pos:Q92924928": "directeur d'études",
  "prisca thevenot": {
   "description": "femme politique française",
   "nom": "Prisca Thevenot",
@@ -290,6 +313,1093 @@
   "qid": "Q112650795"
  },
  "tour de lombardie": null,
+ "v2:agnes pannier runacher": {
+  "description": "haute fonctionnaire, dirigeante d'entreprise et femme politique française",
+  "fonction_publique": true,
+  "nom": "Agnès Pannier-Runacher",
+  "photo_fichier": "Agnès Pannier-Runacher - 2023 (cropped).jpg",
+  "politique": true,
+  "qid": "Q33230494"
+ },
+ "v2:alain bauer": {
+  "description": "criminologue français",
+  "fonction_publique": true,
+  "nom": "Alain Bauer",
+  "photo_fichier": "Salon du livre de Paris 2011 - Alain Bauer - 004.jpg",
+  "politique": false,
+  "qid": "Q2829541"
+ },
+ "v2:aleksandar nikolic": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Aleksandar Nikolic",
+  "photo_fichier": "Aleksandar Nikolić MEP (2024).jpg",
+  "politique": true,
+  "qid": "Q107316188"
+ },
+ "v2:alexandre bompard": {
+  "description": "chef d'entreprise français",
+  "fonction_publique": true,
+  "nom": "Alexandre Bompard",
+  "photo_fichier": "Alexandre Bompard, Carrefour CEO.png",
+  "politique": false,
+  "qid": "Q2833474"
+ },
+ "v2:ali rabeh": {
+  "description": "Homme politique franco-marocain",
+  "fonction_publique": true,
+  "nom": "Ali Rabeh",
+  "photo_fichier": "Ali Rabeh.jpg",
+  "politique": true,
+  "qid": "Q96668522"
+ },
+ "v2:amin maalouf": {
+  "description": "écrivain franco-libanais",
+  "fonction_publique": true,
+  "nom": "Amin Maalouf",
+  "photo_fichier": "Amin Maalouf.jpg",
+  "politique": false,
+  "qid": "Q115243"
+ },
+ "v2:anais ella": null,
+ "v2:andrea kotarac": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Andréa Kotarac",
+  "photo_fichier": "Andréa.Kotarac (cropped).jpg",
+  "politique": true,
+  "qid": "Q62887833"
+ },
+ "v2:anne goscinny": {
+  "description": "écrivaine française",
+  "fonction_publique": false,
+  "nom": "Anne Goscinny",
+  "photo_fichier": "Anne Goscinny, lors de la sortie d'Astérix chez les Pictes.jpg",
+  "politique": false,
+  "qid": "Q2851118"
+ },
+ "v2:anne levade": {
+  "description": "juriste française",
+  "fonction_publique": true,
+  "nom": "Anne Levade",
+  "photo_fichier": null,
+  "politique": false,
+  "qid": "Q2851173"
+ },
+ "v2:antoine arnault": {
+  "description": "homme d'affaires français",
+  "fonction_publique": true,
+  "nom": "Antoine Arnault",
+  "photo_fichier": "Antoine Arnault lors de l’inauguration de la Maison LVMH le 22 juillet 2024.jpg",
+  "politique": false,
+  "qid": "Q2853612"
+ },
+ "v2:antoine bristielle": {
+  "description": "chercheur en sciences sociales français",
+  "fonction_publique": false,
+  "nom": "Antoine Bristielle",
+  "photo_fichier": null,
+  "politique": false,
+  "qid": "Q106291727"
+ },
+ "v2:antoine leaument": {
+  "description": "vidéaste et homme politique français",
+  "fonction_publique": true,
+  "nom": "Antoine Léaument",
+  "photo_fichier": "Antoine Léaument le 21 juillet 2024.jpg",
+  "politique": true,
+  "qid": "Q62976462"
+ },
+ "v2:arnaud rousseau": {
+  "description": "personnalité syndicale française, chef d'entreprise",
+  "fonction_publique": true,
+  "nom": "Arnaud Rousseau",
+  "photo_fichier": "Arnaud Rousseau 2025.jpg",
+  "politique": true,
+  "qid": "Q62077623"
+ },
+ "v2:arthur mensch": {
+  "description": "entrepreneur français",
+  "fonction_publique": false,
+  "nom": "Arthur Mensch",
+  "photo_fichier": "Arthur Mensch.png",
+  "politique": false,
+  "qid": "Q123758735"
+ },
+ "v2:arthur sarradin": {
+  "description": "journaliste français",
+  "fonction_publique": false,
+  "nom": "Arthur Sarradin",
+  "photo_fichier": null,
+  "politique": false,
+  "qid": "Q139592055"
+ },
+ "v2:aurelien pradie": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Aurélien Pradié",
+  "photo_fichier": "Aurélien Pradié - July 2017 - Assemblée Nationale.jpg",
+  "politique": true,
+  "qid": "Q30351657"
+ },
+ "v2:aurore berge": {
+  "description": "femme politique française",
+  "fonction_publique": true,
+  "nom": "Aurore Bergé",
+  "photo_fichier": "AURORE BERGÉ 04 (cropped).jpg",
+  "politique": true,
+  "qid": "Q29570183"
+ },
+ "v2:bally bagayoko": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Bally Bagayoko",
+  "photo_fichier": "Bally Bagayoko at the Fête de l'Humanité 2026 (cropped).jpg",
+  "politique": true,
+  "qid": "Q137612820"
+ },
+ "v2:bernard henri levy": {
+  "description": "écrivain et polémiste français",
+  "fonction_publique": false,
+  "nom": "Bernard-Henri Lévy",
+  "photo_fichier": "Bernard-Henri Lévy par Marc Roussel en 2024.jpg",
+  "politique": false,
+  "qid": "Q313509"
+ },
+ "v2:british academy": null,
+ "v2:bruno bouchard": null,
+ "v2:bruno le maire": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Bruno Le Maire",
+  "photo_fichier": "Bruno Le Maire in 2022.jpg",
+  "politique": true,
+  "qid": "Q993472"
+ },
+ "v2:bruno retailleau": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Bruno Retailleau",
+  "photo_fichier": "Bruno Retailleau - Ministre de l'Intérieur français (cropped).jpg",
+  "politique": true,
+  "qid": "Q2926942"
+ },
+ "v2:carole zerbib": null,
+ "v2:chamathka warahena": null,
+ "v2:charles rodwell": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Charles Rodwell",
+  "photo_fichier": "20260217-P1380221 Rodwell Charles Wikipedia.jpg",
+  "politique": true,
+  "qid": "Q112518535"
+ },
+ "v2:christophe bechu": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Christophe Béchu",
+  "photo_fichier": "Christophe BÉCHU.jpg",
+  "politique": true,
+  "qid": "Q544725"
+ },
+ "v2:christophe leribault": {
+  "description": "historien d'art français et directeur de musée",
+  "fonction_publique": true,
+  "nom": "Christophe Leribault",
+  "photo_fichier": null,
+  "politique": false,
+  "qid": "Q33104453"
+ },
+ "v2:clemence guette": {
+  "description": "femme politique française",
+  "fonction_publique": true,
+  "nom": "Clémence Guetté",
+  "photo_fichier": "Clémence Guetté, vice présidente de l'Assemblée nationale (cropped).jpg",
+  "politique": true,
+  "qid": "Q109969696"
+ },
+ "v2:clementine autain": {
+  "description": "femme politique française",
+  "fonction_publique": true,
+  "nom": "Clémentine Autain",
+  "photo_fichier": "Clementine-Autain.jpg",
+  "politique": true,
+  "qid": "Q2980738"
+ },
+ "v2:david amiel": {
+  "description": "haut fonctionnaire et homme politique français",
+  "fonction_publique": true,
+  "nom": "David Amiel",
+  "photo_fichier": "David-amiel.jpg",
+  "politique": true,
+  "qid": "Q47502155"
+ },
+ "v2:david lisnard": {
+  "description": "homme politique français, maire de Cannes",
+  "fonction_publique": true,
+  "nom": "David Lisnard",
+  "photo_fichier": "David Lisnard en 2026.jpg",
+  "politique": true,
+  "qid": "Q3018298"
+ },
+ "v2:delphine horvilleur": {
+  "description": "femme rabbin, directrice de la rédaction du journal Tenou'a, essayiste française",
+  "fonction_publique": true,
+  "nom": "Delphine Horvilleur",
+  "photo_fichier": "Delphine Horvilleur par Claude Truong-Ngoc mars 2019 (cropped).jpg",
+  "politique": false,
+  "qid": "Q3021833"
+ },
+ "v2:delphine horvilleur rabbin": null,
+ "v2:denis charbit": null,
+ "v2:dominique schelcher": {
+  "description": "homme d'affaires français",
+  "fonction_publique": true,
+  "nom": "Dominique Schelcher",
+  "photo_fichier": "Dominique Schelcher.jpg",
+  "politique": false,
+  "qid": "Q56810771"
+ },
+ "v2:dominique trinquand": {
+  "description": "général (2S) français, géopoliticien",
+  "fonction_publique": false,
+  "nom": "Dominique Trinquand",
+  "photo_fichier": null,
+  "politique": false,
+  "qid": "Q69524935"
+ },
+ "v2:editions du seuil": null,
+ "v2:edouard geffray": {
+  "description": "Ministre de l'Éducation Nationale",
+  "fonction_publique": true,
+  "nom": "Édouard Geffray",
+  "photo_fichier": "Portrait Geffrey (cropped).jpg",
+  "politique": true,
+  "qid": "Q33138734"
+ },
+ "v2:edwige diaz": {
+  "description": "femme politique française",
+  "fonction_publique": true,
+  "nom": "Edwige Diaz",
+  "photo_fichier": "Edwige Diaz au camp du Courneau (cropped 2).jpg",
+  "politique": true,
+  "qid": "Q63349008"
+ },
+ "v2:emmanuel de waresquiel": {
+  "description": "historien français",
+  "fonction_publique": false,
+  "nom": "Emmanuel de Waresquiel",
+  "photo_fichier": "Emmanuel de Waresquiel 40350.jpg",
+  "politique": false,
+  "qid": "Q3052920"
+ },
+ "v2:emmanuel gregoire": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Emmanuel Grégoire",
+  "photo_fichier": "Emmanuel Grégoire (46632368425).jpg",
+  "politique": true,
+  "qid": "Q64281962"
+ },
+ "v2:emmanuel moulin": {
+  "description": "haut fonctionnaire français",
+  "fonction_publique": true,
+  "nom": "Emmanuel Moulin",
+  "photo_fichier": "Emmanuel Moulin (cropped).jpg",
+  "politique": true,
+  "qid": "Q33102859"
+ },
+ "v2:emmanuelle mignon": {
+  "description": "femme politique française",
+  "fonction_publique": true,
+  "nom": "Emmanuelle Mignon",
+  "photo_fichier": null,
+  "politique": true,
+  "qid": "Q3052978"
+ },
+ "v2:eric ciotti": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Éric Ciotti",
+  "photo_fichier": "Éric Ciotti (2).jpg",
+  "politique": true,
+  "qid": "Q1844180"
+ },
+ "v2:eric coquerel": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Éric Coquerel",
+  "photo_fichier": "Eric Coquerel en 2017.jpg",
+  "politique": true,
+  "qid": "Q17485936"
+ },
+ "v2:eric danon": {
+  "description": "diplomate français",
+  "fonction_publique": true,
+  "nom": "Éric Danon",
+  "photo_fichier": "Amb. Eric Danon.jpg",
+  "politique": false,
+  "qid": "Q3591062"
+ },
+ "v2:eric zemmour": {
+  "description": "journaliste, écrivain et homme politique français",
+  "fonction_publique": true,
+  "nom": "Éric Zemmour",
+  "photo_fichier": "Portrait d'Éric Zemmour, avril 2022.jpg",
+  "politique": true,
+  "qid": "Q288477"
+ },
+ "v2:fabien roussel": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Fabien Roussel",
+  "photo_fichier": "Roussel Fabien 1.jpg",
+  "politique": true,
+  "qid": "Q30388733"
+ },
+ "v2:fabrice lhomme": {
+  "description": "journaliste français",
+  "fonction_publique": false,
+  "nom": "Fabrice Lhomme",
+  "photo_fichier": "Fabrice Lhomme au salon du livre de Paris 2012.jpg",
+  "politique": false,
+  "qid": "Q3063901"
+ },
+ "v2:florence sabatier": null,
+ "v2:francois hollande": {
+  "description": "homme d'État français",
+  "fonction_publique": true,
+  "nom": "François Hollande",
+  "photo_fichier": "François Hollande - 2017 (27869823159) (cropped 2).jpg",
+  "politique": true,
+  "qid": "Q157"
+ },
+ "v2:francois provost": {
+  "description": "directeur général de Renault Group",
+  "fonction_publique": true,
+  "nom": "François Provost",
+  "photo_fichier": "François Provost 2025.jpg",
+  "politique": false,
+  "qid": "Q135494457"
+ },
+ "v2:francois ruffin": {
+  "description": "journaliste, réalisateur et homme politique français",
+  "fonction_publique": true,
+  "nom": "François Ruffin",
+  "photo_fichier": "François Ruffin (cropped).jpg",
+  "politique": true,
+  "qid": "Q3085763"
+ },
+ "v2:francois villeroy de galhau": {
+  "description": "banquier et haut fonctionnaire français",
+  "fonction_publique": true,
+  "nom": "François Villeroy de Galhau",
+  "photo_fichier": "François Villeroy de Galhau.jpg",
+  "politique": true,
+  "qid": "Q3086015"
+ },
+ "v2:francois xavier bellamy": {
+  "description": "essayiste et homme politique français",
+  "fonction_publique": true,
+  "nom": "François-Xavier Bellamy",
+  "photo_fichier": "François-Xavier Bellamy intervenant en Session Plénière (crop).jpg",
+  "politique": true,
+  "qid": "Q15724624"
+ },
+ "v2:francois zimeray": {
+  "description": "avocat, homme politique et diplomate français",
+  "fonction_publique": true,
+  "nom": "François Zimeray",
+  "photo_fichier": "François Zimeray (cropped).jpg",
+  "politique": true,
+  "qid": "Q3086085"
+ },
+ "v2:fred cavaye": {
+  "description": "réalisateur français",
+  "fonction_publique": false,
+  "nom": "Fred Cavayé",
+  "photo_fichier": "Fred Cavayé (Cropped, 2010).jpg",
+  "politique": false,
+  "qid": "Q3086808"
+ },
+ "v2:frederic pechenard": {
+  "description": "haut fonctionnaire de police et homme politique français",
+  "fonction_publique": true,
+  "nom": "Frédéric Péchenard",
+  "photo_fichier": "Frédéric Péchenard 2011.jpg",
+  "politique": true,
+  "qid": "Q3090149"
+ },
+ "v2:frederique schillo": {
+  "description": "historienne française",
+  "fonction_publique": false,
+  "nom": "Frédérique Schillo",
+  "photo_fichier": null,
+  "politique": false,
+  "qid": "Q133815934"
+ },
+ "v2:gabriel attal": {
+  "description": "homme d'État français",
+  "fonction_publique": true,
+  "nom": "Gabriel Attal",
+  "photo_fichier": "Gabriel Attal 2025 (close crop).jpg",
+  "politique": true,
+  "qid": "Q30339350"
+ },
+ "v2:gerald darmanin": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Gérald Darmanin",
+  "photo_fichier": "Gérald Darmanin in 2022.jpg",
+  "politique": true,
+  "qid": "Q3123610"
+ },
+ "v2:gerard larcher": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Gérard Larcher",
+  "photo_fichier": "Portrait G. Larcher 2014 (cropped).jpg",
+  "politique": true,
+  "qid": "Q784021"
+ },
+ "v2:gilles finchelstein": {
+  "description": "juriste, homme politique et essayiste français",
+  "fonction_publique": true,
+  "nom": "Gilles Finchelstein",
+  "photo_fichier": "Gilles Finchelstein - Janvier 2012.jpg",
+  "politique": true,
+  "qid": "Q3106228"
+ },
+ "v2:gregory doucet": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Grégory Doucet",
+  "photo_fichier": "Grégory Doucet.jpg",
+  "politique": true,
+  "qid": "Q85305187"
+ },
+ "v2:guillaume guerin": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Guillaume Guérin",
+  "photo_fichier": "Guillaume Guérin.jpg",
+  "politique": true,
+  "qid": "Q63349014"
+ },
+ "v2:guillaume kasbarian": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Guillaume Kasbarian",
+  "photo_fichier": "Guillaume Kasbarian May 2025.jpg",
+  "politique": true,
+  "qid": "Q30497082"
+ },
+ "v2:guillaume lacroix": {
+  "description": "homme politique français (1976)",
+  "fonction_publique": true,
+  "nom": "Guillaume Lacroix",
+  "photo_fichier": "Guillaume Lacroix (cropped).jpg",
+  "politique": true,
+  "qid": "Q65131729"
+ },
+ "v2:guillaume pitron": {
+  "description": "chercheur, journaliste, auteur et réalisateur de documentaire français",
+  "fonction_publique": false,
+  "nom": "Guillaume Pitron",
+  "photo_fichier": "Guillaume Pitron journalist (cropped).jpg",
+  "politique": false,
+  "qid": "Q63301813"
+ },
+ "v2:hubert vedrine": {
+  "description": "diplomate et homme politique français",
+  "fonction_publique": true,
+  "nom": "Hubert Védrine",
+  "photo_fichier": "Hubert Vedrine 2006 01 06.jpg",
+  "politique": true,
+  "qid": "Q560682"
+ },
+ "v2:jean christophe grange": {
+  "description": "écrivain français",
+  "fonction_publique": false,
+  "nom": "Jean-Christophe Grangé",
+  "photo_fichier": "Grange01.jpg",
+  "politique": false,
+  "qid": "Q551570"
+ },
+ "v2:jean didier berger": {
+  "description": "personnalité politique française",
+  "fonction_publique": true,
+  "nom": "Jean-Didier Berger",
+  "photo_fichier": "10072024-P1060240 Jean-Didier-Berger-Wikipedia.jpg",
+  "politique": true,
+  "qid": "Q17496948"
+ },
+ "v2:jean dominique senard": {
+  "description": "homme d'affaires français",
+  "fonction_publique": true,
+  "nom": "Jean-Dominique Senard",
+  "photo_fichier": "Jean-Dominique Senard, 2015 (cropped).jpg",
+  "politique": false,
+  "qid": "Q1684801"
+ },
+ "v2:jean francois colosimo": {
+  "description": "historien, essayiste, théologien, éditeur et enseignant français",
+  "fonction_publique": true,
+  "nom": "Jean-François Colosimo",
+  "photo_fichier": "Jean-François Colosimo pick.jpg",
+  "politique": false,
+  "qid": "Q3165542"
+ },
+ "v2:jean francois ricard": {
+  "description": "magistrat français",
+  "fonction_publique": true,
+  "nom": "Jean-François Ricard",
+  "photo_fichier": "Jean-François Ricard (born 1956) in the video 'Gilles Kepel et Jean-François Ricard – Antiterrorisme – la traque des jihadistes'.png",
+  "politique": false,
+  "qid": "Q3165859"
+ },
+ "v2:jean laurent cassely": {
+  "description": "journaliste, essayiste et auteur français",
+  "fonction_publique": false,
+  "nom": "Jean-Laurent Cassely",
+  "photo_fichier": null,
+  "politique": false,
+  "qid": "Q110811277"
+ },
+ "v2:jean michel blanquer": {
+  "description": "homme politique et juriste français",
+  "fonction_publique": true,
+  "nom": "Jean-Michel Blanquer",
+  "photo_fichier": "Blanquer 2022 (cropped).jpg",
+  "politique": true,
+  "qid": "Q3167954"
+ },
+ "v2:jean noel barrot": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Jean-Noël Barrot",
+  "photo_fichier": "Jean-Noël Barrot 2024 (cropped).jpg",
+  "politique": true,
+  "qid": "Q30339198"
+ },
+ "v2:jean philippe tangu": null,
+ "v2:jean philippe tanguy": {
+  "description": "Homme politique français",
+  "fonction_publique": true,
+  "nom": "Jean-Philippe Tanguy",
+  "photo_fichier": "JeanPhilippe Tanguy.jpg",
+  "politique": true,
+  "qid": "Q46138822"
+ },
+ "v2:jean valjean": {
+  "description": "acteur français",
+  "fonction_publique": false,
+  "nom": "Jean Val Jean",
+  "photo_fichier": null,
+  "politique": false,
+  "qid": "Q3070693"
+ },
+ "v2:jerome fourquet": {
+  "description": "analyste politique français",
+  "fonction_publique": false,
+  "nom": "Jérôme Fourquet",
+  "photo_fichier": "Jérôme Fourquet au FIJ 2026 02.jpg",
+  "politique": false,
+  "qid": "Q37793137"
+ },
+ "v2:jerome guedj": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Jérôme Guedj",
+  "photo_fichier": "Jérôme Guedj 2010.jpg",
+  "politique": true,
+  "qid": "Q3190925"
+ },
+ "v2:jonas haddad": {
+  "description": "avocat et homme politique français",
+  "fonction_publique": true,
+  "nom": "Jonas Haddad",
+  "photo_fichier": null,
+  "politique": true,
+  "qid": "Q42613260"
+ },
+ "v2:jordan bardella": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Jordan Bardella",
+  "photo_fichier": "Jordan Bardella - Strasbourg European Parliament September 2022 (Cropped).jpg",
+  "politique": true,
+  "qid": "Q40655898"
+ },
+ "v2:jordi savall": null,
+ "v2:julian jackson": null,
+ "v2:julien grenet": null,
+ "v2:julien odoul": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Julien Odoul",
+  "photo_fichier": "Julien Odoul - Besançon 25-04-2019 - Toufik-de-Planoise.jpg",
+  "politique": true,
+  "qid": "Q41102798"
+ },
+ "v2:jury de clemence": null,
+ "v2:jury de jean michel": null,
+ "v2:jury de natacha": null,
+ "v2:jury de sebastien": null,
+ "v2:l ecrivain bernard henri levy": null,
+ "v2:l historien david colon": null,
+ "v2:lamia el aaraje": {
+  "description": "femme politique française",
+  "fonction_publique": true,
+  "nom": "Lamia El Aaraje",
+  "photo_fichier": "Image processing20260326-19867-qbk1up.jpg",
+  "politique": true,
+  "qid": "Q106291673"
+ },
+ "v2:laure lavalette": {
+  "description": "femme politique française",
+  "fonction_publique": true,
+  "nom": "Laure Lavalette",
+  "photo_fichier": "Laure.Lavalette.jpg",
+  "politique": true,
+  "qid": "Q112308110"
+ },
+ "v2:laurent jacobelli": {
+  "description": "directeur audiovisuel et homme politique français",
+  "fonction_publique": true,
+  "nom": "Laurent Jacobelli",
+  "photo_fichier": "Laurent Jacobelli.jpg",
+  "politique": true,
+  "qid": "Q17632457"
+ },
+ "v2:laurent nunez": {
+  "description": "haut fonctionnaire et homme politique français",
+  "fonction_publique": true,
+  "nom": "Laurent Nuñez",
+  "photo_fichier": "Nunez Beauvau (cropped).jpg",
+  "politique": true,
+  "qid": "Q30729111"
+ },
+ "v2:linda kebbab": {
+  "description": "policière syndicaliste française",
+  "fonction_publique": false,
+  "nom": "Linda Kebbab",
+  "photo_fichier": "Linda Kebbab.jpg",
+  "politique": false,
+  "qid": "Q100154995"
+ },
+ "v2:louis aliot": {
+  "description": "avocat et homme politique français",
+  "fonction_publique": true,
+  "nom": "Louis Aliot",
+  "photo_fichier": "Louis Aliot 2015 02 (cropped) (cropped).jpg",
+  "politique": true,
+  "qid": "Q3261014"
+ },
+ "v2:louis letoublon": null,
+ "v2:mage du kremlin": null,
+ "v2:manon aubry": {
+  "description": "femme politique française",
+  "fonction_publique": true,
+  "nom": "Manon Aubry",
+  "photo_fichier": "Manon Aubry , SOTEU 2022 (52359513224) (cropped).jpg",
+  "politique": true,
+  "qid": "Q59601214"
+ },
+ "v2:manuel bompard": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Manuel Bompard",
+  "photo_fichier": "Bompard MEP 2019.jpg",
+  "politique": true,
+  "qid": "Q29575749"
+ },
+ "v2:marine le pen": {
+  "description": "femme politique française",
+  "fonction_publique": true,
+  "nom": "Marine Le Pen",
+  "photo_fichier": "Марин Ле Пен (28-01-2022).jpg",
+  "politique": true,
+  "qid": "Q12927"
+ },
+ "v2:marine tondelier": {
+  "description": "femme politique française",
+  "fonction_publique": true,
+  "nom": "Marine Tondelier",
+  "photo_fichier": "Huma2023MarineTondelier.jpg",
+  "politique": true,
+  "qid": "Q29917987"
+ },
+ "v2:marylise leon": {
+  "description": "dirigeante syndicale française (CFDT)",
+  "fonction_publique": true,
+  "nom": "Marylise Léon",
+  "photo_fichier": "Marylise Léon (CFDT) en 2014.jpg",
+  "politique": false,
+  "qid": "Q55258276"
+ },
+ "v2:mathilde panot": {
+  "description": "femme politique française",
+  "fonction_publique": true,
+  "nom": "Mathilde Panot",
+  "photo_fichier": "Mathilde Panot 2021-3.jpg",
+  "politique": true,
+  "qid": "Q30343128"
+ },
+ "v2:maud bregeon": {
+  "description": "femme politique française",
+  "fonction_publique": true,
+  "nom": "Maud Bregeon",
+  "photo_fichier": "Maud Bregeon (2023).jpg",
+  "politique": true,
+  "qid": "Q104032664"
+ },
+ "v2:maxence lambrecq": null,
+ "v2:mayada boulos": null,
+ "v2:michel barnier": {
+  "description": "homme d'État français",
+  "fonction_publique": true,
+  "nom": "Michel Barnier",
+  "photo_fichier": "Barnier cropped.jpg",
+  "politique": true,
+  "qid": "Q438465"
+ },
+ "v2:michel edouard leclerc": {
+  "description": "président de groupe d'entreprises",
+  "fonction_publique": true,
+  "nom": "Michel-Édouard Leclerc",
+  "photo_fichier": "Michel-Edouard Leclerc - 2015 (cropped).jpg",
+  "politique": false,
+  "qid": "Q3308806"
+ },
+ "v2:nabil diab": null,
+ "v2:neila latrous": {
+  "description": "journaliste française d'origine algérienne",
+  "fonction_publique": false,
+  "nom": "Neïla Latrous",
+  "photo_fichier": null,
+  "politique": false,
+  "qid": "Q16666409"
+ },
+ "v2:nicolas arpagian": null,
+ "v2:nicolas dupont aignan": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Nicolas Dupont-Aignan",
+  "photo_fichier": "Nicolas Dupont-Aignan, homme politique français.jpg",
+  "politique": true,
+  "qid": "Q12961"
+ },
+ "v2:nicolas teillard": null,
+ "v2:nora hamadi": {
+  "description": "journaliste et militante associative française",
+  "fonction_publique": false,
+  "nom": "Nora Hamadi",
+  "photo_fichier": "Nora Hamadi - 2015 (cropped).jpg",
+  "politique": false,
+  "qid": "Q30754883"
+ },
+ "v2:olivier faure": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Olivier Faure",
+  "photo_fichier": "Portrait d'Olivier Faure.jpg",
+  "politique": true,
+  "qid": "Q3351018"
+ },
+ "v2:olivier nora editions": null,
+ "v2:othman nasrou": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Othman Nasrou",
+  "photo_fichier": "Othman Nasrou devant le conseil régional Ile de France.jpg",
+  "politique": true,
+  "qid": "Q56318183"
+ },
+ "v2:ouest france": null,
+ "v2:pasteur don": null,
+ "v2:patrice duhamel": {
+  "description": "journaliste français",
+  "fonction_publique": true,
+  "nom": "Patrice Duhamel",
+  "photo_fichier": "Patrice Duhamel (2014; cropped 2024).jpg",
+  "politique": false,
+  "qid": "Q3368925"
+ },
+ "v2:patrick artus": {
+  "description": "économiste français",
+  "fonction_publique": true,
+  "nom": "Patrick Artus",
+  "photo_fichier": "Patrick Artus - 2017.jpg",
+  "politique": false,
+  "qid": "Q3369193"
+ },
+ "v2:patrick martin": {
+  "description": "dirigeant d'entreprise français",
+  "fonction_publique": true,
+  "nom": "Patrick Martin",
+  "photo_fichier": "Patrick Martin MARTIN BELAYSOUD MEDEF.jpg",
+  "politique": false,
+  "qid": "Q116871810"
+ },
+ "v2:philippe baptiste": {
+  "description": "ingénieur, chercheur et homme politique français",
+  "fonction_publique": true,
+  "nom": "Philippe Baptiste",
+  "photo_fichier": "Space Symposium - CNES Bilateral Meeting (NHQ202108250016) (cropped).jpg",
+  "politique": true,
+  "qid": "Q106287381"
+ },
+ "v2:philippe juvin": {
+  "description": "médecin et homme politique français",
+  "fonction_publique": true,
+  "nom": "Philippe Juvin",
+  "photo_fichier": "Philippe Juvin 02.JPG",
+  "politique": true,
+  "qid": "Q445705"
+ },
+ "v2:pierre arditi": {
+  "description": "acteur français",
+  "fonction_publique": false,
+  "nom": "Pierre Arditi",
+  "photo_fichier": "Pierre Arditi in 2009.jpg",
+  "politique": false,
+  "qid": "Q123135"
+ },
+ "v2:prisca thevenot": {
+  "description": "femme politique française",
+  "fonction_publique": true,
+  "nom": "Prisca Thevenot",
+  "photo_fichier": "Prisca Thevenot 2023 (cropped).jpg",
+  "politique": true,
+  "qid": "Q106020252"
+ },
+ "v2:public senat": null,
+ "v2:queen mary": null,
+ "v2:raphael doan": {
+  "description": "magistrat, écrivain et historien français",
+  "fonction_publique": true,
+  "nom": "Raphaël Doan",
+  "photo_fichier": "Raphaël Doan (born 1993) in the video 'Raphaël Doan - Si Rome n'avait pas chuté'.png",
+  "politique": false,
+  "qid": "Q63436481"
+ },
+ "v2:raphael glucksmann": {
+  "description": "essayiste et homme politique français",
+  "fonction_publique": true,
+  "nom": "Raphaël Glucksmann",
+  "photo_fichier": "2024-03-03 - Congrès du PSE- 105 - Raphael Glucksmann.jpg",
+  "politique": true,
+  "qid": "Q556149"
+ },
+ "v2:rassemblement national": null,
+ "v2:richard ferrand": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Richard Ferrand",
+  "photo_fichier": "Échanges avec Richard Ferrand, Président de l'Assemblée nationale, à la Faculté de droit Paris-Est 01 (cropped 2).jpg",
+  "politique": true,
+  "qid": "Q3430759"
+ },
+ "v2:robert menard": {
+  "description": "journaliste, essayiste et homme politique français",
+  "fonction_publique": true,
+  "nom": "Robert Ménard",
+  "photo_fichier": "Robert Ménard Meeting -0664.jpg",
+  "politique": true,
+  "qid": "Q2976160"
+ },
+ "v2:roland lescure": {
+  "description": "économiste et homme politique français",
+  "fonction_publique": true,
+  "nom": "Roland Lescure",
+  "photo_fichier": "Visit of Roland Lescure, Minister attached to the French Minister for Economics, to the European Commission - 2022 (cropped).jpg",
+  "politique": true,
+  "qid": "Q30130489"
+ },
+ "v2:romain boulet": null,
+ "v2:royal historical society": null,
+ "v2:sandro gozi": {
+  "description": "politicien italien",
+  "fonction_publique": true,
+  "nom": "Sandro Gozi",
+  "photo_fichier": "Sandro Gozi daticamera.jpg",
+  "politique": true,
+  "qid": "Q3948237"
+ },
+ "v2:sarah el hairy": {
+  "description": "femme politique française",
+  "fonction_publique": true,
+  "nom": "Sarah El Haïry",
+  "photo_fichier": "Sarah-El-Haïry.jpg",
+  "politique": true,
+  "qid": "Q30343245"
+ },
+ "v2:sarah knafo": {
+  "description": "femme politique française",
+  "fonction_publique": true,
+  "nom": "Sarah Knafo",
+  "photo_fichier": "Sarah Knafo, décembre 2021 (52104057536).jpg",
+  "politique": true,
+  "qid": "Q82637284"
+ },
+ "v2:sebastien chenu": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Sébastien Chenu",
+  "photo_fichier": "Denain - Sébastien Chenu lors du conseil municipal du 27 juin 2016 (cropped).JPG",
+  "politique": true,
+  "qid": "Q21294609"
+ },
+ "v2:segolene royal": {
+  "description": "femme politique française",
+  "fonction_publique": true,
+  "nom": "Ségolène Royal",
+  "photo_fichier": "Ségolène Royal - Janvier 2012.jpg",
+  "politique": true,
+  "qid": "Q81923"
+ },
+ "v2:serge papin": {
+  "description": "chef d'entreprise et homme politique français",
+  "fonction_publique": false,
+  "nom": "Serge Papin",
+  "photo_fichier": "Visit of Serge Papin, French Minister for Small and Medium-sized Enterprises, to the EC - 2025 (cropped).jpg",
+  "politique": true,
+  "qid": "Q3479475"
+ },
+ "v2:sophie binet": {
+  "description": "syndicaliste française",
+  "fonction_publique": true,
+  "nom": "Sophie Binet",
+  "photo_fichier": "Huma2023SophieBinet 2.jpg",
+  "politique": true,
+  "qid": "Q111529069"
+ },
+ "v2:stephane boujnah": {
+  "description": "directeur général d'Euronext",
+  "fonction_publique": false,
+  "nom": "Stéphane Boujnah",
+  "photo_fichier": "Stéphane Boujnah - 2024 (cropped).jpg",
+  "politique": false,
+  "qid": "Q33290562"
+ },
+ "v2:stephane vernay": null,
+ "v2:steve jourdin": {
+  "description": "journaliste français",
+  "fonction_publique": false,
+  "nom": "Steve Jourdin",
+  "photo_fichier": null,
+  "politique": false,
+  "qid": "Q107451704"
+ },
+ "v2:sylvie goulard": {
+  "description": "femme politique française",
+  "fonction_publique": true,
+  "nom": "Sylvie Goulard",
+  "photo_fichier": "Hearing of Sylvie Goulard (France) , candidate commissioner for internal market (48832160786) (cropped).jpg",
+  "politique": true,
+  "qid": "Q247924"
+ },
+ "v2:thierry cotillard": {
+  "description": "président de société",
+  "fonction_publique": false,
+  "nom": "Thierry Cotillard",
+  "photo_fichier": "Thierry Cotillard en 2023.jpg",
+  "politique": false,
+  "qid": "Q33214279"
+ },
+ "v2:thierry lentz": {
+  "description": "historien français",
+  "fonction_publique": true,
+  "nom": "Thierry Lentz",
+  "photo_fichier": "Thierry Lentz.jpg",
+  "politique": false,
+  "qid": "Q3524385"
+ },
+ "v2:thierry lhermitte": {
+  "description": "acteur français",
+  "fonction_publique": false,
+  "nom": "Thierry Lhermitte",
+  "photo_fichier": "Thierry Lhermitte 2015.jpg",
+  "politique": false,
+  "qid": "Q548400"
+ },
+ "v2:thomas jolly": {
+  "description": "acteur et metteur en scène français",
+  "fonction_publique": false,
+  "nom": "Thomas Jolly",
+  "photo_fichier": "Thomas Jolly,Thomas Jolly, Comédien, Metteur en scène de théâtre et d'opéra.jpg",
+  "politique": false,
+  "qid": "Q3525264"
+ },
+ "v2:thomas menage": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Thomas Ménagé",
+  "photo_fichier": "Thomas.Ménagé.jpg",
+  "politique": true,
+  "qid": "Q112650795"
+ },
+ "v2:thomas piketty": {
+  "description": "économiste français",
+  "fonction_publique": true,
+  "nom": "Thomas Piketty",
+  "photo_fichier": "Thomas Piketty2.jpg",
+  "politique": false,
+  "qid": "Q984448"
+ },
+ "v2:tour de lombardie": null,
+ "v2:universite de londres": null,
+ "v2:valerie anne giscard d estaing": {
+  "description": "éditrice et galeriste française spécialisée dans la photographie",
+  "fonction_publique": false,
+  "nom": "Valérie-Anne Giscard d'Estaing",
+  "photo_fichier": "Valérie-Anne Giscard d'Estaing 1975.jpg",
+  "politique": false,
+  "qid": "Q3554215"
+ },
+ "v2:victor hugo": null,
+ "v2:vincent jeanbrun": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Vincent Jeanbrun",
+  "photo_fichier": "Vincent Jeanbrun, French Minister for Urban Affairs and Housing - 2026 (cropped).jpg",
+  "politique": true,
+  "qid": "Q62078135"
+ },
+ "v2:vincent lindon": {
+  "description": "acteur, réalisateur et scénariste français",
+  "fonction_publique": true,
+  "nom": "Vincent Lindon",
+  "photo_fichier": "Vincent Lindon, Berlin 2022 (cropped).jpg",
+  "politique": false,
+  "qid": "Q557272"
+ },
+ "v2:wild horse nine": null,
+ "v2:yael braun pivet": {
+  "description": "femme politique française",
+  "fonction_publique": true,
+  "nom": "Yaël Braun-Pivet",
+  "photo_fichier": "Yaël Braun-Pivet 4colonnes 19182.jpg",
+  "politique": true,
+  "qid": "Q30339422"
+ },
+ "v2:yannick jadot": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Yannick Jadot",
+  "photo_fichier": "Yannick Jadot, 2014 (cropped).jpg",
+  "politique": true,
+  "qid": "Q441791"
+ },
+ "v2:yonathan arfi": {
+  "description": "chef d'entreprise français, militant associatif, président du Conseil représentatif des institutions juives de France (CRIF)",
+  "fonction_publique": true,
+  "nom": "Yonathan Arfi",
+  "photo_fichier": null,
+  "politique": false,
+  "qid": "Q112731154"
+ },
  "wild horse nine": null,
  "yannick jadot": {
   "description": "homme politique français",

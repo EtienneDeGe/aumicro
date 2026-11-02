@@ -1,0 +1,67 @@
+[
+  {
+    "heure": "07:40",
+    "emission": "rtl-invite-7h40",
+    "personne": "david-lisnard",
+    "fonction": "Maire de Cannes, ex LR désormais Nouvelle Energie, promet qu'il ira jusqu'au bout",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/40676c8c-2375-4685-8988-b252c31f3a49.mp3?_=1792476181",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:50",
+    "emission": "inter-7h50",
+    "personne": "yael-braun-pivet",
+    "fonction": "Femme politique française",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50/l-invite-de-7h50-du-mardi-20-octobre-2026-1630752",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "gerald-darmanin",
+    "fonction": "Ministre de la Justice",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/ff76d38c-7568-4934-afaa-b32732083a09.mp3?_=1792477238&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Laurence Ferrari"
+  },
+  {
+    "heure": "08:20",
+    "emission": "inter-8h20",
+    "personne": "marylise-leon",
+    "fonction": "Secrétaire générale de la CFDT et Jérôme Fourquet, analyste politique, directeur du département Opinion à l'Ifop",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-8h20-le-grand-entretien/l-invite-de-8h20-le-grand-entretien-du-mardi-20-octobre-2026-6370825",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "manuel-bompard",
+    "fonction": "Coordinateur national de La France insoumise et député des Bouches-du-Rhône",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/violences-du-17-octobre-couvre-feu-pouvoir-d-achat-le-8h30-franceinfo-de-manuel-bompard_8224141.html",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "rmc-face-a-face",
+    "personne": "jean-philippe-tanguy",
+    "fonction": "Président délégué du groupe RN à l'Assemblée nationale et député de la Somme",
+    "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/70b6d7f0-9d1f-49af-b637-b766a512d796/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=70b6d7f0-9d1f-49af-b637-b766a512d796&category=News%2CSociety+%26+Culture&episode_published_at=2026-10-20T06%3A56%3A24&episode_title=Face+%C3%A0+Face+%3A+Jean-Philippe+Tanguy+-+20%2F10&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "guillaume-kasbarian",
+    "fonction": "Député Ensemble",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-759",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Jacques Cardoze"
+  }
+]

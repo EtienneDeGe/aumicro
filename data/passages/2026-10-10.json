@@ -1,0 +1,29 @@
+[
+  {
+    "heure": "07:50",
+    "emission": "inter-7h50-we",
+    "personne": "sylvie-goulard",
+    "fonction": "Professeure de géopolitique à l'université Bocconi à Milan, ancienne ministre des Armées",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50/l-invite-de-7h50-du-we-du-samedi-10-octobre-2026-9481728",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:20",
+    "emission": "inter-8h20-we",
+    "personne": "gilles-finchelstein",
+    "fonction": "Secrétaire général de la Fondation Jean Jaurès",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/le-8h20-du-week-end/le-grand-entretien-du-samedi-10-octobre-2026-6497473",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "andrea-kotarac",
+    "fonction": "Porte-parole du Rassemblement national, président du groupe RN à la Région Auvergne Rhône-Alpes",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/mobilisation-des-lyceens-les-casseurs-doivent-payer-affirme-andrea-kotarac-porte-parole-du-rn_8210420.html",
+    "voir": null,
+    "statut": "confirme"
+  }
+]
