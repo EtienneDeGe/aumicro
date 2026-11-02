@@ -99,9 +99,25 @@ FIN_FONCTION = re.compile(r"(?:^|,? )(?:rapporte|pointe|nie|débattent|appelle|a
 
 FONCTION_POLITIQUE = re.compile(
     r"d[ée]put[ée]|ministre|s[ée]nat|maire|parti|porte-parole|candidat|conseill|élu|secrétaire (?:national|général|d['’]état)|"
-    r"président(?:e)? (?:du groupe|des |de la région|du conseil|de région|du parti|du rassemblement|de l['’]assemblée|de la république)|"
+    r"président(?:e)? (?:du groupe|des (?:républicains|députés|sénateurs)|de la région|du conseil (?:régional|départemental|de paris|général)|de région|du parti|du rassemblement|de l['’]assemblée|de la république)|"
     r"politique|homme d['’]état|femme d['’]état|LFI|\bRN\b|\bPS\b|\bLR\b|EELV|écologiste|insoumis|communiste|socialiste|"
     r"républicain|reconquête|renaissance|modem|horizons|gouvernement|chef de file|vice-président|adjoint|militant", re.I)
+
+
+PERIMETRE_ELARGI = (
+    # institutions publiques
+    r"gouverneur|banque de france|banque centrale|cour des comptes|préfet|préfète|défenseure? des droits|conseil constitutionnel|"
+    r"conseil d['’]état|conseil économique|haute autorité|autorité de|arcom|cnil|ambassadeur|ambassadrice|procureur|procureure|"
+    r"chef d['’]état-major|commissaire européen|commission européenne|médiateur|inspecteur général|directeur général de la|directrice générale de la|"
+    r"président(?:e)? de (?:la |l['’])?(?:cour|commission|agence|caisse|assemblée|haute|autorité|cnil|insee|ofce|sncf|ratp|france travail|"
+    r"france universités|conférence|association des maires|régions de france|départements de france)|"
+    # syndicats et patronat
+    r"syndica|\bcgt\b|cfdt|force ouvrière|\bfo\b|unsa|cfe-cgc|cftc|solidaires|\bfsu\b|snes|medef|cpme|u2p|fnsea|"
+    r"confédération|confédéral|union étudiante|\bunef\b|\bfage\b|voix lycéenne|\bfidl\b|patronat|patronale|"
+    # think tanks et associations
+    r"fondation|institut montaigne|terra nova|think tank|association|\bong\b|collectif|fédération|amnesty|secours|emmaüs|"
+    r"ligue des droits|unicef|croix-rouge|restos du cœur|médecins sans frontières")
+DANS_PERIMETRE = re.compile(FONCTION_POLITIQUE.pattern + "|" + PERIMETRE_ELARGI, re.I)
 
 
 def fonction_apres(t, nom):
@@ -168,33 +184,35 @@ class Wikidata:
                 self.modifie = True
         return any(self.MANDATS.search(self.cache["pos:" + p]) for p in positions)
 
-    def politique(self, nom):
-        """Renvoie {qid, nom, description, photo} si `nom` désigne une personnalité politique française, sinon None."""
-        cle = norm(nom)
+    def personne(self, nom):
+        """Fiche Wikidata d'une personne française vivante portant ce nom, ou None.
+
+        Renvoie {qid, nom, description, photo_fichier, politique, fonction_publique}."""
+        cle = "v2:" + norm(nom)
         if cle in self.cache:
             return self.cache[cle]
         res = None
         try:
             hits = self.api(action="wbsearchentities", search=nom, language="fr", uselang="fr", type="item", limit=5)["search"]
-            ids = [h["id"] for h in hits if norm(h.get("label", "")) == cle or norm(h.get("match", {}).get("text", "")) == cle]
+            ids = [h["id"] for h in hits if norm(h.get("label", "")) == norm(nom) or norm(h.get("match", {}).get("text", "")) == norm(nom)]
             if ids:
                 ents = self.api(action="wbgetentities", ids="|".join(ids), props="claims|labels|descriptions", languages="fr")["entities"]
+                candidats_wd = []
                 for qid in ids:
                     e = ents[qid]
                     c = e.get("claims", {})
                     val = lambda p: [x["mainsnak"].get("datavalue", {}).get("value") for x in c.get(p, [])]
                     ids_de = lambda p: {v.get("id") for v in val(p) if isinstance(v, dict)}
-                    humain = "Q5" in ids_de("P31")
-                    francais = "Q142" in ids_de("P27")
-                    politique = ("Q82955" in ids_de("P106") or bool(c.get("P102"))
-                                 or self.mandat_politique(ids_de("P39")))
-                    vivant = not c.get("P570")
-                    if humain and francais and politique and vivant:
-                        photo = (val("P18") or [None])[0]
-                        res = {"qid": qid, "nom": e.get("labels", {}).get("fr", {}).get("value", nom),
-                               "description": e.get("descriptions", {}).get("fr", {}).get("value"),
-                               "photo_fichier": photo}
-                        break
+                    if "Q5" not in ids_de("P31") or "Q142" not in ids_de("P27") or c.get("P570"):
+                        continue
+                    politique = "Q82955" in ids_de("P106") or bool(c.get("P102")) or self.mandat_politique(ids_de("P39"))
+                    candidats_wd.append({"qid": qid, "nom": e.get("labels", {}).get("fr", {}).get("value", nom),
+                                         "description": e.get("descriptions", {}).get("fr", {}).get("value"),
+                                         "photo_fichier": (val("P18") or [None])[0],
+                                         "politique": politique, "fonction_publique": bool(c.get("P39"))})
+                # en cas d'homonymes, la personnalité politique d'abord
+                candidats_wd.sort(key=lambda x: (not x["politique"], not x["fonction_publique"]))
+                res = candidats_wd[0] if candidats_wd else None
         except Exception as ex:
             print(f"  ! Wikidata indisponible pour {nom} : {ex}")
             return None  # pas de mise en cache en cas d'erreur
@@ -222,6 +240,44 @@ class Wikidata:
     def sauver(self):
         if self.modifie:
             CACHE_F.write_text(json.dumps(self.cache, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")
+
+
+# ---------- choix de l'invité ----------
+def decider(noms, ep, lien_slug, anims, exclus, inclus, wd):
+    """Choisit l'invité d'un épisode parmi les noms cités.
+
+    1. Le premier nom présenté sous la forme « Nom, fonction » (ou présent dans l'adresse de l'épisode) est l'invité :
+       on le retient si sa fonction entre dans le périmètre (politique, institutions, syndicats et patronat,
+       think tanks et associations), sinon il est « hors périmètre » (expert, chef d'entreprise, artiste…).
+    2. Sans fonction écrite, on s'appuie sur Wikidata : personnalité politique ou titulaire d'une fonction publique,
+       à condition que son nom figure dans le titre ou l'adresse de l'épisode (sinon elle n'est peut-être que citée).
+    """
+    titre = norm(ep["titre"])
+    sans_fonction = []
+    for nom, _ in noms:
+        if norm(nom) in exclus or norm(nom) in anims:
+            continue
+        f = fonction_apres(ep["desc"], nom) or fonction_apres(ep["titre"], nom)
+        dans_lien = slugifier(nom) in lien_slug
+        if f or dans_lien:
+            w = wd.personne(nom)
+            if norm(nom) in inclus or (f and DANS_PERIMETRE.search(f)):
+                return {"verdict": "retenu", "nom": nom, "fonction": f, "wd": w}
+            if not f and w and (w["politique"] or w["fonction_publique"]):
+                return {"verdict": "retenu", "nom": nom, "fonction": None, "wd": w}
+            return {"verdict": "hors-champ", "nom": w["nom"] if w else nom, "fonction": f or (w or {}).get("description")}
+        sans_fonction.append(nom)
+    for nom in sans_fonction:
+        w = wd.personne(nom)
+        if not w:
+            continue
+        if norm(nom) in inclus:
+            return {"verdict": "retenu", "nom": nom, "fonction": None, "wd": w}
+        if w["politique"] or w["fonction_publique"]:
+            if norm(nom) in titre:
+                return {"verdict": "retenu", "nom": nom, "fonction": None, "wd": w}
+            return {"verdict": "prudence", "nom": w["nom"], "fonction": None}
+    return {"verdict": "aucun"}
 
 
 # ---------- flux podcast ----------
@@ -282,7 +338,7 @@ def main():
     inclus = {norm(n) for n in lire("data/inclus.json")["noms"]} if (RACINE / "data/inclus.json").exists() else set()
     par_qid = {p.get("wikidata"): s for s, p in personnes.items() if p.get("wikidata")}
     wd = Wikidata()
-    nouveaux, completes, ecartes, prudence, erreurs = [], [], [], [], []
+    nouveaux, completes, ecartes, prudence, hors_champ, erreurs = [], [], [], [], [], []
     jours_modifies = {}
 
     def jour(d):
@@ -312,44 +368,46 @@ def main():
             anim_ep = animateur(ep["desc"])
             if anim_ep:
                 anims.add(norm(anim_ep))
-            nom_cite = None
             noms = candidats(ep["desc"]) + candidats(ep["titre"])
             lien_slug = slugifier(ep.get("lien") or "")
+            # nom de l'invité écrit dans l'adresse (ex. « …le-8h30-franceinfo-de-prisca-thevenot_8241112.html »)
+            m = re.search(r"-de-([a-z]+(?:-[a-z]+){1,3})(?:_\d+|\.html|/?$)", (ep.get("lien") or "").lower())
+            if m and not any(slugifier(n) == m.group(1) for n, _ in noms):
+                noms.insert(0, (" ".join(w.capitalize() for w in m.group(1).split("-")), -1))
             # l'invité dont le nom figure dans l'adresse de l'épisode passe en premier
             noms.sort(key=lambda n: slugifier(n[0]) not in lien_slug)
-            for nom, _ in noms:
-                if norm(nom) in exclus or norm(nom) in anims:
-                    continue
-                trouve = wd.politique(nom)
-                if trouve:
-                    nom_cite = nom
-                    break
-            if not trouve:
+            choix = decider(noms, ep, lien_slug, anims, exclus, inclus, wd)
+            if choix["verdict"] == "aucun":
                 ecartes.append(f"{ep['date']} · {em['nom']} : « {ep['titre'][:90]} »")
-                print(f"  - {ep['date']} écarté : {ep['titre'][:80]}")
+                print(f"  - {ep['date']} aucun invité retenu : {ep['titre'][:80]}")
                 continue
-            fonction_ep = fonction_apres(ep["desc"], nom_cite) or fonction_apres(ep["titre"], nom_cite)
-            # Prudence : homonymes, personnalités seulement citées dans le résumé
-            if norm(nom_cite) in inclus:
-                pass
-            elif slugifier(nom_cite) in lien_slug:
-                pass  # nom présent dans l'adresse de l'épisode : c'est bien l'invité
-            elif (fonction_ep and not FONCTION_POLITIQUE.search(fonction_ep)) or \
-               (not fonction_ep and norm(nom_cite) not in norm(ep["titre"])):
-                prudence.append(f"{ep['date']} · {em['nom']} : {trouve['nom']} ({fonction_ep or 'fonction non précisée'}) — « {ep['titre'][:80]} »")
-                print(f"  ? {ep['date']} prudence : {trouve['nom']} — {fonction_ep}")
+            if choix["verdict"] == "hors-champ":
+                hors_champ.append(f"{ep['date']} · {em['nom']} : {choix['nom']} — {choix['fonction'] or 'fonction non précisée'}")
+                print(f"  - {ep['date']} hors périmètre : {choix['nom']} — {choix['fonction']}")
                 continue
+            if choix["verdict"] == "prudence":
+                prudence.append(f"{ep['date']} · {em['nom']} : {choix['nom']} ({choix['fonction'] or 'fonction non précisée'}) — « {ep['titre'][:80]} »")
+                print(f"  ? {ep['date']} prudence : {choix['nom']}")
+                continue
+            trouve, fonction_ep = choix["wd"], choix["fonction"]
             # personnalité : existante ou nouvelle
-            slug = par_qid.get(trouve["qid"])
-            if not slug:
-                slug = slugifier(trouve["nom"])
-                if slug in personnes and personnes[slug].get("wikidata") not in (None, trouve["qid"]):
-                    slug = f"{slug}-{trouve['qid'].lower()}"
-                p = personnes.setdefault(slug, {"nom": trouve["nom"], "photo": None, "credit_photo": None})
-                p["wikidata"] = trouve["qid"]
-                if not p.get("photo") and trouve.get("photo_fichier"):
-                    p["photo"], p["credit_photo"] = wd.photo(trouve["photo_fichier"])
-                par_qid[trouve["qid"]] = slug
+            if trouve:
+                slug = par_qid.get(trouve["qid"])
+                if not slug:
+                    slug = slugifier(trouve["nom"])
+                    if slug in personnes and personnes[slug].get("wikidata") not in (None, trouve["qid"]):
+                        slug = f"{slug}-{trouve['qid'].lower()}"
+                    p = personnes.setdefault(slug, {"nom": trouve["nom"], "photo": None, "credit_photo": None})
+                    p["wikidata"] = trouve["qid"]
+                    if not p.get("photo") and trouve.get("photo_fichier"):
+                        p["photo"], p["credit_photo"] = wd.photo(trouve["photo_fichier"])
+                    par_qid[trouve["qid"]] = slug
+                nom_affiche = trouve["nom"]
+            else:  # personnalité absente de Wikidata (responsable syndical, associatif…)
+                nom_affiche = choix["nom"]
+                slug = slugifier(nom_affiche)
+                personnes.setdefault(slug, {"nom": nom_affiche, "photo": None, "credit_photo": None, "wikidata": None})
+                trouve = {"nom": nom_affiche, "description": None}
             fonction = fonction_ep or (trouve.get("description") or "").capitalize() or None
             liste = jour(ep["date"])
             existant = next((x for x in liste if x["emission"] == em_id and x["personne"] == slug), None)
@@ -415,8 +473,11 @@ def main():
     if prudence:
         r += ["### Écartés par prudence (à ajouter à la main si ce sont bien des invités politiques)", ""]
         r += [f"- {p}" for p in prudence] + [""]
+    if hors_champ:
+        r += ["<details><summary>Invités hors périmètre (experts, entreprises, culture…)</summary>", ""]
+        r += [f"- {h}" for h in hors_champ] + ["", "</details>", ""]
     if ecartes:
-        r += ["<details><summary>Épisodes écartés (invité non reconnu comme personnalité politique)</summary>", ""]
+        r += ["<details><summary>Épisodes sans invité identifié</summary>", ""]
         r += [f"- {e}" for e in ecartes] + ["", "</details>", ""]
     if erreurs:
         r += ["### Problèmes rencontrés", ""] + [f"- {e}" for e in erreurs] + [""]
