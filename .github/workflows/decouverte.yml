@@ -10,4 +10,4 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python outils/decouverte_playlists.py
+      - run: python outils/decouverte_playlists.py PLg6GanYvTasWQv6EPyPInaYhtyFRcht3r PL43OynbWaTMITzQcdfVjDw0KA5QtJbYFg PL43OynbWaTMIw5ZnukRdGVNKF5g7uakaD PLohg8tfh_cS42wTeOZwo32Hn6GACM1g23 PLaXVMKmPLMDRdM1LGtk-AKAw6gROdei_u
