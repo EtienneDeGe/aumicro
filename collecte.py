@@ -352,6 +352,7 @@ def main():
     sources, emissions = lire("data/sources.json"), lire("data/emissions.json")
     personnes = lire("data/personnalites.json")
     exclus = {norm(n) for n in lire("data/exclus.json")["noms"]} if (RACINE / "data/exclus.json").exists() else set()
+    forcer = {(p["date"], p["emission"]): p for p in lire("data/forcer.json")["passages"]} if (RACINE / "data/forcer.json").exists() else {}
     alias = {norm(k): v for k, v in lire("data/alias.json")["noms"].items()} if (RACINE / "data/alias.json").exists() else {}
     inclus = {norm(n) for n in lire("data/inclus.json")["noms"]} if (RACINE / "data/inclus.json").exists() else set()
     par_qid = {p.get("wikidata"): s for s, p in personnes.items() if p.get("wikidata")}
@@ -394,7 +395,13 @@ def main():
                 noms.insert(0, (" ".join(w.capitalize() for w in m.group(1).split("-")), -1))
             # l'invité dont le nom figure dans l'adresse de l'épisode passe en premier
             noms.sort(key=lambda n: slugifier(n[0]) not in lien_slug)
-            choix = decider(noms, ep, lien_slug, anims, exclus, inclus, wd)
+            impose = forcer.get((ep["date"].isoformat(), em_id))
+            if impose:
+                choix = {"verdict": "retenu", "nom": impose["nom"],
+                         "fonction": impose.get("fonction") or fonction_apres(ep["desc"], impose["nom"]),
+                         "wd": None if impose.get("sans_wikidata") else wd.personne(impose["nom"])}
+            else:
+                choix = decider(noms, ep, lien_slug, anims, exclus, inclus, wd)
             if choix["verdict"] == "aucun":
                 ecartes.append(f"{ep['date']} · {em['nom']} : « {ep['titre'][:90]} »")
                 print(f"  - {ep['date']} aucun invité retenu : {ep['titre'][:80]}")

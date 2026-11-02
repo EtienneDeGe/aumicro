@@ -3,48 +3,56 @@
     "nom": "France Inter",
     "abr": "Inter",
     "teinte": 200,
-    "direct": "https://www.radiofrance.fr/franceinter"
+    "direct": "https://www.radiofrance.fr/franceinter",
+    "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/France_Inter_logo_2021.svg?width=120"
   },
   "franceinfo": {
     "nom": "franceinfo",
     "abr": "fi",
     "teinte": 48,
-    "direct": "https://www.francetvinfo.fr"
+    "direct": "https://www.francetvinfo.fr",
+    "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Franceinfo.svg?width=120"
   },
   "rtl": {
     "nom": "RTL",
     "abr": "RTL",
     "teinte": 350,
-    "direct": "https://www.rtl.fr"
+    "direct": "https://www.rtl.fr",
+    "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/RTL_Frankreich.svg?width=120"
   },
   "europe1": {
     "nom": "Europe 1",
     "abr": "E1",
     "teinte": 220,
-    "direct": "https://www.europe1.fr"
+    "direct": "https://www.europe1.fr",
+    "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Europe_1_logo_%282010%29.svg?width=120"
   },
   "rmc": {
     "nom": "RMC",
     "abr": "RMC",
     "teinte": 25,
-    "direct": "https://rmc.bfmtv.com"
+    "direct": "https://rmc.bfmtv.com",
+    "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_RMC_2002.svg?width=120"
   },
   "rfi": {
     "nom": "RFI",
     "abr": "RFI",
     "teinte": 0,
-    "direct": "https://www.rfi.fr/fr/"
+    "direct": "https://www.rfi.fr/fr/",
+    "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/RFI_logo_2013.svg?width=120"
   },
   "sudradio": {
     "nom": "Sud Radio",
     "abr": "SR",
     "teinte": 190,
-    "direct": "https://www.sudradio.fr"
+    "direct": "https://www.sudradio.fr",
+    "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sud_Radio_%282014%29.png?width=120"
   },
   "radioclassique": {
     "nom": "Radio Classique",
     "abr": "RC",
     "teinte": 270,
-    "direct": "https://www.radioclassique.fr"
+    "direct": "https://www.radioclassique.fr",
+    "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_Radio_Classique.svg?width=120"
   }
 }

@@ -1,0 +1,30 @@
+{
+  "commentaire": "Passages imposés à la main : pour cette date et cette émission, l'invité est celui indiqué (sans_wikidata = ne pas rattacher à une fiche Wikidata, ex. homonyme).",
+  "passages": [
+    {
+      "date": "2026-11-02",
+      "emission": "inter-8h20",
+      "nom": "Laurent Joly",
+      "fonction": "Historien, directeur de recherche au CNRS, spécialiste de l'extrême droite",
+      "sans_wikidata": true
+    },
+    {
+      "date": "2026-10-24",
+      "emission": "inter-8h20-we",
+      "nom": "Emmanuelle Mignon",
+      "fonction": "Avocate, ancienne directrice de cabinet de Nicolas Sarkozy à l'Élysée"
+    },
+    {
+      "date": "2026-10-12",
+      "emission": "rc-invite-matinale",
+      "nom": "François Zimeray",
+      "fonction": "Avocat à Paris et à la Cour pénale internationale, ancien député européen"
+    },
+    {
+      "date": "2026-10-17",
+      "emission": "inter-8h20-we",
+      "nom": "Gilles Finchelstein",
+      "fonction": "Secrétaire général de la Fondation Jean-Jaurès"
+    }
+  ]
+}

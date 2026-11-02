@@ -3,7 +3,7 @@
 {%- endmacro %}
 
 {% macro logo(x) -%}
-<span class="logo" style="--h:{{ x.radio.teinte }}" title="{{ x.radio.nom }}">{{ x.radio.abr }}</span>
+{% if x.radio.logo %}<span class="logo logo-img" title="{{ x.radio.nom }}"><img src="{{ x.radio.logo }}" alt="{{ x.radio.nom }}" loading="lazy"></span>{% else %}<span class="logo" style="--h:{{ x.radio.teinte }}" title="{{ x.radio.nom }}">{{ x.radio.abr }}</span>{% endif %}
 {%- endmacro %}
 
 {% macro media(x) -%}
