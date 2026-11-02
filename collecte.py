@@ -339,6 +339,15 @@ def videos(chaine):
                "url": "https://www.youtube.com/watch?v=" + e.findtext("yt:videoId", namespaces=YT_NS)}
 
 
+def duree_video(url):
+    """Durée d'une vidéo YouTube en secondes (0 si inconnue)."""
+    try:
+        m = re.search(r'"lengthSeconds":"(\d+)"', get(url).decode("utf-8", "replace"))
+        return int(m.group(1)) if m else 0
+    except Exception:
+        return 0
+
+
 # ---------- programme principal ----------
 def main():
     ap = argparse.ArgumentParser()
@@ -472,8 +481,13 @@ def main():
                     except Exception as ex:
                         erreurs.append(f"YouTube {ch} : {ex}")
                         cache_videos[ch] = []
-                v = next((v for v in cache_videos[ch] if d <= v["date"] <= d + timedelta(days=1)
-                          and f" {nom_famille} " in f" {norm(v['titre'])} "), None)
+                # l'interview complète, pas un extrait : on garde la vidéo la plus longue, d'au moins 8 minutes
+                possibles = [v for v in cache_videos[ch] if d <= v["date"] <= d + timedelta(days=1)
+                             and f" {nom_famille} " in f" {norm(v['titre'])} "]
+                for v in possibles:
+                    v.setdefault("duree", duree_video(v["url"]))
+                possibles = [v for v in possibles if v["duree"] >= 480]
+                v = max(possibles, key=lambda v: v["duree"]) if possibles else None
                 if v:
                     x["voir"] = v["url"]
                     completes.append(f"{d} · {nom} : vidéo « {v['titre'][:80]} »")
