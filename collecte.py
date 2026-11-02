@@ -251,7 +251,7 @@ def episodes(src):
         else:
             ecouter = audio or lien or None
         yield {"date": quand.date(), "titre": texte(it.findtext("title")), "desc": texte(it.findtext("description")),
-               "ecouter": ecouter}
+               "ecouter": ecouter, "lien": lien}
 
 
 # ---------- YouTube ----------
@@ -313,7 +313,11 @@ def main():
             if anim_ep:
                 anims.add(norm(anim_ep))
             nom_cite = None
-            for nom, _ in candidats(ep["desc"]) + candidats(ep["titre"]):
+            noms = candidats(ep["desc"]) + candidats(ep["titre"])
+            lien_slug = slugifier(ep.get("lien") or "")
+            # l'invité dont le nom figure dans l'adresse de l'épisode passe en premier
+            noms.sort(key=lambda n: slugifier(n[0]) not in lien_slug)
+            for nom, _ in noms:
                 if norm(nom) in exclus or norm(nom) in anims:
                     continue
                 trouve = wd.politique(nom)
@@ -328,6 +332,8 @@ def main():
             # Prudence : homonymes, personnalités seulement citées dans le résumé
             if norm(nom_cite) in inclus:
                 pass
+            elif slugifier(nom_cite) in lien_slug:
+                pass  # nom présent dans l'adresse de l'épisode : c'est bien l'invité
             elif (fonction_ep and not FONCTION_POLITIQUE.search(fonction_ep)) or \
                (not fonction_ep and norm(nom_cite) not in norm(ep["titre"])):
                 prudence.append(f"{ep['date']} · {em['nom']} : {trouve['nom']} ({fonction_ep or 'fonction non précisée'}) — « {ep['titre'][:80]} »")
