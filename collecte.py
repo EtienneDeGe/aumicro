@@ -279,6 +279,7 @@ def main():
     sources, emissions = lire("data/sources.json"), lire("data/emissions.json")
     personnes = lire("data/personnalites.json")
     exclus = {norm(n) for n in lire("data/exclus.json")["noms"]} if (RACINE / "data/exclus.json").exists() else set()
+    inclus = {norm(n) for n in lire("data/inclus.json")["noms"]} if (RACINE / "data/inclus.json").exists() else set()
     par_qid = {p.get("wikidata"): s for s, p in personnes.items() if p.get("wikidata")}
     wd = Wikidata()
     nouveaux, completes, ecartes, prudence, erreurs = [], [], [], [], []
@@ -325,7 +326,9 @@ def main():
                 continue
             fonction_ep = fonction_apres(ep["desc"], nom_cite) or fonction_apres(ep["titre"], nom_cite)
             # Prudence : homonymes, personnalités seulement citées dans le résumé
-            if (fonction_ep and not FONCTION_POLITIQUE.search(fonction_ep)) or \
+            if norm(nom_cite) in inclus:
+                pass
+            elif (fonction_ep and not FONCTION_POLITIQUE.search(fonction_ep)) or \
                (not fonction_ep and norm(nom_cite) not in norm(ep["titre"])):
                 prudence.append(f"{ep['date']} · {em['nom']} : {trouve['nom']} ({fonction_ep or 'fonction non précisée'}) — « {ep['titre'][:80]} »")
                 print(f"  ? {ep['date']} prudence : {trouve['nom']} — {fonction_ep}")
