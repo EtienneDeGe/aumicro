@@ -123,5 +123,11 @@
     "animateur": "Éva Roque et Quentin Lafay",
     "heure": "08:20",
     "actif": true
+  },
+  "e1-objectif-elysee": {
+    "nom": "Objectif Élysée 2027",
+    "radio": "europe1",
+    "animateur": "Laurence Ferrari",
+    "actif": true
   }
 }

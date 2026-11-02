@@ -336,8 +336,8 @@ def videos(chaine):
     param = "playlist_id=" if chaine.startswith("PL") else "channel_id="
     r = ET.fromstring(get("https://www.youtube.com/feeds/videos.xml?" + param + chaine))
     for e in r.findall("a:entry", YT_NS):
-        yield {"titre": e.findtext("a:title", namespaces=YT_NS) or "",
-               "date": datetime.fromisoformat(e.findtext("a:published", namespaces=YT_NS)).astimezone(PARIS).date(),
+        quand = datetime.fromisoformat(e.findtext("a:published", namespaces=YT_NS)).astimezone(PARIS)
+        yield {"titre": e.findtext("a:title", namespaces=YT_NS) or "", "date": quand.date(), "heure": quand.strftime("%H:%M"),
                "url": "https://www.youtube.com/watch?v=" + e.findtext("yt:videoId", namespaces=YT_NS)}
 
 
@@ -466,6 +466,40 @@ def main():
             liste.append(x)
             nouveaux.append((ep["date"], em, trouve["nom"], fonction, ep["ecouter"]))
             print(f"  + {ep['date']} {trouve['nom']} — {fonction}")
+
+    # 1 bis. Émissions connues seulement par une playlist YouTube (toute la playlist est parcourue)
+    for src in sources.get("youtube_emissions", []):
+        em_id, em = src["emission"], emissions[src["emission"]]
+        print(f"\n== {em['nom']} (YouTube)")
+        try:
+            vids = list(videos(src["playlist"]))
+        except Exception as ex:
+            erreurs.append(f"{em['nom']} : playlist illisible ({ex})")
+            continue
+        for v in vids:
+            m = re.search(src["titre"], v["titre"])
+            if not m or v["date"] > aujourdhui:
+                continue
+            nom_cite = alias.get(norm(m.group("nom")), m.group("nom").strip())
+            w = wd.personne(nom_cite)
+            if w:
+                slug = par_qid.get(w["qid"]) or slugifier(w["nom"])
+                if slug not in personnes:
+                    p = personnes[slug] = {"nom": w["nom"], "photo": None, "credit_photo": None, "wikidata": w["qid"]}
+                    if w.get("photo_fichier"):
+                        p["photo"], p["credit_photo"] = wd.photo(w["photo_fichier"])
+                par_qid[w["qid"]] = slug
+                nom_aff, fonction = w["nom"], (w.get("description") or "").capitalize() or None
+            else:
+                slug, nom_aff, fonction = slugifier(nom_cite), nom_cite, None
+                personnes.setdefault(slug, {"nom": nom_cite, "photo": None, "credit_photo": None, "wikidata": None})
+            liste = jour(v["date"])
+            if any(x["emission"] == em_id and x["personne"] == slug for x in liste):
+                continue
+            liste.append({"heure": em.get("heure") or v["heure"], "emission": em_id, "personne": slug, "fonction": fonction,
+                          "ecouter": None, "voir": v["url"], "statut": "confirme"})
+            nouveaux.append((v["date"], em, nom_aff, fonction, v["url"]))
+            print(f"  + {v['date']} {nom_aff}")
 
     # 2. Vidéos YouTube pour les passages récents sans vidéo
     cache_videos = {}

@@ -125,5 +125,13 @@
     ]
   },
   "youtube": {},
-  "commentaire_youtube": "Vidéos : playlists propres à chaque émission. par_date = une vidéo par émission publiée le jour même (association par la date, ou par le nom s'il y en a plusieurs) ; sinon association par le nom de l'invité dans le titre, jusqu'à 4 jours après (France Inter publie en décalé)."
+  "commentaire_youtube": "Vidéos : playlists propres à chaque émission. par_date = une vidéo par émission publiée le jour même (association par la date, ou par le nom s'il y en a plusieurs) ; sinon association par le nom de l'invité dans le titre, jusqu'à 4 jours après (France Inter publie en décalé).",
+  "youtube_emissions": [
+    {
+      "emission": "e1-objectif-elysee",
+      "playlist": "PLQxIEr2vMITs",
+      "titre": "^Objectif Élysée 2027 : (?P<nom>.+?) face à",
+      "commentaire": "Émission connue seulement par sa playlist YouTube ; seules les émissions complètes (titre « Objectif Élysée 2027 : X face à… ») sont retenues, pas les segments."
+    }
+  ]
 }
