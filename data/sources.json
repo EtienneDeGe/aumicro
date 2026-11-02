@@ -50,7 +50,52 @@
   ],
   "youtube_playlists": {
     "rmc-face-a-face": [
-      "PLuZSWxEKFnx73sQt5co4ugahKa4ADs7w9"
+      {
+        "id": "PLuZSWxEKFnx73sQt5co4ugahKa4ADs7w9",
+        "par_date": true
+      }
+    ],
+    "fi-830": [
+      {
+        "id": "PLg6GanYvTasWQv6EPyPInaYhtyFRcht3r",
+        "par_date": true
+      }
+    ],
+    "e1-grande-interview": [
+      {
+        "id": "PLohg8tfh_cS42wTeOZwo32Hn6GACM1g23",
+        "par_date": true
+      }
+    ],
+    "sud-invite-politique": [
+      {
+        "id": "PLaXVMKmPLMDRdM1LGtk-AKAw6gROdei_u",
+        "par_date": true
+      }
+    ],
+    "inter-7h50": [
+      {
+        "id": "PL43OynbWaTMITzQcdfVjDw0KA5QtJbYFg",
+        "par_date": false
+      }
+    ],
+    "inter-7h50-we": [
+      {
+        "id": "PL43OynbWaTMITzQcdfVjDw0KA5QtJbYFg",
+        "par_date": false
+      }
+    ],
+    "inter-8h20": [
+      {
+        "id": "PL43OynbWaTMIw5ZnukRdGVNKF5g7uakaD",
+        "par_date": false
+      }
+    ],
+    "inter-8h20-we": [
+      {
+        "id": "PL43OynbWaTMIw5ZnukRdGVNKF5g7uakaD",
+        "par_date": false
+      }
     ]
   },
   "youtube_chaines_desactivees": {
@@ -68,5 +113,5 @@
     ]
   },
   "youtube": {},
-  "commentaire_youtube": "Vidéos : seules les playlists propres à une émission sont utilisées (une vidéo par émission, associée par la date). La recherche sur les chaînes entières est désactivée car elle ramenait des extraits."
+  "commentaire_youtube": "Vidéos : playlists propres à chaque émission. par_date = une vidéo par émission publiée le jour même (association par la date, ou par le nom s'il y en a plusieurs) ; sinon association par le nom de l'invité dans le titre, jusqu'à 4 jours après (France Inter publie en décalé)."
 }

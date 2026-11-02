@@ -1,10 +1,4 @@
 {
-  "adrien-quatennens": {
-    "nom": "Adrien Quatennens",
-    "photo": null,
-    "credit_photo": null,
-    "wikidata": null
-  },
   "agnes-pannier-runacher": {
     "nom": "Agnès Pannier-Runacher",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Agn%C3%A8s_Pannier-Runacher_-_2023_%28cropped%29.jpg?width=240",
@@ -71,18 +65,6 @@
     "credit_photo": "Segolene Liger, CC BY-SA 4.0, Wikimedia Commons",
     "wikidata": "Q137612820"
   },
-  "boris-vallaud": {
-    "nom": "Boris Vallaud",
-    "photo": null,
-    "credit_photo": null,
-    "wikidata": null
-  },
-  "bruno-bonnell": {
-    "nom": "Bruno Bonnell",
-    "photo": null,
-    "credit_photo": null,
-    "wikidata": null
-  },
   "bruno-bouchard": {
     "nom": "Bruno Bouchard",
     "photo": null,
@@ -103,12 +85,6 @@
   },
   "carole-zerbib": {
     "nom": "Carole Zerbib",
-    "photo": null,
-    "credit_photo": null,
-    "wikidata": null
-  },
-  "cedric-villani": {
-    "nom": "Cédric Villani",
     "photo": null,
     "credit_photo": null,
     "wikidata": null
@@ -142,12 +118,6 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/David-amiel.jpg?width=240",
     "credit_photo": "B.MODIFICATEUR, CC BY-SA 4.0, Wikimedia Commons",
     "wikidata": "Q47502155"
-  },
-  "david-belliard": {
-    "nom": "David Belliard",
-    "photo": null,
-    "credit_photo": null,
-    "wikidata": null
   },
   "david-lisnard": {
     "nom": "David Lisnard",
@@ -215,12 +185,6 @@
     "credit_photo": "Zouhair NAKARA, CC BY-SA 4.0, Wikimedia Commons",
     "wikidata": "Q30388733"
   },
-  "florence-parly": {
-    "nom": "Florence Parly",
-    "photo": null,
-    "credit_photo": null,
-    "wikidata": null
-  },
   "francois-hollande": {
     "nom": "François Hollande",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois_Hollande_-_2017_%2827869823159%29_%28cropped_2%29.jpg?width=240",
@@ -262,12 +226,6 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gabriel_Attal_2025_%28close_crop%29.jpg?width=240",
     "credit_photo": "Ismail Aissoub, CC BY 4.0, Wikimedia Commons",
     "wikidata": "Q30339350"
-  },
-  "gaspard-gantzer": {
-    "nom": "Gaspard Gantzer",
-    "photo": null,
-    "credit_photo": null,
-    "wikidata": null
   },
   "gerald-darmanin": {
     "nom": "Gérald Darmanin",
@@ -329,12 +287,6 @@
     "credit_photo": "Fredsimont, CC BY-SA 4.0, Wikimedia Commons",
     "wikidata": "Q1684801"
   },
-  "jean-francois-cesarini": {
-    "nom": "Jean-François Cesarini",
-    "photo": null,
-    "credit_photo": null,
-    "wikidata": null
-  },
   "jean-michel-blanquer": {
     "nom": "Jean-Michel Blanquer",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Blanquer_2022_%28cropped%29.jpg?width=240",
@@ -371,12 +323,6 @@
     "credit_photo": "Raphael ATTAL @BootEXE, CC BY-SA 4.0, Wikimedia Commons",
     "wikidata": "Q40655898"
   },
-  "julien-dray": {
-    "nom": "Julien Dray",
-    "photo": null,
-    "credit_photo": null,
-    "wikidata": null
-  },
   "julien-odoul": {
     "nom": "Julien Odoul",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Julien_Odoul_-_Besan%C3%A7on_25-04-2019_-_Toufik-de-Planoise.jpg?width=240",
@@ -394,12 +340,6 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Laure.Lavalette.jpg?width=240",
     "credit_photo": "VenteXe, CC BY-SA 4.0, Wikimedia Commons",
     "wikidata": "Q112308110"
-  },
-  "laurence-rossignol": {
-    "nom": "Laurence Rossignol",
-    "photo": null,
-    "credit_photo": null,
-    "wikidata": null
   },
   "laurent-jacobelli": {
     "nom": "Laurent Jacobelli",
@@ -527,12 +467,6 @@
     "credit_photo": "Maxime BOUDET, CC BY-SA 4.0, Wikimedia Commons",
     "wikidata": "Q106020252"
   },
-  "rachida-dati": {
-    "nom": "Rachida Dati",
-    "photo": null,
-    "credit_photo": null,
-    "wikidata": null
-  },
   "raphael-glucksmann": {
     "nom": "Raphaël Glucksmann",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/2024-03-03_-_Congr%C3%A8s_du_PSE-_105_-_Raphael_Glucksmann.jpg?width=240",
@@ -598,12 +532,6 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Visit_of_Serge_Papin%2C_French_Minister_for_Small_and_Medium-sized_Enterprises%2C_to_the_EC_-_2025_%28cropped%29.jpg?width=240",
     "credit_photo": "Bogdan Hoyaux / European Union, 2025 / EC - Audiovisual Service, CC BY 4.0, Wikimedia Commons",
     "wikidata": "Q3479475"
-  },
-  "sibeth-ndiaye": {
-    "nom": "Sibeth Ndiaye",
-    "photo": null,
-    "credit_photo": null,
-    "wikidata": null
   },
   "sophie-binet": {
     "nom": "Sophie Binet",

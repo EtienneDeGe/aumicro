@@ -476,20 +476,26 @@ def main():
             radio = emissions[x["emission"]]["radio"]
             nom = personnes[x["personne"]]["nom"]
             nom_famille = norm(nom.split(" ", 1)[-1])
-            # playlist propre à l'émission : une vidéo par émission, associée par la date
+            # playlist propre à l'émission
             for pl in sources.get("youtube_playlists", {}).get(x["emission"], []):
-                if pl not in cache_videos:
+                if pl["id"] not in cache_videos:
                     try:
-                        cache_videos[pl] = list(videos(pl))
+                        cache_videos[pl["id"]] = list(videos(pl["id"]))
                     except Exception as ex:
-                        erreurs.append(f"YouTube {pl} : {ex}")
-                        cache_videos[pl] = []
-                possibles = [v for v in cache_videos[pl] if v["date"] == d]
-                if possibles:
-                    v = possibles[-1]  # la plus ancienne du jour : l'émission elle-même, avant d'éventuels ajouts
-                    x["voir"] = v["url"]
-                    completes.append(f"{d} · {nom} : vidéo « {v['titre'][:80]} »")
-                    break
+                        erreurs.append(f"YouTube {pl['id']} : {ex}")
+                        cache_videos[pl["id"]] = []
+                fenetre = [v for v in cache_videos[pl["id"]] if d <= v["date"] <= d + timedelta(days=4)]
+                avec_nom = [v for v in fenetre if f" {nom_famille} " in f" {norm(v['titre'])} "]
+                du_jour = [v for v in fenetre if v["date"] == d]
+                if avec_nom:
+                    v = avec_nom[-1]
+                elif pl.get("par_date") and len(du_jour) == 1:
+                    v = du_jour[0]
+                else:
+                    continue
+                x["voir"] = v["url"]
+                completes.append(f"{d} · {nom} : vidéo « {v['titre'][:80]} »")
+                break
             if x.get("voir"):
                 continue
             for ch in sources["youtube"].get(radio, []):
