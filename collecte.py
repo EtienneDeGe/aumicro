@@ -284,17 +284,17 @@ def decider(noms, ep, lien_slug, anims, exclus, inclus, wd):
                 return {"verdict": "prudence", "nom": w["nom"], "fonction": f}
             return {"verdict": "hors-champ", "nom": w["nom"] if w else nom, "fonction": f or (w or {}).get("description")}
         sans_fonction.append(nom)
-    for nom in sans_fonction:
+    # sans fonction écrite : d'abord une personnalité politique nommée dans le titre, sinon mise en attente
+    attente = None
+    for nom in sorted(sans_fonction, key=lambda n: norm(n) not in titre):
         w = wd.personne(nom)
         if not w:
             continue
-        if norm(nom) in inclus:
+        if norm(nom) in inclus or (w["politique"] and norm(nom) in titre):
             return {"verdict": "retenu", "nom": nom, "fonction": None, "wd": w}
-        if w["politique"]:
-            if norm(nom) in titre:
-                return {"verdict": "retenu", "nom": nom, "fonction": None, "wd": w}
-            return {"verdict": "prudence", "nom": w["nom"], "fonction": None}
-    return {"verdict": "aucun"}
+        if w["politique"] and not attente:
+            attente = {"verdict": "prudence", "nom": w["nom"], "fonction": None}
+    return attente or {"verdict": "aucun"}
 
 
 # ---------- flux podcast ----------
@@ -352,6 +352,7 @@ def main():
     sources, emissions = lire("data/sources.json"), lire("data/emissions.json")
     personnes = lire("data/personnalites.json")
     exclus = {norm(n) for n in lire("data/exclus.json")["noms"]} if (RACINE / "data/exclus.json").exists() else set()
+    alias = {norm(k): v for k, v in lire("data/alias.json")["noms"].items()} if (RACINE / "data/alias.json").exists() else {}
     inclus = {norm(n) for n in lire("data/inclus.json")["noms"]} if (RACINE / "data/inclus.json").exists() else set()
     par_qid = {p.get("wikidata"): s for s, p in personnes.items() if p.get("wikidata")}
     wd = Wikidata()
@@ -385,7 +386,7 @@ def main():
             anim_ep = animateur(ep["desc"])
             if anim_ep:
                 anims.add(norm(anim_ep))
-            noms = candidats(ep["desc"]) + candidats(ep["titre"])
+            noms = [(alias.get(norm(n), n), p) for n, p in candidats(ep["desc"]) + candidats(ep["titre"])]
             lien_slug = slugifier(ep.get("lien") or "")
             # nom de l'invité écrit dans l'adresse (ex. « …le-8h30-franceinfo-de-prisca-thevenot_8241112.html »)
             m = re.search(r"-de-([a-z]+(?:-[a-z]+){1,3})(?:_\d+|\.html|/?$)", (ep.get("lien") or "").lower())
