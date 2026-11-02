@@ -128,6 +128,7 @@
     "nom": "Objectif Élysée 2027",
     "radio": "europe1",
     "animateur": "Laurence Ferrari",
-    "actif": true
+    "actif": true,
+    "heure": "21:00"
   }
 }
