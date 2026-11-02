@@ -1,0 +1,58 @@
+[
+  {
+    "heure": "07:40",
+    "emission": "rtl-invite-7h40",
+    "personne": "serge-papin",
+    "fonction": "Ministre des Petites et moyennes entreprises, du Commerce, de l'Artisanat, du Tourisme et du Pouvoir d'achat",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/79f5694e-3072-458e-9f43-54de44e021f2.mp3?_=1793602981",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:50",
+    "emission": "inter-7h50",
+    "personne": "edouard-geffray",
+    "fonction": "Ministre de l’Éducation nationale",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50/l-invite-de-7h50-du-lundi-02-novembre-2026-8170300",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "jerome-guedj",
+    "fonction": "Député socialiste de l’Essonne",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/5239808d-33b6-4f22-a518-1b16f5672a44.mp3?_=1793603940&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Laurence Ferrari"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "maud-bregeon",
+    "fonction": "Porte-parole du gouvernement, ministre déléguée chargée de l'Énergie",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/mobilisation-des-lyceens-prix-des-carburants-presidentielle-le-8h30-franceinfo-de-maud-bregeon_8243338.html",
+    "voir": "https://www.youtube.com/watch?v=VMF2zEw7mso",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "rmc-face-a-face",
+    "personne": "raphael-glucksmann",
+    "fonction": "Candidat PS - Place Publique à l'élection présidentielle, et député européen",
+    "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/457ac0d3-f106-4160-907d-ef074f42e18f/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=457ac0d3-f106-4160-907d-ef074f42e18f&category=News%2CSociety+%26+Culture&episode_published_at=2026-11-02T07%3A59%3A09&episode_title=Face+%C3%A0+Face+%3A+Rapha%C3%ABl+Glucksmann+-+02%2F11&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "manon-aubry",
+    "fonction": "Députée européenne La France Insoumise",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-768",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Benjamin Glaise"
+  }
+]

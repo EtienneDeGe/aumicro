@@ -1,0 +1,58 @@
+[
+  {
+    "heure": "07:40",
+    "emission": "rtl-invite-7h40",
+    "personne": "bruno-le-maire",
+    "fonction": "Ancien ministre de l'Economie",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/5e64db65-d26c-4336-81f6-cc13ba00b6e6.mp3?_=1793343781",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:50",
+    "emission": "inter-7h50",
+    "personne": "ali-rabeh",
+    "fonction": "Maire de Trappes",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50/l-invite-de-7h50-du-we-du-vendredi-30-octobre-2026-6967596",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "charles-rodwell",
+    "fonction": "Député EPR des Yvelines et membre de la Commission des Finances de l’Assemblée nationale",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/41576655-810f-4684-965c-127bf00ab1db.mp3?_=1793344708&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Romain Desarbres"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "yannick-jadot",
+    "fonction": "Sénateur écologiste de Paris",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/attentat-raciste-de-trappes-mobilisation-du-31-octobre-presidentielle-le-8h30-franceinfo-de-yannick-jadot_8239522.html",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "rmc-face-a-face",
+    "personne": "francois-ruffin",
+    "fonction": "Candidat à l'élection présidentielle, et député Debout",
+    "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/033ba7b3-b06f-4ae1-b8f4-41d40e512d60/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=033ba7b3-b06f-4ae1-b8f4-41d40e512d60&category=News%2CSociety+%26+Culture&episode_published_at=2026-10-30T07%3A53%3A54&episode_title=Face+%C3%A0+Face+%3A+Fran%C3%A7ois+Ruffin+-+30%2F10&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "jean-michel-blanquer",
+    "fonction": "Ancien Ministre de l’Éducation Nationale, Président du Laboratoire de la République",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-767",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Jacques Cardoze"
+  }
+]

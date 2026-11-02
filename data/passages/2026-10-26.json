@@ -1,0 +1,58 @@
+[
+  {
+    "heure": "07:40",
+    "emission": "rtl-invite-7h40",
+    "personne": "maud-bregeon",
+    "fonction": "Femme politique française",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/d4a99666-47f5-4ba8-9b6f-301f382961fc.mp3?_=1792998181",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:50",
+    "emission": "inter-7h50",
+    "personne": "sebastien-chenu",
+    "fonction": "Chef de file des députés RN et vice-président de l'Assemblée nationale",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50/l-invite-de-7h50-du-lundi-26-octobre-2026-8505714",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "jean-philippe-tanguy",
+    "fonction": "Président délégué du groupe Rassemblement national à l'Assemblée nationale et député RN de la Somme",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/a6a448c0-43e1-4e37-a28e-29ed404753f6.mp3?_=1792999280&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Laurence Ferrari"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "thomas-menage",
+    "fonction": "Député RN du Loiret, porte-parole du parti",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/attentat-a-trappes-manifestations-congres-du-rn-le-8h30-franceinfo-de-thomas-menage_8233141.html",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "rmc-face-a-face",
+    "personne": "laurent-nunez",
+    "fonction": "Ministre de l’Intérieur",
+    "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/08612fa7-f3c4-4805-8f23-579c0a1be108/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=08612fa7-f3c4-4805-8f23-579c0a1be108&category=News%2CSociety+%26+Culture&episode_published_at=2026-10-26T07%3A53%3A34&episode_title=Face+%C3%A0+Face+%3A+Laurent+Nu%C3%B1ez+-+26%2F10&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "julien-odoul",
+    "fonction": "Député de l'Yonne, et porte-parole du RN",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-763",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Jacques Cardoze"
+  }
+]
