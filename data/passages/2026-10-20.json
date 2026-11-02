@@ -14,7 +14,7 @@
     "personne": "yael-braun-pivet",
     "fonction": "Femme politique française",
     "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50/l-invite-de-7h50-du-mardi-20-octobre-2026-1630752",
-    "voir": null,
+    "voir": "https://www.youtube.com/watch?v=2miSeDZRCkE",
     "statut": "confirme"
   },
   {
@@ -23,7 +23,7 @@
     "personne": "gerald-darmanin",
     "fonction": "Ministre de la Justice",
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/ff76d38c-7568-4934-afaa-b32732083a09.mp3?_=1792477238&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
-    "voir": null,
+    "voir": "https://www.youtube.com/watch?v=HiBoYm8wHuY",
     "statut": "confirme",
     "animateur": "Laurence Ferrari"
   },
@@ -33,7 +33,7 @@
     "personne": "marylise-leon",
     "fonction": "Secrétaire générale de la CFDT et Jérôme Fourquet, analyste politique, directeur du département Opinion à l'Ifop",
     "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-8h20-le-grand-entretien/l-invite-de-8h20-le-grand-entretien-du-mardi-20-octobre-2026-6370825",
-    "voir": null,
+    "voir": "https://www.youtube.com/watch?v=JFmPuPnXFok",
     "statut": "confirme"
   },
   {
@@ -42,7 +42,7 @@
     "personne": "manuel-bompard",
     "fonction": "Coordinateur national de La France insoumise et député des Bouches-du-Rhône",
     "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/violences-du-17-octobre-couvre-feu-pouvoir-d-achat-le-8h30-franceinfo-de-manuel-bompard_8224141.html",
-    "voir": null,
+    "voir": "https://www.youtube.com/watch?v=nwSI7mZ9j84",
     "statut": "confirme"
   },
   {
@@ -60,7 +60,7 @@
     "personne": "guillaume-kasbarian",
     "fonction": "Député Ensemble",
     "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-759",
-    "voir": null,
+    "voir": "https://www.youtube.com/watch?v=MJXswOp4pHU",
     "statut": "confirme",
     "animateur": "Jacques Cardoze"
   }

@@ -14,7 +14,7 @@
     "personne": "edouard-geffray",
     "fonction": "Ministre de l’Éducation nationale",
     "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50/l-invite-de-7h50-du-lundi-02-novembre-2026-8170300",
-    "voir": null,
+    "voir": "https://www.youtube.com/watch?v=DwwamjnpwEo",
     "statut": "confirme"
   },
   {
@@ -23,7 +23,7 @@
     "personne": "jerome-guedj",
     "fonction": "Député socialiste de l’Essonne",
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/5239808d-33b6-4f22-a518-1b16f5672a44.mp3?_=1793603940&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
-    "voir": null,
+    "voir": "https://www.youtube.com/watch?v=xiaAK651QvI",
     "statut": "confirme",
     "animateur": "Laurence Ferrari"
   },
@@ -69,7 +69,7 @@
     "personne": "manon-aubry",
     "fonction": "Députée européenne La France Insoumise",
     "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-768",
-    "voir": null,
+    "voir": "https://www.youtube.com/watch?v=J8nUtbBYb6s",
     "statut": "confirme",
     "animateur": "Benjamin Glaise"
   }
