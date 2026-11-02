@@ -2,17 +2,22 @@
 {% if photo %}<img class="av {{ cls }}" src="{{ photo }}" alt="" loading="lazy">{% else %}<div class="av {{ cls }}" style="--h:{{ teinte(slug) }}" aria-hidden="true">{{ initiales(nom) }}</div>{% endif %}
 {%- endmacro %}
 
+{% macro logo(x) -%}
+<span class="logo" style="--h:{{ x.radio.teinte }}" title="{{ x.radio.nom }}">{{ x.radio.abr }}</span>
+{%- endmacro %}
+
 {% macro media(x) -%}
 <div class="media">
-  <span class="logo" style="--h:{{ x.radio.teinte }}" aria-hidden="true">{{ x.radio.abr }}</span>
+  {{ logo(x) }}
   <div><div class="emi">{{ x.em.nom }}</div><div class="anim">{% if x.animateur %}avec {{ x.animateur }} · {% endif %}{{ x.radio.nom }}</div></div>
 </div>
 {%- endmacro %}
 
 {% macro actions(x) -%}
 <div class="actions">
-  <a class="btn btn-live" href="{{ x.radio.direct }}" target="_blank" rel="noopener"><span class="dot"></span>Direct {{ x.radio.nom }}</a>
-  {% if x.replay %}<a class="btn btn-replay" href="{{ x.replay }}" target="_blank" rel="noopener">Replay</a>
-  {% else %}<span class="btn btn-off">Replay à venir</span>{% endif %}
+  {% if x.ecouter %}<a class="btn btn-replay" href="{{ x.ecouter }}" target="_blank" rel="noopener" title="Écouter le replay"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 9v3a1 1 0 0 0 1 1h1V8H4a1 1 0 0 0-1 1Zm10 0a1 1 0 0 0-1-1h-1v5h1a1 1 0 0 0 1-1V9ZM2 9a6 6 0 0 1 12 0" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>Écouter</a>{% endif %}
+  {% if x.voir %}<a class="btn btn-replay" href="{{ x.voir }}" target="_blank" rel="noopener" title="Voir la vidéo"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3.5v9l7.5-4.5Z" fill="currentColor"/></svg>Voir</a>{% endif %}
+  {% if not x.ecouter and not x.voir %}<span class="btn btn-off">Replay à venir</span>{% endif %}
+  <a class="btn btn-live" href="{{ x.radio.direct }}" target="_blank" rel="noopener" title="Écouter {{ x.radio.nom }} en direct"><span class="dot"></span>Direct</a>
 </div>
 {%- endmacro %}

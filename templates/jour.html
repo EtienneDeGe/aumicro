@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "macros.html" import avatar, media, actions %}
+{% from "macros.html" import avatar, logo, actions %}
 {% block title %}Invités politiques du {{ date_longue(jour)|lower }}{% endblock %}
 {% block description %}Les {{ passages|length }} invités politiques à la radio le {{ date_longue(jour)|lower }} : horaires, émissions, direct et replays.{% endblock %}
 {% block main %}
@@ -17,30 +17,23 @@
     {% if suiv %}<a class="btn-rond" href="{{ base }}{{ suiv[:4] }}/{{ suiv[5:7] }}/{{ suiv[8:] }}/" aria-label="Jour suivant ({{ date_courte(suiv) }})">›</a>{% else %}<span class="btn-rond" aria-hidden="true">›</span>{% endif %}
   </div>
 </div>
+<div class="agenda">
 {% for p in periodes %}
-<section class="periode">
   <h2 class="periode-t">{{ p.nom }} <span>{{ p.plage }}</span></h2>
-  <div class="frise">
-  {% for heure, liste in p.creneaux %}
-    <div class="slot">
-      <div class="heure">{{ heure }}</div>
-      <div class="cards">
-      {% for x in liste %}
-        <article class="carte">
-          <div class="carte-h">{{ avatar(x.personne, x.nom) }}
-            <div class="who"><a class="nom" href="{{ base }}personnalites/{{ x.personne }}/">{{ x.nom }}</a><div class="fn">{{ x.fonction }}</div></div>
-            {% if x.statut == "annonce" %}<span class="badge">Annoncé</span>{% endif %}
-          </div>
-          {{ media(x) }}
-          {{ actions(x) }}
-        </article>
-      {% endfor %}
-      </div>
-    </div>
-  {% endfor %}
-  </div>
-</section>
+  <ol class="lignes">
+  {% for heure, liste in p.creneaux %}{% for x in liste %}
+    <li class="ligne">
+      <time class="l-heure" datetime="{{ jour }}T{{ x.heure }}">{{ x.heure }}</time>
+      {{ logo(x) }}
+      <div class="l-emi"><div class="emi">{{ x.em.nom }}</div><div class="anim">{% if x.animateur %}{{ x.animateur }}{% else %}{{ x.radio.nom }}{% endif %}</div></div>
+      {{ avatar(x.personne, x.nom) }}
+      <div class="l-who"><a class="nom" href="{{ base }}personnalites/{{ x.personne }}/">{{ x.nom }}</a>{% if x.statut == "annonce" %} <span class="badge">Annoncé</span>{% endif %}<div class="fn">{{ x.fonction }}</div></div>
+      {{ actions(x) }}
+    </li>
+  {% endfor %}{% endfor %}
+  </ol>
 {% endfor %}
+</div>
 {% endblock %}
 {% block scripts %}
 <script>

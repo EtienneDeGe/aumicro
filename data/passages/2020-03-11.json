@@ -4,62 +4,69 @@
     "emission": "sud-invite-politique",
     "personne": "gaspard-gantzer",
     "fonction": "Candidat à la mairie de Paris",
-    "replay": null,
     "statut": "confirme",
-    "animateur": "Jean-Jacques Bourdin"
+    "animateur": "Jean-Jacques Bourdin",
+    "ecouter": null,
+    "voir": null
   },
   {
     "heure": "07:45",
     "emission": "rtl-invite",
     "personne": "cedric-villani",
     "fonction": "Député de l'Essonne",
-    "replay": null,
     "statut": "confirme",
-    "animateur": "Alba Ventura"
+    "animateur": "Alba Ventura",
+    "ecouter": null,
+    "voir": null
   },
   {
     "heure": "07:50",
     "emission": "rfi-invite-matin",
     "personne": "boris-vallaud",
     "fonction": "Député des Landes",
-    "replay": null,
     "statut": "confirme",
-    "animateur": "Frédéric Rivière"
+    "animateur": "Frédéric Rivière",
+    "ecouter": null,
+    "voir": null
   },
   {
     "heure": "08:15",
     "emission": "e1-grande-interview",
     "personne": "francois-xavier-bellamy",
     "fonction": "Député européen",
-    "replay": null,
     "statut": "confirme",
-    "animateur": "Sonia Mabrouk"
+    "animateur": "Sonia Mabrouk",
+    "ecouter": null,
+    "voir": null
   },
   {
     "heure": "08:15",
     "emission": "rc-invite-politique",
     "personne": "sibeth-ndiaye",
     "fonction": "Porte-parole du gouvernement",
-    "replay": null,
     "statut": "confirme",
-    "animateur": "Guillaume Durand"
+    "animateur": "Guillaume Durand",
+    "ecouter": null,
+    "voir": null
   },
   {
     "heure": "11:20",
     "emission": "fi-instant-politique",
     "personne": "laurence-rossignol",
     "fonction": "Sénatrice de l'Oise",
-    "replay": null,
     "statut": "confirme",
-    "animateur": "Gilles Bornstein"
+    "animateur": "Gilles Bornstein",
+    "ecouter": null,
+    "voir": null
   },
   {
     "heure": "17:50",
     "emission": "e1-punchline",
     "personne": "julien-dray",
     "fonction": "Ancien député",
-    "replay": null,
     "statut": "confirme",
-    "animateur": "Laurence Ferrari"
+    "animateur": "Laurence Ferrari",
+    "ecouter": null,
+    "voir": null
   }
 ]
