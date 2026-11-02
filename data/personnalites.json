@@ -1,60 +1,30 @@
 {
-  "david-belliard": {
-    "nom": "David Belliard",
-    "photo": null,
-    "credit_photo": null,
-    "wikidata": null
-  },
-  "eric-coquerel": {
-    "nom": "Éric Coquerel",
-    "photo": null,
-    "credit_photo": null,
-    "wikidata": null
-  },
-  "florence-parly": {
-    "nom": "Florence Parly",
-    "photo": null,
-    "credit_photo": null,
-    "wikidata": null
-  },
-  "rachida-dati": {
-    "nom": "Rachida Dati",
-    "photo": null,
-    "credit_photo": null,
-    "wikidata": null
-  },
-  "louis-aliot": {
-    "nom": "Louis Aliot",
-    "photo": null,
-    "credit_photo": null,
-    "wikidata": null
-  },
-  "marine-le-pen": {
-    "nom": "Marine Le Pen",
-    "photo": null,
-    "credit_photo": null,
-    "wikidata": null
-  },
   "adrien-quatennens": {
     "nom": "Adrien Quatennens",
     "photo": null,
     "credit_photo": null,
     "wikidata": null
   },
-  "fabien-roussel": {
-    "nom": "Fabien Roussel",
-    "photo": null,
-    "credit_photo": null,
-    "wikidata": null
+  "ali-rabeh": {
+    "nom": "Ali Rabeh",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ali_Rabeh.jpg?width=240",
+    "credit_photo": "Ugo Bernalicis, CC BY 3.0, Wikimedia Commons",
+    "wikidata": "Q96668522"
   },
-  "cedric-villani": {
-    "nom": "Cédric Villani",
-    "photo": null,
-    "credit_photo": null,
-    "wikidata": null
+  "antoine-leaument": {
+    "nom": "Antoine Léaument",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Antoine_L%C3%A9aument_le_21_juillet_2024.jpg?width=240",
+    "credit_photo": "Tomkiou, CC0, Wikimedia Commons",
+    "wikidata": "Q62976462"
   },
-  "jean-francois-cesarini": {
-    "nom": "Jean-François Cesarini",
+  "aurelien-pradie": {
+    "nom": "Aurélien Pradié",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Aur%C3%A9lien_Pradi%C3%A9_-_July_2017_-_Assembl%C3%A9e_Nationale.jpg?width=240",
+    "credit_photo": "Julien Ibos, CC0, Wikimedia Commons",
+    "wikidata": "Q30351657"
+  },
+  "boris-vallaud": {
+    "nom": "Boris Vallaud",
     "photo": null,
     "credit_photo": null,
     "wikidata": null
@@ -65,8 +35,74 @@
     "credit_photo": null,
     "wikidata": null
   },
-  "aurelien-pradie": {
-    "nom": "Aurélien Pradié",
+  "bruno-le-maire": {
+    "nom": "Bruno Le Maire",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bruno_Le_Maire_in_2022.jpg?width=240",
+    "credit_photo": "Sebastiaan ter Burg from Utrecht, The Netherlands, CC BY 2.5, Wikimedia Commons",
+    "wikidata": "Q993472"
+  },
+  "bruno-retailleau": {
+    "nom": "Bruno Retailleau",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bruno_Retailleau_-_Ministre_de_l%27Int%C3%A9rieur_fran%C3%A7ais_%28cropped%29.jpg?width=240",
+    "credit_photo": "Anthonymontardyfr, CC BY 4.0, Wikimedia Commons",
+    "wikidata": "Q2926942"
+  },
+  "cedric-villani": {
+    "nom": "Cédric Villani",
+    "photo": null,
+    "credit_photo": null,
+    "wikidata": null
+  },
+  "charles-rodwell": {
+    "nom": "Charles Rodwell",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/20260217-P1380221_Rodwell_Charles_Wikipedia.jpg?width=240",
+    "credit_photo": "TrisHR, CC BY-SA 4.0, Wikimedia Commons",
+    "wikidata": "Q112518535"
+  },
+  "clemence-guette": {
+    "nom": "Clémence Guetté",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Cl%C3%A9mence_Guett%C3%A9%2C_vice_pr%C3%A9sidente_de_l%27Assembl%C3%A9e_nationale_%28cropped%29.jpg?width=240",
+    "credit_photo": "Claire Jacquin, CC BY 4.0, Wikimedia Commons",
+    "wikidata": "Q109969696"
+  },
+  "david-belliard": {
+    "nom": "David Belliard",
+    "photo": null,
+    "credit_photo": null,
+    "wikidata": null
+  },
+  "edouard-geffray": {
+    "nom": "Édouard Geffray",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_Geffrey_%28cropped%29.jpg?width=240",
+    "credit_photo": "Ministère de l'Éducation Nationale, Licence Ouverte, Wikimedia Commons",
+    "wikidata": "Q33138734"
+  },
+  "eric-coquerel": {
+    "nom": "Éric Coquerel",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Eric_Coquerel_en_2017.jpg?width=240",
+    "credit_photo": "Marche des fiertés de Paris 2017-14.jpg : Jérémie Silvestro Derivative work : Ke, CC BY-SA 4.0, Wikimedia Commons",
+    "wikidata": "Q17485936"
+  },
+  "fabien-roussel": {
+    "nom": "Fabien Roussel",
+    "photo": null,
+    "credit_photo": null,
+    "wikidata": null
+  },
+  "florence-parly": {
+    "nom": "Florence Parly",
+    "photo": null,
+    "credit_photo": null,
+    "wikidata": null
+  },
+  "francois-ruffin": {
+    "nom": "François Ruffin",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois_Ruffin_%28cropped%29.jpg?width=240",
+    "credit_photo": "Thinkerview, CC BY-SA 4.0, Wikimedia Commons",
+    "wikidata": "Q3085763"
+  },
+  "francois-xavier-bellamy": {
+    "nom": "François-Xavier Bellamy",
     "photo": null,
     "credit_photo": null,
     "wikidata": null
@@ -77,23 +113,59 @@
     "credit_photo": null,
     "wikidata": null
   },
-  "boris-vallaud": {
-    "nom": "Boris Vallaud",
+  "gilles-finchelstein": {
+    "nom": "Gilles Finchelstein",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Gilles_Finchelstein_-_Janvier_2012.jpg?width=240",
+    "credit_photo": "English : This photo has been taken by Matthieu Riegler ( User:Kyro ) and releas, CC BY 3.0, Wikimedia Commons",
+    "wikidata": "Q3106228"
+  },
+  "guillaume-guerin": {
+    "nom": "Guillaume Guérin",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Guillaume_Gu%C3%A9rin.jpg?width=240",
+    "credit_photo": "Thierry Laporte, CC BY-SA 4.0, Wikimedia Commons",
+    "wikidata": "Q63349014"
+  },
+  "guillaume-lacroix": {
+    "nom": "Guillaume Lacroix",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Guillaume_Lacroix_%28cropped%29.jpg?width=240",
+    "credit_photo": "Gdprg, CC BY-SA 4.0, Wikimedia Commons",
+    "wikidata": "Q65131729"
+  },
+  "jean-francois-cesarini": {
+    "nom": "Jean-François Cesarini",
     "photo": null,
     "credit_photo": null,
     "wikidata": null
   },
-  "francois-xavier-bellamy": {
-    "nom": "François-Xavier Bellamy",
+  "jean-michel-blanquer": {
+    "nom": "Jean-Michel Blanquer",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Blanquer_2022_%28cropped%29.jpg?width=240",
+    "credit_photo": "Conseil de l'Union Européenne, Attribution, Wikimedia Commons",
+    "wikidata": "Q3167954"
+  },
+  "jean-philippe-tanguy": {
+    "nom": "Jean-Philippe Tanguy",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/JeanPhilippe_Tanguy.jpg?width=240",
+    "credit_photo": "Rafaels06, CC BY-SA 4.0, Wikimedia Commons",
+    "wikidata": "Q46138822"
+  },
+  "jerome-guedj": {
+    "nom": "Jérôme Guedj",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/J%C3%A9r%C3%B4me_Guedj_2010.jpg?width=240",
+    "credit_photo": "Audrey AK, CC BY-SA 2.0, Wikimedia Commons",
+    "wikidata": "Q3190925"
+  },
+  "julien-dray": {
+    "nom": "Julien Dray",
     "photo": null,
     "credit_photo": null,
     "wikidata": null
   },
-  "sibeth-ndiaye": {
-    "nom": "Sibeth Ndiaye",
-    "photo": null,
-    "credit_photo": null,
-    "wikidata": null
+  "julien-odoul": {
+    "nom": "Julien Odoul",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Julien_Odoul_-_Besan%C3%A7on_25-04-2019_-_Toufik-de-Planoise.jpg?width=240",
+    "credit_photo": "Toufik-de-Planoise, CC BY-SA 4.0, Wikimedia Commons",
+    "wikidata": "Q41102798"
   },
   "laurence-rossignol": {
     "nom": "Laurence Rossignol",
@@ -101,10 +173,100 @@
     "credit_photo": null,
     "wikidata": null
   },
-  "julien-dray": {
-    "nom": "Julien Dray",
+  "laurent-nunez": {
+    "nom": "Laurent Nuñez",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nunez_Beauvau_%28cropped%29.jpg?width=240",
+    "credit_photo": "Ministère de l'Intérieur, Licence Ouverte, Wikimedia Commons",
+    "wikidata": "Q30729111"
+  },
+  "louis-aliot": {
+    "nom": "Louis Aliot",
     "photo": null,
     "credit_photo": null,
     "wikidata": null
+  },
+  "manon-aubry": {
+    "nom": "Manon Aubry",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Manon_Aubry_%2C_SOTEU_2022_%2852359513224%29_%28cropped%29.jpg?width=240",
+    "credit_photo": "European Parliament from EU, CC BY 2.0, Wikimedia Commons",
+    "wikidata": "Q59601214"
+  },
+  "marine-le-pen": {
+    "nom": "Marine Le Pen",
+    "photo": null,
+    "credit_photo": null,
+    "wikidata": null
+  },
+  "maud-bregeon": {
+    "nom": "Maud Bregeon",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Maud_Bregeon_%282023%29.jpg?width=240",
+    "credit_photo": "Ministère de l'Europe et des Affaires étrangères, CC BY 3.0, Wikimedia Commons",
+    "wikidata": "Q104032664"
+  },
+  "philippe-baptiste": {
+    "nom": "Philippe Baptiste",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Space_Symposium_-_CNES_Bilateral_Meeting_%28NHQ202108250016%29_%28cropped%29.jpg?width=240",
+    "credit_photo": "Bill Ingalls, Public domain, Wikimedia Commons",
+    "wikidata": "Q106287381"
+  },
+  "philippe-juvin": {
+    "nom": "Philippe Juvin",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Philippe_Juvin_02.JPG?width=240",
+    "credit_photo": "Andy Mabbett, CC BY-SA 3.0, Wikimedia Commons",
+    "wikidata": "Q445705"
+  },
+  "prisca-thevenot": {
+    "nom": "Prisca Thevenot",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Prisca_Thevenot_2023_%28cropped%29.jpg?width=240",
+    "credit_photo": "Maxime BOUDET, CC BY-SA 4.0, Wikimedia Commons",
+    "wikidata": "Q106020252"
+  },
+  "rachida-dati": {
+    "nom": "Rachida Dati",
+    "photo": null,
+    "credit_photo": null,
+    "wikidata": null
+  },
+  "raphael-glucksmann": {
+    "nom": "Raphaël Glucksmann",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/2024-03-03_-_Congr%C3%A8s_du_PSE-_105_-_Raphael_Glucksmann.jpg?width=240",
+    "credit_photo": "Mathieu Delmestre, Public domain, Wikimedia Commons",
+    "wikidata": "Q556149"
+  },
+  "sarah-knafo": {
+    "nom": "Sarah Knafo",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sarah_Knafo%2C_d%C3%A9cembre_2021_%2852104057536%29.jpg?width=240",
+    "credit_photo": "Anh De France, CC BY-SA 2.0, Wikimedia Commons",
+    "wikidata": "Q82637284"
+  },
+  "sebastien-chenu": {
+    "nom": "Sébastien Chenu",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Denain_-_S%C3%A9bastien_Chenu_lors_du_conseil_municipal_du_27_juin_2016_%28cropped%29.JPG?width=240",
+    "credit_photo": "Jérémy-Günther-Heinz Jähnick, GFDL 1.2, Wikimedia Commons",
+    "wikidata": "Q21294609"
+  },
+  "serge-papin": {
+    "nom": "Serge Papin",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Visit_of_Serge_Papin%2C_French_Minister_for_Small_and_Medium-sized_Enterprises%2C_to_the_EC_-_2025_%28cropped%29.jpg?width=240",
+    "credit_photo": "Bogdan Hoyaux / European Union, 2025 / EC - Audiovisual Service, CC BY 4.0, Wikimedia Commons",
+    "wikidata": "Q3479475"
+  },
+  "sibeth-ndiaye": {
+    "nom": "Sibeth Ndiaye",
+    "photo": null,
+    "credit_photo": null,
+    "wikidata": null
+  },
+  "thomas-menage": {
+    "nom": "Thomas Ménagé",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Thomas.M%C3%A9nag%C3%A9.jpg?width=240",
+    "credit_photo": "VenteXe, CC BY-SA 4.0, Wikimedia Commons",
+    "wikidata": "Q112650795"
+  },
+  "yannick-jadot": {
+    "nom": "Yannick Jadot",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Yannick_Jadot%2C_2014_%28cropped%29.jpg?width=240",
+    "credit_photo": "greensefa, CC BY 2.0, Wikimedia Commons",
+    "wikidata": "Q441791"
   }
 }
