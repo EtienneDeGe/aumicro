@@ -64,7 +64,11 @@ MAJ = r"A-ZÀÂÄÇÉÈÊËÎÏÔÖÙÛÜŸ"
 MOT = rf"[{MAJ}][a-zà-ÿ'’]+(?:-[{MAJ}]?[a-zà-ÿ'’]+)*"
 PARTICULE = r"(?:de |du |des |d'|d’|de la |Le |La |Mc|Mac|Ben |Ould |Van |von |El |Al-)"
 NOM_RE = re.compile(rf"\b({MOT}(?:\s+{PARTICULE}?{MOT}){{1,3}})")
-MOTS_VIDES = {"Le", "La", "Les", "Un", "Une", "Avec", "Chaque", "Ecoutez", "Écoutez", "Retrouvez", "Sur", "Pour",
+PROFESSIONS = {"Journaliste", "Magistrat", "Magistrate", "Historien", "Historienne", "Écrivain", "Ecrivain", "Écrivaine", "Acteur",
+               "Actrice", "Philosophe", "Essayiste", "Économiste", "Sociologue", "Politologue", "Avocat", "Avocate", "Professeur",
+               "Professeure", "Réalisateur", "Réalisatrice", "Chanteur", "Chanteuse", "Comédien", "Comédienne", "Romancier", "Romancière"}
+MOTS_VIDES = {"Invité", "Invitée", "Invités", "Grand", "Grande", "Entretien", "Interview", "Podcast", "Replay",
+              "Le", "La", "Les", "Un", "Une", "Avec", "Chaque", "Ecoutez", "Écoutez", "Retrouvez", "Sur", "Pour",
               "Face", "France", "Inter", "Sud", "Radio", "Europe", "Assemblée", "Sénat", "Parti", "République", "Matin"}
 
 
@@ -76,8 +80,10 @@ def candidats(t):
     vus, prioritaires, autres = set(), [], []
     for m in NOM_RE.finditer(t):
         mots = m.group(1).strip().split()
-        while mots and mots[0] in MOTS_VIDES:
+        while mots and (mots[0] in MOTS_VIDES or mots[0][0].islower()):
             mots = mots[1:]
+        while mots and mots[-1] in PROFESSIONS:
+            mots = mots[:-1]
         if len(mots) < 2:
             continue
         nom = " ".join(mots)
@@ -98,10 +104,17 @@ FIN_FONCTION = re.compile(r"(?:^|,? )(?:rapporte|pointe|nie|débattent|appelle|a
 
 
 FONCTION_POLITIQUE = re.compile(
-    r"d[ée]put[ée]|ministre|s[ée]nat|maire|parti|porte-parole|candidat|conseill|élu|secrétaire (?:national|général|d['’]état)|"
-    r"président(?:e)? (?:du groupe|des (?:républicains|députés|sénateurs)|de la région|du conseil (?:régional|départemental|de paris|général)|de région|du parti|du rassemblement|de l['’]assemblée|de la république)|"
-    r"politique|homme d['’]état|femme d['’]état|LFI|\bRN\b|\bPS\b|\bLR\b|EELV|écologiste|insoumis|communiste|socialiste|"
-    r"républicain|reconquête|renaissance|modem|horizons|gouvernement|chef de file|vice-président|adjoint|militant", re.I)
+    r"d[ée]put[ée]|eurodéput|ministre|s[ée]nat(?:eur|rice)|président(?:e)? du sénat|\bmaire\b|adjointe? au maire|\bpartis?\b|porte-parole|"
+    r"candidat|conseill(?:er|ère) (?:régional|départemental|municipal|de paris|d['’]arrondissement)|\bélue?s?\b|"
+    r"secrétaire (?:national|général|d['’]état)|premier secrétaire|coordinat(?:eur|rice) national|haute?-commissaire|"
+    r"président(?:e)? (?:délégué(?:e)? )?du groupe (?!ment)(?!(?:e\b|carrefour|renault|lvmh|bpce|la poste|sncf|total))|"
+    r"président(?:e)? (?:des (?:républicains|députés|sénateurs)|de la région|du conseil (?:régional|départemental|de paris|général)|"
+    r"de région|du parti|du rassemblement|de l['’]assemblée|de l['’]union des droites)|"
+    r"homme politique|femme politique|personnalité politique|responsable politique|homme d['’]état|femme d['’]état|"
+    r"\bLFI\b|\bRN\b|\bPS\b|\bLR\b|\bPCF\b|EELV|écologistes?\b|insoumis|communiste|socialiste|républicains|reconquête|"
+    r"renaissance|modem|horizons|place publique|debout la france|nouvelle énergie|gouvernement|chef de file|co-président|"
+    r"vice-président(?:e)? (?:du|de la|de l['’]|des) ?(?:rn|rassemblement|républicains|parti|région|conseil|assemblée|sénat|groupe|lfi)|"
+    r"(?<!ancien )président(?:e)? de la république|président(?:e)? du conseil constitutionnel|militant", re.I)
 
 
 PERIMETRE_ELARGI = (
@@ -115,8 +128,10 @@ PERIMETRE_ELARGI = (
     r"syndica|\bcgt\b|cfdt|force ouvrière|\bfo\b|unsa|cfe-cgc|cftc|solidaires|\bfsu\b|snes|medef|cpme|u2p|fnsea|"
     r"confédération|confédéral|union étudiante|\bunef\b|\bfage\b|voix lycéenne|\bfidl\b|patronat|patronale|"
     # think tanks et associations
-    r"fondation|institut montaigne|terra nova|think tank|association|\bong\b|collectif|fédération|amnesty|secours|emmaüs|"
-    r"ligue des droits|unicef|croix-rouge|restos du cœur|médecins sans frontières")
+    r"fondation (?:jean[- ]jaurès|jaurès|robert schuman|res publica|ifrap|pour l['’]innovation politique|gabriel péri|copernic|abbé pierre)|"
+    r"fondapol|institut montaigne|terra nova|think tank|association|\bong\b|collectif|fédération|amnesty|secours populaire|"
+    r"secours catholique|emmaüs|ligue des droits|\bldh\b|licra|sos racisme|\bcrif\b|unicef|croix-rouge|restos du cœur|"
+    r"médecins sans frontières|président(?:e)? de l['’]université|france universités")
 DANS_PERIMETRE = re.compile(FONCTION_POLITIQUE.pattern + "|" + PERIMETRE_ELARGI, re.I)
 
 
@@ -261,10 +276,8 @@ def decider(noms, ep, lien_slug, anims, exclus, inclus, wd):
         dans_lien = slugifier(nom) in lien_slug
         if f or dans_lien:
             w = wd.personne(nom)
-            if norm(nom) in inclus or (f and DANS_PERIMETRE.search(f)):
+            if norm(nom) in inclus or (f and DANS_PERIMETRE.search(f)) or (w and w["politique"]):
                 return {"verdict": "retenu", "nom": nom, "fonction": f, "wd": w}
-            if not f and w and (w["politique"] or w["fonction_publique"]):
-                return {"verdict": "retenu", "nom": nom, "fonction": None, "wd": w}
             return {"verdict": "hors-champ", "nom": w["nom"] if w else nom, "fonction": f or (w or {}).get("description")}
         sans_fonction.append(nom)
     for nom in sans_fonction:
@@ -273,7 +286,7 @@ def decider(noms, ep, lien_slug, anims, exclus, inclus, wd):
             continue
         if norm(nom) in inclus:
             return {"verdict": "retenu", "nom": nom, "fonction": None, "wd": w}
-        if w["politique"] or w["fonction_publique"]:
+        if w["politique"]:
             if norm(nom) in titre:
                 return {"verdict": "retenu", "nom": nom, "fonction": None, "wd": w}
             return {"verdict": "prudence", "nom": w["nom"], "fonction": None}

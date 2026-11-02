@@ -2,8 +2,9 @@ name: Collecte des invités
 
 on:
   schedule:
-    # 10h17, 13h17 et 20h17 (heure de Paris en hiver)
-    - cron: "17 9,12,19 * * *"
+    # toutes les 30 min de 7h à 10h30 (heure de Paris en hiver), puis 13h17 et 20h17
+    - cron: "7,37 6-9 * * *"
+    - cron: "17 12,19 * * *"
   workflow_dispatch:
     inputs:
       depuis:
