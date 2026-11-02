@@ -96,6 +96,18 @@
         "id": "PL43OynbWaTMIw5ZnukRdGVNKF5g7uakaD",
         "par_date": false
       }
+    ],
+    "rc-invite-matinale": [
+      {
+        "id": "PLGhYvLLcMCJbL6IUdWhepgxozlskmVUM6",
+        "par_date": true
+      }
+    ],
+    "rtl-invite-7h40": [
+      {
+        "id": "PLRwgXecE0bRMPNMm07uKrihRUE_g3IOYs",
+        "par_date": true
+      }
     ]
   },
   "youtube_chaines_desactivees": {
