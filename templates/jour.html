@@ -6,14 +6,26 @@
 <div class="jour-h">
   <div>
     <div class="eyebrow">Invités politiques à la radio</div>
-    <h1>{{ date_longue(jour) }}</h1>
+    <h1><button type="button" class="h1-date" data-ouvre-calendrier aria-haspopup="dialog" aria-controls="calendrier">{{ date_longue(jour) }}<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 6l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button></h1>
     <p class="meta">{{ passages|length }} passage{{ "s" if passages|length > 1 }} · {{ nb_radios }} radio{{ "s" if nb_radios > 1 }}</p>
   </div>
   <div class="jour-nav">
     {% if prec %}<a class="btn-rond" href="{{ base }}{{ prec[:4] }}/{{ prec[5:7] }}/{{ prec[8:] }}/" aria-label="Jour précédent ({{ date_courte(prec) }})">‹</a>{% else %}<span class="btn-rond" aria-hidden="true">‹</span>{% endif %}
-    <select id="choix-jour" aria-label="Choisir un jour">
-      {% for j in jours|reverse %}<option value="{{ j[:4] }}/{{ j[5:7] }}/{{ j[8:] }}/" {% if j == jour %}selected{% endif %}>{{ date_courte(j) }}</option>{% endfor %}
-    </select>
+    <div class="cal-ancre">
+      <button type="button" class="btn-cal" data-ouvre-calendrier aria-haspopup="dialog" aria-controls="calendrier" aria-label="Choisir un jour dans le calendrier">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><rect x="2" y="3" width="12" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M2 6.5h12M5 1.5v3M11 1.5v3" stroke="currentColor" stroke-width="1.5"/></svg>
+        {{ date_courte(jour) }}
+      </button>
+      <div class="calendrier" id="calendrier" role="dialog" aria-label="Calendrier des jours recensés" hidden>
+        <div class="cal-tete">
+          <button type="button" class="cal-nav" data-mois="-1" aria-label="Mois précédent">‹</button>
+          <span class="cal-mois" aria-live="polite"></span>
+          <button type="button" class="cal-nav" data-mois="1" aria-label="Mois suivant">›</button>
+        </div>
+        <div class="cal-grille" role="grid"></div>
+        <p class="cal-aide">Les jours en couleur ont des invités recensés.</p>
+      </div>
+    </div>
     {% if suiv %}<a class="btn-rond" href="{{ base }}{{ suiv[:4] }}/{{ suiv[5:7] }}/{{ suiv[8:] }}/" aria-label="Jour suivant ({{ date_courte(suiv) }})">›</a>{% else %}<span class="btn-rond" aria-hidden="true">›</span>{% endif %}
   </div>
 </div>
@@ -37,6 +49,39 @@
 {% endblock %}
 {% block scripts %}
 <script>
-document.getElementById("choix-jour").addEventListener("change", e => { location.href = "{{ base }}" + e.target.value; });
+(() => {
+  const BASE = "{{ base }}", JOUR = "{{ jour }}";
+  const JOURS = new Set({{ jours|tojson }});
+  const MOIS = ["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"];
+  const cal = document.getElementById("calendrier"), grille = cal.querySelector(".cal-grille"), titre = cal.querySelector(".cal-mois");
+  let an = +JOUR.slice(0, 4), mois = +JOUR.slice(5, 7) - 1;
+  const iso = (a, m, j) => `${a}-${String(m + 1).padStart(2, "0")}-${String(j).padStart(2, "0")}`;
+  const auj = new Date(), aujIso = iso(auj.getFullYear(), auj.getMonth(), auj.getDate());
+  const premier = [...JOURS].sort()[0], dernier = [...JOURS].sort().pop();
+  function dessiner() {
+    titre.textContent = MOIS[mois] + " " + an;
+    let h = ["L","M","M","J","V","S","D"].map(d => `<span class="cal-jsem" aria-hidden="true">${d}</span>`).join("");
+    const decalage = (new Date(an, mois, 1).getDay() + 6) % 7, nb = new Date(an, mois + 1, 0).getDate();
+    h += "<span></span>".repeat(decalage);
+    for (let j = 1; j <= nb; j++) {
+      const d = iso(an, mois, j), cls = [d === JOUR ? "courant" : "", d === aujIso ? "auj" : ""].join(" ");
+      h += JOURS.has(d)
+        ? `<a class="cal-j a-des ${cls}" href="${BASE}${d.slice(0,4)}/${d.slice(5,7)}/${d.slice(8)}/" ${d === JOUR ? 'aria-current="date"' : ""}>${j}</a>`
+        : `<span class="cal-j ${cls}">${j}</span>`;
+    }
+    grille.innerHTML = h;
+    cal.querySelector('[data-mois="-1"]').disabled = iso(an, mois, 1) <= premier.slice(0, 8) + "01";
+    cal.querySelector('[data-mois="1"]').disabled = iso(an, mois, 1) >= dernier.slice(0, 8) + "01";
+  }
+  function ouvrir() { an = +JOUR.slice(0, 4); mois = +JOUR.slice(5, 7) - 1; dessiner(); cal.hidden = false; (cal.querySelector(".courant") || cal.querySelector("a,button")).focus(); }
+  function fermer() { cal.hidden = true; }
+  document.querySelectorAll("[data-ouvre-calendrier]").forEach(b => b.addEventListener("click", e => { e.stopPropagation(); cal.hidden ? ouvrir() : fermer(); }));
+  cal.querySelectorAll(".cal-nav").forEach(b => b.addEventListener("click", e => {
+    e.stopPropagation(); mois += +b.dataset.mois; if (mois < 0) { mois = 11; an--; } if (mois > 11) { mois = 0; an++; } dessiner();
+  }));
+  cal.addEventListener("click", e => e.stopPropagation());
+  document.addEventListener("click", fermer);
+  document.addEventListener("keydown", e => { if (e.key === "Escape" && !cal.hidden) { fermer(); document.querySelector(".btn-cal").focus(); } });
+})();
 </script>
 {% endblock %}
