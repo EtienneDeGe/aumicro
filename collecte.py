@@ -332,7 +332,9 @@ YT_NS = {"a": "http://www.w3.org/2005/Atom", "yt": "http://www.youtube.com/xml/s
 
 
 def videos(chaine):
-    r = ET.fromstring(get("https://www.youtube.com/feeds/videos.xml?channel_id=" + chaine))
+    """Dernières vidéos d'une chaîne (UC…) ou d'une playlist (PL…)."""
+    param = "playlist_id=" if chaine.startswith("PL") else "channel_id="
+    r = ET.fromstring(get("https://www.youtube.com/feeds/videos.xml?" + param + chaine))
     for e in r.findall("a:entry", YT_NS):
         yield {"titre": e.findtext("a:title", namespaces=YT_NS) or "",
                "date": datetime.fromisoformat(e.findtext("a:published", namespaces=YT_NS)).astimezone(PARIS).date(),
@@ -474,6 +476,25 @@ def main():
             radio = emissions[x["emission"]]["radio"]
             nom = personnes[x["personne"]]["nom"]
             nom_famille = norm(nom.split(" ", 1)[-1])
+            # playlist propre à l'émission : une vidéo par émission, associée par la date
+            for pl in sources.get("youtube_playlists", {}).get(x["emission"], []):
+                if pl not in cache_videos:
+                    try:
+                        cache_videos[pl] = list(videos(pl))
+                    except Exception as ex:
+                        erreurs.append(f"YouTube {pl} : {ex}")
+                        cache_videos[pl] = []
+                possibles = [v for v in cache_videos[pl] if v["date"] == d]
+                for v in possibles:
+                    v.setdefault("duree", duree_video(v["url"]))
+                possibles = [v for v in possibles if v["duree"] >= 480]
+                if possibles:
+                    v = max(possibles, key=lambda v: v["duree"])
+                    x["voir"] = v["url"]
+                    completes.append(f"{d} · {nom} : vidéo « {v['titre'][:80]} »")
+                    break
+            if x.get("voir"):
+                continue
             for ch in sources["youtube"].get(radio, []):
                 if ch not in cache_videos:
                     try:
