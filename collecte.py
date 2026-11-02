@@ -68,20 +68,26 @@ MOTS_VIDES = {"Le", "La", "Les", "Un", "Une", "Avec", "Chaque", "Ecoutez", "Éco
               "Face", "France", "Inter", "Sud", "Radio", "Europe", "Assemblée", "Sénat", "Parti", "République", "Matin"}
 
 
+AVANT_ANIMATEUR = re.compile(r"(?:questions d[e'’]|au micro d[e'’]|présentée? par|animée? par|avec|interrogée? par|face à)\s*$", re.I)
+
+
 def candidats(t):
-    vus, res = set(), []
+    """Noms propres trouvés dans le texte, ceux de la forme « Nom, fonction » en premier."""
+    vus, prioritaires, autres = set(), [], []
     for m in NOM_RE.finditer(t):
-        nom = m.group(1).strip()
-        mots = nom.split()
+        mots = m.group(1).strip().split()
         while mots and mots[0] in MOTS_VIDES:
             mots = mots[1:]
         if len(mots) < 2:
             continue
         nom = " ".join(mots)
-        if nom not in vus:
-            vus.add(nom)
-            res.append((nom, m.start()))
-    return res
+        debut = t.find(nom, m.start())
+        avant = t[max(0, debut - 30):debut]
+        if nom in vus or (AVANT_ANIMATEUR.search(avant) and not avant.rstrip().endswith(":")):
+            continue
+        vus.add(nom)
+        (prioritaires if t[debut + len(nom):debut + len(nom) + 1] == "," else autres).append((nom, debut))
+    return prioritaires + autres
 
 
 FIN_FONCTION = re.compile(r",? (?:répond|est l['’]invit|est l|était|a salué|a |revient|réagit|invitée? |au micro|sur RTL|sur RMC|sur Europe|"
@@ -122,8 +128,33 @@ class Wikidata:
         self.modifie = False
 
     def api(self, **p):
-        p.update(format="json")
-        return json.loads(get(self.API + "?" + urllib.parse.urlencode(p)))
+        p.update(format="json", maxlag="5")
+        for essai in range(5):
+            time.sleep(0.4)
+            r = json.loads(get(self.API + "?" + urllib.parse.urlencode(p)))
+            if "error" not in r:
+                return r
+            time.sleep(3 * (essai + 1))
+        raise RuntimeError(r["error"].get("info", "erreur Wikidata"))
+
+    MANDATS = re.compile(r"ministre|député|sénat|maire|président de la république|secrétaire d['’]état|porte-parole du gouvernement|"
+                         r"conseill(?:er|ère) (?:régional|départemental|municipal|de paris)|président du conseil|parlement européen|"
+                         r"président de région|chef du gouvernement|haut-commissaire", re.I)
+
+    def mandat_politique(self, positions):
+        """Vrai si l'une des fonctions occupées (P39) est un mandat ou une fonction gouvernementale."""
+        positions = [p for p in positions if p]
+        if not positions:
+            return False
+        inconnues = [p for p in positions if ("pos:" + p) not in self.cache]
+        for i in range(0, len(inconnues), 40):
+            lot = inconnues[i:i + 40]
+            ents = self.api(action="wbgetentities", ids="|".join(lot), props="labels", languages="fr|en")["entities"]
+            for p in lot:
+                lab = ents.get(p, {}).get("labels", {})
+                self.cache["pos:" + p] = (lab.get("fr") or lab.get("en") or {}).get("value", "")
+                self.modifie = True
+        return any(self.MANDATS.search(self.cache["pos:" + p]) for p in positions)
 
     def politique(self, nom):
         """Renvoie {qid, nom, description, photo} si `nom` désigne une personnalité politique française, sinon None."""
@@ -143,7 +174,8 @@ class Wikidata:
                     ids_de = lambda p: {v.get("id") for v in val(p) if isinstance(v, dict)}
                     humain = "Q5" in ids_de("P31")
                     francais = "Q142" in ids_de("P27")
-                    politique = "Q82955" in ids_de("P106") or bool(c.get("P102")) or bool(c.get("P39"))
+                    politique = ("Q82955" in ids_de("P106") or bool(c.get("P102"))
+                                 or self.mandat_politique(ids_de("P39")))
                     vivant = not c.get("P570")
                     if humain and francais and politique and vivant:
                         photo = (val("P18") or [None])[0]
@@ -234,7 +266,7 @@ def main():
 
     sources, emissions = lire("data/sources.json"), lire("data/emissions.json")
     personnes = lire("data/personnalites.json")
-    exclus = set(lire("data/exclus.json")) if (RACINE / "data/exclus.json").exists() else set()
+    exclus = {norm(n) for n in lire("data/exclus.json")["noms"]} if (RACINE / "data/exclus.json").exists() else set()
     par_qid = {p.get("wikidata"): s for s, p in personnes.items() if p.get("wikidata")}
     wd = Wikidata()
     nouveaux, completes, ecartes, erreurs = [], [], [], []
@@ -261,8 +293,12 @@ def main():
         for ep in eps:
             t = f"{ep['desc']} {ep['titre']}"
             trouve = None
+            anims = {norm(a) for a in re.split(r" et |, ", em.get("animateur") or "") if a}
+            anim_ep = animateur(ep["desc"])
+            if anim_ep:
+                anims.add(norm(anim_ep))
             for nom, _ in candidats(ep["desc"]) + candidats(ep["titre"]):
-                if norm(nom) in exclus:
+                if norm(nom) in exclus or norm(nom) in anims:
                     continue
                 trouve = wd.politique(nom)
                 if trouve:

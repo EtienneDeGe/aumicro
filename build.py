@@ -74,7 +74,7 @@ def charger():
                 continue
             passages.append({**x, "date": d, "em": em, "radio": radios[em["radio"]], "radio_id": em["radio"],
                              "animateur": x.get("animateur") or em.get("animateur"),
-                             "nom": personnes[x["personne"]]["nom"]})
+                             "nom": personnes[x["personne"]]["nom"], "photo": personnes[x["personne"]].get("photo")})
     if erreurs:
         print("Erreurs dans les données :", *erreurs, sep="\n  ")
         sys.exit(1)
