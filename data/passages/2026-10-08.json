@@ -1,0 +1,40 @@
+[
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "yael-braun-pivet",
+    "fonction": "Présidente de l’Assemblée Nationale",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/da797be3-c97c-4053-baca-95d08b83de83.mp3?_=1791441251&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Laurence Ferrari"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "maud-bregeon",
+    "fonction": "Porte-parole du gouvernement et ministre déléguée chargée de l'Énergie",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/colere-lyceenne-deblocage-de-stocks-strategiques-de-gazole-budget-2027-le-8h30-franceinfo-de-maud-bregeon_8207165.html",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "rmc-face-a-face",
+    "personne": "robert-menard",
+    "fonction": "Maire de Béziers",
+    "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/fcb45b6f-1d95-4ba9-9fb4-7cba7b6c0651/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=fcb45b6f-1d95-4ba9-9fb4-7cba7b6c0651&category=News%2CSociety+%26+Culture&episode_published_at=2026-10-08T06%3A58%3A25&episode_title=Face+%C3%A0+Face+%3A+Robert+M%C3%A9nard&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "agnes-pannier-runacher",
+    "fonction": "Députée du Pas-de-Calais, ancienne Ministre et co-responsable du programme de Gabriel Attal",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-753",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Jacques Cardoze"
+  }
+]

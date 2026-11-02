@@ -1,0 +1,40 @@
+[
+  {
+    "heure": "07:50",
+    "emission": "inter-7h50",
+    "personne": "edouard-geffray",
+    "fonction": "Le ministre de l'Education nationale",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50/l-invite-de-7h50-du-mardi-13-octobre-2026-3917008",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "louis-aliot",
+    "fonction": "Vice-président du RN et maire de Perpignan",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/afda8578-bb48-4162-9b74-59a8af24da9a.mp3?_=1791872232&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Laurence Ferrari"
+  },
+  {
+    "heure": "08:30",
+    "emission": "rmc-face-a-face",
+    "personne": "david-lisnard",
+    "fonction": "Candidat à l'élection présidentielle et maire de Cannes",
+    "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/8e9555c7-234d-4b77-b455-2e3b304d620c/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=8e9555c7-234d-4b77-b455-2e3b304d620c&category=News%2CSociety+%26+Culture&episode_published_at=2026-10-13T06%3A58%3A30&episode_title=Face+%C3%A0+Face+%3A+David+Lisnard+-+13%2F10&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "manuel-bompard",
+    "fonction": "Député des Bouches-du-Rhône et coordinateur national de LFI",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-755",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Jacques Cardoze"
+  }
+]

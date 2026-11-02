@@ -1,0 +1,20 @@
+[
+  {
+    "heure": "08:20",
+    "emission": "inter-8h20-we",
+    "personne": "emmanuelle-mignon",
+    "fonction": "Avocate, ancienne directrice de cabinet de Nicolas Sarkozy à l'Élysée",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/le-8h20-du-week-end/le-grand-entretien-du-samedi-24-octobre-2026-8756784",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "othman-nasrou",
+    "fonction": "Homme politique français",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/attaque-raciste-dans-les-yvelines-presence-de-l-ultradroite-en-france-mobilisation-du-24-octobre-le-8h30-franceinfo-d-othman-nasrou_8230948.html",
+    "voir": null,
+    "statut": "confirme"
+  }
+]

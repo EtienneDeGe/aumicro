@@ -1,0 +1,58 @@
+[
+  {
+    "heure": "07:40",
+    "emission": "rtl-invite-7h40",
+    "personne": "sebastien-chenu",
+    "fonction": "Vice-président du Rassemblement national",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/0955f0e8-3edb-4646-887b-a70aa14b247c.mp3?_=1791353281",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:50",
+    "emission": "inter-7h50",
+    "personne": "emmanuel-moulin",
+    "fonction": "Gouverneur de la Banque de France, livre son analyse sur la situation financière de la France",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50/l-invite-de-7h50-du-mercredi-07-octobre-2026-3823786",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "aurore-berge",
+    "fonction": "Ministre chargée de l'Égalité entre les femmes et les hommes et de la Lutte contre les discriminations",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/ad39cafe-04d3-4b5f-8b53-1048639bd3b0.mp3?_=1791355019&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Laurence Ferrari"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "yonathan-arfi",
+    "fonction": "Président du CRIF",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/commemoration-du-7-octobre-antisemitisme-propos-attribues-a-jordan-bardella-le-8h30-franceinfo-de-yonathan-arfi_8205380.html",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "rmc-face-a-face",
+    "personne": "jean-philippe-tanguy",
+    "fonction": "Président délégué du groupe RN à l'Assemblée nationale et député de la Somme",
+    "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/20bde603-cb08-40dd-8e8d-505c9d26ca6f/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=20bde603-cb08-40dd-8e8d-505c9d26ca6f&category=News%2CSociety+%26+Culture&episode_published_at=2026-10-07T06%3A55%3A31&episode_title=Face+%C3%A0+Face+%3A+Jean-Philippe+Tanguy+-+07%2F10&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "jerome-guedj",
+    "fonction": "Député PS de l'Essonne et candidat à la primaire sociale-démocrate",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-752",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Jacques Cardoze"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "heure": "07:40",
+    "emission": "rtl-invite-7h40",
+    "personne": "francois-xavier-bellamy",
+    "fonction": "Vice-président des Républicains et ancien professeur au lycée",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/22c3a910-bd49-4427-ae82-809633096ec5.mp3?_=1791525781",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "laurent-jacobelli",
+    "fonction": "Député de Moselle et porte-parole du RN",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/1405770f-386c-4d1f-8c3a-a98b18167b9f.mp3?_=1791526678&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Romain Desarbres"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "marylise-leon",
+    "fonction": "Secrétaire générale de la CFDT",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/mouvement-lyceen-budget-2027-crise-du-pouvoir-d-achat-le-8h30-franceinfo-de-marylise-leon_8208827.html",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "rmc-face-a-face",
+    "personne": "louis-letoublon",
+    "fonction": "Vice-président de l'organisation Les Lycéens",
+    "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/c8ef2d72-14ae-4c54-a748-977cf28a1ce0/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=c8ef2d72-14ae-4c54-a748-977cf28a1ce0&category=News%2CSociety+%26+Culture&episode_published_at=2026-10-09T06%3A55%3A49&episode_title=Face+%C3%A0+Face+%3A+Louis+Letoublon+et+Nathana%C3%ABl+Combary+-+09%2F10&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
+    "voir": null,
+    "statut": "confirme"
+  }
+]

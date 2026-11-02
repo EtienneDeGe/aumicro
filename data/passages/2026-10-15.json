@@ -1,0 +1,50 @@
+[
+  {
+    "heure": "07:50",
+    "emission": "inter-7h50",
+    "personne": "jean-noel-barrot",
+    "fonction": "Ministre de l'Europe et des Affaires étrangères",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50/l-invite-de-7h50-du-jeudi-15-octobre-2026-1737747",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "France Inter"
+  },
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "robert-menard",
+    "fonction": "Maire divers droite de Béziers",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/0caf4710-745c-4707-912a-f753c94cf215.mp3?_=1792045264&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Laurence Ferrari"
+  },
+  {
+    "heure": "08:15",
+    "emission": "rc-invite-matinale",
+    "personne": "hubert-vedrine",
+    "fonction": "Figure majeure de la vie politique et intellectuelle française, ancien ministre des Affaires étrangères sous François Mitterrand et Jacques Chirac",
+    "ecouter": "https://podcasts.audiomeans.fr/l-invite-de-la-matinale-a0fcb873fd2b/hubert-vedrine-diplomate-6b61deeb8ca6",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "gabriel-attal",
+    "fonction": "Secrétaire général du parti Renaissance et candidat à la présidentielle",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/colere-lyceenne-budget-presidentielle-le-8h30-franceinfo-de-gabriel-attal_8217262.html",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "sarah-el-hairy",
+    "fonction": "Haute-commissaire à l'Enfance",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-757",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Jacques Cardoze"
+  }
+]

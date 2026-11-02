@@ -1,0 +1,39 @@
+[
+  {
+    "heure": "07:40",
+    "emission": "rtl-invite-7h40",
+    "personne": "fabien-roussel",
+    "fonction": "Candidat PCF à la présidentielle 2027, réclame que la nouvelle 2 CV électrique soit produite en France et proposée à moins de 10",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/3330db10-5f17-44bb-928b-92ec434a2122.mp3?_=1791957781",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "roland-lescure",
+    "fonction": "Ministre de l'Économie, des Finances, de la Souveraineté industrielle, énergétique et numérique",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/colere-des-lyceens-crise-de-la-dette-budget-2027-le-8h30-franceinfo-de-roland-lescure_8215592.html",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "rmc-face-a-face",
+    "personne": "edouard-geffray",
+    "fonction": "Ministre de l'Éducation nationale - Chaque matin, Apolline de Malherbe reçoit un",
+    "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/24388a08-a7f8-43d4-9bb7-2b8bc13769bf/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=24388a08-a7f8-43d4-9bb7-2b8bc13769bf&category=News%2CSociety+%26+Culture&episode_published_at=2026-10-14T07%3A22%3A34&episode_title=Face+%C3%A0+Face+%3A+Edouard+Geffray+-+14%2F10&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "sebastien-chenu",
+    "fonction": "Député du Nord, vice président du RN et vice président de l'Assemblée Nationale",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-756",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Jacques Cardoze"
+  }
+]

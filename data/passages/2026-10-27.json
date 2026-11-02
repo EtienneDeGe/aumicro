@@ -1,5 +1,32 @@
 [
   {
+    "heure": "07:40",
+    "emission": "rtl-invite-7h40",
+    "personne": "antoine-bristielle",
+    "fonction": "Directeur de l'Observatoire de l'opinion de la Fondation Jean-Jaurès et enseignant en sciences politiques à l'Ecole polytechnique",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/4a6931e6-6431-4e87-bdd5-de5dbd309603.mp3?_=1793084581",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:50",
+    "emission": "inter-7h50",
+    "personne": "anais-ella",
+    "fonction": "Membre du syndicat Les Lycéens, et Suzanne Nijdam, présidente de la Fage (Fédération des associations générales étudiantes), saluent un premier pas après les",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50/l-invite-de-7h50-du-mardi-27-octobre-2026-4209349",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:15",
+    "emission": "rc-invite-matinale",
+    "personne": "eric-danon",
+    "fonction": "Ancien ambassadeur de France en Israël de 2019 à 2023",
+    "ecouter": "https://podcasts.audiomeans.fr/l-invite-de-la-matinale-a0fcb873fd2b/eric-danon-diplomate-ancien-ambassadeur-de-france-en-israel-8f6ebbf31d97",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
     "heure": "08:30",
     "emission": "fi-830",
     "personne": "clemence-guette",

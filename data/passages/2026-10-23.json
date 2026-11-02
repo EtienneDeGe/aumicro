@@ -1,0 +1,67 @@
+[
+  {
+    "heure": "07:40",
+    "emission": "rtl-invite-7h40",
+    "personne": "marine-tondelier",
+    "fonction": "Femme politique française",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/1a641cdc-8992-4fd3-b644-fd7ca924dc2a.mp3?_=1792735681",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:50",
+    "emission": "inter-7h50",
+    "personne": "romain-boulet",
+    "fonction": "Coprésident de l’ADAP (Association des Avocats Pénalistes), avocat chez Cabinet B&S",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50/l-invite-de-7h50-du-we-du-vendredi-23-octobre-2026-8870428",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "sebastien-chenu",
+    "fonction": "Député RN du Nord, vice-président du Rassemblement National et vice-président de l’Assemblée Nationale",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/715ef239-459a-4090-b649-8d761d16a93b.mp3?_=1792738367&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Romain Desarbres"
+  },
+  {
+    "heure": "08:20",
+    "emission": "inter-8h20",
+    "personne": "laure-lavalette",
+    "fonction": "La députée du Var",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/le-8h20-du-week-end/le-grand-entretien-du-vendredi-23-octobre-2026-7124679",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "sophie-binet",
+    "fonction": "Secrétaire générale de la CGT",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/le-8h30-franceinfo-de-sophie-binet_8229223.html",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "rmc-face-a-face",
+    "personne": "nicolas-dupont-aignan",
+    "fonction": "Président de Debout la France et candidat à l’élection présidentielle",
+    "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/6d5562ea-ff81-4a38-8cef-09a3a50f182a/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=6d5562ea-ff81-4a38-8cef-09a3a50f182a&category=News%2CSociety+%26+Culture&episode_published_at=2026-10-23T06%3A57%3A29&episode_title=Face+%C3%A0+Face+%3A+Nicolas+Dupont-Aignan+-+23%2F10&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "lamia-el-aaraje",
+    "fonction": "Première adjointe au Maire de Paris",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-762",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Jacques Cardoze"
+  }
+]

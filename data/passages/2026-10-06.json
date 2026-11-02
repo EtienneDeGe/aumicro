@@ -1,0 +1,58 @@
+[
+  {
+    "heure": "07:40",
+    "emission": "rtl-invite-7h40",
+    "personne": "bally-bagayoko",
+    "fonction": "Maire LFI de Saint-Denis",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/03a79585-1b09-4818-ac1b-f5d66e3326b8.mp3?_=1791266581",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "sebastien-chenu",
+    "fonction": "Député RN du Nord, vice-président du Rassemblement National et vice-président de l’Assemblée Nationale",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/bb5eae3a-3896-47c5-a46a-d5908c6681e9.mp3?_=1791267672&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Laurence Ferrari"
+  },
+  {
+    "heure": "08:20",
+    "emission": "inter-8h20",
+    "personne": "laurent-nunez",
+    "fonction": "Haut fonctionnaire et homme politique français",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-8h20-le-grand-entretien/l-invite-de-8h20-le-grand-entretien-du-mardi-06-octobre-2026-5079012",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "edouard-geffray",
+    "fonction": "Ministre de l'Éducation nationale, est",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/blocage-des-lycees-vetuste-des-locaux-violences-recensees-depuis-le-debut-du-mouvement-le-8h30-franceinfo-d-edouard-geffray_8203937.html",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "rmc-face-a-face",
+    "personne": "gerard-larcher",
+    "fonction": "Président du Sénat",
+    "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/a94fe8ab-7abe-45ad-ae7b-9279e0158110/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=a94fe8ab-7abe-45ad-ae7b-9279e0158110&category=News%2CSociety+%26+Culture&episode_published_at=2026-10-06T06%3A52%3A55&episode_title=Face+%C3%A0+Face+%3A+G%C3%A9rard+Larcher+-+06%2F10&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "louis-aliot",
+    "fonction": "Maire de Perpignan et Vice-président du RN",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-751",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Jacques Cardoze"
+  }
+]
