@@ -126,3 +126,4 @@ h2.sec{font:700 22px/1.1 var(--f-display);margin:40px 0 16px;letter-spacing:-.01
 /* Logos des radios : pastille claire dans les deux thèmes, le logo garde ses couleurs */
 .logo-img{background:#FFFFFF;border:1px solid var(--line);padding:4px}
 .logo-img img{display:block;max-width:100%;max-height:100%;object-fit:contain}
+.av{object-position:50% 25%}
