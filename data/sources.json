@@ -3,12 +3,14 @@
     {
       "emission": "inter-7h50",
       "page": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50",
-      "replay": "lien"
+      "replay": "lien",
+      "week-end": "inter-7h50-we"
     },
     {
       "emission": "inter-8h20",
       "page": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-8h20-le-grand-entretien",
-      "replay": "lien"
+      "replay": "lien",
+      "week-end": "inter-8h20-we"
     },
     {
       "emission": "fi-830",

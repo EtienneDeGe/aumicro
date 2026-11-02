@@ -116,5 +116,12 @@
     "animateur": "David Abiker",
     "heure": "08:15",
     "actif": true
+  },
+  "inter-8h20-we": {
+    "nom": "Le grand entretien du week-end",
+    "radio": "france-inter",
+    "animateur": "Éva Roque et Quentin Lafay",
+    "heure": "08:20",
+    "actif": true
   }
 }

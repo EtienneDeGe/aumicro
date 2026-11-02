@@ -303,7 +303,9 @@ def main():
             print("  ! flux illisible :", ex)
             continue
         for ep in eps:
-            t = f"{ep['desc']} {ep['titre']}"
+            # émissions dont le flux mélange semaine et week-end
+            em_id = src.get("week-end", src["emission"]) if ep["date"].weekday() >= 5 else src["emission"]
+            em = emissions[em_id]
             trouve = None
             anims = {norm(a) for a in re.split(r" et |, ", em.get("animateur") or "") if a}
             anim_ep = animateur(ep["desc"])
