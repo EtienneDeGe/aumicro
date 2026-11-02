@@ -1,8 +1,10 @@
-"""Repérage : contenu du flux d'une playlist YouTube."""
-import sys, urllib.request, xml.etree.ElementTree as ET
-NS = {"a": "http://www.w3.org/2005/Atom", "yt": "http://www.youtube.com/xml/schemas/2015"}
-for pl in sys.argv[1:]:
-    r = ET.fromstring(urllib.request.urlopen(urllib.request.Request("https://www.youtube.com/feeds/videos.xml?playlist_id=" + pl, headers={"User-Agent": "AuMicro/1.0"}), timeout=30).read())
-    print("##", pl, r.findtext("a:title", namespaces=NS), len(r.findall("a:entry", NS)), "vidéos dans le flux")
-    for e in r.findall("a:entry", NS):
-        print("  ·", e.findtext("a:published", namespaces=NS)[:16], "|", e.findtext("a:title", namespaces=NS), "|", e.findtext("yt:videoId", namespaces=NS))
+"""Repérage : lecture de la durée d'une vidéo YouTube depuis GitHub."""
+import re, urllib.request
+UA = {"User-Agent": "AuMicro/1.0 (https://etiennedege.github.io/aumicro/; recensement des invites politiques)", "Accept-Language": "fr-FR,fr"}
+for v in ["GFTBHZH78LY", "EDgIBfffJmM", "VMF2zEw7mso"]:
+    try:
+        h = urllib.request.urlopen(urllib.request.Request("https://www.youtube.com/watch?v=" + v, headers=UA), timeout=30).read().decode("utf-8", "replace")
+        m = re.search(r'"lengthSeconds":"(\d+)"', h); m2 = re.search(r'itemprop="duration" content="([^"]+)"', h); m3 = re.search(r'"approxDurationMs":"(\d+)"', h)
+        print(v, len(h), "lengthSeconds", m and m.group(1), "| meta", m2 and m2.group(1), "| approx", m3 and m3.group(1), "| consent" if "consent" in h[:5000] else "")
+    except Exception as e:
+        print(v, "erreur", e)
