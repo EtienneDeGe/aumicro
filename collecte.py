@@ -489,7 +489,8 @@ def main():
                 du_jour = [v for v in fenetre if v["date"] == d]
                 if avec_nom:
                     v = avec_nom[-1]
-                elif pl.get("par_date") and len(du_jour) == 1:
+                elif pl.get("par_date") and len(du_jour) == 1 and not candidats(du_jour[0]["titre"]):
+                    # vidéo unique du jour, et son titre ne nomme personne d'autre
                     v = du_jour[0]
                 else:
                     continue
