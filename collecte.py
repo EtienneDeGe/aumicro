@@ -35,7 +35,7 @@ def ecrire(p, o):
 def get(url, essais=3):
     for i in range(essais):
         try:
-            return urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30).read()
+            return urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=20).read()
         except Exception as e:
             if i == essais - 1:
                 raise
@@ -139,12 +139,13 @@ class Wikidata:
         self.modifie = False
 
     def api(self, **p):
-        p.update(format="json", maxlag="5")
+        p.update(format="json")
         for essai in range(5):
             time.sleep(0.4)
             r = json.loads(get(self.API + "?" + urllib.parse.urlencode(p)))
             if "error" not in r:
                 return r
+            print("  ! Wikidata :", r["error"].get("info", "")[:120])
             time.sleep(3 * (essai + 1))
         raise RuntimeError(r["error"].get("info", "erreur Wikidata"))
 
