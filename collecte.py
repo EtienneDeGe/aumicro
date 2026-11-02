@@ -9,7 +9,7 @@
 Usage : python collecte.py [--jours 3] [--depuis AAAA-MM-JJ] [--essai]
 Seule la bibliothèque standard de Python est utilisée.
 """
-import argparse, html, json, re, sys, time, unicodedata, urllib.parse, urllib.request
+import argparse, difflib, html, json, re, sys, time, unicodedata, urllib.parse, urllib.request
 import xml.etree.ElementTree as ET
 from datetime import date, datetime, timedelta
 from email.utils import parsedate_to_datetime
@@ -131,7 +131,8 @@ PERIMETRE_ELARGI = (
     r"fondation (?:jean[- ]jaurès|jaurès|robert schuman|res publica|ifrap|pour l['’]innovation politique|gabriel péri|copernic|abbé pierre)|"
     r"fondapol|institut montaigne|terra nova|think tank|association|\bong\b|collectif|fédération|amnesty|secours populaire|"
     r"secours catholique|emmaüs|ligue des droits|\bldh\b|licra|sos racisme|\bcrif\b|unicef|croix-rouge|restos du cœur|"
-    r"médecins sans frontières|président(?:e)? de l['’]université|france universités")
+    r"médecins sans frontières|président(?:e)? de l['’]université|france universités|les lycéens|voix lycéenne|"
+    r"organisation (?:syndicale|lycéenne|étudiante)|syndicat lycéen|union syndicale lycéenne")
 DANS_PERIMETRE = re.compile(FONCTION_POLITIQUE.pattern + "|" + PERIMETRE_ELARGI, re.I)
 
 
@@ -276,8 +277,11 @@ def decider(noms, ep, lien_slug, anims, exclus, inclus, wd):
         dans_lien = slugifier(nom) in lien_slug
         if f or dans_lien:
             w = wd.personne(nom)
-            if norm(nom) in inclus or (f and DANS_PERIMETRE.search(f)) or (w and w["politique"]):
+            if norm(nom) in inclus or (f and DANS_PERIMETRE.search(f)) or (not f and w and w["politique"]):
                 return {"verdict": "retenu", "nom": nom, "fonction": f, "wd": w}
+            if f and w and w["politique"]:
+                # fonction écrite non politique mais homonyme politique sur Wikidata : à vérifier
+                return {"verdict": "prudence", "nom": w["nom"], "fonction": f}
             return {"verdict": "hors-champ", "nom": w["nom"] if w else nom, "fonction": f or (w or {}).get("description")}
         sans_fonction.append(nom)
     for nom in sans_fonction:
@@ -419,6 +423,11 @@ def main():
             else:  # personnalité absente de Wikidata (responsable syndical, associatif…)
                 nom_affiche = choix["nom"]
                 slug = slugifier(nom_affiche)
+                # coquille dans le résumé (« Fickenstein » pour « Finchelstein ») : rattacher à la fiche existante
+                proches = difflib.get_close_matches(norm(nom_affiche), [norm(p["nom"]) for p in personnes.values()], n=1, cutoff=0.82)
+                if slug not in personnes and proches:
+                    slug = next(k for k, p in personnes.items() if norm(p["nom"]) == proches[0])
+                    nom_affiche = personnes[slug]["nom"]
                 personnes.setdefault(slug, {"nom": nom_affiche, "photo": None, "credit_photo": None, "wikidata": None})
                 trouve = {"nom": nom_affiche, "description": None}
             fonction = fonction_ep or (trouve.get("description") or "").capitalize() or None
