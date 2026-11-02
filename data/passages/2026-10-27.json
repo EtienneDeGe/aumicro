@@ -23,7 +23,7 @@
     "personne": "eric-danon",
     "fonction": "Ancien ambassadeur de France en Israël de 2019 à 2023",
     "ecouter": "https://podcasts.audiomeans.fr/l-invite-de-la-matinale-a0fcb873fd2b/eric-danon-diplomate-ancien-ambassadeur-de-france-en-israel-8f6ebbf31d97",
-    "voir": null,
+    "voir": "https://www.youtube.com/watch?v=cjT9c9UecOg",
     "statut": "confirme"
   },
   {
@@ -53,5 +53,14 @@
     "voir": "https://www.youtube.com/watch?v=VlLg5Obfe8s",
     "statut": "confirme",
     "animateur": "Jacques Cardoze"
+  },
+  {
+    "heure": "21:00",
+    "emission": "e1-objectif-elysee",
+    "personne": "david-lisnard",
+    "fonction": "Homme politique français, maire de cannes",
+    "ecouter": null,
+    "voir": "https://www.youtube.com/watch?v=uPSv3MqoZUY",
+    "statut": "confirme"
   }
 ]
