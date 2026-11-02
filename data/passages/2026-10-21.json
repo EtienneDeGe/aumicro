@@ -14,7 +14,7 @@
     "personne": "eric-ciotti",
     "fonction": "Président de l’Union des droites",
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/420697fb-8d5a-439f-affc-3627b26b1e4b.mp3?_=1792563475&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
-    "voir": null,
+    "voir": "https://www.youtube.com/watch?v=ZC1hPeaDTYE",
     "statut": "confirme",
     "animateur": "Laurence Ferrari"
   },
@@ -24,7 +24,7 @@
     "personne": "francois-hollande",
     "fonction": "Ancien Président de la République et député PS de Corrèze",
     "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-8h20-le-grand-entretien/l-invite-de-8h20-le-grand-entretien-du-mercredi-21-octobre-2026-6513669",
-    "voir": null,
+    "voir": "https://www.youtube.com/watch?v=Q9MZU7yRhSY",
     "statut": "confirme"
   },
   {
@@ -33,7 +33,7 @@
     "personne": "marine-le-pen",
     "fonction": "Candidate RN à la présidentielle présidente du groupe RN à l'Assemblée nationale",
     "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/violences-du-17-octobre-presidentielle-propos-antisemites-attribues-a-jordan-bardella-le-8h30-franceinfo-de-marine-le-pen_8226034.html",
-    "voir": null,
+    "voir": "https://www.youtube.com/watch?v=PCGx006cQ5k",
     "statut": "confirme"
   },
   {
@@ -51,7 +51,7 @@
     "personne": "christophe-bechu",
     "fonction": "Maire d'Angers et Secrétaire général d'Horizons",
     "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-760",
-    "voir": null,
+    "voir": "https://www.youtube.com/watch?v=ttwoANmaaz8",
     "statut": "confirme",
     "animateur": "Jacques Cardoze"
   }
