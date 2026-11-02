@@ -1,39 +1,27 @@
-"""Repérage : où trouver les invités annoncés à l'avance (grilles des radios, Bluesky)."""
+"""Repérage (2) : contenu des grilles Radio France pour demain, et messages récents des comptes Bluesky."""
 import json, re, urllib.parse, urllib.request, html
 from datetime import date, timedelta
-UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36", "Accept-Language": "fr-FR,fr"}
+UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) Chrome/130 Safari/537.36", "Accept-Language": "fr-FR,fr"}
 def get(u): return urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=30).read().decode("utf-8", "replace")
-def txt(h): return " ".join(html.unescape(re.sub(r"<[^>]+>", " ", h)).split())
-demain = date.today() + timedelta(days=1)
-d1, d2 = demain.strftime("%d-%m-%Y"), demain.isoformat()
-PAGES = [
-  f"https://www.radiofrance.fr/franceinter/grille-programmes?date={d1}",
-  f"https://www.radiofrance.fr/franceinfo/grille-programmes?date={d1}",
-  "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50",
-  "https://www.sudradio.fr/programme/le-petit-dejeuner-politique-sudradio",
-  "https://www.sudradio.fr/grille-des-programmes",
-  "https://www.europe1.fr/programmes",
-  "https://www.rtl.fr/programmes/l-invite-de-7h40",
-  "https://www.radioclassique.fr/programmes/",
-]
-for p in PAGES:
-    print("\n##", p)
-    try: t = txt(get(p))
-    except Exception as e: print("  erreur", e); continue
-    print("  longueur", len(t))
-    for m in list(re.finditer(r"(?i)invit|7h50|8h20|8h30|7h40|demain", t))[:8]:
-        print("  …", t[max(0, m.start()-100):m.start()+160])
-print("\n## Bluesky : comptes")
-for q in ["franceinter", "franceinfo", "RTL", "Europe 1", "RMC", "Sud Radio", "Radio Classique", "Public Sénat", "LCP"]:
+for j in (0, 1):
+    d = (date.today() + timedelta(days=j)).strftime("%d-%m-%Y")
+    for st, cles in (("franceinter", ["7h50", "8h20", "Invité"]), ("franceinfo", ["8h30", "8.30"])):
+        u = f"https://www.radiofrance.fr/{st}/grille-programmes?date={d}"
+        print(f"\n## {st} {d}")
+        try: h = get(u)
+        except Exception as e: print(" erreur", e); continue
+        titres = re.findall(r'title:"([^"]{8,160})"', h) + re.findall(r'\\"title\\":\\"([^\\]{8,160})\\"', h)
+        for t in dict.fromkeys(titres):
+            if any(k.lower() in t.lower() for k in cles) or re.search(r"[A-Z][a-zé]+ [A-Z][a-zé]+", t):
+                print("  ·", html.unescape(t)[:160])
+print("\n## Bluesky : derniers messages des comptes")
+for acteur in ["franceinter.fr", "publicsenat.fr", "lcp.fr", "sudradiofrance.bsky.social", "europe1.bsky.social"]:
     try:
-        r = json.loads(get("https://public.api.bsky.app/xrpc/app.bsky.actor.searchActors?" + urllib.parse.urlencode({"q": q, "limit": 4})))
-        print(" ", q, "→", [(a["handle"], a.get("displayName")) for a in r.get("actors", [])])
-    except Exception as e: print(" ", q, "erreur", e)
-print("\n## Bluesky : recherche de messages")
-for q in ["invité demain matin", "sera l'invité", "invitée demain", "#8h30franceinfo", "Face à Face Apolline demain"]:
-    try:
-        r = json.loads(get("https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts?" + urllib.parse.urlencode({"q": q, "lang": "fr", "limit": 10, "sort": "latest"})))
-        print(" ##", q, len(r.get("posts", [])))
-        for x in r.get("posts", [])[:6]:
-            print("   ·", x["author"]["handle"], "|", x["record"].get("createdAt", "")[:16], "|", " ".join(x["record"].get("text", "").split())[:160])
-    except Exception as e: print(" ", q, "erreur", e)
+        r = json.loads(get("https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?" + urllib.parse.urlencode({"actor": acteur, "limit": 40})))
+        posts = r.get("feed", [])
+        print(f" ## {acteur} : {len(posts)} messages, dernier le {posts[0]['post']['record'].get('createdAt','')[:16] if posts else '-'}")
+        for x in posts:
+            t = " ".join(x["post"]["record"].get("text", "").split())
+            if re.search(r"(?i)invit|demain|8h20|7h50|8h30|face à", t):
+                print("   ·", x["post"]["record"].get("createdAt", "")[:16], "|", t[:170])
+    except Exception as e: print(" ", acteur, "erreur", e)
