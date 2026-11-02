@@ -48,7 +48,12 @@
       "replay": "lien"
     }
   ],
-  "youtube": {
+  "youtube_playlists": {
+    "rmc-face-a-face": [
+      "PLuZSWxEKFnx73sQt5co4ugahKa4ADs7w9"
+    ]
+  },
+  "youtube_chaines_desactivees": {
     "france-inter": [
       "UCsDGtTOihftvLMX_86ewDQQ"
     ],
@@ -62,9 +67,6 @@
       "UCIMGfEAERXjmWwQeg15BFsg"
     ]
   },
-  "youtube_playlists": {
-    "rmc-face-a-face": [
-      "PLuZSWxEKFnx73sQt5co4ugahKa4ADs7w9"
-    ]
-  }
+  "youtube": {},
+  "commentaire_youtube": "Vidéos : seules les playlists propres à une émission sont utilisées (une vidéo par émission, associée par la date). La recherche sur les chaînes entières est désactivée car elle ramenait des extraits."
 }

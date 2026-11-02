@@ -485,11 +485,8 @@ def main():
                         erreurs.append(f"YouTube {pl} : {ex}")
                         cache_videos[pl] = []
                 possibles = [v for v in cache_videos[pl] if v["date"] == d]
-                for v in possibles:
-                    v.setdefault("duree", duree_video(v["url"]))
-                possibles = [v for v in possibles if v["duree"] >= 480]
                 if possibles:
-                    v = max(possibles, key=lambda v: v["duree"])
+                    v = possibles[-1]  # la plus ancienne du jour : l'émission elle-même, avant d'éventuels ajouts
                     x["voir"] = v["url"]
                     completes.append(f"{d} · {nom} : vidéo « {v['titre'][:80]} »")
                     break
