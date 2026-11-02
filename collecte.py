@@ -90,9 +90,18 @@ def candidats(t):
     return prioritaires + autres
 
 
-FIN_FONCTION = re.compile(r",? (?:répond|est l['’]invit|est l|était|a salué|a |revient|réagit|invitée? |au micro|sur RTL|sur RMC|sur Europe|"
+FIN_FONCTION = re.compile(r"(?:^|,? )(?:rapporte|pointe|nie|débattent|appelle|alerte|estime|assure|regrette|confie|annonce|déclare|"
+                          r"explique|dénonce|juge|affirme|plaide|souligne|considère|publie|défend|met en garde|s['’]inquiète|"
+                          r"répond|est l['’]invit|est l|était|a salué|a |revient|réagit|invitée? |au micro|sur RTL|sur RMC|sur Europe|"
                           r"était|s['’]exprime|pour |qui |dans |face à|ce (?:lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche)|"
                           r"était|et auteur|auteur d)|[.;:!?]")
+
+
+FONCTION_POLITIQUE = re.compile(
+    r"d[ée]put[ée]|ministre|s[ée]nat|maire|parti|porte-parole|candidat|conseill|élu|secrétaire (?:national|général|d['’]état)|"
+    r"président(?:e)? (?:du groupe|des |de la région|du conseil|de région|du parti|du rassemblement|de l['’]assemblée|de la république)|"
+    r"politique|homme d['’]état|femme d['’]état|LFI|\bRN\b|\bPS\b|\bLR\b|EELV|écologiste|insoumis|communiste|socialiste|"
+    r"républicain|reconquête|renaissance|modem|horizons|gouvernement|chef de file|vice-président|adjoint|militant", re.I)
 
 
 def fonction_apres(t, nom):
@@ -106,6 +115,8 @@ def fonction_apres(t, nom):
     m = FIN_FONCTION.search(reste)
     f = (reste[:m.start()] if m else reste[:140]).strip(" ,").replace("«", "").replace("»", "").replace('"', "")
     f = " ".join(f.split())
+    if f.count("(") > f.count(")"):
+        f = f[:f.rfind("(")].strip(" ,")
     if 4 <= len(f) <= 160:
         return f[0].upper() + f[1:]
     return None
@@ -269,7 +280,7 @@ def main():
     exclus = {norm(n) for n in lire("data/exclus.json")["noms"]} if (RACINE / "data/exclus.json").exists() else set()
     par_qid = {p.get("wikidata"): s for s, p in personnes.items() if p.get("wikidata")}
     wd = Wikidata()
-    nouveaux, completes, ecartes, erreurs = [], [], [], []
+    nouveaux, completes, ecartes, prudence, erreurs = [], [], [], [], []
     jours_modifies = {}
 
     def jour(d):
@@ -297,15 +308,24 @@ def main():
             anim_ep = animateur(ep["desc"])
             if anim_ep:
                 anims.add(norm(anim_ep))
+            nom_cite = None
             for nom, _ in candidats(ep["desc"]) + candidats(ep["titre"]):
                 if norm(nom) in exclus or norm(nom) in anims:
                     continue
                 trouve = wd.politique(nom)
                 if trouve:
+                    nom_cite = nom
                     break
             if not trouve:
                 ecartes.append(f"{ep['date']} · {em['nom']} : « {ep['titre'][:90]} »")
                 print(f"  - {ep['date']} écarté : {ep['titre'][:80]}")
+                continue
+            fonction_ep = fonction_apres(ep["desc"], nom_cite) or fonction_apres(ep["titre"], nom_cite)
+            # Prudence : homonymes, personnalités seulement citées dans le résumé
+            if (fonction_ep and not FONCTION_POLITIQUE.search(fonction_ep)) or \
+               (not fonction_ep and norm(nom_cite) not in norm(ep["titre"])):
+                prudence.append(f"{ep['date']} · {em['nom']} : {trouve['nom']} ({fonction_ep or 'fonction non précisée'}) — « {ep['titre'][:80]} »")
+                print(f"  ? {ep['date']} prudence : {trouve['nom']} — {fonction_ep}")
                 continue
             # personnalité : existante ou nouvelle
             slug = par_qid.get(trouve["qid"])
@@ -318,8 +338,7 @@ def main():
                 if not p.get("photo") and trouve.get("photo_fichier"):
                     p["photo"], p["credit_photo"] = wd.photo(trouve["photo_fichier"])
                 par_qid[trouve["qid"]] = slug
-            fonction = (fonction_apres(ep["desc"], trouve["nom"]) or fonction_apres(ep["titre"], trouve["nom"])
-                        or (trouve.get("description") or "").capitalize() or None)
+            fonction = fonction_ep or (trouve.get("description") or "").capitalize() or None
             liste = jour(ep["date"])
             existant = next((x for x in liste if x["emission"] == em_id and x["personne"] == slug), None)
             if existant:
@@ -381,6 +400,9 @@ def main():
         r.append("")
     if completes:
         r += ["### Compléments", ""] + [f"- {c}" for c in completes] + [""]
+    if prudence:
+        r += ["### Écartés par prudence (à ajouter à la main si ce sont bien des invités politiques)", ""]
+        r += [f"- {p}" for p in prudence] + [""]
     if ecartes:
         r += ["<details><summary>Épisodes écartés (invité non reconnu comme personnalité politique)</summary>", ""]
         r += [f"- {e}" for e in ecartes] + ["", "</details>", ""]
