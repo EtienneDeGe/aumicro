@@ -1,0 +1,53 @@
+name: Collecte des invités
+
+on:
+  schedule:
+    # 10h17, 13h17 et 20h17 (heure de Paris en hiver)
+    - cron: "17 9,12,19 * * *"
+  workflow_dispatch:
+    inputs:
+      depuis:
+        description: "Date de début (AAAA-MM-JJ), vide = 3 derniers jours"
+        required: false
+        default: ""
+      essai:
+        description: "Essai : afficher sans proposer de modification"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: collecte
+  cancel-in-progress: false
+
+jobs:
+  collecte:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Collecter
+        run: |
+          ARGS=""
+          if [ -n "${{ inputs.depuis }}" ]; then ARGS="--depuis ${{ inputs.depuis }}"; fi
+          if [ "${{ inputs.essai }}" = "true" ]; then ARGS="$ARGS --essai"; fi
+          python collecte.py $ARGS
+      - name: Vérifier que le site se génère
+        run: python build.py
+      - name: Proposer les nouveaux passages
+        if: ${{ inputs.essai != true }}
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: collecte
+          delete-branch: true
+          title: "Nouveaux passages à valider"
+          body-path: resume.md
+          commit-message: "Collecte automatique des invités"
+          add-paths: |
+            data/

@@ -6,7 +6,7 @@
 <a class="retour" href="{{ base }}personnalites/">← Toutes les personnalités</a>
 <div class="fiche-h">
   {{ avatar(p.slug, p.nom, p.photo, "av-xl") }}
-  <div><div class="eyebrow">Personnalité</div><h1>{{ p.nom }}</h1><p class="fn">{{ p.dernier.fonction }}</p>
+  <div><div class="eyebrow">Personnalité</div><h1>{{ p.nom }}</h1><p class="fn">{{ p.dernier.fonction or "" }}</p>
   {% if p.credit_photo %}<p class="credit">Photo : {{ p.credit_photo }}</p>{% endif %}</div>
 </div>
 <dl class="stats">
@@ -21,7 +21,7 @@
 {% for x in p.passages %}
   <li>
     <div class="quand"><a href="{{ base }}{{ x.date[:4] }}/{{ x.date[5:7] }}/{{ x.date[8:] }}/">{{ date_courte(x.date) }}</a><div class="h">{{ x.heure }}</div></div>
-    <div class="corps">{{ media(x) }}<div class="fn">En tant que : {{ x.fonction }}</div>{{ actions(x) }}</div>
+    <div class="corps">{{ media(x) }}<div class="fn">En tant que : {{ x.fonction or "" }}</div>{{ actions(x) }}</div>
   </li>
 {% endfor %}
 </ol>

@@ -1,0 +1,63 @@
+{
+  "podcasts": [
+    {
+      "emission": "inter-7h50",
+      "page": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50",
+      "replay": "lien"
+    },
+    {
+      "emission": "inter-8h20",
+      "page": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-8h20-le-grand-entretien",
+      "replay": "lien"
+    },
+    {
+      "emission": "fi-830",
+      "page": "https://www.radiofrance.fr/franceinfo/podcasts/8h30-franceinfo",
+      "replay": "lien"
+    },
+    {
+      "emission": "rmc-face-a-face",
+      "flux": "https://feeds.simplecast.com/0H53ly_3",
+      "replay": "audio"
+    },
+    {
+      "emission": "rtl-invite-7h40",
+      "flux": "https://feeds.audiomeans.fr/feed/bc8743c2-c669-4743-b58e-f689951a261b.xml",
+      "replay": "audio"
+    },
+    {
+      "emission": "rtl-grand-jury",
+      "flux": "https://feeds.audiomeans.fr/feed/88220a28-7275-4bd1-bd6c-49d0835d5a98.xml",
+      "replay": "audio"
+    },
+    {
+      "emission": "e1-grande-interview",
+      "flux": "https://feeds.audiomeans.fr/feed/7dd2a532-d19a-46bb-9ac7-a5eefff10b62.xml",
+      "replay": "lien"
+    },
+    {
+      "emission": "sud-invite-politique",
+      "flux": "https://www.sudradio.fr/programme/le-petit-dejeuner-politique-sudradio/poditunes",
+      "replay": "lien"
+    },
+    {
+      "emission": "rc-invite-matinale",
+      "flux": "https://feeds.audiomeans.fr/feed/cd0adf86-2502-4d13-820e-a0fcb873fd2b.xml",
+      "replay": "lien"
+    }
+  ],
+  "youtube": {
+    "france-inter": [
+      "UCsDGtTOihftvLMX_86ewDQQ"
+    ],
+    "franceinfo": [
+      "UCO6K_kkdP-lnSCiO3tPx7WA"
+    ],
+    "rmc": [
+      "UCUsBMOIUl_ad6JUOC16DpmQ"
+    ],
+    "europe1": [
+      "UCIMGfEAERXjmWwQeg15BFsg"
+    ]
+  }
+}

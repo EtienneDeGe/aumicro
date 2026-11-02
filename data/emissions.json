@@ -3,31 +3,36 @@
     "nom": "L'invité de 7h50",
     "radio": "france-inter",
     "animateur": "Benjamin Duhamel",
-    "actif": true
+    "actif": true,
+    "heure": "07:50"
   },
   "inter-8h20": {
     "nom": "Le grand entretien de 8h20",
     "radio": "france-inter",
     "animateur": "Benjamin Duhamel",
-    "actif": true
+    "actif": true,
+    "heure": "08:20"
   },
   "inter-7h50-we": {
     "nom": "L'invité de 7h50 du week-end",
     "radio": "france-inter",
     "animateur": "Quentin Lafay",
-    "actif": true
+    "actif": true,
+    "heure": "07:50"
   },
   "fi-830": {
     "nom": "8h30 franceinfo",
     "radio": "franceinfo",
     "animateur": "Simon Le Baron et Agathe Lambret",
-    "actif": true
+    "actif": true,
+    "heure": "08:30"
   },
   "rmc-face-a-face": {
     "nom": "Face à Face",
     "radio": "rmc",
     "animateur": "Apolline de Malherbe",
-    "actif": true
+    "actif": true,
+    "heure": "08:30"
   },
   "rtl-elysee-2027": {
     "nom": "Élysée 2027",
@@ -39,7 +44,8 @@
     "nom": "Le Grand Jury",
     "radio": "rtl",
     "animateur": "Olivier Bost",
-    "actif": true
+    "actif": true,
+    "heure": "12:00"
   },
   "rmc-bourdin-direct": {
     "nom": "Bourdin Direct",
@@ -59,7 +65,8 @@
   "sud-invite-politique": {
     "nom": "L'invité politique",
     "radio": "sudradio",
-    "actif": false
+    "actif": true,
+    "heure": "08:30"
   },
   "rfi-invite-matin": {
     "nom": "L'invité du matin",
@@ -69,7 +76,8 @@
   "e1-grande-interview": {
     "nom": "La grande interview",
     "radio": "europe1",
-    "actif": false
+    "actif": true,
+    "heure": "08:13"
   },
   "e1-punchline": {
     "nom": "Punchline",
@@ -95,5 +103,18 @@
     "nom": "L'invité de RTL",
     "radio": "rtl",
     "actif": false
+  },
+  "rtl-invite-7h40": {
+    "nom": "L'invité de 7h40",
+    "radio": "rtl",
+    "heure": "07:40",
+    "actif": true
+  },
+  "rc-invite-matinale": {
+    "nom": "L'invité de la matinale",
+    "radio": "radioclassique",
+    "animateur": "David Abiker",
+    "heure": "08:15",
+    "actif": true
   }
 }

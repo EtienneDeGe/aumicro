@@ -27,7 +27,7 @@
       {{ logo(x) }}
       <div class="l-emi"><div class="emi">{{ x.em.nom }}</div><div class="anim">{% if x.animateur %}{{ x.animateur }}{% else %}{{ x.radio.nom }}{% endif %}</div></div>
       {{ avatar(x.personne, x.nom) }}
-      <div class="l-who"><a class="nom" href="{{ base }}personnalites/{{ x.personne }}/">{{ x.nom }}</a>{% if x.statut == "annonce" %} <span class="badge">Annoncé</span>{% endif %}<div class="fn">{{ x.fonction }}</div></div>
+      <div class="l-who"><a class="nom" href="{{ base }}personnalites/{{ x.personne }}/">{{ x.nom }}</a>{% if x.statut == "annonce" %} <span class="badge">Annoncé</span>{% endif %}<div class="fn">{{ x.fonction or "" }}</div></div>
       {{ actions(x) }}
     </li>
   {% endfor %}{% endfor %}

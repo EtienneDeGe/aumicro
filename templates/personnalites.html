@@ -11,9 +11,9 @@
 </div>
 <div class="grille">
 {% for f in fiches %}
-  <a class="perso" href="{{ base }}personnalites/{{ f.slug }}/" data-q="{{ (f.nom ~ ' ' ~ f.dernier.fonction)|lower }}">
+  <a class="perso" href="{{ base }}personnalites/{{ f.slug }}/" data-q="{{ (f.nom ~ ' ' ~ (f.dernier.fonction or ''))|lower }}">
     {{ avatar(f.slug, f.nom, f.photo) }}
-    <div class="who"><div class="nom">{{ f.nom }}</div><div class="fn">{{ f.dernier.fonction }}</div>
+    <div class="who"><div class="nom">{{ f.nom }}</div><div class="fn">{{ f.dernier.fonction or "" }}</div>
       <div class="stat">{{ f.passages|length }} passage{{ "s" if f.passages|length > 1 }} · dernier le {{ date_courte(f.dernier.date) }}</div></div>
   </a>
 {% endfor %}
