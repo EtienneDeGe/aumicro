@@ -15,8 +15,8 @@
 
 {% macro actions(x) -%}
 <div class="actions">
-  {% if x.ecouter %}<a class="btn btn-replay" href="{{ x.ecouter }}" target="_blank" rel="noopener" title="Écouter le replay"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 9v3a1 1 0 0 0 1 1h1V8H4a1 1 0 0 0-1 1Zm10 0a1 1 0 0 0-1-1h-1v5h1a1 1 0 0 0 1-1V9ZM2 9a6 6 0 0 1 12 0" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>Écouter</a>{% endif %}
   {% if x.voir %}<a class="btn btn-replay" href="{{ x.voir }}" target="_blank" rel="noopener" title="Voir la vidéo"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3.5v9l7.5-4.5Z" fill="currentColor"/></svg>Voir</a>{% endif %}
+  {% if x.ecouter %}<a class="btn btn-replay" href="{{ x.ecouter }}" target="_blank" rel="noopener" title="Écouter le replay"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 9v3a1 1 0 0 0 1 1h1V8H4a1 1 0 0 0-1 1Zm10 0a1 1 0 0 0-1-1h-1v5h1a1 1 0 0 0 1-1V9ZM2 9a6 6 0 0 1 12 0" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>Écouter</a>{% endif %}
   {% if not x.ecouter and not x.voir %}<span class="btn btn-off">Replay à venir</span>{% endif %}
   <a class="btn btn-live" href="{{ x.radio.direct }}" target="_blank" rel="noopener" title="Écouter {{ x.radio.nom }} en direct"><span class="dot"></span>Direct</a>
 </div>
