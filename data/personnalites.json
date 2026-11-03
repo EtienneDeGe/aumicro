@@ -433,8 +433,8 @@
   },
   "olivier-faure": {
     "nom": "Olivier Faure",
-    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_d%27Olivier_Faure.jpg?width=240",
-    "credit_photo": "Olivier Faure, CC BY-SA 2.0, Wikimedia Commons",
+    "photo": "static/photos/olivier-faure.jpg",
+    "credit_photo": "Chris93, CC BY 4.0, Wikimedia Commons (recadrée), septembre 2025",
     "wikidata": "Q3351018"
   },
   "othman-nasrou": {

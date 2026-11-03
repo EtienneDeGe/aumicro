@@ -49,6 +49,19 @@ def initiales(nom):
     return (mots[0][0] + (mots[1][0] if len(mots) > 1 else "")).upper()
 
 
+def cle_nom_famille(f):
+    """Tri alphabétique par nom de famille : « Dominique de Villepin » → villepin, « Marine Le Pen » → le pen."""
+    import unicodedata
+    mots = f["nom"].split()
+    nom = " ".join(mots[1:]) or mots[0]
+    for particule in ("de la ", "de ", "du ", "d'", "d’"):
+        if nom.lower().startswith(particule):
+            nom = nom[len(particule):]
+            break
+    sans = lambda s: "".join(c for c in unicodedata.normalize("NFD", s.lower()) if unicodedata.category(c) != "Mn")
+    return (sans(nom), sans(mots[0]))
+
+
 def charger():
     cfg = lire("config.json")
     radios, emissions, personnes = lire("data/radios.json"), lire("data/emissions.json"), lire("data/personnalites.json")
@@ -132,7 +145,7 @@ def main():
              "radios": Counter(x["radio"]["nom"] for x in l).most_common()}
         fiches.append(f)
         ecrire(f"personnalites/{slug}/index.html", "personnalite.html", p=f, page="pers")
-    fiches.sort(key=lambda f: (-len(f["passages"]), f["nom"].split()[-1]))
+    fiches.sort(key=cle_nom_famille)
     ecrire("personnalites/index.html", "personnalites.html", fiches=fiches, page="pers")
     ecrire("404.html", "404.html", page="")
     print(f"Site généré : {len(jours)} jours, {len(fiches)} personnalités, {len(passages)} passages → {DIST}")

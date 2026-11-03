@@ -2,9 +2,10 @@ name: Collecte des invités
 
 on:
   schedule:
-    # toutes les 30 min de 7h à 10h30 (heure de Paris en hiver), puis 13h17 et 20h17
-    - cron: "7,37 6-9 * * *"
-    - cron: "17 12,19 * * *"
+    # GitHub retarde ou saute parfois les déclenchements planifiés : on en prévoit beaucoup.
+    # Toutes les 20 min de 7h à 11h (heure de Paris en hiver), puis toutes les heures jusqu'à 22h.
+    - cron: "3,23,43 6-9 * * *"
+    - cron: "13 10-21 * * *"
   workflow_dispatch:
     inputs:
       depuis:
@@ -52,3 +53,5 @@ jobs:
           commit-message: "Collecte automatique des invités"
           add-paths: |
             data/
+          assignees: EtienneDeGe
+          reviewers: EtienneDeGe

@@ -1,5 +1,5 @@
 {% macro avatar(slug, nom, photo=None, cls="") -%}
-{% if photo %}<img class="av {{ cls }}" src="{{ photo }}" alt="" loading="lazy">{% else %}<div class="av {{ cls }}" style="--h:{{ teinte(slug) }}" aria-hidden="true">{{ initiales(nom) }}</div>{% endif %}
+{% if photo %}<img class="av {{ cls }}" src="{{ photo if photo.startswith('http') else base ~ photo }}" alt="" loading="lazy">{% else %}<div class="av {{ cls }}" style="--h:{{ teinte(slug) }}" aria-hidden="true">{{ initiales(nom) }}</div>{% endif %}
 {%- endmacro %}
 
 {% macro logo(x) -%}
