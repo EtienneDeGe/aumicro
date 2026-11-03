@@ -1,0 +1,58 @@
+[
+  {
+    "heure": "07:40",
+    "emission": "rtl-invite-7h40",
+    "personne": "bruno-bouchard",
+    "fonction": "Président de l'Université Paris Dauphine - PSL",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/5992a7b8-9a7a-4d26-850c-f459ff157536.mp3?_=1793689381",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "louis-aliot",
+    "fonction": "Premier vice-président du Rassemblement national et maire RN de Perpignan",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/3b767918-e1fe-49d2-9d9b-40f9585496fe.mp3?_=1793690169&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
+    "voir": "https://www.youtube.com/watch?v=PgBo_c5thOY",
+    "statut": "confirme",
+    "animateur": "Laurence Ferrari"
+  },
+  {
+    "heure": "08:20",
+    "emission": "inter-8h20",
+    "personne": "dominique-de-villepin",
+    "fonction": "Ancien Premier ministre et fondateur de la France humaniste",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-8h20-le-grand-entretien/l-invite-de-8h20-le-grand-entretien-du-mardi-03-novembre-2026-9976645",
+    "voir": "https://www.youtube.com/watch?v=i34D6efKffU",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "fabien-roussel",
+    "fonction": "Secrétaire national du PCF et candidat à l'élection présidentielle",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/mobilisations-sociales-colere-des-lyceens-presidentielle-le-8h30-franceinfo-de-fabien-roussel_8244898.html",
+    "voir": "https://www.youtube.com/watch?v=xVKVhq354hk",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "rmc-face-a-face",
+    "personne": "gerald-darmanin",
+    "fonction": "Garde des Sceaux, ministre de la Justice",
+    "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/0e198186-56c8-491b-aaa1-8ff1cff9136e/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=0e198186-56c8-491b-aaa1-8ff1cff9136e&category=News%2CSociety+%26+Culture&episode_published_at=2026-11-03T07%3A56%3A34&episode_title=Face+%C3%A0+Face+%3A+G%C3%A9rald+Darmanin+-+03%2F11&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
+    "voir": "https://www.youtube.com/watch?v=Wffev5Vt7zE",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "michel-barnier",
+    "fonction": "Ancien Premier Ministre, député LR de Paris",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-769",
+    "voir": "https://www.youtube.com/watch?v=9neDZyCrWgs",
+    "statut": "confirme",
+    "animateur": "Benjamin Glaise"
+  }
+]

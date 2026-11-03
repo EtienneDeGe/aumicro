@@ -361,6 +361,7 @@
   "politique": false,
   "qid": "Q115243"
  },
+ "v2:amy greene": null,
  "v2:anais ella": null,
  "v2:andrea kotarac": {
   "description": "homme politique français",
@@ -484,6 +485,7 @@
   "politique": true,
   "qid": "Q2926942"
  },
+ "v2:californie vous": null,
  "v2:carole zerbib": null,
  "v2:chamathka warahena": null,
  "v2:charles rodwell": {
@@ -552,6 +554,14 @@
  },
  "v2:delphine horvilleur rabbin": null,
  "v2:denis charbit": null,
+ "v2:dominique de villepin": {
+  "description": "diplomate, écrivain et homme d'État français",
+  "fonction_publique": true,
+  "nom": "Dominique de Villepin",
+  "photo_fichier": "Dominique de Villepin (2010).jpg",
+  "politique": true,
+  "qid": "Q131660"
+ },
  "v2:dominique schelcher": {
   "description": "homme d'affaires français",
   "fonction_publique": true,
@@ -568,6 +578,7 @@
   "politique": false,
   "qid": "Q69524935"
  },
+ "v2:donald trump": null,
  "v2:editions du seuil": null,
  "v2:edouard geffray": {
   "description": "Ministre de l'Éducation Nationale",
@@ -746,6 +757,8 @@
   "politique": true,
   "qid": "Q30339350"
  },
+ "v2:gavin newsom": null,
+ "v2:gavin newsom homme": null,
  "v2:gerald darmanin": {
   "description": "homme politique français",
   "fonction_publique": true,
