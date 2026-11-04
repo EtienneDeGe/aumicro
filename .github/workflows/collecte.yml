@@ -54,4 +54,3 @@ jobs:
           add-paths: |
             data/
           assignees: EtienneDeGe
-          reviewers: EtienneDeGe
