@@ -45,5 +45,23 @@
     "voir": null,
     "statut": "confirme",
     "animateur": "Jacques Cardoze"
+  },
+  {
+    "heure": "11:00",
+    "emission": "rmc-face-aux-gg",
+    "personne": "raphael-glucksmann",
+    "fonction": "Candidat à la primaire de la gauche",
+    "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/e43d9a43-da97-4a62-a125-86435349310c/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=e43d9a43-da97-4a62-a125-86435349310c&category=News&episode_published_at=2026-10-05T09%3A43%3A02&episode_title=Rapha%C3%ABl+Glucksmann+face+aux+GG+-+05%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "18:45",
+    "emission": "rtl-invite-soir",
+    "personne": "franck-leroy",
+    "fonction": "Président de la région Grand Est",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/3a65be0c-fb1a-4b0a-8242-48f7d217e9e8.mp3?_=1791219481",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

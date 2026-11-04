@@ -54,5 +54,23 @@
     "voir": "https://www.youtube.com/watch?v=ttwoANmaaz8",
     "statut": "confirme",
     "animateur": "Jacques Cardoze"
+  },
+  {
+    "heure": "11:00",
+    "emission": "rmc-face-aux-gg",
+    "personne": "eric-zemmour",
+    "fonction": "Président de Reconquête",
+    "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/56cc072a-2622-4ff2-80c8-4813ca308d71/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=56cc072a-2622-4ff2-80c8-4813ca308d71&category=News&episode_published_at=2026-10-21T09%3A30%3A11&episode_title=%C3%89ric+Zemmour+face+aux+GG+-+21%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "11:00",
+    "emission": "rmc-face-aux-gg",
+    "personne": "sasha-straub-kahn",
+    "fonction": "Porte-parole du ministère de la Justice",
+    "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/49e9c02d-ff0d-48dd-8e7e-2a606be4da19/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=49e9c02d-ff0d-48dd-8e7e-2a606be4da19&category=News&episode_published_at=2026-10-21T08%3A41%3A50&episode_title=Sasha+Straub-Kahn+face+aux+GG+-+21%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

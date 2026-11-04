@@ -63,5 +63,23 @@
     "voir": "https://www.youtube.com/watch?v=fAEfFe-att4",
     "statut": "confirme",
     "animateur": "Jacques Cardoze"
+  },
+  {
+    "heure": "11:00",
+    "emission": "rmc-face-aux-gg",
+    "personne": "bruno-retailleau",
+    "fonction": "Candidat LR à la présidentielle",
+    "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/7eb5a7d2-975b-4de2-8ffc-7311e6b0223f/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=7eb5a7d2-975b-4de2-8ffc-7311e6b0223f&category=News&episode_published_at=2026-10-26T10%3A48%3A11&episode_title=Bruno+Retailleau+face+aux+GG+-+26%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "18:45",
+    "emission": "rtl-invite-soir",
+    "personne": "raphael-glucksmann",
+    "fonction": "Candidat du PS et de Place publique à la présidentielle",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/740a59cc-d108-4bd9-b90d-aee14a6f6d8b.mp3?_=1793037481",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

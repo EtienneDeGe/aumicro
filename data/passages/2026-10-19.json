@@ -63,5 +63,32 @@
     "voir": null,
     "statut": "confirme",
     "animateur": "Jacques Cardoze"
+  },
+  {
+    "heure": "11:00",
+    "emission": "rmc-face-aux-gg",
+    "personne": "sandrine-rousseau",
+    "fonction": "Députée Les Écologistes de Paris",
+    "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/72b89c24-ab1c-44a4-b9af-6137cf9db5b2/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=72b89c24-ab1c-44a4-b9af-6137cf9db5b2&category=News&episode_published_at=2026-10-19T08%3A49%3A29&episode_title=Sandrine+Rousseau+face+aux+GG+-+19%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "11:00",
+    "emission": "rmc-face-aux-gg",
+    "personne": "pierre-bosche",
+    "fonction": "Président de la Confédération des commerçants de France",
+    "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/8be9c20a-7766-465c-974b-1a4368677cce/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=8be9c20a-7766-465c-974b-1a4368677cce&category=News&episode_published_at=2026-10-19T08%3A05%3A50&episode_title=Pierre+Bosche+face+aux+GG+-+19%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "18:45",
+    "emission": "rtl-invite-soir",
+    "personne": "benoit-payan",
+    "fonction": "Maire de Marseille",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/add4ec94-296b-423f-9b80-045778ecafe6.mp3?_=1792428781",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

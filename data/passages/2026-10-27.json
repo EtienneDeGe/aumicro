@@ -55,6 +55,15 @@
     "animateur": "Jacques Cardoze"
   },
   {
+    "heure": "11:00",
+    "emission": "rmc-face-aux-gg",
+    "personne": "louis-letoublon",
+    "fonction": "Vice-président de l'organisation Les Lycéens",
+    "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/33ac85d8-0644-4421-91a4-403af2b345fd/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=33ac85d8-0644-4421-91a4-403af2b345fd&category=News&episode_published_at=2026-10-27T10%3A55%3A42&episode_title=Louis+Letoublon+face+aux+GG+-+27%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
     "heure": "21:00",
     "emission": "e1-objectif-elysee",
     "personne": "david-lisnard",

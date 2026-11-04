@@ -16,5 +16,14 @@
     "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/crise-sociale-mouvement-des-lyceens-budget-2027-le-8h30-franceinfo-de-philippe-juvin_8221660.html",
     "voir": "https://www.youtube.com/watch?v=URynV_k7vsM",
     "statut": "confirme"
+  },
+  {
+    "heure": "10:00",
+    "emission": "e1-grand-rdv",
+    "personne": "guillaume-kasbarian",
+    "fonction": "Député EPR d'Eure-et-Loir",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/da0f9933-1c34-4710-8a21-f1f4a4d714da.mp3?_=1793527363",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

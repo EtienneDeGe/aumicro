@@ -26,5 +26,14 @@
     "voir": "https://www.youtube.com/watch?v=EvFvPtn8H0o",
     "statut": "confirme",
     "animateur": "Jacques Cardoze"
+  },
+  {
+    "heure": "11:00",
+    "emission": "rmc-face-aux-gg",
+    "personne": "guillaume-guerin",
+    "fonction": "Maire DVD - Nouvelle Énergie de Limoges",
+    "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/f97d0f41-098d-4b2b-ab2d-4a7f9dd970c8/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=f97d0f41-098d-4b2b-ab2d-4a7f9dd970c8&category=News&episode_published_at=2026-10-29T09%3A30%3A51&episode_title=Guillaume+Gu%C3%A9rin+face+aux+GG+-+29%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

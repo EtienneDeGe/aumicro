@@ -54,5 +54,14 @@
     "voir": "https://www.youtube.com/watch?v=9neDZyCrWgs",
     "statut": "confirme",
     "animateur": "Benjamin Glaise"
+  },
+  {
+    "heure": "11:00",
+    "emission": "rmc-face-aux-gg",
+    "personne": "guillaume-kasbarian",
+    "fonction": "Député EPR d'Eure-et-Loir",
+    "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/e1690551-61fa-46ca-9530-78118b1dbe53/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=e1690551-61fa-46ca-9530-78118b1dbe53&category=News&episode_published_at=2026-11-03T10%3A23%3A03&episode_title=Guillaume+Kasbarian+face+aux+GG+-+03%2F11&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
+    "voir": null,
+    "statut": "confirme"
   }
 ]
