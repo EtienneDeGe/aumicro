@@ -72,7 +72,7 @@ MOTS_VIDES = {"Invité", "Invitée", "Invités", "Grand", "Grande", "Entretien",
               "Face", "France", "Inter", "Sud", "Radio", "Europe", "Assemblée", "Sénat", "Parti", "République", "Matin"}
 
 
-AVANT_ANIMATEUR = re.compile(r"(?:questions d[e'’]|au micro d[e'’]|présentée? par|animée? par|avec|interrogée? par|face à)\s*$", re.I)
+AVANT_ANIMATEUR = re.compile(r"(?:questions d[e'’]|au micro d[e'’]|présentée? par|animée? par|interrogée? par|face à)\s*$", re.I)
 
 
 def candidats(t):
@@ -133,6 +133,11 @@ PERIMETRE_ELARGI = (
     r"secours catholique|emmaüs|ligue des droits|\bldh\b|licra|sos racisme|\bcrif\b|unicef|croix-rouge|restos du cœur|"
     r"médecins sans frontières|président(?:e)? de l['’]université|france universités|les lycéens|voix lycéenne|"
     r"organisation (?:syndicale|lycéenne|étudiante)|syndicat lycéen|union syndicale lycéenne")
+# fonctions qui suffisent sans fiche Wikidata (responsables syndicaux, associatifs, élus locaux…)
+FONCTION_FORTE = re.compile(
+    r"d[ée]put[ée]|ministre|s[ée]nat(?:eur|rice)|\bmaire\b|adjointe? au maire|conseill(?:er|ère) (?:régional|départemental|municipal)|"
+    r"secrétaire (?:national|général)|porte-parole|président(?:e)? (?:du|de la|de l['’]|des) |vice-président|syndica|fédération|"
+    r"association|collectif|fondation|\bcgt\b|cfdt|medef|fnsea|\bfo\b|unsa|fsu|fage|unef|lycéen|candidat à l['’]élection présidentielle", re.I)
 DANS_PERIMETRE = re.compile(FONCTION_POLITIQUE.pattern + "|" + PERIMETRE_ELARGI, re.I)
 
 
@@ -147,6 +152,9 @@ def fonction_apres(t, nom):
     m = FIN_FONCTION.search(reste)
     f = (reste[:m.start()] if m else reste[:140]).strip(" ,").replace("«", "").replace("»", "").replace('"', "")
     f = " ".join(f.split())
+    f = re.split(r",? (?:et|ainsi que) (?=[A-ZÉÈ][\w'’-]+ [A-ZÉÈ])|,? sont (?:les )?invit", f)[0].strip(" ,")
+    if re.match(r"(?i)(?:le|la|les|de|des|du|un|une|et|qui|ce|cette|sur|dans|en|à|au|aux|il|elle)\b", f):
+        return None
     if f.count("(") > f.count(")"):
         f = f[:f.rfind("(")].strip(" ,")
     if 4 <= len(f) <= 160:
@@ -277,6 +285,8 @@ def decider(noms, ep, lien_slug, anims, exclus, inclus, wd):
         dans_lien = slugifier(nom) in lien_slug
         if f or dans_lien:
             w = wd.personne(nom)
+            if not w and not (norm(nom) in inclus or (f and FONCTION_FORTE.search(f))):
+                return {"verdict": "hors-champ", "nom": nom, "fonction": f}
             if norm(nom) in inclus or (f and DANS_PERIMETRE.search(f)) or (not f and w and w["politique"]):
                 return {"verdict": "retenu", "nom": nom, "fonction": f, "wd": w}
             if f and w and w["politique"]:
@@ -323,8 +333,9 @@ def episodes(src):
             ecouter = lien
         else:
             ecouter = audio or lien or None
+        lien_propre = lien if lien and lien.rstrip("/") != lien_chaine.rstrip("/") else ""
         yield {"date": quand.date(), "titre": texte(it.findtext("title")), "desc": texte(it.findtext("description")),
-               "ecouter": ecouter, "lien": lien}
+               "ecouter": ecouter, "lien": lien_propre}
 
 
 # ---------- YouTube ----------
