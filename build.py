@@ -147,6 +147,17 @@ def main():
         ecrire(f"personnalites/{slug}/index.html", "personnalite.html", p=f, page="pers")
     fiches.sort(key=cle_nom_famille)
     ecrire("personnalites/index.html", "personnalites.html", fiches=fiches, page="pers")
+    # Émissions suivies, regroupées par radio
+    nb = Counter(x["emission"] for x in passages)
+    emissions = lire("data/emissions.json")
+    actives = [{"id": k, **e, "nb": nb.get(k, 0)} for k, e in emissions.items() if e.get("actif")]
+    groupes = []
+    for rid, r in radios.items():
+        liste = sorted([e for e in actives if e["radio"] == rid], key=lambda e: e.get("heure") or "99")
+        if liste:
+            groupes.append((r, liste))
+    ecrire("emissions/index.html", "emissions.html", emissions=actives, groupes=groupes, page="emissions")
+    ecrire("contact/index.html", "contact.html", page="contact")
     ecrire("404.html", "404.html", page="")
     print(f"Site généré : {len(jours)} jours, {len(fiches)} personnalités, {len(passages)} passages → {DIST}")
 

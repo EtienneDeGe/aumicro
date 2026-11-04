@@ -1,0 +1,25 @@
+<script>
+/* Envoi des formulaires par Web3Forms (le site est statique : pas de serveur pour envoyer les e-mails). */
+document.querySelectorAll("form[data-envoi]").forEach(form => {
+  const etat = form.querySelector(".form-etat"), bouton = form.querySelector("button[type=submit]");
+  form.addEventListener("submit", async e => {
+    e.preventDefault();
+    if (!form.dataset.cle) { etat.textContent = "Le formulaire n'est pas encore activé. Réessayez dans quelques jours."; etat.className = "form-etat erreur"; return; }
+    const donnees = Object.fromEntries(new FormData(form));
+    if (form.dataset.envoi === "ajout") donnees.subject = "Au Micro : un utilisateur a demandé l'ajout de " + donnees.emission;
+    if (form.dataset.envoi === "contact") donnees.subject = "Au Micro : message de " + donnees.name;
+    donnees.access_key = form.dataset.cle;
+    bouton.disabled = true; etat.textContent = "Envoi…"; etat.className = "form-etat";
+    try {
+      const r = await fetch("https://api.web3forms.com/submit", { method: "POST", headers: { "Content-Type": "application/json", "Accept": "application/json" }, body: JSON.stringify(donnees) });
+      const j = await r.json();
+      if (!j.success) throw new Error(j.message || "erreur");
+      form.reset();
+      etat.textContent = form.dataset.merci; etat.className = "form-etat ok";
+    } catch (err) {
+      etat.textContent = "L'envoi n'a pas abouti. Vérifiez votre connexion et réessayez.";
+      etat.className = "form-etat erreur";
+    } finally { bouton.disabled = false; }
+  });
+});
+</script>

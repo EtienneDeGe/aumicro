@@ -18,6 +18,8 @@
     <nav aria-label="Navigation principale">
       <a href="{{ base }}" {% if page == "jour" %}aria-current="page"{% endif %}>Agenda</a>
       <a href="{{ base }}personnalites/" {% if page == "pers" %}aria-current="page"{% endif %}>Personnalités</a>
+      <a href="{{ base }}emissions/" {% if page == "emissions" %}aria-current="page"{% endif %}>Émissions</a>
+      <a href="{{ base }}contact/" {% if page == "contact" %}aria-current="page"{% endif %}>Contact</a>
     </nav>
   </div>
 </header>
@@ -25,7 +27,7 @@
 {% block main %}{% endblock %}
 </main>
 <footer class="wrap pied">
-  <p>{{ site.nom }} recense les invités politiques des grandes radios françaises. Les fonctions indiquées sont celles du jour du passage.</p>
+  <p>{{ site.nom }} recense les invités politiques des grandes radios françaises. Les fonctions indiquées sont celles du jour du passage. <a href="{{ base }}emissions/">Émissions suivies</a> · <a href="{{ base }}contact/">Contact</a></p>
 </footer>
 {% block scripts %}{% endblock %}
 </body>

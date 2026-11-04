@@ -4,48 +4,54 @@
     "radio": "france-inter",
     "animateur": "Benjamin Duhamel",
     "actif": true,
-    "heure": "07:50"
+    "heure": "07:50",
+    "jours": "Du lundi au vendredi"
   },
   "inter-8h20": {
     "nom": "Le grand entretien de 8h20",
     "radio": "france-inter",
     "animateur": "Benjamin Duhamel",
     "actif": true,
-    "heure": "08:20"
+    "heure": "08:20",
+    "jours": "Du lundi au vendredi"
   },
   "inter-7h50-we": {
     "nom": "L'invité de 7h50 du week-end",
     "radio": "france-inter",
     "animateur": "Quentin Lafay",
     "actif": true,
-    "heure": "07:50"
+    "heure": "07:50",
+    "jours": "Samedi et dimanche"
   },
   "fi-830": {
     "nom": "8h30 franceinfo",
     "radio": "franceinfo",
     "animateur": "Simon Le Baron et Agathe Lambret",
     "actif": true,
-    "heure": "08:30"
+    "heure": "08:30",
+    "jours": "Du lundi au jeudi"
   },
   "rmc-face-a-face": {
-    "nom": "Face à Face",
+    "nom": "Face à Face (avec BFMTV)",
     "radio": "rmc",
     "animateur": "Apolline de Malherbe",
     "actif": true,
-    "heure": "08:30"
+    "heure": "08:30",
+    "jours": "Du lundi au vendredi"
   },
   "rtl-elysee-2027": {
     "nom": "Élysée 2027",
     "radio": "rtl",
     "animateur": "Olivier Bost",
-    "actif": true
+    "actif": false
   },
   "rtl-grand-jury": {
     "nom": "Le Grand Jury",
     "radio": "rtl",
     "animateur": "Olivier Bost",
     "actif": true,
-    "heure": "12:00"
+    "heure": "12:00",
+    "jours": "Dimanche"
   },
   "rmc-bourdin-direct": {
     "nom": "Bourdin Direct",
@@ -62,13 +68,15 @@
     "radio": "rmc",
     "animateur": "Alain Marschall et Olivier Truchot",
     "heure": "11:00",
-    "actif": true
+    "actif": true,
+    "jours": "Du lundi au vendredi"
   },
   "sud-invite-politique": {
     "nom": "L'invité politique",
     "radio": "sudradio",
     "actif": true,
-    "heure": "08:30"
+    "heure": "08:30",
+    "jours": "Du lundi au vendredi"
   },
   "rfi-invite-matin": {
     "nom": "L'invité du matin",
@@ -76,10 +84,12 @@
     "actif": false
   },
   "e1-grande-interview": {
-    "nom": "La grande interview",
+    "nom": "La grande interview (avec CNews)",
     "radio": "europe1",
     "actif": true,
-    "heure": "08:13"
+    "heure": "08:13",
+    "jours": "Du lundi au vendredi",
+    "animateur": "Laurence Ferrari"
   },
   "e1-punchline": {
     "nom": "Punchline",
@@ -110,53 +120,61 @@
     "nom": "L'invité de 7h40",
     "radio": "rtl",
     "heure": "07:40",
-    "actif": true
+    "actif": true,
+    "jours": "Du lundi au vendredi"
   },
   "rc-invite-matinale": {
     "nom": "L'invité de la matinale",
     "radio": "radioclassique",
     "animateur": "David Abiker",
     "heure": "08:15",
-    "actif": true
+    "actif": true,
+    "jours": "Du lundi au vendredi"
   },
   "inter-8h20-we": {
     "nom": "Le grand entretien du week-end",
     "radio": "france-inter",
     "animateur": "Éva Roque et Quentin Lafay",
     "heure": "08:20",
-    "actif": true
+    "actif": true,
+    "jours": "Samedi et dimanche"
   },
   "e1-objectif-elysee": {
     "nom": "Objectif Élysée 2027",
     "radio": "europe1",
     "animateur": "Laurence Ferrari",
     "actif": true,
-    "heure": "21:00"
+    "heure": "21:00",
+    "jours": "Soirées spéciales"
   },
   "e1-grand-rdv": {
     "nom": "Le grand rendez-vous",
     "radio": "europe1",
     "heure": "10:00",
-    "actif": true
+    "actif": true,
+    "jours": "Dimanche"
   },
   "rtl-invite-soir": {
     "nom": "L'invité de RTL Soir",
     "radio": "rtl",
     "heure": "18:45",
-    "actif": true
+    "actif": true,
+    "jours": "Du lundi au vendredi"
   },
   "fc-invite-matins": {
     "nom": "L'invité(e) des Matins",
     "radio": "france-culture",
     "animateur": "Guillaume Erner",
     "heure": "07:40",
-    "actif": true
+    "actif": true,
+    "jours": "Du lundi au vendredi"
   },
   "inter-franc-jeu": {
     "nom": "Franc-jeu",
     "radio": "france-inter",
     "animateur": "Benjamin Duhamel",
     "heure": "13:20",
-    "actif": true
+    "actif": true,
+    "jours": "Dimanche (avec France 2)"
   }
 }

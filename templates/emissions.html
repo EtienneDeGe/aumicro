@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}Émissions suivies{% endblock %}
+{% block description %}La liste des émissions de radio dont {{ site.nom }} recense les invités politiques.{% endblock %}
+{% block main %}
+<div class="eyebrow">Ce que nous suivons</div>
+<h1>Émissions suivies</h1>
+<form class="demande" data-envoi="ajout" data-cle="{{ site.web3forms_cle }}" data-merci="Merci ! Votre demande nous a bien été transmise.">
+  <label for="emission" class="demande-q">Vous voyez une émission qui manque ? Dites-nous laquelle et on s'en charge.</label>
+  <div class="demande-ligne">
+    <input id="emission" name="emission" type="text" maxlength="100" required placeholder="Ex. : L'invité de 18h sur France Inter">
+    <button type="submit" class="btn btn-live">Demander l'ajout</button>
+  </div>
+  <input type="checkbox" name="botcheck" class="piege" tabindex="-1" autocomplete="off" aria-hidden="true">
+  <p class="form-etat" role="status" aria-live="polite"></p>
+</form>
+<p class="meta">{{ emissions|length }} émissions sur {{ groupes|length }} radios. Les invités sont relevés chaque jour à partir des podcasts et des vidéos publiés par les stations.</p>
+<div class="medias">
+{% for radio, liste in groupes %}
+  <section class="media-bloc">
+    <h2 class="media-t">{% if radio.logo %}<span class="logo logo-img"><img src="{{ radio.logo }}" alt="" loading="lazy"></span>{% else %}<span class="logo" style="--h:{{ radio.teinte }}">{{ radio.abr }}</span>{% endif %}{{ radio.nom }}</h2>
+    <ul class="emi-liste">
+    {% for e in liste %}
+      <li>
+        <span class="emi-heure">{{ e.heure or "—" }}</span>
+        <div class="emi-info"><div class="emi">{{ e.nom }}</div><div class="anim">{{ e.jours or "" }}{% if e.animateur %} · {{ e.animateur }}{% endif %}</div></div>
+        <span class="emi-nb">{{ e.nb }} passage{{ "s" if e.nb > 1 }}</span>
+      </li>
+    {% endfor %}
+    </ul>
+  </section>
+{% endfor %}
+</div>
+{% endblock %}
+{% block scripts %}{% include "formulaire.js.html" %}{% endblock %}

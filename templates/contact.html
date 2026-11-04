@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Contact{% endblock %}
+{% block description %}Une question, une erreur repérée, une suggestion : écrivez à l'équipe de {{ site.nom }}.{% endblock %}
+{% block main %}
+<div class="eyebrow">Nous écrire</div>
+<h1>Contact</h1>
+<p class="meta">Une question, une erreur repérée sur un invité ou un lien, une suggestion : écrivez-nous, nous répondons par e-mail.</p>
+<form class="contact" data-envoi="contact" data-cle="{{ site.web3forms_cle }}" data-merci="Merci ! Votre message a bien été envoyé, nous vous répondrons par e-mail.">
+  <div class="champ"><label for="c-nom">Nom</label><input id="c-nom" name="name" type="text" maxlength="100" required autocomplete="name"></div>
+  <div class="champ"><label for="c-email">E-mail</label><input id="c-email" name="email" type="email" maxlength="200" required autocomplete="email"></div>
+  <div class="champ"><label for="c-message">Votre question ou commentaire</label><textarea id="c-message" name="message" rows="7" maxlength="3000" required></textarea></div>
+  <input type="checkbox" name="botcheck" class="piege" tabindex="-1" autocomplete="off" aria-hidden="true">
+  <div class="contact-pied"><button type="submit" class="btn btn-live">Envoyer</button><p class="form-etat" role="status" aria-live="polite"></p></div>
+</form>
+{% endblock %}
+{% block scripts %}{% include "formulaire.js.html" %}{% endblock %}
