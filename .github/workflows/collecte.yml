@@ -43,6 +43,7 @@ jobs:
       - name: Vérifier que le site se génère
         run: python build.py
       - name: Proposer les nouveaux passages
+        id: cpr
         if: ${{ inputs.essai != true }}
         uses: peter-evans/create-pull-request@v7
         with:
@@ -53,4 +54,8 @@ jobs:
           commit-message: "Collecte automatique des invités"
           add-paths: |
             data/
-          assignees: EtienneDeGe
+      - name: Prévenir Etienne quand une nouvelle proposition est ouverte
+        if: ${{ steps.cpr.outputs.pull-request-operation == 'created' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh pr comment ${{ steps.cpr.outputs.pull-request-number }} --repo ${{ github.repository }} --body "@EtienneDeGe nouveaux passages à valider."
