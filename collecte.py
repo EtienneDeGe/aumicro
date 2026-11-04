@@ -152,7 +152,7 @@ def fonction_apres(t, nom):
     m = FIN_FONCTION.search(reste)
     f = (reste[:m.start()] if m else reste[:140]).strip(" ,").replace("«", "").replace("»", "").replace('"', "")
     f = " ".join(f.split())
-    f = re.split(r",? (?:et|ainsi que) (?=[A-ZÉÈ][\w'’-]+ [A-ZÉÈ])|,? sont (?:les )?invit", f)[0].strip(" ,")
+    f = re.split(r",? (?:et|ainsi que) (?=[A-ZÉÈ][\w'’-]+ [A-ZÉÈ])|,? sont (?:les )?invit|,? de faire face|,? puis ", f)[0].strip(" ,")
     if re.match(r"(?i)(?:le|la|les|de|des|du|un|une|et|qui|ce|cette|sur|dans|en|à|au|aux|il|elle)\b", f):
         return None
     if f.count("(") > f.count(")"):
