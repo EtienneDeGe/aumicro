@@ -54,5 +54,23 @@
     "voir": null,
     "statut": "confirme",
     "animateur": "Jacques Cardoze"
+  },
+  {
+    "heure": "11:00",
+    "emission": "rmc-face-aux-gg",
+    "personne": "segolene-royal",
+    "fonction": "Candidate à la primaire de la gauche",
+    "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/2fb118fe-f2ea-4b03-af38-07938c85970a/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=2fb118fe-f2ea-4b03-af38-07938c85970a&category=News&episode_published_at=2026-10-06T09%3A36%3A31&episode_title=S%C3%A9gol%C3%A8ne+Royal+face+aux+GG+-+06%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "11:00",
+    "emission": "rmc-face-aux-gg",
+    "personne": "louis-letoublon",
+    "fonction": "Vice-président de L'organisation Les lycéens",
+    "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/2d43c288-f816-4724-9f43-f0de4fb43e16/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=2d43c288-f816-4724-9f43-f0de4fb43e16&category=News&episode_published_at=2026-10-06T09%3A12%3A14&episode_title=Louis+Letoublon+face+aux+GG+-+06%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

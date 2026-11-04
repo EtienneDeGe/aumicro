@@ -9,11 +9,38 @@
     "statut": "confirme"
   },
   {
+    "heure": "10:00",
+    "emission": "e1-grand-rdv",
+    "personne": "nicolas-dupont-aignan",
+    "fonction": "Candidat à l’élection présidentielle, président de Debout la France",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/37403a81-57a2-4676-9a08-ab4e0ddc3d25.mp3?_=1791709465",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
     "heure": "12:00",
     "emission": "rtl-grand-jury",
     "personne": "david-amiel",
     "fonction": "Haut fonctionnaire et homme politique français",
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/f16bfcb9-8c8b-42ad-a7bc-9c6e4f2680d8.mp3?_=1791718382",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "13:20",
+    "emission": "inter-franc-jeu",
+    "personne": "roland-lescure",
+    "fonction": "Ministre de l'Économie",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/franc-jeu/franc-jeu-du-dimanche-11-octobre-2026-4457043",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "13:20",
+    "emission": "inter-franc-jeu",
+    "personne": "sophie-binet",
+    "fonction": "Secrétaire générale de la CGT",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/franc-jeu/franc-jeu-du-dimanche-11-octobre-2026-4457043",
     "voir": null,
     "statut": "confirme"
   }

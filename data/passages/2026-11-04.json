@@ -1,0 +1,30 @@
+[
+  {
+    "heure": "08:30",
+    "emission": "rmc-face-a-face",
+    "personne": "roland-lescure",
+    "fonction": "Ministre de l'Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique",
+    "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/36828ac7-b788-46a6-a358-169d27ae27d4/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=36828ac7-b788-46a6-a358-169d27ae27d4&category=News%2CSociety+%26+Culture&episode_published_at=2026-11-04T07%3A53%3A50&episode_title=Face+%C3%A0+Face+%3A+Roland+Lescure+-+04%2F11&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "stephanie-rist",
+    "fonction": "Ministre de la Santé, des Familles, de l’Autonomie et des Personnes handicapées",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-770",
+    "voir": "https://www.youtube.com/watch?v=OS_2KVQ3SHg",
+    "statut": "confirme",
+    "animateur": "Benjamin Glaise"
+  },
+  {
+    "heure": "11:00",
+    "emission": "rmc-face-aux-gg",
+    "personne": "sophie-binet",
+    "fonction": "Secrétaire générale de la CGT",
+    "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/be4f6d8c-2c86-4544-a044-dbca56c9def5/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=be4f6d8c-2c86-4544-a044-dbca56c9def5&category=News&episode_published_at=2026-11-04T10%3A46%3A42&episode_title=Sophie+Binet+face+aux+GG+-+04%2F11&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
+    "voir": null,
+    "statut": "confirme"
+  }
+]

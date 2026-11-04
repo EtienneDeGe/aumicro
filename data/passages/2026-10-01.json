@@ -36,5 +36,23 @@
     "voir": null,
     "statut": "confirme",
     "animateur": "Jacques Cardoze"
+  },
+  {
+    "heure": "11:00",
+    "emission": "rmc-face-aux-gg",
+    "personne": "clemence-guette",
+    "fonction": "Députée LFI et vice-présidente de l'Assemblée nationale",
+    "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/67c46f12-aac9-4c28-a544-50bbaf5fdf3e/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=67c46f12-aac9-4c28-a544-50bbaf5fdf3e&category=News&episode_published_at=2026-10-01T09%3A47%3A21&episode_title=Cl%C3%A9mence+Guett%C3%A9+face+aux+GG+-+01%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "11:00",
+    "emission": "rmc-face-aux-gg",
+    "personne": "charles-alloncle",
+    "fonction": "Député UDR",
+    "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/6e5cdc77-2a7e-429a-bc3b-2a167624c61f/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=6e5cdc77-2a7e-429a-bc3b-2a167624c61f&category=News&episode_published_at=2026-10-01T09%3A12%3A21&episode_title=Charles+Alloncle+face+aux+GG+-+01%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

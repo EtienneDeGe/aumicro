@@ -35,5 +35,14 @@
     "voir": "https://www.youtube.com/watch?v=278Ad7MynQQ",
     "statut": "confirme",
     "animateur": "Jacques Cardoze"
+  },
+  {
+    "heure": "11:00",
+    "emission": "rmc-face-aux-gg",
+    "personne": "jean-michel-blanquer",
+    "fonction": "Ex-ministre de l'Éducation nationale",
+    "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/2beeb5c4-3293-4e6c-8918-5fe4b4f1d583/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=2beeb5c4-3293-4e6c-8918-5fe4b4f1d583&category=News&episode_published_at=2026-10-14T09%3A39%3A52&episode_title=Jean-Michel+Blanquer+face+aux+GG+-+14%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

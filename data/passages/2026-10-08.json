@@ -36,5 +36,14 @@
     "voir": null,
     "statut": "confirme",
     "animateur": "Jacques Cardoze"
+  },
+  {
+    "heure": "11:00",
+    "emission": "rmc-face-aux-gg",
+    "personne": "jonas-haddad",
+    "fonction": "Porte-parole des LR",
+    "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/52fed152-6b5b-49f8-b1be-35b86f7b5a4d/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=52fed152-6b5b-49f8-b1be-35b86f7b5a4d&category=News&episode_published_at=2026-10-08T09%3A56%3A21&episode_title=Jonas+Haddad+face+aux+GG+-+08%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

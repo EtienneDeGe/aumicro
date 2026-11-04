@@ -63,5 +63,32 @@
     "voir": "https://www.youtube.com/watch?v=MJXswOp4pHU",
     "statut": "confirme",
     "animateur": "Jacques Cardoze"
+  },
+  {
+    "heure": "11:00",
+    "emission": "rmc-face-aux-gg",
+    "personne": "manuel-bompard",
+    "fonction": "Coordinateur de La France insoumise",
+    "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/0d586dc9-cbc0-4d19-b78a-113e406dd1d4/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=0d586dc9-cbc0-4d19-b78a-113e406dd1d4&category=News&episode_published_at=2026-10-20T09%3A56%3A23&episode_title=Manuel+Bompard+face+aux+GG+-+20%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "11:00",
+    "emission": "rmc-face-aux-gg",
+    "personne": "linda-kebbab",
+    "fonction": "Secrétaire nationale du syndicat de police UN1TÉ",
+    "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/31534dbd-e6ba-44ad-ae6f-83d101d13a56/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=31534dbd-e6ba-44ad-ae6f-83d101d13a56&category=News&episode_published_at=2026-10-20T09%3A18%3A51&episode_title=Linda+Kebbab+face+aux+GG+-+20%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "18:45",
+    "emission": "rtl-invite-soir",
+    "personne": "laure-beccuau",
+    "fonction": "Procureure de la République de Paris",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/c982025f-bd14-4195-be46-9956b01ca9bf.mp3?_=1792515481",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

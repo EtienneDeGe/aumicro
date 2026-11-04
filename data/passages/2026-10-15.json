@@ -48,6 +48,15 @@
     "animateur": "Jacques Cardoze"
   },
   {
+    "heure": "11:00",
+    "emission": "rmc-face-aux-gg",
+    "personne": "laure-lavalette",
+    "fonction": "Députée RN du Var",
+    "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/d97718e7-7556-4ca8-8b61-e4a13298d8ff/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=d97718e7-7556-4ca8-8b61-e4a13298d8ff&category=News&episode_published_at=2026-10-15T09%3A42%3A32&episode_title=Laure+Lavalette+face+aux+GG+-+15%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
     "heure": "21:00",
     "emission": "e1-objectif-elysee",
     "personne": "marine-le-pen",

@@ -1,6 +1,15 @@
 [
   {
     "heure": "07:40",
+    "emission": "fc-invite-matins",
+    "personne": "pierre-moscovici",
+    "fonction": "Homme politique français",
+    "ecouter": "https://www.radiofrance.fr/franceculture/podcasts/l-invite-e-des-matins/budget-crise-de-la-dette-presidentielle-pierre-moscovici-est-l-invite-des-matins-8593812",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:40",
     "emission": "rtl-invite-7h40",
     "personne": "eric-coquerel",
     "fonction": "Député LFI et président de la commission des Finances de l'Assemblée",
@@ -17,6 +26,15 @@
     "voir": "https://www.youtube.com/watch?v=7W63rsu50-k",
     "statut": "confirme",
     "animateur": "Laurence Ferrari"
+  },
+  {
+    "heure": "08:20",
+    "emission": "inter-8h20",
+    "personne": "david-khalfa",
+    "fonction": "Codirecteur de l'Observatoire de l'Afrique du Nord et du Moyen-Orient de la Fondation Jean-Jaurès",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-8h20-le-grand-entretien/l-invite-de-8h20-le-grand-entretien-du-mercredi-28-octobre-2026-3572238",
+    "voir": "https://www.youtube.com/watch?v=xPjuG9OGIew",
+    "statut": "confirme"
   },
   {
     "heure": "08:30",
@@ -45,5 +63,14 @@
     "voir": "https://www.youtube.com/watch?v=oN3YeF-WkrU",
     "statut": "confirme",
     "animateur": "Jacques Cardoze"
+  },
+  {
+    "heure": "11:00",
+    "emission": "rmc-face-aux-gg",
+    "personne": "edwige-diaz",
+    "fonction": "Sénatrice RN de la Gironde",
+    "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/5ddf6277-446b-4a46-a213-f1b6e6d78494/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=5ddf6277-446b-4a46-a213-f1b6e6d78494&category=News&episode_published_at=2026-10-28T10%3A49%3A51&episode_title=Edwige+Diaz+face+aux+GG+-+28%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

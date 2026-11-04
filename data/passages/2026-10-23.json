@@ -63,5 +63,23 @@
     "voir": "https://www.youtube.com/watch?v=tv8u2_K9RIA",
     "statut": "confirme",
     "animateur": "Jacques Cardoze"
+  },
+  {
+    "heure": "11:00",
+    "emission": "rmc-face-aux-gg",
+    "personne": "matthieu-valet",
+    "fonction": "Eurodéputé RN",
+    "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/90779162-aa01-4f00-9878-94989f972d36/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=90779162-aa01-4f00-9878-94989f972d36&category=News&episode_published_at=2026-10-23T08%3A44%3A59&episode_title=Matthieu+Valet+face+aux+GG+-+23%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "18:45",
+    "emission": "rtl-invite-soir",
+    "personne": "laurent-mazaury",
+    "fonction": "Député des Yvelines",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/5cc201cf-c5dd-482c-89fe-93456a3b252e.mp3?_=1793004781",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

@@ -29,6 +29,12 @@
     "credit_photo": "VenteXe, CC BY-SA 4.0, Wikimedia Commons",
     "wikidata": "Q62887833"
   },
+  "anne-levade": {
+    "nom": "Anne Levade",
+    "photo": null,
+    "credit_photo": null,
+    "wikidata": "Q2851173"
+  },
   "antoine-bristielle": {
     "nom": "Antoine Bristielle",
     "photo": null,
@@ -65,6 +71,12 @@
     "credit_photo": "Segolene Liger, CC BY-SA 4.0, Wikimedia Commons",
     "wikidata": "Q137612820"
   },
+  "benoit-payan": {
+    "nom": "Benoît Payan",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Benoit_Payan_2024.jpeg?width=240",
+    "credit_photo": "U.S. Army photo by Staff Sgt. Noah Sladek, Public domain, Wikimedia Commons",
+    "wikidata": "Q63766719"
+  },
   "bruno-bouchard": {
     "nom": "Bruno Bouchard",
     "photo": null,
@@ -89,6 +101,12 @@
     "credit_photo": null,
     "wikidata": null
   },
+  "charles-alloncle": {
+    "nom": "Charles Alloncle",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles_Alloncle.jpg?width=240",
+    "credit_photo": "Tocsin, CC BY 4.0, Wikimedia Commons",
+    "wikidata": "Q126539921"
+  },
   "charles-rodwell": {
     "nom": "Charles Rodwell",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/20260217-P1380221_Rodwell_Charles_Wikipedia.jpg?width=240",
@@ -107,6 +125,12 @@
     "credit_photo": "Claire Jacquin, CC BY 4.0, Wikimedia Commons",
     "wikidata": "Q109969696"
   },
+  "clement-beaune": {
+    "nom": "Clément Beaune",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Cl%C3%A9ment_Beaune_-_2023_%28cropped%29.jpg?width=240",
+    "credit_photo": "Lukasz Kobus / European Union, 2023 / EC - Audiovisual Service, CC BY 4.0, Wikimedia Commons",
+    "wikidata": "Q33172434"
+  },
   "clementine-autain": {
     "nom": "Clémentine Autain",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Clementine-Autain.jpg?width=240",
@@ -118,6 +142,12 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/David-amiel.jpg?width=240",
     "credit_photo": "B.MODIFICATEUR, CC BY-SA 4.0, Wikimedia Commons",
     "wikidata": "Q47502155"
+  },
+  "david-khalfa": {
+    "nom": "David Khalfa",
+    "photo": null,
+    "credit_photo": null,
+    "wikidata": null
   },
   "david-lisnard": {
     "nom": "David Lisnard",
@@ -190,6 +220,12 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Roussel_Fabien_1.jpg?width=240",
     "credit_photo": "Zouhair NAKARA, CC BY-SA 4.0, Wikimedia Commons",
     "wikidata": "Q30388733"
+  },
+  "franck-leroy": {
+    "nom": "Franck Leroy",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Franck_leroy_1508946.jpg?width=240",
+    "credit_photo": "Gérald Garitan, CC BY-SA 4.0, Wikimedia Commons",
+    "wikidata": "Q3082186"
   },
   "francois-hollande": {
     "nom": "François Hollande",
@@ -275,6 +311,12 @@
     "credit_photo": "Gdprg, CC BY-SA 4.0, Wikimedia Commons",
     "wikidata": "Q65131729"
   },
+  "helene-denechere": {
+    "nom": "Hélène Denéchère",
+    "photo": null,
+    "credit_photo": null,
+    "wikidata": null
+  },
   "hubert-vedrine": {
     "nom": "Hubert Védrine",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Hubert_Vedrine_2006_01_06.jpg?width=240",
@@ -292,6 +334,12 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Dominique_Senard%2C_2015_%28cropped%29.jpg?width=240",
     "credit_photo": "Fredsimont, CC BY-SA 4.0, Wikimedia Commons",
     "wikidata": "Q1684801"
+  },
+  "jean-francois-cope": {
+    "nom": "Jean-François Copé",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Fran%C3%A7ois_Cop%C3%A9%2C_D%C3%A9put%C3%A9-maire_de_Meaux_2015_%28cropped%29.jpg?width=240",
+    "credit_photo": "Astrakan25, CC BY-SA 4.0, Wikimedia Commons",
+    "wikidata": "Q62354"
   },
   "jean-michel-blanquer": {
     "nom": "Jean-Michel Blanquer",
@@ -341,6 +389,12 @@
     "credit_photo": "Manon4495, CC0, Wikimedia Commons",
     "wikidata": "Q106291673"
   },
+  "laure-beccuau": {
+    "nom": "Laure Beccuau",
+    "photo": null,
+    "credit_photo": null,
+    "wikidata": "Q60220172"
+  },
   "laure-lavalette": {
     "nom": "Laure Lavalette",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Laure.Lavalette.jpg?width=240",
@@ -358,6 +412,12 @@
     "photo": null,
     "credit_photo": null,
     "wikidata": null
+  },
+  "laurent-mazaury": {
+    "nom": "Laurent Mazaury",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/2025.01_Portraits_L.Mazaury-d%C3%A9put%C3%A9-16.jpg?width=240",
+    "credit_photo": "ActualitéCirco7811, CC0, Wikimedia Commons",
+    "wikidata": "Q127256521"
   },
   "laurent-nunez": {
     "nom": "Laurent Nuñez",
@@ -419,6 +479,12 @@
     "credit_photo": "original : Antoine Stouls modification : O.Taris, CC BY 4.0, Wikimedia Commons",
     "wikidata": "Q30343128"
   },
+  "matthieu-valet": {
+    "nom": "Matthieu Valet",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/1718798707847_20240618_VALET_Matthieu_FR_004.jpg?width=240",
+    "credit_photo": "European Union 2024 - Source : EP, European Parliament, Wikimedia Commons",
+    "wikidata": "Q125398344"
+  },
   "maud-bregeon": {
     "nom": "Maud Bregeon",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Maud_Bregeon_%282023%29.jpg?width=240",
@@ -467,6 +533,18 @@
     "credit_photo": "Andy Mabbett, CC BY-SA 3.0, Wikimedia Commons",
     "wikidata": "Q445705"
   },
+  "pierre-bosche": {
+    "nom": "Pierre Bosche",
+    "photo": null,
+    "credit_photo": null,
+    "wikidata": "Q119371796"
+  },
+  "pierre-moscovici": {
+    "nom": "Pierre Moscovici",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Moscovici_EC_Portrait_2014.jpg?width=240",
+    "credit_photo": "Georges Boulougouris, CC BY 4.0, Wikimedia Commons",
+    "wikidata": "Q356919"
+  },
   "prisca-thevenot": {
     "nom": "Prisca Thevenot",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Prisca_Thevenot_2023_%28cropped%29.jpg?width=240",
@@ -503,6 +581,18 @@
     "credit_photo": null,
     "wikidata": null
   },
+  "roselyne-bachelot": {
+    "nom": "Roselyne Bachelot",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Roselyne_Bachelot_2023_%28cropped%29.jpg?width=240",
+    "credit_photo": "Conseil de l'Union Européenne, Attribution, Wikimedia Commons",
+    "wikidata": "Q436173"
+  },
+  "sandrine-rousseau": {
+    "nom": "Sandrine Rousseau",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sandrine_Rousseau_20210819_%28cropped%29.jpg?width=240",
+    "credit_photo": "Greenbox, CC BY-SA 4.0, Wikimedia Commons",
+    "wikidata": "Q21013136"
+  },
   "sandro-gozi": {
     "nom": "Sandro Gozi",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sandro_Gozi_daticamera.jpg?width=240",
@@ -521,11 +611,23 @@
     "credit_photo": "Anh De France, CC BY-SA 2.0, Wikimedia Commons",
     "wikidata": "Q82637284"
   },
+  "sasha-straub-kahn": {
+    "nom": "Sasha Straub-Kahn",
+    "photo": null,
+    "credit_photo": null,
+    "wikidata": null
+  },
   "sebastien-chenu": {
     "nom": "Sébastien Chenu",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Denain_-_S%C3%A9bastien_Chenu_lors_du_conseil_municipal_du_27_juin_2016_%28cropped%29.JPG?width=240",
     "credit_photo": "Jérémy-Günther-Heinz Jähnick, GFDL 1.2, Wikimedia Commons",
     "wikidata": "Q21294609"
+  },
+  "sebastien-lecornu": {
+    "nom": "Sébastien Lecornu",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/S%C3%A9bastien_Lecornu_2024_%282x3_crop%29.jpg?width=240",
+    "credit_photo": "U.S. Secretary of Defense, Public domain, Wikimedia Commons",
+    "wikidata": "Q20089181"
   },
   "segolene-royal": {
     "nom": "Ségolène Royal",
@@ -544,6 +646,12 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Huma2023SophieBinet_2.jpg?width=240",
     "credit_photo": "Selbymay, CC BY 4.0, Wikimedia Commons",
     "wikidata": "Q111529069"
+  },
+  "stephanie-rist": {
+    "nom": "Stéphanie Rist",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/St%C3%A9phanie_Rist.jpg?width=240",
+    "credit_photo": "Antoine Lamielle, CC BY-SA 4.0, Wikimedia Commons",
+    "wikidata": "Q30339281"
   },
   "sylvie-goulard": {
     "nom": "Sylvie Goulard",

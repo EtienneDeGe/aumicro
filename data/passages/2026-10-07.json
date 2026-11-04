@@ -54,5 +54,23 @@
     "voir": null,
     "statut": "confirme",
     "animateur": "Jacques Cardoze"
+  },
+  {
+    "heure": "11:00",
+    "emission": "rmc-face-aux-gg",
+    "personne": "roselyne-bachelot",
+    "fonction": "Ancienne ministre de la Culture",
+    "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/719551f4-6eac-4414-8c6d-14d29942b5ef/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=719551f4-6eac-4414-8c6d-14d29942b5ef&category=News&episode_published_at=2026-10-07T10%3A07%3A01&episode_title=Roselyne+Bachelot+et+%C3%89ric+Dupond-Moretti+face+aux+GG+-+07%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "18:45",
+    "emission": "rtl-invite-soir",
+    "personne": "sebastien-lecornu",
+    "fonction": "Homme d'état francais",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/ac7d5e59-31e1-4d91-9a33-8a62e7dddb6d.mp3?_=1791392881",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

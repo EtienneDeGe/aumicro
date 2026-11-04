@@ -35,5 +35,14 @@
     "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/6118c03d-af88-4513-8eaf-a8ca2ff3d0b3/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=6118c03d-af88-4513-8eaf-a8ca2ff3d0b3&category=News%2CSociety+%26+Culture&episode_published_at=2026-10-02T06%3A53%3A44&episode_title=Face+%C3%A0+Face+%3A+%C3%89douard+Geffray+-+02%2F10&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
     "voir": null,
     "statut": "confirme"
+  },
+  {
+    "heure": "11:00",
+    "emission": "rmc-face-aux-gg",
+    "personne": "jerome-guedj",
+    "fonction": "Candidat à la primaire de la gauche",
+    "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/36b88a92-9e52-46ba-97a3-4e1a539cb113/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=36b88a92-9e52-46ba-97a3-4e1a539cb113&category=News&episode_published_at=2026-10-02T09%3A25%3A33&episode_title=J%C3%A9r%C3%B4me+Guedj+face+aux+GG+-+02%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

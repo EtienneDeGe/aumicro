@@ -1,5 +1,14 @@
 [
   {
+    "heure": "07:50",
+    "emission": "inter-7h50-we",
+    "personne": "helene-denechere",
+    "fonction": "Porte-parole de la préfecture de police de Paris",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50/l-invite-de-7h50-du-we-du-dimanche-25-octobre-2026-7768416",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
     "heure": "08:30",
     "emission": "fi-830",
     "personne": "sandro-gozi",
@@ -14,6 +23,24 @@
     "personne": "olivier-faure",
     "fonction": "Homme politique français",
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/f215cc6a-c680-441a-8220-e54dce19b54e.mp3?_=1792931582",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "13:20",
+    "emission": "inter-franc-jeu",
+    "personne": "mathilde-panot",
+    "fonction": "Députée LFI du Val-de-Marne",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/franc-jeu/franc-jeu-du-dimanche-25-octobre-2026-1564251",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "13:20",
+    "emission": "inter-franc-jeu",
+    "personne": "jean-francois-cope",
+    "fonction": "Maire LR de Meaux",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/franc-jeu/franc-jeu-du-dimanche-25-octobre-2026-1564251",
     "voir": null,
     "statut": "confirme"
   }
