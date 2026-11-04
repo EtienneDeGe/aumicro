@@ -54,5 +54,11 @@
     "teinte": 270,
     "direct": "https://www.radioclassique.fr",
     "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_Radio_Classique.svg?width=120"
+  },
+  "france-culture": {
+    "nom": "France Culture",
+    "abr": "FC",
+    "teinte": 330,
+    "direct": "https://www.radiofrance.fr/franceculture"
   }
 }

@@ -384,7 +384,9 @@ def main():
         em = emissions[em_id]
         print(f"\n== {em['nom']} ({em['radio']})")
         try:
-            eps = [e for e in episodes(src) if debut <= e["date"] <= aujourdhui]
+            eps = [e for e in episodes(src) if debut <= e["date"] <= aujourdhui
+                   and not e["titre"].startswith("[À découvrir")
+                   and (not src.get("filtre_titre") or re.search(src["filtre_titre"], e["titre"], re.I))]
         except Exception as ex:
             erreurs.append(f"{em['nom']} : flux illisible ({ex})")
             print("  ! flux illisible :", ex)
@@ -406,66 +408,74 @@ def main():
                 noms.insert(0, (" ".join(w.capitalize() for w in m.group(1).split("-")), -1))
             # l'invité dont le nom figure dans l'adresse de l'épisode passe en premier
             noms.sort(key=lambda n: slugifier(n[0]) not in lien_slug)
+            choix_ep = []
             impose = forcer.get((ep["date"].isoformat(), em_id))
             if impose:
-                choix = {"verdict": "retenu", "nom": impose["nom"],
-                         "fonction": impose.get("fonction") or fonction_apres(ep["desc"], impose["nom"]),
-                         "wd": None if impose.get("sans_wikidata") else wd.personne(impose["nom"])}
+                choix_ep.append({"verdict": "retenu", "nom": impose["nom"],
+                                 "fonction": impose.get("fonction") or fonction_apres(ep["desc"], impose["nom"]),
+                                 "wd": None if impose.get("sans_wikidata") else wd.personne(impose["nom"])})
             else:
-                choix = decider(noms, ep, lien_slug, anims, exclus, inclus, wd)
-            if choix["verdict"] == "aucun":
-                ecartes.append(f"{ep['date']} · {em['nom']} : « {ep['titre'][:90]} »")
-                print(f"  - {ep['date']} aucun invité retenu : {ep['titre'][:80]}")
-                continue
-            if choix["verdict"] == "hors-champ":
-                hors_champ.append(f"{ep['date']} · {em['nom']} : {choix['nom']} — {choix['fonction'] or 'fonction non précisée'}")
-                print(f"  - {ep['date']} hors périmètre : {choix['nom']} — {choix['fonction']}")
-                continue
-            if choix["verdict"] == "prudence":
-                prudence.append(f"{ep['date']} · {em['nom']} : {choix['nom']} ({choix['fonction'] or 'fonction non précisée'}) — « {ep['titre'][:80]} »")
-                print(f"  ? {ep['date']} prudence : {choix['nom']}")
-                continue
-            trouve, fonction_ep = choix["wd"], choix["fonction"]
-            # personnalité : existante ou nouvelle
-            if trouve:
-                slug = par_qid.get(trouve["qid"])
-                if not slug:
-                    slug = slugifier(trouve["nom"])
-                    if slug in personnes and personnes[slug].get("wikidata") not in (None, trouve["qid"]):
-                        slug = f"{slug}-{trouve['qid'].lower()}"
-                    p = personnes.setdefault(slug, {"nom": trouve["nom"], "photo": None, "credit_photo": None})
-                    p["wikidata"] = trouve["qid"]
-                    if not p.get("photo") and trouve.get("photo_fichier"):
-                        p["photo"], p["credit_photo"] = wd.photo(trouve["photo_fichier"])
-                    par_qid[trouve["qid"]] = slug
-                nom_affiche = trouve["nom"]
-            else:  # personnalité absente de Wikidata (responsable syndical, associatif…)
-                nom_affiche = choix["nom"]
-                slug = slugifier(nom_affiche)
-                # coquille dans le résumé (« Fickenstein » pour « Finchelstein ») : rattacher à la fiche existante
-                proches = difflib.get_close_matches(norm(nom_affiche), [norm(p["nom"]) for p in personnes.values()], n=1, cutoff=0.82)
-                if slug not in personnes and proches:
-                    slug = next(k for k, p in personnes.items() if norm(p["nom"]) == proches[0])
-                    nom_affiche = personnes[slug]["nom"]
-                personnes.setdefault(slug, {"nom": nom_affiche, "photo": None, "credit_photo": None, "wikidata": None})
-                trouve = {"nom": nom_affiche, "description": None}
-            fonction = fonction_ep or (trouve.get("description") or "").capitalize() or None
-            liste = jour(ep["date"])
-            existant = next((x for x in liste if x["emission"] == em_id and x["personne"] == slug), None)
-            if existant:
-                if not existant.get("ecouter") and ep["ecouter"]:
-                    existant["ecouter"] = ep["ecouter"]
-                    existant["statut"] = "confirme"
-                    completes.append(f"{ep['date']} · {em['nom']} · {trouve['nom']} : lien d'écoute ajouté")
-                continue
-            x = {"heure": em.get("heure", "00:00"), "emission": em_id, "personne": slug, "fonction": fonction,
-                 "ecouter": ep["ecouter"], "voir": None, "statut": "confirme"}
-            anim = animateur(ep["desc"])
-            if anim and anim != em.get("animateur") and norm(anim) != norm(trouve["nom"]):
-                x["animateur"] = anim
-            liste.append(x)
-            nouveaux.append((ep["date"], em, trouve["nom"], fonction, ep["ecouter"]))
-            print(f"  + {ep['date']} {trouve['nom']} — {fonction}")
+                restants = list(noms)
+                for _ in range(2 if src.get("plusieurs_invites") else 1):
+                    c = decider(restants, ep, lien_slug, anims, exclus, inclus, wd)
+                    if choix_ep and c["verdict"] != "retenu":
+                        break
+                    choix_ep.append(c)
+                    restants = [n for n in restants if norm(n[0]) != norm(c.get("nom") or "")]
+            for choix in choix_ep:
+                if choix["verdict"] == "aucun":
+                    ecartes.append(f"{ep['date']} · {em['nom']} : « {ep['titre'][:90]} »")
+                    print(f"  - {ep['date']} aucun invité retenu : {ep['titre'][:80]}")
+                    continue
+                if choix["verdict"] == "hors-champ":
+                    hors_champ.append(f"{ep['date']} · {em['nom']} : {choix['nom']} — {choix['fonction'] or 'fonction non précisée'}")
+                    print(f"  - {ep['date']} hors périmètre : {choix['nom']} — {choix['fonction']}")
+                    continue
+                if choix["verdict"] == "prudence":
+                    prudence.append(f"{ep['date']} · {em['nom']} : {choix['nom']} ({choix['fonction'] or 'fonction non précisée'}) — « {ep['titre'][:80]} »")
+                    print(f"  ? {ep['date']} prudence : {choix['nom']}")
+                    continue
+                trouve, fonction_ep = choix["wd"], choix["fonction"]
+                # personnalité : existante ou nouvelle
+                if trouve:
+                    slug = par_qid.get(trouve["qid"])
+                    if not slug:
+                        slug = slugifier(trouve["nom"])
+                        if slug in personnes and personnes[slug].get("wikidata") not in (None, trouve["qid"]):
+                            slug = f"{slug}-{trouve['qid'].lower()}"
+                        p = personnes.setdefault(slug, {"nom": trouve["nom"], "photo": None, "credit_photo": None})
+                        p["wikidata"] = trouve["qid"]
+                        if not p.get("photo") and trouve.get("photo_fichier"):
+                            p["photo"], p["credit_photo"] = wd.photo(trouve["photo_fichier"])
+                        par_qid[trouve["qid"]] = slug
+                    nom_affiche = trouve["nom"]
+                else:  # personnalité absente de Wikidata (responsable syndical, associatif…)
+                    nom_affiche = choix["nom"]
+                    slug = slugifier(nom_affiche)
+                    # coquille dans le résumé (« Fickenstein » pour « Finchelstein ») : rattacher à la fiche existante
+                    proches = difflib.get_close_matches(norm(nom_affiche), [norm(p["nom"]) for p in personnes.values()], n=1, cutoff=0.82)
+                    if slug not in personnes and proches:
+                        slug = next(k for k, p in personnes.items() if norm(p["nom"]) == proches[0])
+                        nom_affiche = personnes[slug]["nom"]
+                    personnes.setdefault(slug, {"nom": nom_affiche, "photo": None, "credit_photo": None, "wikidata": None})
+                    trouve = {"nom": nom_affiche, "description": None}
+                fonction = fonction_ep or (trouve.get("description") or "").capitalize() or None
+                liste = jour(ep["date"])
+                existant = next((x for x in liste if x["emission"] == em_id and x["personne"] == slug), None)
+                if existant:
+                    if not existant.get("ecouter") and ep["ecouter"]:
+                        existant["ecouter"] = ep["ecouter"]
+                        existant["statut"] = "confirme"
+                        completes.append(f"{ep['date']} · {em['nom']} · {trouve['nom']} : lien d'écoute ajouté")
+                    continue
+                x = {"heure": em.get("heure", "00:00"), "emission": em_id, "personne": slug, "fonction": fonction,
+                     "ecouter": ep["ecouter"], "voir": None, "statut": "confirme"}
+                anim = animateur(ep["desc"])
+                if anim and anim != em.get("animateur") and norm(anim) != norm(trouve["nom"]):
+                    x["animateur"] = anim
+                liste.append(x)
+                nouveaux.append((ep["date"], em, trouve["nom"], fonction, ep["ecouter"]))
+                print(f"  + {ep['date']} {trouve['nom']} — {fonction}")
 
     # 1 bis. Émissions connues seulement par une playlist YouTube (toute la playlist est parcourue)
     for src in sources.get("youtube_emissions", []):

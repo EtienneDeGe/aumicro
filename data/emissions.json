@@ -60,7 +60,9 @@
   "rmc-face-aux-gg": {
     "nom": "Face aux GG",
     "radio": "rmc",
-    "actif": false
+    "animateur": "Alain Marschall et Olivier Truchot",
+    "heure": "11:00",
+    "actif": true
   },
   "sud-invite-politique": {
     "nom": "L'invité politique",
@@ -130,5 +132,31 @@
     "animateur": "Laurence Ferrari",
     "actif": true,
     "heure": "21:00"
+  },
+  "e1-grand-rdv": {
+    "nom": "Le grand rendez-vous",
+    "radio": "europe1",
+    "heure": "10:00",
+    "actif": true
+  },
+  "rtl-invite-soir": {
+    "nom": "L'invité de RTL Soir",
+    "radio": "rtl",
+    "heure": "18:45",
+    "actif": true
+  },
+  "fc-invite-matins": {
+    "nom": "L'invité(e) des Matins",
+    "radio": "france-culture",
+    "animateur": "Guillaume Erner",
+    "heure": "07:40",
+    "actif": true
+  },
+  "inter-franc-jeu": {
+    "nom": "Franc-jeu",
+    "radio": "france-inter",
+    "animateur": "Benjamin Duhamel",
+    "heure": "13:20",
+    "actif": true
   }
 }

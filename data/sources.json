@@ -29,8 +29,8 @@
     },
     {
       "emission": "rtl-grand-jury",
-      "flux": "https://feeds.audiomeans.fr/feed/88220a28-7275-4bd1-bd6c-49d0835d5a98.xml",
-      "replay": "audio"
+      "flux": "https://feeds.acast.com/public/shows/677d2d933888e2bd7ec7535d",
+      "replay": "lien"
     },
     {
       "emission": "e1-grande-interview",
@@ -46,6 +46,34 @@
       "emission": "rc-invite-matinale",
       "flux": "https://feeds.audiomeans.fr/feed/cd0adf86-2502-4d13-820e-a0fcb873fd2b.xml",
       "replay": "lien"
+    },
+    {
+      "emission": "rmc-face-aux-gg",
+      "flux": "https://feeds.simplecast.com/MBdw4Qrw",
+      "replay": "audio",
+      "filtre_titre": "face aux GG"
+    },
+    {
+      "emission": "e1-grand-rdv",
+      "flux": "https://feeds.audiomeans.fr/feed/ac193b03-3b95-435b-8c37-a01d5eda5d1d.xml",
+      "replay": "audio",
+      "filtre_titre": "^Le grand rendez-vous avec"
+    },
+    {
+      "emission": "rtl-invite-soir",
+      "flux": "https://feeds.audiomeans.fr/feed/62b7ca04-d68b-42e6-bbbd-26bb11e39c97.xml",
+      "replay": "audio"
+    },
+    {
+      "emission": "fc-invite-matins",
+      "page": "https://www.radiofrance.fr/franceculture/podcasts/l-invite-e-des-matins",
+      "replay": "lien"
+    },
+    {
+      "emission": "inter-franc-jeu",
+      "page": "https://www.radiofrance.fr/franceinter/podcasts/franc-jeu",
+      "replay": "lien",
+      "plusieurs_invites": true
     }
   ],
   "youtube_playlists": {
