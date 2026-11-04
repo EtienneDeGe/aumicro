@@ -10,4 +10,4 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python outils/decouverte_rf.py franceinter/podcasts/questions-politiques franceinter/podcasts/l-invite-du-18h franceinter/podcasts/le-18-20 franceinfo/podcasts/l-invite-franceinfo-soir franceinfo/podcasts/l-invite-de-franceinfo-soir franceinfo/podcasts/les-informes-de-franceinfo franceinfo/podcasts/le-grand-entretien franceinter/podcasts/l-invite-de-13h
+      - run: python outils/decouverte_rf.py franceculture/podcasts/l-invite-e-des-matins franceculture/podcasts/l-invite-des-matins franceinter/podcasts/franc-jeu franceinter/podcasts/questions-politiques franceinfo/podcasts/l-invite-franceinfo-soir franceinfo/podcasts/l-invite-de-franceinfo-soir franceinfo/podcasts/le-grand-entretien-du-dimanche
