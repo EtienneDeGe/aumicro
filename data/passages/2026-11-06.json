@@ -1,0 +1,39 @@
+[
+  {
+    "heure": "07:40",
+    "emission": "rtl-invite-7h40",
+    "personne": "marylise-leon",
+    "fonction": "Secrétaire générale de la CFDT",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/5b711aaf-ded5-4a35-9027-bdc98580554f.mp3?_=1793948581",
+    "voir": "https://www.youtube.com/watch?v=Bo_6hO-YM3Y",
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:50",
+    "emission": "inter-7h50",
+    "personne": "clemence-guette",
+    "fonction": "Également députée LFI du Val-de-Marne, évoque le programme",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50/l-invite-de-7h50-du-we-du-vendredi-06-novembre-2026-7169440",
+    "voir": "https://www.youtube.com/watch?v=uAO_ARLiUBs",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "serge-grouard",
+    "fonction": "Maire divers droite d'Orléans et président d'Orléans Métropole",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/7ebea716-4cd2-43f9-82d0-2671c05b54b9.mp3?_=1793949409&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
+    "voir": "https://www.youtube.com/watch?v=LjVfByN6aE4",
+    "statut": "confirme",
+    "animateur": "Romain Desarbres"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "francois-ruffin",
+    "fonction": "Président du parti Debout",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/mobilisations-sociales-salaires-ses-40-chantiers-pour-remettre-la-france-debout-le-8h30-franceinfo-de-francois-ruffin_8249932.html",
+    "voir": "https://www.youtube.com/watch?v=OzAs6F_XCvg",
+    "statut": "confirme"
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "robert-menard",
+    "fonction": "Maire divers droite de Béziers",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/09a156cb-b7c1-49e5-9945-ec942e527691.mp3?_=1793863137&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
+    "voir": "https://www.youtube.com/watch?v=Lrf_8bhsVI4",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "bruno-retailleau",
+    "fonction": "Candidat Les Républicains à l'élection présidentielle",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/greve-generale-pouvoir-d-achat-blocage-des-lycees-le-8h30-franceinfo-de-bruno-retailleau_8248147.html",
+    "voir": "https://www.youtube.com/watch?v=CNAAVHONDwE",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "rmc-face-a-face",
+    "personne": "marylise-leon",
+    "fonction": "Secrétaire générale de la CFDT",
+    "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/b5811434-14e0-4fff-a94e-bff4b63c60f1/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=b5811434-14e0-4fff-a94e-bff4b63c60f1&category=News%2CSociety+%26+Culture&episode_published_at=2026-11-05T07%3A55%3A01&episode_title=Face+%C3%A0+Face+%3A+Marylise+L%C3%A9on+-+05%2F11&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "sandrine-rousseau",
+    "fonction": "Députée Écologiste de Paris",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-771",
+    "voir": "https://www.youtube.com/watch?v=kVDwN_z2YP4",
+    "statut": "confirme",
+    "animateur": "Benjamin Glaise"
+  },
+  {
+    "heure": "18:45",
+    "emission": "rtl-invite-soir",
+    "personne": "guillaume-guerin",
+    "fonction": "Maire de Limoges est",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/471c3a9c-b9a5-467d-b001-c8967dd22df6.mp3?_=1793901541",
+    "voir": null,
+    "statut": "confirme"
+  }
+]
