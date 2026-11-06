@@ -235,6 +235,7 @@
  "pos:Q17618208": "secrétaire général de la présidence de la République",
  "pos:Q18705668": "membre de l'Académie française",
  "pos:Q189010": "notaire",
+ "pos:Q202660": "Collège de France",
  "pos:Q20722965": "grand maître du Grand Orient de France",
  "pos:Q22132694": "directeur ou directrice de musée",
  "pos:Q23958341": "président du jury du festival de Cannes",
@@ -246,6 +247,7 @@
  "pos:Q25917777": "procureur de la République près le tribunal judiciaire de Paris",
  "pos:Q26253853": "ambassadeur de France à Monaco",
  "pos:Q266569": "animateur ou animatrice",
+ "pos:Q2992731": "Confédération des petites et moyennes entreprises",
  "pos:Q2994439": "conservateur de bibliothèque",
  "pos:Q30020981": "directeur de cabinet du Premier ministre",
  "pos:Q3029421": "directeur ou directrice de la publication",
@@ -386,6 +388,14 @@
   "politique": false,
   "qid": "Q115243"
  },
+ "v2:amir reza tofighi": {
+  "description": "entrepreneur et chef d’entreprise français",
+  "fonction_publique": true,
+  "nom": "Amir Reza-Tofighi",
+  "photo_fichier": null,
+  "politique": false,
+  "qid": "Q130365762"
+ },
  "v2:amy greene": null,
  "v2:anais ella": null,
  "v2:andrea kotarac": {
@@ -427,6 +437,14 @@
   "photo_fichier": null,
   "politique": false,
   "qid": "Q106291727"
+ },
+ "v2:antoine izambard": {
+  "description": "journaliste économique français",
+  "fonction_publique": false,
+  "nom": "Antoine Izambard",
+  "photo_fichier": null,
+  "politique": false,
+  "qid": "Q124330645"
  },
  "v2:antoine leaument": {
   "description": "vidéaste et homme politique français",
@@ -691,6 +709,14 @@
   "politique": true,
   "qid": "Q64281962"
  },
+ "v2:emmanuel macron": {
+  "description": "homme d'État français",
+  "fonction_publique": true,
+  "nom": "Emmanuel Macron",
+  "photo_fichier": "Emmanuel Macron 2025 (cropped).jpg",
+  "politique": true,
+  "qid": "Q3052772"
+ },
  "v2:emmanuel moulin": {
   "description": "haut fonctionnaire français",
   "fonction_publique": true,
@@ -837,6 +863,14 @@
   "photo_fichier": "François Zimeray (cropped).jpg",
   "politique": true,
   "qid": "Q3086085"
+ },
+ "v2:francoise degois": {
+  "description": "journaliste et politique française",
+  "fonction_publique": false,
+  "nom": "Françoise Degois",
+  "photo_fichier": "Degois.jpg",
+  "politique": false,
+  "qid": "Q3086450"
  },
  "v2:franz olivier giesbert": {
   "description": "journaliste français",
@@ -1079,6 +1113,14 @@
   "politique": false,
   "qid": "Q3070693"
  },
+ "v2:jean viard": {
+  "description": "sociologue, éditeur et homme politique français",
+  "fonction_publique": true,
+  "nom": "Jean Viard",
+  "photo_fichier": "Jean Viard - Réunion publique 26-05-2017 à Sarrians 4 (cropped).jpg",
+  "politique": true,
+  "qid": "Q3175020"
+ },
  "v2:jerome fourquet": {
   "description": "analyste politique français",
   "fonction_publique": false,
@@ -1228,6 +1270,14 @@
   "politique": false,
   "qid": "Q100154995"
  },
+ "v2:lluis quintana murci": {
+  "description": "biologiste franco-espagnol",
+  "fonction_publique": true,
+  "nom": "Lluis Quintana-Murci",
+  "photo_fichier": "WIKI-Quintana.jpg",
+  "politique": false,
+  "qid": "Q3257549"
+ },
  "v2:louis aliot": {
   "description": "avocat et homme politique français",
   "fonction_publique": true,
@@ -1304,6 +1354,14 @@
   "photo_fichier": "Marylise Léon (CFDT) en 2014.jpg",
   "politique": false,
   "qid": "Q55258276"
+ },
+ "v2:mathieu kassovitz": {
+  "description": "acteur, producteur, réalisateur et scénariste français",
+  "fonction_publique": false,
+  "nom": "Mathieu Kassovitz",
+  "photo_fichier": "Mathieu Kassovitz Cannes 2017.jpg",
+  "politique": false,
+  "qid": "Q491766"
  },
  "v2:mathilde panot": {
   "description": "femme politique française",
@@ -1656,6 +1714,14 @@
   "qid": "Q81923"
  },
  "v2:serge gachot": null,
+ "v2:serge grouard": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Serge Grouard",
+  "photo_fichier": "Serge Grouard, maire d'Orléans et président d'Orléans Métropole, en 2023.jpg",
+  "politique": true,
+  "qid": "Q3479338"
+ },
  "v2:serge papin": {
   "description": "chef d'entreprise et homme politique français",
   "fonction_publique": false,
