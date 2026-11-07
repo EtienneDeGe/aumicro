@@ -399,7 +399,8 @@ def main():
         em = emissions[em_id]
         print(f"\n== {em['nom']} ({em['radio']})")
         try:
-            eps = [e for e in episodes(src) if debut <= e["date"] <= aujourdhui
+            debut_src = min(debut, date.fromisoformat(src["historique_depuis"])) if src.get("historique_depuis") else debut
+            eps = [e for e in episodes(src) if debut_src <= e["date"] <= aujourdhui
                    and not e["titre"].startswith("[À découvrir")
                    and (not src.get("filtre_titre") or re.search(src["filtre_titre"], e["titre"], re.I))
                    and not (src.get("exclure_titre") and re.search(src["exclure_titre"], e["titre"], re.I))]
@@ -426,10 +427,24 @@ def main():
             noms.sort(key=lambda n: slugifier(n[0]) not in lien_slug)
             choix_ep = []
             impose = forcer.get((ep["date"].isoformat(), em_id))
+            if impose and impose.get("titre_contient") and impose["titre_contient"].lower() not in ep["titre"].lower():
+                impose = None
             if impose:
                 choix_ep.append({"verdict": "retenu", "nom": impose["nom"],
                                  "fonction": impose.get("fonction") or fonction_apres(ep["desc"], impose["nom"]),
                                  "wd": None if impose.get("sans_wikidata") else wd.personne(impose["nom"])})
+            elif src.get("titre_invite"):
+                nom_t = next((m.group("nom").strip() for r in src["titre_invite"] if (m := re.search(r, ep["titre"]))), None)
+                if nom_t and " " not in nom_t:  # nom de famille seul : personnalité déjà connue du site
+                    connus = [p["nom"] for p in personnes.values() if norm(p["nom"]).endswith(" " + norm(nom_t))]
+                    nom_t = connus[0] if len(connus) == 1 else None
+                w = wd.personne(nom_t) if nom_t and norm(nom_t) not in exclus else None
+                if w and (w["politique"] or w["fonction_publique"] or norm(nom_t) in inclus):
+                    choix_ep.append({"verdict": "retenu", "nom": nom_t, "fonction": None, "wd": w})
+                elif nom_t:
+                    choix_ep.append({"verdict": "hors-champ", "nom": nom_t, "fonction": (w or {}).get("description")})
+                else:
+                    choix_ep.append({"verdict": "aucun"})
             else:
                 restants = list(noms)
                 for _ in range(2 if src.get("plusieurs_invites") else 1):

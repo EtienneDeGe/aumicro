@@ -25,6 +25,13 @@
       "emission": "inter-8h20-we",
       "nom": "Gilles Finchelstein",
       "fonction": "Secrétaire général de la Fondation Jean-Jaurès"
+    },
+    {
+      "date": "2026-11-03",
+      "emission": "bfm-100-mabrouk",
+      "nom": "David Lisnard",
+      "titre_contient": "Lisnard",
+      "fonction": "Candidat à l'élection présidentielle, maire de Cannes"
     }
   ]
 }
