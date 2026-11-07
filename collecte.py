@@ -439,7 +439,7 @@ def main():
                     connus = [p["nom"] for p in personnes.values() if norm(p["nom"]).endswith(" " + norm(nom_t))]
                     nom_t = connus[0] if len(connus) == 1 else None
                 w = wd.personne(nom_t) if nom_t and norm(nom_t) not in exclus else None
-                if w and (w["politique"] or w["fonction_publique"] or norm(nom_t) in inclus):
+                if w and (w["politique"] or norm(nom_t) in inclus):
                     choix_ep.append({"verdict": "retenu", "nom": nom_t, "fonction": None, "wd": w})
                 elif nom_t:
                     choix_ep.append({"verdict": "hors-champ", "nom": nom_t, "fonction": (w or {}).get("description")})
