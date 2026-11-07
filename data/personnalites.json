@@ -694,5 +694,12 @@
     "photo": null,
     "credit_photo": null,
     "wikidata": "Q112731154"
+  },
+  "natacha-polony": {
+    "nom": "Natacha Polony",
+    "photo": null,
+    "credit_photo": null,
+    "wikidata": null,
+    "fonction_defaut": "Journaliste et essayiste"
   }
 }
