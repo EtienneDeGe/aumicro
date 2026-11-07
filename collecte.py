@@ -298,9 +298,11 @@ def decider(noms, ep, lien_slug, anims, exclus, inclus, wd):
     attente = None
     for nom in sorted(sans_fonction, key=lambda n: norm(n) not in titre):
         w = wd.personne(nom)
+        if norm(nom) in inclus and (norm(nom) in titre or slugifier(nom) in lien_slug):
+            return {"verdict": "retenu", "nom": nom, "fonction": None, "wd": w}
         if not w:
             continue
-        if norm(nom) in inclus or (w["politique"] and norm(nom) in titre):
+        if w["politique"] and norm(nom) in titre:
             return {"verdict": "retenu", "nom": nom, "fonction": None, "wd": w}
         if w["politique"] and not attente:
             attente = {"verdict": "prudence", "nom": w["nom"], "fonction": None}
