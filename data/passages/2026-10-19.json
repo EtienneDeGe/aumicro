@@ -90,5 +90,23 @@
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/add4ec94-296b-423f-9b80-045778ecafe6.mp3?_=1792428781",
     "voir": null,
     "statut": "confirme"
+  },
+  {
+    "heure": "20:15",
+    "emission": "bfm-100-mabrouk",
+    "personne": "gabriel-attal",
+    "fonction": "Homme d'état français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/61f63bf0-9a52-4ee2-aacc-ef6c0ad33ac5/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=61f63bf0-9a52-4ee2-aacc-ef6c0ad33ac5&category=News&episode_published_at=2026-10-19T18%3A18%3A23&episode_title=Attal+%3A+%22La+priorit%C3%A9%2C+c%27est+de+r%C3%A9tablir+l%27ordre%22+%E2%80%93+19%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "21:00",
+    "emission": "bfm-100-mabrouk",
+    "personne": "bruno-retailleau",
+    "fonction": "Homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/49cdbc2c-18d2-462a-a367-491a8dd4decb/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=49cdbc2c-18d2-462a-a367-491a8dd4decb&category=News&episode_published_at=2026-10-19T19%3A03%3A13&episode_title=Retailleau+appelle+%C3%A0+changer+le+jour+du+second+tour+%E2%80%93+19%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

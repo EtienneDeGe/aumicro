@@ -64,12 +64,30 @@
     "statut": "confirme"
   },
   {
+    "heure": "20:20",
+    "emission": "bfm-100-mabrouk",
+    "personne": "edouard-geffray",
+    "fonction": "Ministre de l'éducation nationale",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/b84932c0-49f5-44eb-b43b-62be7696ee16/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=b84932c0-49f5-44eb-b43b-62be7696ee16&category=News&episode_published_at=2026-10-27T19%3A22%3A14&episode_title=Geffray+%3A+%22Triste+climat%22+%C3%A0+l%27Assembl%C3%A9e+nationale+%E2%80%93+27%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
     "heure": "21:00",
     "emission": "e1-objectif-elysee",
     "personne": "david-lisnard",
     "fonction": "Homme politique français, maire de cannes",
     "ecouter": null,
     "voir": "https://www.youtube.com/watch?v=uPSv3MqoZUY",
+    "statut": "confirme"
+  },
+  {
+    "heure": "21:50",
+    "emission": "bfm-100-mabrouk",
+    "personne": "louis-aliot",
+    "fonction": "Avocat et homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/0213b45d-f400-483b-8bdb-601166f0b659/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=0213b45d-f400-483b-8bdb-601166f0b659&category=News&episode_published_at=2026-10-27T20%3A53%3A41&episode_title=Aliot+%3A+%22Le+RN+est+le+bouc-%C3%A9missaire+de+la+gauche%22+-+27%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
     "statut": "confirme"
   }
 ]

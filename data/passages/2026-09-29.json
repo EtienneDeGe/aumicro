@@ -1,0 +1,29 @@
+[
+  {
+    "heure": "20:30",
+    "emission": "bfm-100-mabrouk",
+    "personne": "jordan-bardella",
+    "fonction": "Homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/13d88a18-3fe3-4ff1-afe6-199ddee02e33/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=13d88a18-3fe3-4ff1-afe6-199ddee02e33&category=News&episode_published_at=2026-09-29T18%3A33%3A42&episode_title=Bardella+%3A+%22On+veut+m%E2%80%99assassiner+politiquement%22+%E2%80%93+29%2F09&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "22:05",
+    "emission": "bfm-100-mabrouk",
+    "personne": "laurent-nunez",
+    "fonction": "Haut fonctionnaire et homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/432370e1-02cd-49c4-9714-042dfd74cbd7/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=432370e1-02cd-49c4-9714-042dfd74cbd7&category=News&episode_published_at=2026-09-29T20%3A08%3A34&episode_title=Laurent+Nu%C3%B1ez%2C+invit%C3%A9+de+Sonia+Mabrouk+%E2%80%93+29%2F09&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "22:05",
+    "emission": "bfm-100-mabrouk",
+    "personne": "julien-odoul",
+    "fonction": "Homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/65face19-ff8e-48c0-966d-f094ec809fca/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=65face19-ff8e-48c0-966d-f094ec809fca&category=News&episode_published_at=2026-09-29T20%3A08%3A31&episode_title=Odoul+%3A+%22Je+crois+Bardella+plut%C3%B4t+que+Mediapart%22+%E2%80%93+29%2F09&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  }
+]

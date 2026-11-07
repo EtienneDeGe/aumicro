@@ -72,5 +72,14 @@
     "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/5ddf6277-446b-4a46-a213-f1b6e6d78494/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=5ddf6277-446b-4a46-a213-f1b6e6d78494&category=News&episode_published_at=2026-10-28T10%3A49%3A51&episode_title=Edwige+Diaz+face+aux+GG+-+28%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
     "voir": null,
     "statut": "confirme"
+  },
+  {
+    "heure": "21:15",
+    "emission": "bfm-100-mabrouk",
+    "personne": "jean-louis-borloo",
+    "fonction": "Homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/5543b4d1-3681-4519-bf93-28b1a19fd821/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=5543b4d1-3681-4519-bf93-28b1a19fd821&category=News&episode_published_at=2026-10-28T20%3A16%3A47&episode_title=Jean-Louis+Borloo+%3A+%22C%27est+la+fin+d%27un+syst%C3%A8me%22+%E2%80%93+28%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

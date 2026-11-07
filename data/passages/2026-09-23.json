@@ -1,0 +1,20 @@
+[
+  {
+    "heure": "20:50",
+    "emission": "bfm-100-mabrouk",
+    "personne": "matthieu-pigasse",
+    "fonction": "Homme d'affaires français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/fab2ec51-ed54-4c0e-b3c8-1283ba2f4bd4/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=fab2ec51-ed54-4c0e-b3c8-1283ba2f4bd4&category=News&episode_published_at=2026-09-23T18%3A53%3A41&episode_title=Matthieu+Pigasse+%3A+peut-on+%C3%AAtre+riche+et+de+gauche+%3F+%E2%80%93+23%2F09&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "21:10",
+    "emission": "bfm-100-mabrouk",
+    "personne": "jean-philippe-tanguy",
+    "fonction": "Homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/5999a2c2-7002-4238-9b4b-1feb427becdf/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=5999a2c2-7002-4238-9b4b-1feb427becdf&category=News&episode_published_at=2026-09-23T19%3A13%3A03&episode_title=Jean-Philippe+Tanguy%2C+invit%C3%A9+de+Sonia+Mabrouk+%E2%80%93+23%2F09&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  }
+]

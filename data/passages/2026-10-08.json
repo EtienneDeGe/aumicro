@@ -45,5 +45,23 @@
     "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/52fed152-6b5b-49f8-b1be-35b86f7b5a4d/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=52fed152-6b5b-49f8-b1be-35b86f7b5a4d&category=News&episode_published_at=2026-10-08T09%3A56%3A21&episode_title=Jonas+Haddad+face+aux+GG+-+08%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
     "voir": null,
     "statut": "confirme"
+  },
+  {
+    "heure": "20:35",
+    "emission": "bfm-100-mabrouk",
+    "personne": "eric-ciotti",
+    "fonction": "Homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/43db9b0f-60cf-482b-a3f4-5827c7dc4f9b/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=43db9b0f-60cf-482b-a3f4-5827c7dc4f9b&category=News&episode_published_at=2026-10-08T18%3A36%3A01&episode_title=Ciotti+%3A+%22L%27ex%C3%A9cutif+est+l%C3%A2che+%21%22+%E2%80%93+08%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "21:25",
+    "emission": "bfm-100-mabrouk",
+    "personne": "maud-bregeon",
+    "fonction": "Femme politique française",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/c6cc2f68-75a4-4a36-afea-c015a276405f/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=c6cc2f68-75a4-4a36-afea-c015a276405f&category=News&episode_published_at=2026-10-08T19%3A27%3A33&episode_title=Maud+Bregeon+invit%C3%A9e+de+Sonia+Mabrouk+%E2%80%93+08%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

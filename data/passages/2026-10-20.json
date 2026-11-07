@@ -90,5 +90,23 @@
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/c982025f-bd14-4195-be46-9956b01ca9bf.mp3?_=1792515481",
     "voir": null,
     "statut": "confirme"
+  },
+  {
+    "heure": "20:15",
+    "emission": "bfm-100-mabrouk",
+    "personne": "maud-bregeon",
+    "fonction": "Femme politique française",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/1b8a2ade-ccc6-475c-85d7-e12cd52541c7/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=1b8a2ade-ccc6-475c-85d7-e12cd52541c7&category=News&episode_published_at=2026-10-20T18%3A15%3A41&episode_title=Maud+Bregeon+%3A+%E2%80%9CL%E2%80%99urgence%2C+c%E2%80%99est+l%E2%80%99ordre+public%E2%80%9D+%E2%80%93+20%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "21:20",
+    "emission": "bfm-100-mabrouk",
+    "personne": "thierry-breton",
+    "fonction": "Homme politique et dirigeant d'entreprise français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/f21fb877-2f23-4225-bc9a-16e903fe7059/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=f21fb877-2f23-4225-bc9a-16e903fe7059&category=News&episode_published_at=2026-10-20T19%3A24%3A11&episode_title=Thierry+Breton+est+l%27invit%C3%A9+de+Sonia+Mabrouk+%E2%80%93+20%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
   }
 ]
