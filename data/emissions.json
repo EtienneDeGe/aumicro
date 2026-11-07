@@ -191,7 +191,7 @@
     "animateur": "Guillaume Daret",
     "heure": "12:00",
     "jours": "Dimanche",
-    "actif": true
+    "actif": false
   },
   "bfm-grand-oral": {
     "nom": "Le Grand Oral 2027 (avec Le Figaro)",
@@ -199,7 +199,7 @@
     "animateur": "Marc Fauvelle et Marie Chantrait",
     "heure": "18:00",
     "jours": "Dimanche",
-    "actif": true
+    "actif": false
   },
   "bfm-vous-president": {
     "nom": "Vous Président",

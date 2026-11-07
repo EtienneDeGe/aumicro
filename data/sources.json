@@ -86,18 +86,6 @@
         "^(?P<nom>[A-ZÉÈ][\\w'’-]+(?: [A-ZÉÈ][\\w'’-]+){0,2}) ?: "
       ],
       "historique_depuis": "2026-08-20"
-    },
-    {
-      "emission": "bfm-politique",
-      "flux": "https://feeds.simplecast.com/jGeeHPr8",
-      "replay": "audio",
-      "plusieurs_invites": true
-    },
-    {
-      "emission": "bfm-grand-oral",
-      "flux": "https://feeds.simplecast.com/1Z1MBeaj",
-      "replay": "audio",
-      "plusieurs_invites": true
     }
   ],
   "youtube_playlists": {
