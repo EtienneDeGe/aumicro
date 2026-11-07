@@ -176,5 +176,36 @@
     "heure": "13:20",
     "actif": true,
     "jours": "Dimanche (avec France 2)"
+  },
+  "bfm-100-mabrouk": {
+    "nom": "100% Mabrouk",
+    "radio": "bfmtv",
+    "animateur": "Sonia Mabrouk",
+    "heure": "19:00",
+    "jours": "Du dimanche au jeudi, 19h-21h",
+    "actif": true
+  },
+  "bfm-politique": {
+    "nom": "BFM Politique",
+    "radio": "bfmtv",
+    "animateur": "Guillaume Daret",
+    "heure": "12:00",
+    "jours": "Dimanche",
+    "actif": true
+  },
+  "bfm-grand-oral": {
+    "nom": "Le Grand Oral 2027 (avec Le Figaro)",
+    "radio": "bfmtv",
+    "animateur": "Marc Fauvelle et Marie Chantrait",
+    "heure": "18:00",
+    "jours": "Dimanche",
+    "actif": true
+  },
+  "bfm-vous-president": {
+    "nom": "Vous Président",
+    "radio": "bfmtv",
+    "heure": "21:00",
+    "jours": "Soirées spéciales",
+    "actif": true
   }
 }

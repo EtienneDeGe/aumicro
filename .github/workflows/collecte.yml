@@ -12,6 +12,10 @@ on:
         description: "Date de début (AAAA-MM-JJ), vide = 3 derniers jours"
         required: false
         default: ""
+      emission:
+        description: "Ne collecter qu'une émission (identifiant), vide = toutes"
+        required: false
+        default: ""
       essai:
         description: "Essai : afficher sans proposer de modification"
         type: boolean
@@ -38,6 +42,7 @@ jobs:
         run: |
           ARGS=""
           if [ -n "${{ inputs.depuis }}" ]; then ARGS="--depuis ${{ inputs.depuis }}"; fi
+          if [ -n "${{ inputs.emission }}" ]; then ARGS="$ARGS --emission ${{ inputs.emission }}"; fi
           if [ "${{ inputs.essai }}" = "true" ]; then ARGS="$ARGS --essai"; fi
           python collecte.py $ARGS
       - name: Vérifier que le site se génère

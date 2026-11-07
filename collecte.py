@@ -334,7 +334,8 @@ def episodes(src):
         else:
             ecouter = audio or lien or None
         lien_propre = lien if lien and lien.rstrip("/") != lien_chaine.rstrip("/") else ""
-        yield {"date": quand.date(), "titre": texte(it.findtext("title")), "desc": texte(it.findtext("description")),
+        yield {"date": quand.date(), "heure": f"{quand.hour:02d}:{quand.minute // 5 * 5:02d}",
+               "titre": texte(it.findtext("title")), "desc": texte(it.findtext("description")),
                "ecouter": ecouter, "lien": lien_propre}
 
 
@@ -366,6 +367,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--jours", type=int, default=3, help="nombre de jours à remonter (défaut 3)")
     ap.add_argument("--depuis", help="date de début AAAA-MM-JJ (prioritaire sur --jours)")
+    ap.add_argument("--emission", help="ne collecter que cette émission (identifiant de data/emissions.json)")
     ap.add_argument("--essai", action="store_true", help="affiche le résultat sans rien écrire")
     a = ap.parse_args()
     aujourdhui = datetime.now(PARIS).date()
@@ -391,13 +393,16 @@ def main():
 
     # 1. Podcasts
     for src in sources["podcasts"]:
+        if a.emission and src["emission"] != a.emission:
+            continue
         em_id = src["emission"]
         em = emissions[em_id]
         print(f"\n== {em['nom']} ({em['radio']})")
         try:
             eps = [e for e in episodes(src) if debut <= e["date"] <= aujourdhui
                    and not e["titre"].startswith("[À découvrir")
-                   and (not src.get("filtre_titre") or re.search(src["filtre_titre"], e["titre"], re.I))]
+                   and (not src.get("filtre_titre") or re.search(src["filtre_titre"], e["titre"], re.I))
+                   and not (src.get("exclure_titre") and re.search(src["exclure_titre"], e["titre"], re.I))]
         except Exception as ex:
             erreurs.append(f"{em['nom']} : flux illisible ({ex})")
             print("  ! flux illisible :", ex)
@@ -479,7 +484,10 @@ def main():
                         existant["statut"] = "confirme"
                         completes.append(f"{ep['date']} · {em['nom']} · {trouve['nom']} : lien d'écoute ajouté")
                     continue
-                x = {"heure": em.get("heure", "00:00"), "emission": em_id, "personne": slug, "fonction": fonction,
+                heure = em.get("heure", "00:00")
+                if src.get("heure_flux") and ep["heure"] > heure:
+                    heure = ep["heure"]  # émission longue à plusieurs invités : heure de mise en ligne de la séquence
+                x = {"heure": heure, "emission": em_id, "personne": slug, "fonction": fonction,
                      "ecouter": ep["ecouter"], "voir": None, "statut": "confirme"}
                 anim = animateur(ep["desc"])
                 if anim and anim != em.get("animateur") and norm(anim) != norm(trouve["nom"]):

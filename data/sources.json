@@ -74,6 +74,25 @@
       "page": "https://www.radiofrance.fr/franceinter/podcasts/franc-jeu",
       "replay": "lien",
       "plusieurs_invites": true
+    },
+    {
+      "emission": "bfm-100-mabrouk",
+      "flux": "https://feeds.simplecast.com/c2TGFkfx",
+      "replay": "audio",
+      "exclure_titre": "^L'intégrale",
+      "heure_flux": true
+    },
+    {
+      "emission": "bfm-politique",
+      "flux": "https://feeds.simplecast.com/jGeeHPr8",
+      "replay": "audio",
+      "plusieurs_invites": true
+    },
+    {
+      "emission": "bfm-grand-oral",
+      "flux": "https://feeds.simplecast.com/1Z1MBeaj",
+      "replay": "audio",
+      "plusieurs_invites": true
     }
   ],
   "youtube_playlists": {
