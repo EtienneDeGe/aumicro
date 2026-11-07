@@ -1,14 +1,7 @@
 """Repérage : trouve les flux podcast des émissions via l'annuaire Apple Podcasts et affiche leurs derniers épisodes."""
 import json, sys, urllib.parse, urllib.request, xml.etree.ElementTree as ET
 
-RECHERCHES = [
-    "Les Grandes Gueules RMC", "Face aux Grandes Gueules", "Les Grandes Gueules invité politique",
-    "Questions politiques France Inter", "franceinfo interview 18h", "franceinfo l'interview politique soir",
-    "Europe 1 soir interview politique", "Europe 1 l'invité de 18h", "RTL soir invité", "RTL l'invité de 18h", "RTL Grand Jury",
-    "Sud Radio Midi invité politique", "Sud Radio invité soir", "RFI invité de la mi-journée", "France Inter 13h invité",
-    "franceinfo 12h invité politique", "Les informés franceinfo", "Estelle Midi RMC invité", "On refait le monde RTL",
-    "Le grand rendez-vous Europe 1", "Dimanche en politique", "franceinfo le grand entretien dimanche",
-]
+RECHERCHES = ["100% Mabrouk", "Sonia Mabrouk BFMTV", "Vous président BFMTV", "Vous président", "BFM Politique", "Grand oral 2027 BFMTV", "BFMTV politique interview"]
 UA = {"User-Agent": "Mozilla/5.0 (compatible; AuMicro/0.1; +https://etiennedege.github.io/aumicro/)"}
 
 def get(url):
