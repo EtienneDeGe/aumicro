@@ -434,12 +434,24 @@ def main():
                                  "fonction": impose.get("fonction") or fonction_apres(ep["desc"], impose["nom"]),
                                  "wd": None if impose.get("sans_wikidata") else wd.personne(impose["nom"])})
             elif src.get("titre_invite"):
-                nom_t = next((m.group("nom").strip() for r in src["titre_invite"] if (m := re.search(r, ep["titre"]))), None)
-                if nom_t and " " not in nom_t:  # nom de famille seul : personnalité déjà connue du site
-                    connus = [p["nom"] for p in personnes.values() if norm(p["nom"]).endswith(" " + norm(nom_t))]
-                    nom_t = connus[0] if len(connus) == 1 else None
+                def nom_complet(n):
+                    """« Le Pen » ou « Tondelier » → nom complet d'une personnalité déjà connue du site, si elle est unique."""
+                    connus = [p["nom"] for p in personnes.values() if norm(p["nom"]).endswith(" " + norm(n))]
+                    return connus[0] if len(connus) == 1 else None
+                nom_t = next((m.group("nom").strip(" ,;.!?") for r in src["titre_invite"] if (m := re.search(r, ep["titre"]))), None)
+                if nom_t:
+                    noms_t = candidats(nom_t)  # « Quelle ligne au RN ? Louis Aliot » → Louis Aliot
+                    if noms_t:
+                        nom_t = noms_t[-1][0]
+                    if " " not in nom_t or nom_complet(nom_t):
+                        nom_t = nom_complet(nom_t) or (nom_t if " " in nom_t else None)
+                if not nom_t:  # personnalités à retenir dès que leur nom apparaît dans le titre
+                    nom_t = next((nom_complet(n) for n in src.get("toujours_par_nom", [])
+                                  if re.search(rf"\b{re.escape(n)}\b", ep["titre"]) and nom_complet(n)), None)
                 w = wd.personne(nom_t) if nom_t and norm(nom_t) not in exclus else None
-                if w and (w["politique"] or norm(nom_t) in inclus):
+                if not w and nom_t and norm(nom_t) in inclus:
+                    choix_ep.append({"verdict": "retenu", "nom": nom_t, "fonction": None, "wd": None})
+                elif w and (w["politique"] or norm(nom_t) in inclus):
                     choix_ep.append({"verdict": "retenu", "nom": nom_t, "fonction": None, "wd": w})
                 elif nom_t:
                     choix_ep.append({"verdict": "hors-champ", "nom": nom_t, "fonction": (w or {}).get("description")})

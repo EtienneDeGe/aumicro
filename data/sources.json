@@ -85,7 +85,11 @@
         "^(?P<nom>[^:–]{3,60}?) (?:est )?l?['’]?invitée? de Sonia Mabrouk",
         "^(?P<nom>[A-ZÉÈ][\\w'’-]+(?: [A-ZÉÈ][\\w'’-]+){0,2}) ?: "
       ],
-      "historique_depuis": "2026-08-20"
+      "historique_depuis": "2026-08-20",
+      "toujours_par_nom": [
+        "Le Pen",
+        "Retailleau"
+      ]
     }
   ],
   "youtube_playlists": {
