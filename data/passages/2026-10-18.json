@@ -16,5 +16,41 @@
     "ecouter": "https://shows.acast.com/le-grand-jury-rtl-le-figaro-public-senat-m6/episodes/6ad5cd4d336b44639e2ea130",
     "voir": null,
     "statut": "confirme"
+  },
+  {
+    "heure": "22:50",
+    "emission": "bfm-100-mabrouk",
+    "personne": "eric-ciotti",
+    "fonction": "Homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/e6ff4b99-194e-4048-87e0-85ae1f2c4f37/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=e6ff4b99-194e-4048-87e0-85ae1f2c4f37&category=News&episode_published_at=2026-10-18T20%3A51%3A54&episode_title=Ciotti+%3A+%E2%80%9CMacron+a+parl%C3%A9+pour+ne+rien+dire%E2%80%9D+%E2%80%93+18%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "22:50",
+    "emission": "bfm-100-mabrouk",
+    "personne": "marine-tondelier",
+    "fonction": "Femme politique française",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/b3efb4bd-160c-4ef6-a659-483d67dccf9c/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=b3efb4bd-160c-4ef6-a659-483d67dccf9c&category=News&episode_published_at=2026-10-18T20%3A51%3A24&episode_title=Tondelier+%3A+%22On+attend+des+excuses+de+l%27%C3%89tat%22+%E2%80%93+18%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "23:00",
+    "emission": "bfm-100-mabrouk",
+    "personne": "eric-zemmour",
+    "fonction": "Journaliste, écrivain et homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/93d2ebfc-c56f-4e3c-8fd7-46e1abbde2df/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=93d2ebfc-c56f-4e3c-8fd7-46e1abbde2df&category=News&episode_published_at=2026-10-18T21%3A03%3A15&episode_title=Zemmour+%3A+%22Faire+payer+les+coupables+des+d%C3%A9g%C3%A2ts%22+%E2%80%93+18%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "23:00",
+    "emission": "bfm-100-mabrouk",
+    "personne": "benoit-payan",
+    "fonction": "Homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/3f1ee1ae-a7f5-4914-8346-e64b7ad668cd/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=3f1ee1ae-a7f5-4914-8346-e64b7ad668cd&category=News&episode_published_at=2026-10-18T21%3A02%3A31&episode_title=Payan+%3A+%22Le+gouvernement+doit+passer+%C3%A0+la+caisse%22+%E2%80%93+18%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

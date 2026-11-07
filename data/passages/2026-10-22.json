@@ -72,5 +72,14 @@
     "voir": "https://www.youtube.com/watch?v=SblTSLHcr7U",
     "statut": "confirme",
     "animateur": "Jacques Cardoze"
+  },
+  {
+    "heure": "22:05",
+    "emission": "bfm-100-mabrouk",
+    "personne": "benoit-payan",
+    "fonction": "Homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/6ccd81fb-9c02-48a1-81b3-06d07e0d9afd/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=6ccd81fb-9c02-48a1-81b3-06d07e0d9afd&category=News&episode_published_at=2026-10-22T20%3A06%3A34&episode_title=Payan+%3A+%22J%27ai+eu+peur+pour+la+vie+des+Marseillais%22+%E2%80%93+22%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

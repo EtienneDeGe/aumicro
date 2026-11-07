@@ -45,5 +45,14 @@
     "voir": null,
     "statut": "confirme",
     "animateur": "Jacques Cardoze"
+  },
+  {
+    "heure": "21:25",
+    "emission": "bfm-100-mabrouk",
+    "personne": "jean-philippe-tanguy",
+    "fonction": "Homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/e04106c7-187e-40e3-a739-03a6be94f091/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=e04106c7-187e-40e3-a739-03a6be94f091&category=News&episode_published_at=2026-10-13T19%3A28%3A49&episode_title=Jean-Philippe+Tanguy+invit%C3%A9+de+Sonia+Mabrouk+%E2%80%93+13%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

@@ -1,0 +1,20 @@
+[
+  {
+    "heure": "21:15",
+    "emission": "bfm-100-mabrouk",
+    "personne": "jordan-bardella",
+    "fonction": "Homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/aeea48a2-7885-4e88-bdba-ccd058ab24f6/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=aeea48a2-7885-4e88-bdba-ccd058ab24f6&category=News&episode_published_at=2026-09-17T19%3A17%3A46&episode_title=Jordan+Bardella+%3A+Lecornu+%22cherche+%C3%A0+%C3%A9viter+la+censure%22+%E2%80%93+17%2F09&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "21:25",
+    "emission": "bfm-100-mabrouk",
+    "personne": "jerome-guedj",
+    "fonction": "Homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/f86b1057-cafc-4130-ac6a-54448c8ee6eb/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=f86b1057-cafc-4130-ac6a-54448c8ee6eb&category=News&episode_published_at=2026-09-17T19%3A27%3A25&episode_title=J%C3%A9r%C3%B4me+Guedj+%3A+%22Bardella+se+glisse+dans+les+pas+de+Zemmour%22+%E2%80%93+17%2F09&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  }
+]

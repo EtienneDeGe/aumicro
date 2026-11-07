@@ -72,5 +72,14 @@
     "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/2d43c288-f816-4724-9f43-f0de4fb43e16/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=2d43c288-f816-4724-9f43-f0de4fb43e16&category=News&episode_published_at=2026-10-06T09%3A12%3A14&episode_title=Louis+Letoublon+face+aux+GG+-+06%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
     "voir": null,
     "statut": "confirme"
+  },
+  {
+    "heure": "22:05",
+    "emission": "bfm-100-mabrouk",
+    "personne": "marine-tondelier",
+    "fonction": "Femme politique française",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/a733e954-9a54-4acd-aaf4-cfcbccc7bfb2/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=a733e954-9a54-4acd-aaf4-cfcbccc7bfb2&category=News&episode_published_at=2026-10-06T20%3A09%3A31&episode_title=Marine+Tondelier+invit%C3%A9e+de+Sonia+Mabrouk+%E2%80%93+06%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

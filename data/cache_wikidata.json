@@ -372,6 +372,22 @@
   "politique": false,
   "qid": "Q2833474"
  },
+ "v2:alexandre jardin": {
+  "description": "écrivain, cinéaste et pamphlétaire français",
+  "fonction_publique": false,
+  "nom": "Alexandre Jardin",
+  "photo_fichier": "Alexandre Jardin 2013 crop.jpg",
+  "politique": false,
+  "qid": "Q982361"
+ },
+ "v2:alexis morel": {
+  "description": "diplomate français",
+  "fonction_publique": false,
+  "nom": "Alexis Morel",
+  "photo_fichier": null,
+  "politique": false,
+  "qid": "Q33266875"
+ },
  "v2:ali rabeh": {
   "description": "Homme politique franco-marocain",
   "fonction_publique": true,
@@ -511,6 +527,15 @@
   "qid": "Q137612820"
  },
  "v2:benjamin ball": null,
+ "v2:benjamin millepied": {
+  "description": "danseur et chorégraphe français",
+  "fonction_publique": false,
+  "nom": "Benjamin Millepied",
+  "photo_fichier": "Benjamin Millepied 2015.jpg",
+  "politique": false,
+  "qid": "Q583186"
+ },
+ "v2:benjamin millepied danseur": null,
  "v2:benoit payan": {
   "description": "homme politique français",
   "fonction_publique": true,
@@ -685,6 +710,14 @@
   "politique": true,
   "qid": "Q33138734"
  },
+ "v2:edouard philippe": {
+  "description": "homme d'État français",
+  "fonction_publique": true,
+  "nom": "Édouard Philippe",
+  "photo_fichier": "Édouard Philippe 2019 (cropped).jpg",
+  "politique": true,
+  "qid": "Q3579995"
+ },
  "v2:edwige diaz": {
   "description": "femme politique française",
   "fonction_publique": true,
@@ -807,6 +840,9 @@
  },
  "v2:festival de cannes": null,
  "v2:florence sabatier": null,
+ "v2:folies bergere": null,
+ "v2:folies bergeres": null,
+ "v2:fondation jean jaures": null,
  "v2:franck leroy": {
   "description": "homme politique français",
   "fonction_publique": true,
@@ -814,6 +850,14 @@
   "photo_fichier": "Franck leroy 1508946.jpg",
   "politique": true,
   "qid": "Q3082186"
+ },
+ "v2:francois bayrou": {
+  "description": "homme d'État français",
+  "fonction_publique": true,
+  "nom": "François Bayrou",
+  "photo_fichier": "Bayrou Matignon (cropped).jpg",
+  "politique": true,
+  "qid": "Q12963"
  },
  "v2:francois bujon": null,
  "v2:francois hollande": {
@@ -914,6 +958,14 @@
  },
  "v2:gavin newsom": null,
  "v2:gavin newsom homme": null,
+ "v2:geoffroy roux de bezieux": {
+  "description": "dirigeant d'entreprise français",
+  "fonction_publique": true,
+  "nom": "Geoffroy Roux de Bézieux",
+  "photo_fichier": "REF.090 28 08 2019 cRM I.jpg",
+  "politique": false,
+  "qid": "Q3101149"
+ },
  "v2:gerald darmanin": {
   "description": "homme politique français",
   "fonction_publique": true,
@@ -998,6 +1050,14 @@
  },
  "v2:hayat el kaaouachi": null,
  "v2:helene denechere": null,
+ "v2:herve morin": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Hervé Morin",
+  "photo_fichier": "Hervemorin2008 recadre.PNG",
+  "politique": true,
+  "qid": "Q521021"
+ },
  "v2:histoire de blois": null,
  "v2:hubert vedrine": {
   "description": "diplomate et homme politique français",
@@ -1071,6 +1131,14 @@
   "photo_fichier": null,
   "politique": false,
   "qid": "Q110811277"
+ },
+ "v2:jean louis borloo": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Jean-Louis Borloo",
+  "photo_fichier": "Jean-Louis Borloo HD (cropped).jpg",
+  "politique": true,
+  "qid": "Q467781"
  },
  "v2:jean michel blanquer": {
   "description": "homme politique et juriste français",
@@ -1346,6 +1414,14 @@
   "politique": true,
   "qid": "Q29917987"
  },
+ "v2:marion marechal": {
+  "description": "femme politique française",
+  "fonction_publique": true,
+  "nom": "Marion Maréchal",
+  "photo_fichier": "Marion Maréchal MEP (2024).jpg",
+  "politique": true,
+  "qid": "Q292458"
+ },
  "v2:martin mcdonagh": null,
  "v2:marylise leon": {
   "description": "dirigeante syndicale française (CFDT)",
@@ -1370,6 +1446,14 @@
   "photo_fichier": "Mathilde Panot 2021-3.jpg",
   "politique": true,
   "qid": "Q30343128"
+ },
+ "v2:matthieu pigasse": {
+  "description": "homme d'affaires français",
+  "fonction_publique": true,
+  "nom": "Matthieu Pigasse",
+  "photo_fichier": "Matthieu Pigasse.jpg",
+  "politique": true,
+  "qid": "Q3299928"
  },
  "v2:matthieu valet": {
   "description": "policier et homme politique français",
@@ -1416,6 +1500,14 @@
  "v2:michel foucault": null,
  "v2:monde gerard davet": null,
  "v2:nabil diab": null,
+ "v2:natacha polony": {
+  "description": "journaliste et essayiste française",
+  "fonction_publique": true,
+  "nom": "Natacha Polony",
+  "photo_fichier": "Natacha Polony Cannes 2015.jpg",
+  "politique": false,
+  "qid": "Q941949"
+ },
  "v2:nathanael combary": null,
  "v2:neila latrous": {
   "description": "journaliste française d'origine algérienne",
@@ -1485,6 +1577,14 @@
   "photo_fichier": "Patrick Artus - 2017.jpg",
   "politique": false,
   "qid": "Q3369193"
+ },
+ "v2:patrick bruel": {
+  "description": "chanteur et acteur français",
+  "fonction_publique": false,
+  "nom": "Patrick Bruel",
+  "photo_fichier": "Patrick Bruel Cabourg 2012.jpg",
+  "politique": false,
+  "qid": "Q171530"
  },
  "v2:patrick martin": {
   "description": "dirigeant d'entreprise français",
@@ -1584,6 +1684,7 @@
   "politique": true,
   "qid": "Q356919"
  },
+ "v2:primaire ps": null,
  "v2:prisca thevenot": {
   "description": "femme politique française",
   "fonction_publique": true,
@@ -1772,7 +1873,23 @@
   "qid": "Q247924"
  },
  "v2:tam tran huy de public": null,
+ "v2:thibault de montbrial": {
+  "description": "avocat français",
+  "fonction_publique": false,
+  "nom": "Thibault de Montbrial",
+  "photo_fichier": "Thibault de Montbrial 2026.jpg",
+  "politique": false,
+  "qid": "Q3524053"
+ },
  "v2:thibault lefevre": null,
+ "v2:thierry breton": {
+  "description": "homme politique et dirigeant d'entreprise français",
+  "fonction_publique": true,
+  "nom": "Thierry Breton",
+  "photo_fichier": "Hearing of Commissioner-designate Thierry Breton (49068069128) (cropped).jpg",
+  "politique": true,
+  "qid": "Q2142823"
+ },
  "v2:thierry cotillard": {
   "description": "président de société",
   "fonction_publique": false,

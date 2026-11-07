@@ -26,5 +26,23 @@
     "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/be4f6d8c-2c86-4544-a044-dbca56c9def5/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=be4f6d8c-2c86-4544-a044-dbca56c9def5&category=News&episode_published_at=2026-11-04T10%3A46%3A42&episode_title=Sophie+Binet+face+aux+GG+-+04%2F11&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
     "voir": null,
     "statut": "confirme"
+  },
+  {
+    "heure": "20:30",
+    "emission": "bfm-100-mabrouk",
+    "personne": "eric-ciotti",
+    "fonction": "Homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/7b5af70d-7e88-40e3-9f2c-1294336f4a6a/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=7b5af70d-7e88-40e3-9f2c-1294336f4a6a&category=News&episode_published_at=2026-11-04T19%3A34%3A52&episode_title=Ciotti+%3A+%22Actes+de+violence+insupportables%22+en+manifs+%E2%80%93+04%2F11&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "21:05",
+    "emission": "bfm-100-mabrouk",
+    "personne": "gabriel-attal",
+    "fonction": "Homme d'état français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/23f8b139-26f6-47bc-bccd-d40d9e9b9445/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=23f8b139-26f6-47bc-bccd-d40d9e9b9445&category=News&episode_published_at=2026-11-04T20%3A02%3A21&episode_title=Gabriel+Attal+invit%C3%A9+de+Sonia+Mabrouk+%E2%80%93+04%2F11&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

@@ -1,0 +1,29 @@
+[
+  {
+    "heure": "20:10",
+    "emission": "bfm-100-mabrouk",
+    "personne": "jordan-bardella",
+    "fonction": "Homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/6fcbe770-6f65-4ad5-8cfa-f91b4379ea61/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=6fcbe770-6f65-4ad5-8cfa-f91b4379ea61&category=News&episode_published_at=2026-09-30T18%3A10%3A42&episode_title=Bardella+%3A+le+RN+recherche...+sa+taupe+%E2%80%93+30%2F09&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "21:05",
+    "emission": "bfm-100-mabrouk",
+    "personne": "louis-aliot",
+    "fonction": "Avocat et homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/1002b1ae-65ac-45db-a380-b124be4ce666/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=1002b1ae-65ac-45db-a380-b124be4ce666&category=News&episode_published_at=2026-09-30T19%3A08%3A49&episode_title=Aliot+%3A+%22Des+taupes%2C+il+y+en+a+toujours+eu%22+%E2%80%93+30%2F09&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "21:15",
+    "emission": "bfm-100-mabrouk",
+    "personne": "sandrine-rousseau",
+    "fonction": "Économiste et femme politique française",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/4e4ca13d-a391-4b3c-81a5-e978cb616d7a/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=4e4ca13d-a391-4b3c-81a5-e978cb616d7a&category=News&episode_published_at=2026-09-30T19%3A19%3A27&episode_title=Sandrine+Rousseau+invit%C3%A9+de+Sonia+Mabrouk+%E2%80%93+30%2F09&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  }
+]
