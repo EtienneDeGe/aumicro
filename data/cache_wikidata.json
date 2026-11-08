@@ -388,6 +388,7 @@
   "politique": false,
   "qid": "Q33266875"
  },
+ "v2:alexis morel vous": null,
  "v2:ali rabeh": {
   "description": "Homme politique franco-marocain",
   "fonction_publique": true,
@@ -1050,6 +1051,14 @@
  },
  "v2:hayat el kaaouachi": null,
  "v2:helene denechere": null,
+ "v2:henri guaino": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Henri Guaino",
+  "photo_fichier": "Henri Guaino.JPG",
+  "politique": true,
+  "qid": "Q3131235"
+ },
  "v2:herve morin": {
   "description": "homme politique français",
   "fonction_publique": true,
@@ -1329,6 +1338,14 @@
   "photo_fichier": "Casino de Paris 2013 - Laurent Ruquier.jpg",
   "politique": false,
   "qid": "Q3219500"
+ },
+ "v2:laurent wauquiez": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Laurent Wauquiez",
+  "photo_fichier": "Laurent Wauquiez at the European People's Party Summit, Brussels 2018.jpg",
+  "politique": true,
+  "qid": "Q984375"
  },
  "v2:linda kebbab": {
   "description": "policière syndicaliste française",
@@ -1713,6 +1730,7 @@
  },
  "v2:rassemblement national": null,
  "v2:republicains bruno retailleau": null,
+ "v2:revalorisation du smic": null,
  "v2:richard ferrand": {
   "description": "homme politique français",
   "fonction_publique": true,
@@ -1746,6 +1764,7 @@
   "politique": true,
   "qid": "Q436173"
  },
+ "v2:route du rhum": null,
  "v2:royal historical society": null,
  "v2:sam rockwell": null,
  "v2:sandrine kiberlain": {
@@ -1939,6 +1958,15 @@
   "qid": "Q984448"
  },
  "v2:thomas rodier": null,
+ "v2:tom laperche": {
+  "description": "skipper français",
+  "fonction_publique": false,
+  "nom": "Tom Laperche",
+  "photo_fichier": "Tom Laperche.jpg",
+  "politique": false,
+  "qid": "Q108618483"
+ },
+ "v2:tom laperche navigateur vous": null,
  "v2:tour de lombardie": null,
  "v2:universite de londres": null,
  "v2:valerie anne giscard d estaing": {

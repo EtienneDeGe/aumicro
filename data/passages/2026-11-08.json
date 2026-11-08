@@ -1,0 +1,29 @@
+[
+  {
+    "heure": "10:00",
+    "emission": "e1-grand-rdv",
+    "personne": "henri-guaino",
+    "fonction": "Ancien conseiller spécial de Nicolas Sarkozy",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/f23260cb-e13c-4e4a-8474-0d4eed40cc82.mp3?_=1794133670",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "12:00",
+    "emission": "rtl-grand-jury",
+    "personne": "jean-noel-barrot",
+    "fonction": "Ministre de l'Europe et des Affaires étrangères",
+    "ecouter": "https://shows.acast.com/le-grand-jury-rtl-le-figaro-public-senat-m6/episodes/6af06dd5baaf18ccf9453678",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "13:20",
+    "emission": "inter-franc-jeu",
+    "personne": "laurent-wauquiez",
+    "fonction": "Président du groupe Droite républicaine à l’Assemblée nationale et député de la Haute-Loire",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/franc-jeu/franc-jeu-du-dimanche-08-novembre-2026-5098272",
+    "voir": null,
+    "statut": "confirme"
+  }
+]
