@@ -330,6 +330,12 @@
     "credit_photo": null,
     "wikidata": null
   },
+  "henri-guaino": {
+    "nom": "Henri Guaino",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Henri_Guaino.JPG?width=240",
+    "credit_photo": "NicholasNCE, CC BY 3.0, Wikimedia Commons",
+    "wikidata": "Q3131235"
+  },
   "herve-morin": {
     "nom": "Hervé Morin",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Hervemorin2008_recadre.PNG?width=240",
@@ -449,6 +455,12 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Nunez_Beauvau_%28cropped%29.jpg?width=240",
     "credit_photo": "Ministère de l'Intérieur, Licence Ouverte, Wikimedia Commons",
     "wikidata": "Q30729111"
+  },
+  "laurent-wauquiez": {
+    "nom": "Laurent Wauquiez",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Laurent_Wauquiez_at_the_European_People%27s_Party_Summit%2C_Brussels_2018.jpg?width=240",
+    "credit_photo": "European People's Party, CC BY 2.0, Wikimedia Commons",
+    "wikidata": "Q984375"
   },
   "linda-kebbab": {
     "nom": "Linda Kebbab",
