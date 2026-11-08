@@ -59,13 +59,15 @@
     "nom": "France Culture",
     "abr": "FC",
     "teinte": 330,
-    "direct": "https://www.radiofrance.fr/franceculture"
+    "direct": "https://www.radiofrance.fr/franceculture",
+    "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/France_Culture_logo_2021.svg?width=120"
   },
   "bfmtv": {
     "nom": "BFMTV",
     "abr": "BFM",
     "teinte": 215,
     "direct": "https://www.bfmtv.com/en-direct/",
-    "type": "tv"
+    "type": "tv",
+    "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_BFMTV_2019.svg?width=120"
   }
 }
