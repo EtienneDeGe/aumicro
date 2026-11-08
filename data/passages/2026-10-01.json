@@ -54,5 +54,14 @@
     "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/6e5cdc77-2a7e-429a-bc3b-2a167624c61f/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=6e5cdc77-2a7e-429a-bc3b-2a167624c61f&category=News&episode_published_at=2026-10-01T09%3A12%3A21&episode_title=Charles+Alloncle+face+aux+GG+-+01%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
     "voir": null,
     "statut": "confirme"
+  },
+  {
+    "heure": "21:35",
+    "emission": "bfm-100-mabrouk",
+    "personne": "francois-ruffin",
+    "fonction": "Journaliste, réalisateur et homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/e32f050f-660e-41b3-89e4-0198c7e909f5/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=e32f050f-660e-41b3-89e4-0198c7e909f5&category=News&episode_published_at=2026-10-01T19%3A37%3A30&episode_title=Ruffin+%3A+%22Le+m%C3%A9nage+ne+doit+pas+s%27arr%C3%AAter+%C3%A0+Bardella%22+%E2%80%93+01%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

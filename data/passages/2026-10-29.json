@@ -35,5 +35,14 @@
     "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/f97d0f41-098d-4b2b-ab2d-4a7f9dd970c8/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=f97d0f41-098d-4b2b-ab2d-4a7f9dd970c8&category=News&episode_published_at=2026-10-29T09%3A30%3A51&episode_title=Guillaume+Gu%C3%A9rin+face+aux+GG+-+29%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
     "voir": null,
     "statut": "confirme"
+  },
+  {
+    "heure": "19:30",
+    "emission": "bfm-100-mabrouk",
+    "personne": "laurent-nunez",
+    "fonction": "Haut fonctionnaire et homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/7faba3a4-80d6-4077-babd-722470b3cc5e/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=7faba3a4-80d6-4077-babd-722470b3cc5e&category=News&episode_published_at=2026-10-29T18%3A31%3A47&episode_title=Nu%C3%B1ez+%3A+%22BRI%2C+RAID%2C+GIGN%2C+CENTAURE%22+d%C3%A9ploy%C3%A9s+samedi+%E2%80%93+29%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

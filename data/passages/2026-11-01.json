@@ -25,5 +25,23 @@
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/da0f9933-1c34-4710-8a21-f1f4a4d714da.mp3?_=1793527363",
     "voir": null,
     "statut": "confirme"
+  },
+  {
+    "heure": "19:55",
+    "emission": "bfm-100-mabrouk",
+    "personne": "robert-menard",
+    "fonction": "Journaliste, essayiste et homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/7a44f602-85ce-4a94-8b72-9ae2755c3309/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=7a44f602-85ce-4a94-8b72-9ae2755c3309&category=News&episode_published_at=2026-11-01T18%3A57%3A44&episode_title=M%C3%A9nard+%3A+attentat+%C3%A0+Trappes%2C+%22une+monstruosit%C3%A9%22+%E2%80%93+01%2F11&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "20:55",
+    "emission": "bfm-100-mabrouk",
+    "personne": "bruno-retailleau",
+    "fonction": "Homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/de4174d5-0054-4ae1-a3c7-1360472736b2/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=de4174d5-0054-4ae1-a3c7-1360472736b2&category=News&episode_published_at=2026-11-01T19%3A59%3A01&episode_title=Retailleau%2C+Lisnard+%3A+qui+est+le+candidat+de+la+droite+%3F+%E2%80%93+01%2F11&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

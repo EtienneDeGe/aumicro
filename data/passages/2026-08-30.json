@@ -1,0 +1,38 @@
+[
+  {
+    "heure": "20:25",
+    "emission": "bfm-100-mabrouk",
+    "personne": "robert-menard",
+    "fonction": "Journaliste, essayiste et homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/4d3d1a1a-391f-41f3-8d42-3971d5334eb1/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=4d3d1a1a-391f-41f3-8d42-3971d5334eb1&category=News&episode_published_at=2026-08-30T18%3A27%3A41&episode_title=Robert+M%C3%A9nard+invit%C3%A9+de+Sonia+Mabrouk+%E2%80%93+30%2F08&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "20:25",
+    "emission": "bfm-100-mabrouk",
+    "personne": "olivier-faure",
+    "fonction": "Homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/22b7ad91-0b4d-4166-8e9c-231b16421fe0/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=22b7ad91-0b4d-4166-8e9c-231b16421fe0&category=News&episode_published_at=2026-08-30T18%3A25%3A08&episode_title=Faure+%3A+%22J%27ai+pris+la+d%C3%A9cision+de+me+pr%C3%A9senter%22+-+30%2F08&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "21:10",
+    "emission": "bfm-100-mabrouk",
+    "personne": "jean-philippe-tanguy",
+    "fonction": "Homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/a2e89cdb-af7b-4fc1-8188-d5e6a8593605/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=a2e89cdb-af7b-4fc1-8188-d5e6a8593605&category=News&episode_published_at=2026-08-30T19%3A10%3A39&episode_title=Tanguy+%3A+nationalit%C3%A9%2C+%E2%80%9CProuver+qu%E2%80%99on+aime+la+France%E2%80%9D+%E2%80%93+30%2F08&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "21:40",
+    "emission": "bfm-100-mabrouk",
+    "personne": "jerome-guedj",
+    "fonction": "Homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/c6e3db23-d834-4963-8c81-f758b8c8bcc6/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=c6e3db23-d834-4963-8c81-f758b8c8bcc6&category=News&episode_published_at=2026-08-30T19%3A42%3A39&episode_title=J%C3%A9r%C3%B4me+Guedj+%3A+%C3%A0+la+pr%C3%A9sidentielle%2C+%C2%AB+il+faut+des+tripes+%C2%BB+%E2%80%93+30%2F08&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  }
+]

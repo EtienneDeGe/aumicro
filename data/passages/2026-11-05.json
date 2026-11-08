@@ -44,5 +44,23 @@
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/471c3a9c-b9a5-467d-b001-c8967dd22df6.mp3?_=1793901541",
     "voir": null,
     "statut": "confirme"
+  },
+  {
+    "heure": "20:30",
+    "emission": "bfm-100-mabrouk",
+    "personne": "marine-tondelier",
+    "fonction": "Femme politique française",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/5c34cc25-46ce-4af8-8ef4-704dbcf346aa/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=5c34cc25-46ce-4af8-8ef4-704dbcf346aa&category=News&episode_published_at=2026-11-05T19%3A31%3A11&episode_title=Tondelier+%3A+%22D%C3%A9monstration+de+force+dans+la+vie%22+%E2%80%93+05%2F11&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "22:20",
+    "emission": "bfm-100-mabrouk",
+    "personne": "jean-philippe-tanguy",
+    "fonction": "Homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/87b10234-49de-4265-aabb-08cedbc7ff7e/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=87b10234-49de-4265-aabb-08cedbc7ff7e&category=News&episode_published_at=2026-11-05T21%3A22%3A32&episode_title=Tanguy+%3A+feu+dans+un+lyc%C3%A9e%2C+%22C%27est+r%C3%A9voltant%22+%E2%80%93+05%2F11&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

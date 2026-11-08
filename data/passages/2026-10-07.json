@@ -72,5 +72,23 @@
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/ac7d5e59-31e1-4d91-9a33-8a62e7dddb6d.mp3?_=1791392881",
     "voir": null,
     "statut": "confirme"
+  },
+  {
+    "heure": "20:40",
+    "emission": "bfm-100-mabrouk",
+    "personne": "marion-marechal",
+    "fonction": "Femme politique française",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/e1b3df60-cf86-42d7-a140-8280e22b0d4f/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=e1b3df60-cf86-42d7-a140-8280e22b0d4f&category=News&episode_published_at=2026-10-07T18%3A43%3A51&episode_title=Marion+Mar%C3%A9chal+invit%C3%A9e+de+Sonia+Mabrouk+%E2%80%93+07%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "21:10",
+    "emission": "bfm-100-mabrouk",
+    "personne": "fabien-roussel",
+    "fonction": "Homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/93b7a7b2-bb76-41b4-8a0c-098ec4a9a1ef/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=93b7a7b2-bb76-41b4-8a0c-098ec4a9a1ef&category=News&episode_published_at=2026-10-07T19%3A13%3A34&episode_title=Fabien+Roussel+invit%C3%A9+de+Sonia+Mabrouk+-+07%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

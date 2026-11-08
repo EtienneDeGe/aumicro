@@ -81,5 +81,14 @@
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/740a59cc-d108-4bd9-b90d-aee14a6f6d8b.mp3?_=1793037481",
     "voir": null,
     "statut": "confirme"
+  },
+  {
+    "heure": "22:10",
+    "emission": "bfm-100-mabrouk",
+    "personne": "francois-bayrou",
+    "fonction": "Homme d'état français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/f03bc5f3-26b4-409d-87b8-b03fd04bb20d/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=f03bc5f3-26b4-409d-87b8-b03fd04bb20d&category=News&episode_published_at=2026-10-26T21%3A14%3A12&episode_title=Fran%C3%A7ois+Bayrou+%3A+%22RN+et+LFI%2C+une+%C3%A9gale+toxicit%C3%A9%22+%E2%80%93+26%2F10+&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
   }
 ]
