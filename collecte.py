@@ -504,7 +504,7 @@ def main():
                         nom_affiche = personnes[slug]["nom"]
                     personnes.setdefault(slug, {"nom": nom_affiche, "photo": None, "credit_photo": None, "wikidata": None})
                     trouve = {"nom": nom_affiche, "description": None}
-                fonction = fonction_ep or personnes.get(slug, {}).get("fonction_defaut") or (trouve.get("description") or "").capitalize() or None
+                fonction = personnes.get(slug, {}).get("fonction_fixe") or fonction_ep or personnes.get(slug, {}).get("fonction_defaut") or (trouve.get("description") or "").capitalize() or None
                 liste = jour(ep["date"])
                 existant = next((x for x in liste if x["emission"] == em_id and x["personne"] == slug), None)
                 if existant:
