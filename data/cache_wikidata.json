@@ -650,6 +650,14 @@
   "politique": true,
   "qid": "Q47502155"
  },
+ "v2:david colon": {
+  "description": "historien français",
+  "fonction_publique": false,
+  "nom": "David Colon",
+  "photo_fichier": "David Colon - XV DSI-Epita - 2023 (3).jpg",
+  "politique": false,
+  "qid": "Q47522579"
+ },
  "v2:david khalfa": null,
  "v2:david lisnard": {
   "description": "homme politique français, maire de Cannes",
@@ -884,6 +892,14 @@
   "photo_fichier": "François Ruffin (cropped).jpg",
   "politique": true,
   "qid": "Q3085763"
+ },
+ "v2:francois sureau": {
+  "description": "haut fonctionnaire, avocat et écrivain français",
+  "fonction_publique": true,
+  "nom": "François Sureau",
+  "photo_fichier": null,
+  "politique": true,
+  "qid": "Q3085868"
  },
  "v2:francois villeroy de galhau": {
   "description": "banquier et haut fonctionnaire français",
@@ -1271,6 +1287,14 @@
   "politique": false,
   "qid": "Q983159"
  },
+ "v2:karim bouamrane": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Karim Bouamrane",
+  "photo_fichier": "Karim Bouamrane en 2026.jpg",
+  "politique": true,
+  "qid": "Q98251165"
+ },
  "v2:l affaire bardella": null,
  "v2:l ecrivain bernard henri levy": null,
  "v2:l historien david colon": null,
@@ -1306,6 +1330,14 @@
   "photo_fichier": "Laurent Jacobelli.jpg",
   "politique": true,
   "qid": "Q17632457"
+ },
+ "v2:laurent lafitte": {
+  "description": "acteur et humoriste français",
+  "fonction_publique": false,
+  "nom": "Laurent Lafitte",
+  "photo_fichier": "Laurent Lafitte César 2018.jpg",
+  "politique": false,
+  "qid": "Q3219319"
  },
  "v2:laurent mariotte": {
   "description": "journaliste culinaire et animateur de télévision français",
@@ -1347,6 +1379,7 @@
   "politique": true,
   "qid": "Q984375"
  },
+ "v2:leonard landry": null,
  "v2:linda kebbab": {
   "description": "policière syndicaliste française",
   "fonction_publique": false,
@@ -1505,6 +1538,14 @@
   "photo_fichier": "Barnier cropped.jpg",
   "politique": true,
   "qid": "Q438465"
+ },
+ "v2:michel drucker": {
+  "description": "journaliste, producteur et présentateur de télévision français",
+  "fonction_publique": false,
+  "nom": "Michel Drucker",
+  "photo_fichier": "MichelDrucker-StudioHarcourt-1987.png",
+  "politique": false,
+  "qid": "Q933434"
  },
  "v2:michel edouard leclerc": {
   "description": "président de groupe d'entreprises",
@@ -1968,6 +2009,14 @@
  },
  "v2:tom laperche navigateur vous": null,
  "v2:tour de lombardie": null,
+ "v2:tristan seguela": {
+  "description": "réalisateur français",
+  "fonction_publique": false,
+  "nom": "Tristan Séguéla",
+  "photo_fichier": "Tristan Séguéla 2026.jpg",
+  "politique": false,
+  "qid": "Q15408537"
+ },
  "v2:universite de londres": null,
  "v2:valerie anne giscard d estaing": {
   "description": "éditrice et galeriste française spécialisée dans la photographie",
