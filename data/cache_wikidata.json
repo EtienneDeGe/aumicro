@@ -735,6 +735,14 @@
   "politique": true,
   "qid": "Q63349008"
  },
+ "v2:elisabeth badinter": {
+  "description": "philosophe et féministe française",
+  "fonction_publique": true,
+  "nom": "Élisabeth Badinter",
+  "photo_fichier": "Elisabeth Badinter lors de l'inauguration du lycée international Robert-Badinter (cropped).jpg",
+  "politique": false,
+  "qid": "Q274309"
+ },
  "v2:emmanuel de waresquiel": {
   "description": "historien français",
   "fonction_publique": false,
@@ -1065,6 +1073,7 @@
   "politique": false,
   "qid": "Q63301813"
  },
+ "v2:hausse du smic": null,
  "v2:hayat el kaaouachi": null,
  "v2:helene denechere": null,
  "v2:henri guaino": {
@@ -1446,6 +1455,14 @@
   "photo_fichier": "Marcel Gauchet en février 2017.jpg",
   "politique": false,
   "qid": "Q1027750"
+ },
+ "v2:marie helene thoraval": {
+  "description": "femme politique française",
+  "fonction_publique": true,
+  "nom": "Marie-Hélène Thoraval",
+  "photo_fichier": "Thoravalphotodeprofil.jpg",
+  "politique": true,
+  "qid": "Q3291901"
  },
  "v2:marie moley": null,
  "v2:marine le pen": {
@@ -2075,6 +2092,14 @@
   "photo_fichier": "Yannick Jadot, 2014 (cropped).jpg",
   "politique": true,
   "qid": "Q441791"
+ },
+ "v2:yasmina reza": {
+  "description": "auteure dramatique et actrice française",
+  "fonction_publique": false,
+  "nom": "Yasmina Reza",
+  "photo_fichier": "Yasmina-reza.jpg",
+  "politique": false,
+  "qid": "Q297794"
  },
  "v2:yonathan arfi": {
   "description": "chef d'entreprise français, militant associatif, président du Conseil représentatif des institutions juives de France (CRIF)",

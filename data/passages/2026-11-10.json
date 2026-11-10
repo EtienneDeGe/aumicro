@@ -1,0 +1,57 @@
+[
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "jean-philippe-tanguy",
+    "fonction": "Président délégué du groupe RN à l’Assemblée nationale et député RN de la Somme",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/c311836d-187d-4c1f-b15d-250ba0df945d.mp3?_=1794295058&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
+    "voir": "https://www.youtube.com/watch?v=BJCiwG_nAp0",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:20",
+    "emission": "inter-8h20",
+    "personne": "gabriel-attal",
+    "fonction": "Candidat Renaissance à l'élection présidentielle, salue l'arrivée du judoka Teddy Riner",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-8h20-le-grand-entretien/l-invite-de-8h20-le-grand-entretien-du-mardi-10-novembre-2026-3103420",
+    "voir": "https://www.youtube.com/watch?v=wcxMYd1GOnk",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "sophie-binet",
+    "fonction": "Secrétaire générale de la CGT",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/chomage-hausse-du-smic-salaires-le-8h30-franceinfo-de-sophie-binet_8254993.html",
+    "voir": "https://www.youtube.com/watch?v=jDFcp-RNv0Y",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "rmc-face-a-face",
+    "personne": "dominique-de-villepin",
+    "fonction": "Ancien Premier ministre, et fondateur de La France Humaniste",
+    "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/e792a826-d093-4459-9550-fbbfa8afedb8/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=e792a826-d093-4459-9550-fbbfa8afedb8&category=News%2CSociety+%26+Culture&episode_published_at=2026-11-10T07%3A57%3A10&episode_title=Face+%C3%A0+Face+%3A+Dominique+de+Villepin+-+10%2F11&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
+    "voir": "https://www.youtube.com/watch?v=cATFBOt079k",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "marie-helene-thoraval",
+    "fonction": "Maire de Romans-sur-Isère",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-773",
+    "voir": "https://www.youtube.com/watch?v=YUQUk2hsmGs",
+    "statut": "confirme",
+    "animateur": "Jacques Cardoze"
+  },
+  {
+    "heure": "11:00",
+    "emission": "rmc-face-aux-gg",
+    "personne": "francois-ruffin",
+    "fonction": "Candidat Debout",
+    "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/88819bd5-0d11-47f8-8ac3-c681f3b323b9/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=88819bd5-0d11-47f8-8ac3-c681f3b323b9&category=News&episode_published_at=2026-11-10T10%3A25%3A42&episode_title=Fran%C3%A7ois+Ruffin+face+aux+GG+-+10%2F11&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
+    "voir": null,
+    "statut": "confirme"
+  }
+]
