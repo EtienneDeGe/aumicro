@@ -198,6 +198,12 @@
     "credit_photo": "Jacques Paquier, CC BY 2.0, Wikimedia Commons",
     "wikidata": "Q64281962"
   },
+  "emmanuel-macron": {
+    "nom": "Emmanuel Macron",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Emmanuel_Macron_2025_%28cropped%29.jpg?width=240",
+    "credit_photo": "Nebojša Tejić, Public domain, Wikimedia Commons",
+    "wikidata": "Q3052772"
+  },
   "emmanuel-moulin": {
     "nom": "Emmanuel Moulin",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Emmanuel_Moulin_%28cropped%29.jpg?width=240",
@@ -747,9 +753,9 @@
   },
   "teddy-riner": {
     "nom": "Teddy Riner",
-    "photo": null,
-    "credit_photo": null,
-    "wikidata": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Teddy_Riner_Cannes_2016.jpg?width=240",
+    "credit_photo": "Georges Biard, CC BY-SA 3.0, Wikimedia Commons",
+    "wikidata": "Q353514",
     "fonction_defaut": "Candidat à l'élection présidentielle"
   },
   "thierry-breton": {
@@ -763,6 +769,12 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Thomas.M%C3%A9nag%C3%A9.jpg?width=240",
     "credit_photo": "VenteXe, CC BY-SA 4.0, Wikimedia Commons",
     "wikidata": "Q112650795"
+  },
+  "valerie-pecresse": {
+    "nom": "Valérie Pécresse",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Val%C3%A9rie_P%C3%A9cresse_at_a_2024_Paralympic_Games_media_conference_in_2024_3_%28cropped%29.jpg?width=240",
+    "credit_photo": "Gail Leenstra, CC BY-SA 4.0, Wikimedia Commons",
+    "wikidata": "Q455023"
   },
   "vincent-jeanbrun": {
     "nom": "Vincent Jeanbrun",

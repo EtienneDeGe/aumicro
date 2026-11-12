@@ -1,0 +1,48 @@
+[
+  {
+    "heure": "07:40",
+    "emission": "rtl-invite-7h40",
+    "personne": "valerie-pecresse",
+    "fonction": "Femme politique française",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/d0c00bd9-1b55-4647-a698-27e2d0036df0.mp3?_=1794466981",
+    "voir": "https://www.youtube.com/watch?v=9MrVHsoqSoI",
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:50",
+    "emission": "inter-7h50",
+    "personne": "emmanuel-macron",
+    "fonction": "Homme d'état français",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50/l-invite-de-7h50-du-jeudi-12-novembre-2026-4687198",
+    "voir": "https://www.youtube.com/watch?v=XcEsFlNGVP0",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "karim-bouamrane",
+    "fonction": "Candidat à l'élection présidentielle et maire PS de Saint-Ouen",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/f3d5e229-3b86-4c8b-8372-eebb7785297f.mp3?_=1794467811&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
+    "voir": "https://www.youtube.com/watch?v=IqY2Fkjktqk",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:15",
+    "emission": "rc-invite-matinale",
+    "personne": "francois-villeroy-de-galhau",
+    "fonction": "Ancien gouverneur de la Banque de France et aujourd'hui président de la Fondation des Apprentis d'Auteuil",
+    "ecouter": "https://podcasts.audiomeans.fr/l-invite-de-la-matinale-a0fcb873fd2b/francois-villeroy-de-galhau-8facef1ebb08",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "robert-menard",
+    "fonction": "Maire de Béziers",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-775",
+    "voir": "https://www.youtube.com/watch?v=_hLzZkdfw54",
+    "statut": "confirme",
+    "animateur": "Jacques Cardoze"
+  }
+]
