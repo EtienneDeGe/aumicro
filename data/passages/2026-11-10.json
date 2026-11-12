@@ -53,5 +53,14 @@
     "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/88819bd5-0d11-47f8-8ac3-c681f3b323b9/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=88819bd5-0d11-47f8-8ac3-c681f3b323b9&category=News&episode_published_at=2026-11-10T10%3A25%3A42&episode_title=Fran%C3%A7ois+Ruffin+face+aux+GG+-+10%2F11&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
     "voir": null,
     "statut": "confirme"
+  },
+  {
+    "heure": "21:30",
+    "emission": "bfm-100-mabrouk",
+    "personne": "teddy-riner",
+    "fonction": "Candidat à l'élection présidentielle",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/f27155bd-8028-4735-844b-626ff1ec32b6/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=f27155bd-8028-4735-844b-626ff1ec32b6&category=News&episode_published_at=2026-11-10T20%3A34%3A01&episode_title=Riner+%3A+une+vid%C3%A9o+de+candidature+%C3%A0+20+millions+de+vues+%E2%80%93+10%2F11&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

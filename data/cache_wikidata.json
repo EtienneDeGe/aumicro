@@ -212,6 +212,7 @@
   "qid": "Q445705"
  },
  "pos:Q104844640": "directeur des antennes et des programmes",
+ "pos:Q105490190": "coprésidente ou coprésident",
  "pos:Q106987409": "président-directeur du musée du Louvre",
  "pos:Q108399360": "directeur général adjoint",
  "pos:Q108552181": "président du musée d'Orsay",
@@ -233,6 +234,7 @@
  "pos:Q16059954": "ministre de l'Éducation nationale",
  "pos:Q16532929": "administrateur ou administratrice",
  "pos:Q17618208": "secrétaire général de la présidence de la République",
+ "pos:Q18121578": "directeur ou directrice de recherche",
  "pos:Q18705668": "membre de l'Académie française",
  "pos:Q189010": "notaire",
  "pos:Q202660": "Collège de France",
@@ -324,6 +326,7 @@
   "qid": "Q112650795"
  },
  "tour de lombardie": null,
+ "v2:abdul el sayed": null,
  "v2:adele van reeth": {
   "description": "philosophe, productrice de radio et chroniqueuse française",
   "fonction_publique": true,
@@ -606,6 +609,14 @@
  },
  "v2:californie vous": null,
  "v2:carole zerbib": null,
+ "v2:catherine nay": {
+  "description": "journaliste française",
+  "fonction_publique": false,
+  "nom": "Catherine Nay",
+  "photo_fichier": "Catherine Nay.png",
+  "politique": false,
+  "qid": "Q2942016"
+ },
  "v2:catherine vautrin": {
   "description": "femme politique française",
   "fonction_publique": true,
@@ -887,6 +898,7 @@
   "politique": true,
   "qid": "Q30388733"
  },
+ "v2:fabienne lepoittevin": null,
  "v2:fabrice lhomme": {
   "description": "journaliste français",
   "fonction_publique": false,
@@ -897,6 +909,14 @@
  },
  "v2:festival de cannes": null,
  "v2:florence sabatier": null,
+ "v2:florent martin": {
+  "description": null,
+  "fonction_publique": true,
+  "nom": "Florent Martin",
+  "photo_fichier": null,
+  "politique": true,
+  "qid": "Q98234763"
+ },
  "v2:folies bergere": null,
  "v2:folies bergeres": null,
  "v2:fondation jean jaures": null,
@@ -1055,6 +1075,7 @@
   "politique": true,
   "qid": "Q784021"
  },
+ "v2:gilles attaf": null,
  "v2:gilles finchelstein": {
   "description": "juriste, homme politique et essayiste français",
   "fonction_publique": true,
@@ -1157,6 +1178,14 @@
   "photo_fichier": null,
   "politique": false,
   "qid": "Q3164767"
+ },
+ "v2:jean daniel levy": {
+  "description": null,
+  "fonction_publique": false,
+  "nom": "Jean-Daniel Lévy",
+  "photo_fichier": null,
+  "politique": false,
+  "qid": "Q127785676"
  },
  "v2:jean didier berger": {
   "description": "personnalité politique française",
@@ -1286,6 +1315,14 @@
   "photo_fichier": "Jérôme Guedj 2010.jpg",
   "politique": true,
   "qid": "Q3190925"
+ },
+ "v2:joel fourny": {
+  "description": "chef d'entreprise et président d'organismes professionnels",
+  "fonction_publique": false,
+  "nom": "Joël Fourny",
+  "photo_fichier": null,
+  "politique": false,
+  "qid": "Q119042990"
  },
  "v2:john malkovich": null,
  "v2:jonas haddad": {
@@ -2115,6 +2152,22 @@
   "photo_fichier": "Valérie-Anne Giscard d'Estaing 1975.jpg",
   "politique": false,
   "qid": "Q3554215"
+ },
+ "v2:valerie masson delmotte": {
+  "description": "paléoclimatologue française",
+  "fonction_publique": true,
+  "nom": "Valérie Masson-Delmotte",
+  "photo_fichier": "Valérie Masson-Delmotte, 2015 (cropped).jpg",
+  "politique": true,
+  "qid": "Q3554288"
+ },
+ "v2:valerie pecresse": {
+  "description": "femme politique française",
+  "fonction_publique": true,
+  "nom": "Valérie Pécresse",
+  "photo_fichier": "Valérie Pécresse at a 2024 Paralympic Games media conference in 2024 3 (cropped).jpg",
+  "politique": true,
+  "qid": "Q455023"
  },
  "v2:victor hugo": null,
  "v2:vincent jeanbrun": {
