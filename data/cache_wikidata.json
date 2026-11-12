@@ -348,6 +348,22 @@
   "politique": false,
   "qid": "Q2829541"
  },
+ "v2:alain duhamel": {
+  "description": "journaliste politique français",
+  "fonction_publique": false,
+  "nom": "Alain Duhamel",
+  "photo_fichier": "Alain Duhamel 14 mars 2009.jpg",
+  "politique": false,
+  "qid": "Q2829769"
+ },
+ "v2:albert dupontel": {
+  "description": "acteur, réalisateur et scénariste de cinéma français",
+  "fonction_publique": false,
+  "nom": "Albert Dupontel",
+  "photo_fichier": "Albert Dupontel (c) Chistophe Brachet.JPG",
+  "politique": false,
+  "qid": "Q124389"
+ },
  "v2:aleksandar nikolic": {
   "description": "homme politique français",
   "fonction_publique": true,
@@ -422,6 +438,14 @@
   "photo_fichier": "Andréa.Kotarac (cropped).jpg",
   "politique": true,
   "qid": "Q62887833"
+ },
+ "v2:anne charlene bezzina": {
+  "description": "juriste française spécialiste de droit constitutionnel",
+  "fonction_publique": false,
+  "nom": "Anne-Charlène Bezzina",
+  "photo_fichier": "Anne-Charlène Bezzina (born 1987) in the video 'Anne-Charlène Bezzina – Retrouver le peuple – pour un nouveau contrat social'.png",
+  "politique": false,
+  "qid": "Q117748215"
  },
  "v2:anne goscinny": {
   "description": "écrivaine française",
@@ -528,6 +552,14 @@
   "qid": "Q137612820"
  },
  "v2:benjamin ball": null,
+ "v2:benjamin haddad": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Benjamin Haddad",
+  "photo_fichier": "20240708-P1020422 Benjamin Haddad Wikipedia.jpg",
+  "politique": true,
+  "qid": "Q112572505"
+ },
  "v2:benjamin millepied": {
   "description": "danseur et chorégraphe français",
   "fonction_publique": false,
@@ -574,6 +606,14 @@
  },
  "v2:californie vous": null,
  "v2:carole zerbib": null,
+ "v2:catherine vautrin": {
+  "description": "femme politique française",
+  "fonction_publique": true,
+  "nom": "Catherine Vautrin",
+  "photo_fichier": "Vautrin 1503548.jpg",
+  "politique": true,
+  "qid": "Q2942097"
+ },
  "v2:chamathka warahena": null,
  "v2:charles alloncle": {
   "description": "homme politique français",
@@ -1110,6 +1150,14 @@
   "politique": false,
   "qid": "Q551570"
  },
+ "v2:jean christophe notin": {
+  "description": "écrivain, historien et documentariste français",
+  "fonction_publique": false,
+  "nom": "Jean-Christophe Notin",
+  "photo_fichier": null,
+  "politique": false,
+  "qid": "Q3164767"
+ },
  "v2:jean didier berger": {
   "description": "personnalité politique française",
   "fonction_publique": true,
@@ -1387,6 +1435,14 @@
   "photo_fichier": "Laurent Wauquiez at the European People's Party Summit, Brussels 2018.jpg",
   "politique": true,
   "qid": "Q984375"
+ },
+ "v2:leila slimani": {
+  "description": "journaliste et écrivaine franco-marocaine",
+  "fonction_publique": false,
+  "nom": "Leïla Slimani",
+  "photo_fichier": "Leïla Slimani at the 2025 Cannes Film Festival 14.jpg",
+  "politique": false,
+  "qid": "Q18173445"
  },
  "v2:leonard landry": null,
  "v2:linda kebbab": {
@@ -1916,6 +1972,15 @@
   "politique": true,
   "qid": "Q111529069"
  },
+ "v2:sophie godard": null,
+ "v2:stephane audoin rouzeau": {
+  "description": "historien français",
+  "fonction_publique": true,
+  "nom": "Stéphane Audoin-Rouzeau",
+  "photo_fichier": "S.Audoin-Rouzeau.JPG",
+  "politique": false,
+  "qid": "Q2360290"
+ },
  "v2:stephane boujnah": {
   "description": "directeur général d'Euronext",
   "fonction_publique": false,
@@ -1950,6 +2015,14 @@
   "qid": "Q247924"
  },
  "v2:tam tran huy de public": null,
+ "v2:teddy riner": {
+  "description": "judoka français",
+  "fonction_publique": false,
+  "nom": "Teddy Riner",
+  "photo_fichier": "Teddy Riner Cannes 2016.jpg",
+  "politique": false,
+  "qid": "Q353514"
+ },
  "v2:thibault de montbrial": {
   "description": "avocat français",
   "fonction_publique": false,

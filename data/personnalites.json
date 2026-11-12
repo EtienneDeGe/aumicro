@@ -71,6 +71,12 @@
     "credit_photo": "Segolene Liger, CC BY-SA 4.0, Wikimedia Commons",
     "wikidata": "Q137612820"
   },
+  "benjamin-haddad": {
+    "nom": "Benjamin Haddad",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/20240708-P1020422_Benjamin_Haddad_Wikipedia.jpg?width=240",
+    "credit_photo": "TrisHR, CC BY 4.0, Wikimedia Commons",
+    "wikidata": "Q112572505"
+  },
   "benoit-payan": {
     "nom": "Benoît Payan",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Benoit_Payan_2024.jpeg?width=240",
@@ -100,6 +106,12 @@
     "photo": null,
     "credit_photo": null,
     "wikidata": null
+  },
+  "catherine-vautrin": {
+    "nom": "Catherine Vautrin",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Vautrin_1503548.jpg?width=240",
+    "credit_photo": "G.Garitan, CC BY-SA 4.0, Wikimedia Commons",
+    "wikidata": "Q2942097"
   },
   "charles-alloncle": {
     "nom": "Charles Alloncle",
