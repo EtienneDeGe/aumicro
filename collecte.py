@@ -379,6 +379,7 @@ def main():
     personnes = lire("data/personnalites.json")
     exclus = {norm(n) for n in lire("data/exclus.json")["noms"]} if (RACINE / "data/exclus.json").exists() else set()
     forcer = {(p["date"], p["emission"]): p for p in lire("data/forcer.json")["passages"]} if (RACINE / "data/forcer.json").exists() else {}
+    rejets = {(p["date"], p["emission"], p["personne"]) for p in lire("data/rejets.json")["passages"]} if (RACINE / "data/rejets.json").exists() else set()
     alias = {norm(k): v for k, v in lire("data/alias.json")["noms"].items()} if (RACINE / "data/alias.json").exists() else {}
     inclus = {norm(n) for n in lire("data/inclus.json")["noms"]} if (RACINE / "data/inclus.json").exists() else set()
     par_qid = {p.get("wikidata"): s for s, p in personnes.items() if p.get("wikidata")}
@@ -506,6 +507,8 @@ def main():
                     trouve = {"nom": nom_affiche, "description": None}
                 fonction = personnes.get(slug, {}).get("fonction_fixe") or fonction_ep or personnes.get(slug, {}).get("fonction_defaut") or (trouve.get("description") or "").capitalize() or None
                 liste = jour(ep["date"])
+                if (ep["date"].isoformat(), em_id, slug) in rejets:
+                    continue
                 existant = next((x for x in liste if x["emission"] == em_id and x["personne"] == slug), None)
                 if existant:
                     if not existant.get("ecouter") and ep["ecouter"]:

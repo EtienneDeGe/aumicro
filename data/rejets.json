@@ -1,0 +1,11 @@
+{
+  "commentaire": "Passages erronés supprimés à la main : la collecte ne les recrée pas.",
+  "passages": [
+    {
+      "date": "2026-11-12",
+      "emission": "inter-7h50",
+      "personne": "emmanuel-macron",
+      "note": "L'invitée était Catherine Nay"
+    }
+  ]
+}
