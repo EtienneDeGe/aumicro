@@ -745,6 +745,13 @@
     "credit_photo": "European Parliament from EU, CC BY 2.0, Wikimedia Commons",
     "wikidata": "Q247924"
   },
+  "teddy-riner": {
+    "nom": "Teddy Riner",
+    "photo": null,
+    "credit_photo": null,
+    "wikidata": null,
+    "fonction_defaut": "Candidat à l'élection présidentielle"
+  },
   "thierry-breton": {
     "nom": "Thierry Breton",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Hearing_of_Commissioner-designate_Thierry_Breton_%2849068069128%29_%28cropped%29.jpg?width=240",
