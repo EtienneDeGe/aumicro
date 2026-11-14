@@ -192,6 +192,12 @@
     "credit_photo": "Marsouinduteich, CC BY-SA 4.0, Wikimedia Commons",
     "wikidata": "Q63349008"
   },
+  "elisabeth-borne": {
+    "nom": "Élisabeth Borne",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Elisabeth_Borne_November_2022_close-up.jpg?width=240",
+    "credit_photo": "Andrea Adriani © European Union 2022, CC BY-SA 4.0, Wikimedia Commons",
+    "wikidata": "Q20020731"
+  },
   "emmanuel-gregoire": {
     "nom": "Emmanuel Grégoire",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Emmanuel_Gr%C3%A9goire_%2846632368425%29.jpg?width=240",
@@ -245,6 +251,12 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Roussel_Fabien_1.jpg?width=240",
     "credit_photo": "Zouhair NAKARA, CC BY-SA 4.0, Wikimedia Commons",
     "wikidata": "Q30388733"
+  },
+  "fabien-vanhemelryck": {
+    "nom": "Fabien Vanhemelryck",
+    "photo": null,
+    "credit_photo": null,
+    "wikidata": "Q120169860"
   },
   "franck-leroy": {
     "nom": "Franck Leroy",
