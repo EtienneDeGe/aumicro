@@ -1,0 +1,39 @@
+[
+  {
+    "heure": "07:40",
+    "emission": "rtl-invite-7h40",
+    "personne": "fabien-vanhemelryck",
+    "fonction": "Secrétaire général du syndicat Alliance Police nationale",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/0d686cf8-2bc1-4581-9d4b-0a8d1379af0f.mp3?_=1794553381",
+    "voir": "https://www.youtube.com/watch?v=jwOiUaxQGI8",
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:50",
+    "emission": "inter-7h50",
+    "personne": "francois-ruffin",
+    "fonction": "Député de la Somme, président du parti Debout",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50/l-invite-de-7h50-du-we-du-vendredi-13-novembre-2026-2849338",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "edwige-diaz",
+    "fonction": "Sénatrice RN de Gironde et présidente du groupe RN au Sénat",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/e75dc9da-b931-49de-bd18-0a5caeac44e1.mp3?_=1794554441&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
+    "voir": "https://www.youtube.com/watch?v=xLNHumZ0nQ0",
+    "statut": "confirme",
+    "animateur": "Yoann Usaï"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "elisabeth-borne",
+    "fonction": "Ancienne Première ministre, députée Renaissance du Calvados",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/melenchon-interdit-d-entree-en-israel-suppressions-de-postes-dans-la-fonction-publique-le-smic-et-les-salaires-le-8h30-franceinfo-d-elisabeth-borne_8259692.html",
+    "voir": "https://www.youtube.com/watch?v=HCAsW6y3K1U",
+    "statut": "confirme"
+  }
+]
