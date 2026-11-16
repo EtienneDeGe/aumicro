@@ -3,7 +3,7 @@
     "heure": "07:40",
     "emission": "rtl-invite-7h40",
     "personne": "david-lisnard",
-    "fonction": "Maire de Cannes, ex LR désormais Nouvelle Energie, promet qu'il ira jusqu'au bout",
+    "fonction": "Candidat à l'élection présidentielle, maire de Cannes",
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/40676c8c-2375-4685-8988-b252c31f3a49.mp3?_=1792476181",
     "voir": null,
     "statut": "confirme"
@@ -12,7 +12,7 @@
     "heure": "07:50",
     "emission": "inter-7h50",
     "personne": "yael-braun-pivet",
-    "fonction": "Femme politique française",
+    "fonction": "Présidente de l’Assemblée Nationale",
     "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50/l-invite-de-7h50-du-mardi-20-octobre-2026-1630752",
     "voir": "https://www.youtube.com/watch?v=2miSeDZRCkE",
     "statut": "confirme"
@@ -21,7 +21,7 @@
     "heure": "08:13",
     "emission": "e1-grande-interview",
     "personne": "gerald-darmanin",
-    "fonction": "Ministre de la Justice",
+    "fonction": "Garde des Sceaux, ministre de la Justice",
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/ff76d38c-7568-4934-afaa-b32732083a09.mp3?_=1792477238&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
     "voir": "https://www.youtube.com/watch?v=HiBoYm8wHuY",
     "statut": "confirme",
@@ -31,7 +31,7 @@
     "heure": "08:20",
     "emission": "inter-8h20",
     "personne": "marylise-leon",
-    "fonction": "Secrétaire générale de la CFDT et Jérôme Fourquet, analyste politique, directeur du département Opinion à l'Ifop",
+    "fonction": "Secrétaire générale de la CFDT",
     "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-8h20-le-grand-entretien/l-invite-de-8h20-le-grand-entretien-du-mardi-20-octobre-2026-6370825",
     "voir": "https://www.youtube.com/watch?v=JFmPuPnXFok",
     "statut": "confirme"
@@ -40,7 +40,7 @@
     "heure": "08:30",
     "emission": "fi-830",
     "personne": "manuel-bompard",
-    "fonction": "Coordinateur national de La France insoumise et député des Bouches-du-Rhône",
+    "fonction": "Coordinateur national de La France Insoumise et député des Bouches-du-Rhône",
     "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/violences-du-17-octobre-couvre-feu-pouvoir-d-achat-le-8h30-franceinfo-de-manuel-bompard_8224141.html",
     "voir": "https://www.youtube.com/watch?v=nwSI7mZ9j84",
     "statut": "confirme"
@@ -49,7 +49,7 @@
     "heure": "08:30",
     "emission": "rmc-face-a-face",
     "personne": "jean-philippe-tanguy",
-    "fonction": "Président délégué du groupe RN à l'Assemblée nationale et député de la Somme",
+    "fonction": "Président délégué du groupe RN à l’Assemblée nationale et député RN de la Somme",
     "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/70b6d7f0-9d1f-49af-b637-b766a512d796/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=70b6d7f0-9d1f-49af-b637-b766a512d796&category=News%2CSociety+%26+Culture&episode_published_at=2026-10-20T06%3A56%3A24&episode_title=Face+%C3%A0+Face+%3A+Jean-Philippe+Tanguy+-+20%2F10&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
     "voir": "https://www.youtube.com/watch?v=NnZDZ9HNtzk",
     "statut": "confirme"
@@ -58,7 +58,7 @@
     "heure": "08:30",
     "emission": "sud-invite-politique",
     "personne": "guillaume-kasbarian",
-    "fonction": "Député Ensemble",
+    "fonction": "Député EPR d'Eure-et-Loir",
     "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-759",
     "voir": "https://www.youtube.com/watch?v=MJXswOp4pHU",
     "statut": "confirme",
@@ -68,7 +68,7 @@
     "heure": "11:00",
     "emission": "rmc-face-aux-gg",
     "personne": "manuel-bompard",
-    "fonction": "Coordinateur de La France insoumise",
+    "fonction": "Coordinateur national de La France Insoumise et député des Bouches-du-Rhône",
     "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/0d586dc9-cbc0-4d19-b78a-113e406dd1d4/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=0d586dc9-cbc0-4d19-b78a-113e406dd1d4&category=News&episode_published_at=2026-10-20T09%3A56%3A23&episode_title=Manuel+Bompard+face+aux+GG+-+20%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
     "voir": null,
     "statut": "confirme"
@@ -95,7 +95,7 @@
     "heure": "20:15",
     "emission": "bfm-100-mabrouk",
     "personne": "maud-bregeon",
-    "fonction": "Femme politique française",
+    "fonction": "Porte-parole du gouvernement, ministre déléguée chargée de l'Énergie",
     "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/1b8a2ade-ccc6-475c-85d7-e12cd52541c7/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=1b8a2ade-ccc6-475c-85d7-e12cd52541c7&category=News&episode_published_at=2026-10-20T18%3A15%3A41&episode_title=Maud+Bregeon+%3A+%E2%80%9CL%E2%80%99urgence%2C+c%E2%80%99est+l%E2%80%99ordre+public%E2%80%9D+%E2%80%93+20%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
     "voir": null,
     "statut": "confirme"
@@ -104,7 +104,7 @@
     "heure": "21:20",
     "emission": "bfm-100-mabrouk",
     "personne": "thierry-breton",
-    "fonction": "Homme politique et dirigeant d'entreprise français",
+    "fonction": "Ancien commissaire européen au marché intérieur et ancien ministre de l'Économie",
     "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/f21fb877-2f23-4225-bc9a-16e903fe7059/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=f21fb877-2f23-4225-bc9a-16e903fe7059&category=News&episode_published_at=2026-10-20T19%3A24%3A11&episode_title=Thierry+Breton+est+l%27invit%C3%A9+de+Sonia+Mabrouk+%E2%80%93+20%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
     "voir": null,
     "statut": "confirme"

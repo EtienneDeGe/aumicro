@@ -1,4 +1,8 @@
 {
   "commentaire": "Orthographes erronées rencontrées dans les résumés d'épisodes → nom correct.",
-  "noms": {"Gilles Fickenstein": "Gilles Finchelstein"}
+  "noms": {
+    "Gilles Fickenstein": "Gilles Finchelstein",
+    "Geoffroy Roux de Bezieux": "Geoffroy Roux de Bézieux",
+    "JM Jancovici": "Jean-Marc Jancovici"
+  }
 }

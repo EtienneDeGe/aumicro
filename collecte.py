@@ -364,6 +364,28 @@ def duree_video(url):
         return 0
 
 
+GENERIQUE = re.compile(r"^(?:homme|femme) (?:politique|d['’]état)|^(?:homme|femme) politique|français(?:e)?$|^politicien", re.I)
+
+
+def titres_par_personne(jours, personnes):
+    """Titre unique de chaque personnalité : sa fonction fixe si elle en a une, sinon la fonction la plus récente
+    tirée d'un épisode (de préférence à une description générique de Wikidata comme « Homme politique français »)."""
+    par_pers = {}
+    for d in sorted(jours):
+        for x in jours[d]:
+            if x.get("fonction"):
+                par_pers.setdefault(x["personne"], []).append(x["fonction"])
+    titres = {}
+    for slug, fonctions in par_pers.items():
+        fixe = personnes.get(slug, {}).get("fonction_fixe")
+        precises = [f for f in fonctions if not GENERIQUE.search(f)]
+        titres[slug] = fixe or (precises or fonctions)[-1]
+    for slug, p in personnes.items():
+        if p.get("fonction_fixe"):
+            titres[slug] = p["fonction_fixe"]
+    return titres
+
+
 # ---------- programme principal ----------
 def main():
     ap = argparse.ArgumentParser()
@@ -612,6 +634,21 @@ def main():
                     x["voir"] = v["url"]
                     completes.append(f"{d} · {nom} : vidéo « {v['titre'][:80]} »")
                     break
+
+    # 2 bis. Un seul titre par personnalité sur tous ses passages
+    tous = {f.stem: json.loads(f.read_text(encoding="utf-8")) for f in sorted((RACINE / "data/passages").glob("*.json"))}
+    tous.update(jours_modifies)
+    titres = titres_par_personne(tous, personnes)
+    for k, liste in tous.items():
+        change = False
+        for x in liste:
+            t = titres.get(x["personne"])
+            if t and x.get("fonction") != t:
+                x["fonction"] = t
+                change = True
+        if change:
+            jours_modifies[k] = liste
+    nouveaux = [(d, em, nom, titres.get(par_nom.get(nom), f), e) for d, em, nom, f, e in nouveaux] if (par_nom := {p["nom"]: s for s, p in personnes.items()}) else nouveaux
 
     # 3. Écriture
     for k in list(jours_modifies):
