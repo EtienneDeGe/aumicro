@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% from "macros.html" import avatar, logo, actions %}
+{% block title %}{{ e.nom }} ({{ e.radio_obj.nom }}) : tous les invités{% endblock %}
+{% block description %}Les {{ liste|length }} invités politiques de {{ e.nom }} sur {{ e.radio_obj.nom }}, avec les liens vers les replays.{% endblock %}
+{% block main %}
+<a class="retour" href="{{ base }}emissions/">← Toutes les émissions</a>
+<div class="fiche-h">
+  {{ logo({"radio": e.radio_obj}) }}
+  <div><div class="eyebrow">Émission</div><h1>{{ e.nom }}</h1>
+  <p class="fn">{{ e.radio_obj.nom }}{% if e.jours %} · {{ e.jours }}{% endif %}{% if e.heure %} · {{ e.heure }}{% endif %}{% if e.animateur %} · {{ e.animateur }}{% endif %}</p></div>
+</div>
+<p class="meta">{{ liste|length }} passage{{ "s" if liste|length > 1 }} recensé{{ "s" if liste|length > 1 }}{% if liste %}, du {{ date_courte(liste[-1].date) }} au {{ date_courte(liste[0].date) }}{% endif %}.</p>
+<ol class="histo">
+{% for x in liste %}
+  <li>
+    <div class="quand"><a href="{{ base }}{{ x.date[:4] }}/{{ x.date[5:7] }}/{{ x.date[8:] }}/">{{ date_courte(x.date) }}</a><div class="h">{{ x.heure }}</div></div>
+    <div class="corps">
+      <div class="carte-h">{{ avatar(x.personne, x.nom, x.photo) }}
+        <div class="who"><a class="nom" href="{{ base }}personnalites/{{ x.personne }}/">{{ x.nom }}</a><div class="fn">{{ x.fonction or "" }}</div></div></div>
+      {{ actions(x) }}
+    </div>
+  </li>
+{% endfor %}
+</ol>
+{% endblock %}

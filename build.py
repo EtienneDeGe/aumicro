@@ -157,6 +157,9 @@ def main():
         if liste:
             groupes.append((r, liste))
     ecrire("emissions/index.html", "emissions.html", emissions=actives, groupes=groupes, page="emissions")
+    for e in actives:
+        liste = sorted([x for x in passages if x["emission"] == e["id"]], key=lambda x: (x["date"], x["heure"]), reverse=True)
+        ecrire(f"emissions/{e['id']}/index.html", "emission.html", e={**e, "radio_obj": radios[e["radio"]]}, liste=liste, page="emissions")
     ecrire("contact/index.html", "contact.html", page="contact")
     ecrire("404.html", "404.html", page="")
     print(f"Site généré : {len(jours)} jours, {len(fiches)} personnalités, {len(passages)} passages → {DIST}")

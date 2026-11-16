@@ -20,11 +20,11 @@
     <h2 class="media-t">{% if radio.logo %}<span class="logo logo-img"><img src="{{ radio.logo }}" alt="" loading="lazy"></span>{% else %}<span class="logo" style="--h:{{ radio.teinte }}">{{ radio.abr }}</span>{% endif %}{{ radio.nom }}</h2>
     <ul class="emi-liste">
     {% for e in liste %}
-      <li>
+      <li><a class="emi-lien" href="{{ base }}emissions/{{ e.id }}/">
         <span class="emi-heure">{{ e.heure or "—" }}</span>
         <div class="emi-info"><div class="emi">{{ e.nom }}</div><div class="anim">{{ e.jours or "" }}{% if e.animateur %} · {{ e.animateur }}{% endif %}</div></div>
-        <span class="emi-nb">{{ e.nb }} passage{{ "s" if e.nb > 1 }}</span>
-      </li>
+        <span class="emi-nb">{{ e.nb }} passage{{ "s" if e.nb > 1 }} ›</span>
+      </a></li>
     {% endfor %}
     </ul>
   </section>
