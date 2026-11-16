@@ -558,6 +558,7 @@
   "qid": "Q137612820"
  },
  "v2:benjamin ball": null,
+ "v2:benjamin duhamel vous": null,
  "v2:benjamin haddad": {
   "description": "homme politique français",
   "fonction_publique": true,
@@ -901,6 +902,14 @@
   "photo_fichier": null,
   "politique": false,
   "qid": "Q47467108"
+ },
+ "v2:eric trappier": {
+  "description": "chef d'entreprise français",
+  "fonction_publique": true,
+  "nom": "Éric Trappier",
+  "photo_fichier": "Eric Trappier.jpg",
+  "politique": false,
+  "qid": "Q3591380"
  },
  "v2:eric vivier": {
   "description": "vétérinaire et immunologue français",
@@ -1566,6 +1575,14 @@
   "photo_fichier": null,
   "politique": true,
   "qid": "Q141674015"
+ },
+ "v2:lucie rico": {
+  "description": "romancière, scénariste et réalisatrice française",
+  "fonction_publique": false,
+  "nom": "Lucie Rico",
+  "photo_fichier": "Lucie rico 1511852 livre à Metz.jpg",
+  "politique": false,
+  "qid": "Q113048341"
  },
  "v2:mage du kremlin": null,
  "v2:maitre romain ruiz": null,
