@@ -1,0 +1,48 @@
+[
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "manuel-bompard",
+    "fonction": "Coordinateur national de la France insoumise, député des Bouches-du-Rhône",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/smic-mobilisation-des-lyceens-diner-avec-les-grands-patrons-le-8h30-franceinfo-de-manuel-bompard_8265098.html",
+    "voir": "https://www.youtube.com/watch?v=4A-WZNDcNiE",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "mathieu-lefevre",
+    "fonction": "Ministre délégué chargé de la transition écologique et Porte-parole du Gouvernement",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-778",
+    "voir": "https://www.youtube.com/watch?v=qtmjKiGfDwI",
+    "statut": "confirme",
+    "animateur": "Jacques Cardoze"
+  },
+  {
+    "heure": "20:30",
+    "emission": "bfm-100-mabrouk",
+    "personne": "bruno-retailleau",
+    "fonction": "Sénateur de Vendée, Président des Républicains et candidat à l'élection présidentielle",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/b8d46330-f102-414c-b315-20d4d7670cf5/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=b8d46330-f102-414c-b315-20d4d7670cf5&category=News&episode_published_at=2026-11-17T19%3A32%3A03&episode_title=Attal%2C+Retailleau%2C+Lisnard+%3A+primaire+en+janvier+%3F+%E2%80%93+17%2F11&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "21:35",
+    "emission": "bfm-100-mabrouk",
+    "personne": "louis-aliot",
+    "fonction": "Premier vice-président du Rassemblement national et maire RN de Perpignan",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/d6cb8f46-a86f-4f3e-8993-c278d8ee4e54/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=d6cb8f46-a86f-4f3e-8993-c278d8ee4e54&category=News&episode_published_at=2026-11-17T20%3A38%3A51&episode_title=Louis+Aliot+%3A+%22La+primaire+des+perdants%22+%E2%80%93+17%2F11&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "21:45",
+    "emission": "bfm-100-mabrouk",
+    "personne": "marine-le-pen",
+    "fonction": "Candidate RN à la présidentielle présidente du groupe RN à l'Assemblée nationale",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/149313f9-8dc3-4ce1-9723-6a83234b4ef1/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=149313f9-8dc3-4ce1-9723-6a83234b4ef1&category=News&episode_published_at=2026-11-17T20%3A49%3A41&episode_title=Le+Pen+%3A+une+r%C3%A9forme+des+retraites+par+r%C3%A9f%C3%A9rendum+%3F+%E2%80%93+17%2F11&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  }
+]

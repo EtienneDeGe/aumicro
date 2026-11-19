@@ -320,9 +320,9 @@
   },
   "geoffroy-roux-de-bezieux": {
     "nom": "Geoffroy Roux de Bézieux",
-    "photo": null,
-    "credit_photo": null,
-    "wikidata": null,
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/REF.090_28_08_2019_cRM_I.jpg?width=240",
+    "credit_photo": "Kbeka2, CC BY-SA 4.0, Wikimedia Commons",
+    "wikidata": "Q3101149",
     "fonction_defaut": "Ancien président du Medef"
   },
   "gerald-darmanin": {
@@ -570,6 +570,12 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Marylise_L%C3%A9on_%28CFDT%29_en_2014.jpg?width=240",
     "credit_photo": "Jla95, CC BY-SA 4.0, Wikimedia Commons",
     "wikidata": "Q55258276"
+  },
+  "mathieu-lefevre": {
+    "nom": "Mathieu Lefèvre",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Mathieu_Lef%C3%A8vre.jpg?width=240",
+    "credit_photo": "Nicolas Maramotti, CC BY-SA 4.0, Wikimedia Commons",
+    "wikidata": "Q112654129"
   },
   "mathilde-panot": {
     "nom": "Mathilde Panot",

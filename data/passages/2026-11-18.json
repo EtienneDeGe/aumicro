@@ -1,0 +1,66 @@
+[
+  {
+    "heure": "07:40",
+    "emission": "rtl-invite-7h40",
+    "personne": "marine-le-pen",
+    "fonction": "Candidate RN à la présidentielle présidente du groupe RN à l'Assemblée nationale",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/35084edf-cf13-479a-8ddb-80cd2aacf5e2.mp3?_=1794985381",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "sebastien-chenu",
+    "fonction": "Député RN du Nord, et président du groupe RN à l'Assemblée nationale",
+    "ecouter": "https://podcasts.audiomeans.fr/l-invite-du-8h13-d-europe-1-51a1f498d911/la-grande-interview---laurence-ferrari---18-11-2026-247d77b24a3f",
+    "voir": "https://www.youtube.com/watch?v=LwW-6Gh3C0E",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "jean-francois-cope",
+    "fonction": "Maire de Meaux, ancien ministre et ancien président de l’UMP",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/primaire-a-droite-et-au-centre-presidentielle-retraites-le-8h30-franceinfo-de-jean-francois-cope_8266766.html",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "rmc-face-a-face",
+    "personne": "jean-philippe-tanguy",
+    "fonction": "Président délégué du groupe RN à l'Assemblée nationale et député de la Somme",
+    "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/d01188c4-dd4c-4509-a3fa-1dbebe0640ae/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=d01188c4-dd4c-4509-a3fa-1dbebe0640ae&category=News%2CSociety+%26+Culture&episode_published_at=2026-11-18T07%3A56%3A19&episode_title=Face+%C3%A0+Face+%3A+Jean-Philippe+Tanguy+-+18%2F11&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
+    "voir": "https://www.youtube.com/watch?v=nei0fPEWKmg",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "bruno-retailleau",
+    "fonction": "Sénateur de Vendée, Président des Républicains et candidat à l'élection présidentielle",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-779",
+    "voir": "https://www.youtube.com/watch?v=cRcdV7dKWcs",
+    "statut": "confirme",
+    "animateur": "Jacques Cardoze"
+  },
+  {
+    "heure": "11:00",
+    "emission": "rmc-face-aux-gg",
+    "personne": "edouard-geffray",
+    "fonction": "Ministre de l'éducation",
+    "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/bd05bfb9-af66-4d3b-ba40-a59352b188b9/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=bd05bfb9-af66-4d3b-ba40-a59352b188b9&category=News&episode_published_at=2026-11-18T10%3A46%3A22&episode_title=%C3%89douard+Geffray+face+aux+GG+-+18%2F11&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "21:30",
+    "emission": "bfm-100-mabrouk",
+    "personne": "laure-lavalette",
+    "fonction": "La députée du Var",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/977a97e9-8aff-475a-bbac-fb46a6b106ce/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=977a97e9-8aff-475a-bbac-fb46a6b106ce&category=News&episode_published_at=2026-11-18T20%3A30%3A31&episode_title=Lavalette+%3A+%22Un+pass%C3%A9+militant+il+y+a+30+ans%22+%E2%80%93+18%2F11&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  }
+]
