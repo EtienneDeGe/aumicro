@@ -583,7 +583,8 @@ def main():
             liste = jour(v["date"])
             if any(x["emission"] == em_id and x["personne"] == slug for x in liste):
                 continue
-            liste.append({"heure": em.get("heure") or v["heure"], "emission": em_id, "personne": slug, "fonction": fonction,
+            h_v = f"{v['heure'][:2]}:{int(v['heure'][3:]) // 5 * 5:02d}"
+            liste.append({"heure": em.get("heure") or h_v, "emission": em_id, "personne": slug, "fonction": fonction,
                           "ecouter": None, "voir": v["url"], "statut": "confirme"})
             nouveaux.append((v["date"], em, nom_aff, fonction, v["url"]))
             print(f"  + {v['date']} {nom_aff}")

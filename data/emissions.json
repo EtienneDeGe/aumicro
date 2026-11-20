@@ -236,14 +236,28 @@
     "radio": "france24",
     "heure": "00:00",
     "jours": "Hebdomadaire",
-    "actif": true
+    "actif": false
   },
   "tf1-bonjour": {
-    "nom": "Bonjour !",
+    "nom": "Face à Élizabeth Martichoux (Bonjour !)",
     "radio": "tf1",
-    "animateur": "Bruce Toussaint",
-    "heure": "08:00",
+    "animateur": "Élizabeth Martichoux",
+    "heure": "07:15",
     "jours": "Du lundi au vendredi",
+    "actif": true
+  },
+  "tf1-route-nationale": {
+    "nom": "Route nationale (LE 20H)",
+    "radio": "tf1",
+    "heure": "20:00",
+    "jours": "Week-end, pendant la campagne",
+    "actif": true
+  },
+  "tf1-lenglet": {
+    "nom": "Discussion sans filtre (Présidentielle 2027)",
+    "radio": "tf1",
+    "animateur": "François Lenglet",
+    "jours": "Ponctuel, sur YouTube",
     "actif": true
   }
 }

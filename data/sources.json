@@ -199,6 +199,24 @@
       "playlist": "PLQxIEr2vMITs",
       "titre": "^Objectif Élysée 2027 : (?P<nom>.+?) face à",
       "commentaire": "Émission connue seulement par sa playlist YouTube ; seules les émissions complètes (titre « Objectif Élysée 2027 : X face à… ») sont retenues, pas les segments."
+    },
+    {
+      "emission": "tf1-bonjour",
+      "playlist": "UCsrPUA0ZSDCNZC6wyRlR7ZA",
+      "titre": "^Face à [ÉE]li[sz]abeth Martichoux ?: (?P<nom>[^｜|]+?)\\s*(?:[｜|]|$)",
+      "commentaire": "Chaîne YouTube TF1 INFO (15 dernières vidéos) : l'interview de 7 h 15 est titrée « Face à Élizabeth Martichoux : X »."
+    },
+    {
+      "emission": "tf1-route-nationale",
+      "playlist": "PLVEWryhrHzoQ",
+      "titre": "\\\"Route nationale\\\" avec (?P<nom>.+?) dans LE ?20H",
+      "commentaire": "Playlist « TF1 2027 »."
+    },
+    {
+      "emission": "tf1-lenglet",
+      "playlist": "PLVEWryhrHzoQ",
+      "titre": "^(?:Candidat en 2027 \\? )?(?P<nom>[^:]+?) : discussion sans filtre avec François Lenglet",
+      "commentaire": "Playlist « TF1 2027 » ; heure = mise en ligne."
     }
   ]
 }
