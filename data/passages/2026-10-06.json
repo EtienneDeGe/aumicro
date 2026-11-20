@@ -1,5 +1,23 @@
 [
   {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "edwige-diaz",
+    "fonction": "Présidente du groupe Rassemblement national au Sénat",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6ac4cc0222e4cb85bd962fbf",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "loic-kervran",
+    "fonction": "Sénateur (Les indépendants) du Cher et soutien d’Edouard Philippe",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6ac4ce5f7b6e45d6bc8fc6b3",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
     "heure": "07:40",
     "emission": "rtl-invite-7h40",
     "personne": "bally-bagayoko",
@@ -12,7 +30,7 @@
     "heure": "08:13",
     "emission": "e1-grande-interview",
     "personne": "sebastien-chenu",
-    "fonction": "Député RN du Nord, et président du groupe RN à l'Assemblée nationale",
+    "fonction": "Député RN du Nord",
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/bb5eae3a-3896-47c5-a46a-d5908c6681e9.mp3?_=1791267672&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
     "voir": null,
     "statut": "confirme",
@@ -49,7 +67,7 @@
     "heure": "08:30",
     "emission": "sud-invite-politique",
     "personne": "louis-aliot",
-    "fonction": "Premier vice-président du Rassemblement national et maire RN de Perpignan",
+    "fonction": "Vice-président du RN",
     "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-751",
     "voir": null,
     "statut": "confirme",
@@ -77,7 +95,7 @@
     "heure": "22:05",
     "emission": "bfm-100-mabrouk",
     "personne": "marine-tondelier",
-    "fonction": "Femme politique française",
+    "fonction": "Secrétaire nationale des Écologistes et candidate Écologiste à l'élection ultime",
     "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/a733e954-9a54-4acd-aaf4-cfcbccc7bfb2/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=a733e954-9a54-4acd-aaf4-cfcbccc7bfb2&category=News&episode_published_at=2026-10-06T20%3A09%3A31&episode_title=Marine+Tondelier+invit%C3%A9e+de+Sonia+Mabrouk+%E2%80%93+06%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
     "voir": null,
     "statut": "confirme"

@@ -1,9 +1,27 @@
 [
   {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "sarah-el-hairy",
+    "fonction": "Haute-commissaire à l'Enfance",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6af2fb77ce118fd5b5d841b0",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "stephane-piednoir",
+    "fonction": "Sénateur (LR) de Maine-et-Loire",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6af2fbc64019cd265503e921",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
     "heure": "08:13",
     "emission": "e1-grande-interview",
     "personne": "jean-philippe-tanguy",
-    "fonction": "Président délégué du groupe RN à l'Assemblée nationale et député de la Somme",
+    "fonction": "Président délégué du groupe RN à l'Assemblée nationale",
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/c311836d-187d-4c1f-b15d-250ba0df945d.mp3?_=1794295058&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
     "voir": "https://www.youtube.com/watch?v=BJCiwG_nAp0",
     "statut": "confirme"
@@ -12,9 +30,18 @@
     "heure": "08:20",
     "emission": "inter-8h20",
     "personne": "gabriel-attal",
-    "fonction": "Candidat Renaissance à l'élection présidentielle, salue l'arrivée du judoka Teddy Riner",
+    "fonction": "Candidat Renaissance à l'élection présidentielle",
     "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-8h20-le-grand-entretien/l-invite-de-8h20-le-grand-entretien-du-mardi-10-novembre-2026-3103420",
     "voir": "https://www.youtube.com/watch?v=wcxMYd1GOnk",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:25",
+    "emission": "lci-interview",
+    "personne": "mathieu-lefevre",
+    "fonction": "Porte-parole du gouvernement",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/20b56711-7943-43ff-90e9-56e0fc6694bc.mp3?_=1794312107",
+    "voir": null,
     "statut": "confirme"
   },
   {
@@ -30,7 +57,7 @@
     "heure": "08:30",
     "emission": "rmc-face-a-face",
     "personne": "dominique-de-villepin",
-    "fonction": "Ancien Premier ministre, et fondateur de La France Humaniste",
+    "fonction": "Diplomate",
     "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/e792a826-d093-4459-9550-fbbfa8afedb8/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=e792a826-d093-4459-9550-fbbfa8afedb8&category=News%2CSociety+%26+Culture&episode_published_at=2026-11-10T07%3A57%3A10&episode_title=Face+%C3%A0+Face+%3A+Dominique+de+Villepin+-+10%2F11&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
     "voir": "https://www.youtube.com/watch?v=cATFBOt079k",
     "statut": "confirme"

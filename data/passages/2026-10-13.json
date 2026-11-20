@@ -1,9 +1,28 @@
 [
   {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "alain-cadec",
+    "fonction": "Sénateur (LR) des Côtes-d'Armor",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6acdfc778f3407888973b273",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Oriane Mancini"
+  },
+  {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "pierre-rosanvallon",
+    "fonction": "Historien",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6acdfe642c705f746c12af79",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
     "heure": "07:40",
     "emission": "fc-invite-matins",
     "personne": "patrick-martin",
-    "fonction": "Président du Medef, sur l’actualité politique et économique de la France",
+    "fonction": "Président du Medef",
     "ecouter": "https://www.radiofrance.fr/franceculture/podcasts/l-invite-e-des-matins/mouvement-lyceen-dette-presidentielle-patrick-martin-est-l-invite-des-matins-1323060",
     "voir": null,
     "statut": "confirme"
@@ -21,11 +40,20 @@
     "heure": "08:13",
     "emission": "e1-grande-interview",
     "personne": "louis-aliot",
-    "fonction": "Premier vice-président du Rassemblement national et maire RN de Perpignan",
+    "fonction": "Vice-président du RN",
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/afda8578-bb48-4162-9b74-59a8af24da9a.mp3?_=1791872232&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
     "voir": "https://www.youtube.com/watch?v=2eT0Jfn7PuI",
     "statut": "confirme",
     "animateur": "Laurence Ferrari"
+  },
+  {
+    "heure": "08:25",
+    "emission": "lci-interview",
+    "personne": "yael-braun-pivet",
+    "fonction": "Présidente de l’Assemblée Nationale",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/0dc47c7a-2fad-4553-acdd-642802a93ed5.mp3?_=1791902934",
+    "voir": null,
+    "statut": "confirme"
   },
   {
     "heure": "08:30",
@@ -50,7 +78,7 @@
     "heure": "21:25",
     "emission": "bfm-100-mabrouk",
     "personne": "jean-philippe-tanguy",
-    "fonction": "Président délégué du groupe RN à l'Assemblée nationale et député de la Somme",
+    "fonction": "Président délégué du groupe RN à l'Assemblée nationale",
     "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/e04106c7-187e-40e3-a739-03a6be94f091/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=e04106c7-187e-40e3-a739-03a6be94f091&category=News&episode_published_at=2026-10-13T19%3A28%3A49&episode_title=Jean-Philippe+Tanguy+invit%C3%A9+de+Sonia+Mabrouk+%E2%80%93+13%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
     "voir": null,
     "statut": "confirme"

@@ -21,7 +21,7 @@
     "heure": "12:00",
     "emission": "rtl-grand-jury",
     "personne": "david-amiel",
-    "fonction": "Ministre de l'Action et des Comptes publics",
+    "fonction": "Ministre de l’Action et des Comptes publics",
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/f16bfcb9-8c8b-42ad-a7bc-9c6e4f2680d8.mp3?_=1791718382",
     "voir": null,
     "statut": "confirme"
@@ -30,7 +30,7 @@
     "heure": "13:20",
     "emission": "inter-franc-jeu",
     "personne": "roland-lescure",
-    "fonction": "Ministre de l'Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique",
+    "fonction": "Ministre de l'Économie",
     "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/franc-jeu/franc-jeu-du-dimanche-11-octobre-2026-4457043",
     "voir": null,
     "statut": "confirme"
@@ -42,6 +42,15 @@
     "fonction": "Secrétaire générale de la CGT",
     "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/franc-jeu/franc-jeu-du-dimanche-11-octobre-2026-4457043",
     "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "20:00",
+    "emission": "tf1-route-nationale",
+    "personne": "gabriel-attal",
+    "fonction": "Candidat Renaissance à l'élection présidentielle",
+    "ecouter": null,
+    "voir": "https://www.youtube.com/watch?v=1xFor4Zkbu8",
     "statut": "confirme"
   }
 ]

@@ -1,9 +1,36 @@
 [
   {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "pascal-coste",
+    "fonction": "Sénateur (LR) de la Corrèze lui-même agriculteur",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6ac61aa7eea51f2aa37d695d",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "raphael-glucksmann",
+    "fonction": "Eurodéputé et cofondateur de Place publique, candidat à l’élection présidentielle",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6ac61b1df38f25c0f0fd4864",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "aurelie-trouve",
+    "fonction": "Députée (LFI) de la Seine-Saint-Denis, Violette Spillebout, députée",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6ac61ba7eea51f2aa37da846",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
     "heure": "07:40",
     "emission": "rtl-invite-7h40",
     "personne": "sebastien-chenu",
-    "fonction": "Député RN du Nord, et président du groupe RN à l'Assemblée nationale",
+    "fonction": "Député RN du Nord",
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/0955f0e8-3edb-4646-887b-a70aa14b247c.mp3?_=1791353281",
     "voir": null,
     "statut": "confirme"
@@ -12,7 +39,7 @@
     "heure": "07:50",
     "emission": "inter-7h50",
     "personne": "emmanuel-moulin",
-    "fonction": "Gouverneur de la Banque de France, livre son analyse sur la situation financière de la France",
+    "fonction": "Gouverneur de la Banque de France",
     "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50/l-invite-de-7h50-du-mercredi-07-octobre-2026-3823786",
     "voir": null,
     "statut": "confirme"
@@ -21,7 +48,7 @@
     "heure": "08:13",
     "emission": "e1-grande-interview",
     "personne": "aurore-berge",
-    "fonction": "Ministre chargée de l'Égalité entre les femmes et les hommes et de la Lutte contre les discriminations",
+    "fonction": "Ministre déléguée auprès du Premier ministre",
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/ad39cafe-04d3-4b5f-8b53-1048639bd3b0.mp3?_=1791355019&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
     "voir": null,
     "statut": "confirme",
@@ -40,7 +67,7 @@
     "heure": "08:30",
     "emission": "rmc-face-a-face",
     "personne": "jean-philippe-tanguy",
-    "fonction": "Président délégué du groupe RN à l'Assemblée nationale et député de la Somme",
+    "fonction": "Président délégué du groupe RN à l'Assemblée nationale",
     "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/20bde603-cb08-40dd-8e8d-505c9d26ca6f/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=20bde603-cb08-40dd-8e8d-505c9d26ca6f&category=News%2CSociety+%26+Culture&episode_published_at=2026-10-07T06%3A55%3A31&episode_title=Face+%C3%A0+Face+%3A+Jean-Philippe+Tanguy+-+07%2F10&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
     "voir": null,
     "statut": "confirme"
@@ -86,7 +113,7 @@
     "heure": "21:10",
     "emission": "bfm-100-mabrouk",
     "personne": "fabien-roussel",
-    "fonction": "Secrétaire national du PCF et candidat à l'élection présidentielle",
+    "fonction": "Secrétaire national du PCF à l’élection présidentielle",
     "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/93b7a7b2-bb76-41b4-8a0c-098ec4a9a1ef/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=93b7a7b2-bb76-41b4-8a0c-098ec4a9a1ef&category=News&episode_published_at=2026-10-07T19%3A13%3A34&episode_title=Fabien+Roussel+invit%C3%A9+de+Sonia+Mabrouk+-+07%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
     "voir": null,
     "statut": "confirme"

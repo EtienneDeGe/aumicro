@@ -1,5 +1,15 @@
 [
   {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "othman-nasrou",
+    "fonction": "Secrétaire général des Républicains",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6adf29f8b50147298b9425d1",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Oriane Mancini"
+  },
+  {
     "heure": "07:50",
     "emission": "inter-7h50-we",
     "personne": "helene-denechere",
@@ -18,10 +28,19 @@
     "statut": "confirme"
   },
   {
+    "heure": "10:00",
+    "emission": "tf1-lenglet",
+    "personne": "jean-luc-melenchon",
+    "fonction": "Homme politique français",
+    "ecouter": null,
+    "voir": "https://www.youtube.com/watch?v=5qS3PZkpC64",
+    "statut": "confirme"
+  },
+  {
     "heure": "12:00",
     "emission": "rtl-grand-jury",
     "personne": "olivier-faure",
-    "fonction": "Premier secrétaire du parti socialiste",
+    "fonction": "Premier secrétaire du Parti socialiste et député de Seine-et-Marne",
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/f215cc6a-c680-441a-8220-e54dce19b54e.mp3?_=1792931582",
     "voir": null,
     "statut": "confirme"

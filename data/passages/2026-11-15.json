@@ -12,7 +12,7 @@
     "heure": "08:30",
     "emission": "fi-830",
     "personne": "david-amiel",
-    "fonction": "Ministre de l'Action et des Comptes publics",
+    "fonction": "Ministre de l’Action et des Comptes publics",
     "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/hausse-du-smic-revalorisation-des-salaires-du-public-primaire-d-ela-droite-et-du-centre-le-8h30-franceinfo-de-david-amiel_8242243.html",
     "voir": "https://www.youtube.com/watch?v=xNtnITJ5BFk",
     "statut": "confirme"
@@ -27,10 +27,19 @@
     "statut": "confirme"
   },
   {
+    "heure": "18:00",
+    "emission": "bfm-grand-oral",
+    "personne": "jean-francois-cope",
+    "fonction": "Maire de Meaux, ancien ministre et ancien président de l’UMP",
+    "ecouter": null,
+    "voir": "https://www.youtube.com/watch?v=YtleRtXieQQ",
+    "statut": "confirme"
+  },
+  {
     "heure": "21:40",
     "emission": "bfm-100-mabrouk",
     "personne": "robert-menard",
-    "fonction": "Maire de Béziers",
+    "fonction": "Journaliste",
     "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/d40cfb4f-a65e-4a39-a275-67b5783dccbd/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=d40cfb4f-a65e-4a39-a275-67b5783dccbd&category=News&episode_published_at=2026-11-15T20%3A44%3A32&episode_title=M%C3%A9nard+%3A+Riner+dans+la+primaire%2C+%22Pourquoi+pas%22+%E2%80%93+15%2F11&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
     "voir": null,
     "statut": "confirme"

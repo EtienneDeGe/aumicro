@@ -1,9 +1,27 @@
 [
   {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "renaud-muselier",
+    "fonction": "Sénateur (Union Centriste et Indépendants) des Bouches-du-Rhône",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6ad8aa3f1eb6e512e558b23a",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "melanie-vogel",
+    "fonction": "Sénatrice représentant les Français établis hors de France et présidente du groupe écologiste au Sénat, Régis Debord, secrétaire adjoint CRS UNSA Police",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6ad8aa4aa25058b22a52c106",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
     "heure": "07:40",
     "emission": "rtl-invite-7h40",
     "personne": "roland-lescure",
-    "fonction": "Ministre de l'Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique",
+    "fonction": "Ministre de l'Économie",
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/000d3f81-0463-4edd-bfdb-081c831230ee.mp3?_=1792562581",
     "voir": null,
     "statut": "confirme"
@@ -25,6 +43,15 @@
     "fonction": "Ancien Président de la République et député PS de Corrèze",
     "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-8h20-le-grand-entretien/l-invite-de-8h20-le-grand-entretien-du-mercredi-21-octobre-2026-6513669",
     "voir": "https://www.youtube.com/watch?v=Q9MZU7yRhSY",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:25",
+    "emission": "lci-interview",
+    "personne": "manuel-valls",
+    "fonction": "Homme d'état français",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/95de9d2b-d467-4ac7-a728-f173f32886b1.mp3?_=1792580977",
+    "voir": null,
     "statut": "confirme"
   },
   {

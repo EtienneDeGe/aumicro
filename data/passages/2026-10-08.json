@@ -1,5 +1,14 @@
 [
   {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "ian-brossat",
+    "fonction": "Homme politique français",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6ac774bd8f34078889a285f5",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
     "heure": "08:13",
     "emission": "e1-grande-interview",
     "personne": "yael-braun-pivet",
@@ -8,6 +17,15 @@
     "voir": null,
     "statut": "confirme",
     "animateur": "Laurence Ferrari"
+  },
+  {
+    "heure": "08:25",
+    "emission": "lci-interview",
+    "personne": "bruno-retailleau",
+    "fonction": "Sénateur de Vendée, Président des Républicains et candidat à l'élection présidentielle",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/2ad3b3c9-408d-4c6b-a363-43f7d07edb2c.mp3?_=1791457777",
+    "voir": null,
+    "statut": "confirme"
   },
   {
     "heure": "08:30",
@@ -22,7 +40,7 @@
     "heure": "08:30",
     "emission": "rmc-face-a-face",
     "personne": "robert-menard",
-    "fonction": "Maire de Béziers",
+    "fonction": "Journaliste",
     "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/fcb45b6f-1d95-4ba9-9fb4-7cba7b6c0651/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=fcb45b6f-1d95-4ba9-9fb4-7cba7b6c0651&category=News%2CSociety+%26+Culture&episode_published_at=2026-10-08T06%3A58%3A25&episode_title=Face+%C3%A0+Face+%3A+Robert+M%C3%A9nard&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
     "voir": null,
     "statut": "confirme"
@@ -41,7 +59,7 @@
     "heure": "11:00",
     "emission": "rmc-face-aux-gg",
     "personne": "jonas-haddad",
-    "fonction": "Porte parole des Républicains, vice président de la région Normandie",
+    "fonction": "Porte parole des Républicains",
     "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/52fed152-6b5b-49f8-b1be-35b86f7b5a4d/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=52fed152-6b5b-49f8-b1be-35b86f7b5a4d&category=News&episode_published_at=2026-10-08T09%3A56%3A21&episode_title=Jonas+Haddad+face+aux+GG+-+08%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
     "voir": null,
     "statut": "confirme"
