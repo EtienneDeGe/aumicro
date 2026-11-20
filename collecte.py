@@ -152,7 +152,9 @@ def fonction_apres(t, nom):
     m = FIN_FONCTION.search(reste)
     f = (reste[:m.start()] if m else reste[:140]).strip(" ,").replace("«", "").replace("»", "").replace('"', "")
     f = " ".join(f.split())
-    f = re.split(r",? (?:et|ainsi que) (?=[A-ZÉÈ][\w'’-]+ [A-ZÉÈ])|,? sont (?:les )?invit|,? de faire face|,? puis |,? (?:est )?notre invit|,? invitée? d", f)[0].strip(" ,")
+    f = re.split(r",? (?:et|ainsi que) (?=[A-ZÉÈ][\w'’-]+ [A-ZÉÈ])|,? sont (?:les )?invit|,? de faire face|,? puis |,? (?:est )?notre invit|,? invitée? d"
+                 r"|, (?!ancien|ancienne|député|sénat|maire|président|ministre|candidat|porte-parole|membre|vice-|co-|secrétaire|"
+                 r"premier|première|haut|haute|conseill|adjoint|chef|fondat|cofondat|soutien|élu|eurodéput)(?=[a-zàâçéèêëîïôûù])", f)[0].strip(" ,")
     if re.match(r"(?i)(?:le|la|les|de|des|du|un|une|et|qui|ce|cette|sur|dans|en|à|au|aux|il|elle)\b", f):
         return None
     if f.count("(") > f.count(")"):
@@ -425,7 +427,9 @@ def main():
         print(f"\n== {em['nom']} ({em['radio']})")
         try:
             debut_src = min(debut, date.fromisoformat(src["historique_depuis"])) if src.get("historique_depuis") else debut
-            eps = [e for e in episodes(src) if debut_src <= e["date"] <= aujourdhui
+            tous_eps = list(episodes(src))
+            print(f"  {len(tous_eps)} épisodes dans le flux" + (f", du {min(e['date'] for e in tous_eps)} au {max(e['date'] for e in tous_eps)}" if tous_eps else ""))
+            eps = [e for e in tous_eps if debut_src <= e["date"] <= aujourdhui
                    and not e["titre"].startswith("[À découvrir")
                    and (not src.get("filtre_titre") or re.search(src["filtre_titre"], e["titre"], re.I))
                    and not (src.get("exclure_titre") and re.search(src["exclure_titre"], e["titre"], re.I))]
