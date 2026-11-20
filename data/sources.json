@@ -90,6 +90,29 @@
         "Le Pen",
         "Retailleau"
       ]
+    },
+    {
+      "emission": "lci-interview",
+      "flux": "https://feeds.audiomeans.fr/feed/d92181cd-ca35-421b-9577-32bbea93c210.xml",
+      "replay": "audio"
+    },
+    {
+      "emission": "lci-objectif-2027",
+      "flux": "https://feeds.audiomeans.fr/feed/e60f82c3-caa1-4ec3-87b7-6da4d780cf76.xml",
+      "replay": "audio",
+      "heure_flux": true
+    },
+    {
+      "emission": "ps-bonjour",
+      "flux": "https://feeds.acast.com/public/shows/6734e3d85b81168b13993c54",
+      "replay": "lien",
+      "exclure_titre": "^Bonjour chez vous ! du"
+    },
+    {
+      "emission": "f24-mardi-politique",
+      "flux": "https://apis.france24.com/products/get_product/podcast-f24-fr-get-podcast-by-entreprise-id?token_application=33d60288-7e20-11e9-884b-005056a9c687&program.entrepriseId=W",
+      "replay": "lien",
+      "heure_flux": true
     }
   ],
   "youtube_playlists": {

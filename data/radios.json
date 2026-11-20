@@ -69,5 +69,36 @@
     "direct": "https://www.bfmtv.com/en-direct/",
     "type": "tv",
     "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_BFMTV_2019.svg?width=120"
+  },
+  "lci": {
+    "nom": "LCI",
+    "abr": "LCI",
+    "teinte": 5,
+    "direct": "https://www.tf1info.fr/direct/",
+    "type": "tv",
+    "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tf1_info_lci.png?width=120"
+  },
+  "public-senat": {
+    "nom": "Public Sénat",
+    "abr": "PSén",
+    "teinte": 0,
+    "direct": "https://www.publicsenat.fr/direct",
+    "type": "tv"
+  },
+  "france24": {
+    "nom": "France 24",
+    "abr": "F24",
+    "teinte": 200,
+    "direct": "https://www.france24.com/fr/direct",
+    "type": "tv",
+    "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/France_24_logo_%282013%29.svg?width=120"
+  },
+  "tf1": {
+    "nom": "TF1",
+    "abr": "TF1",
+    "teinte": 210,
+    "direct": "https://www.tf1.fr/tf1/direct",
+    "type": "tv",
+    "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_TF1_2013.svg?width=120"
   }
 }

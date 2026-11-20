@@ -9,6 +9,15 @@
     "statut": "confirme"
   },
   {
+    "heure": "08:00",
+    "emission": "tf1-bonjour",
+    "personne": "david-lisnard",
+    "fonction": null,
+    "ecouter": null,
+    "voir": "https://www.youtube.com/watch?v=67yMGmr_pS0",
+    "statut": "confirme"
+  },
+  {
     "heure": "08:13",
     "emission": "e1-grande-interview",
     "personne": "sebastien-chenu",

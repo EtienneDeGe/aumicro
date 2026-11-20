@@ -207,5 +207,43 @@
     "heure": "21:00",
     "jours": "Soirées spéciales",
     "actif": true
+  },
+  "lci-interview": {
+    "nom": "L'Interview",
+    "radio": "lci",
+    "animateur": "Amélie Carrouër",
+    "heure": "08:25",
+    "jours": "Du lundi au vendredi",
+    "actif": true
+  },
+  "lci-objectif-2027": {
+    "nom": "Objectif 2027",
+    "radio": "lci",
+    "animateur": "Darius Rochebin",
+    "heure": "20:00",
+    "jours": "Soirées spéciales",
+    "actif": true
+  },
+  "ps-bonjour": {
+    "nom": "Bonjour chez vous !",
+    "radio": "public-senat",
+    "heure": "07:30",
+    "jours": "Du lundi au vendredi",
+    "actif": true
+  },
+  "f24-mardi-politique": {
+    "nom": "Mardi politique",
+    "radio": "france24",
+    "heure": "00:00",
+    "jours": "Hebdomadaire",
+    "actif": true
+  },
+  "tf1-bonjour": {
+    "nom": "Bonjour !",
+    "radio": "tf1",
+    "animateur": "Bruce Toussaint",
+    "heure": "08:00",
+    "jours": "Du lundi au vendredi",
+    "actif": true
   }
 }
