@@ -199,7 +199,7 @@
     "animateur": "Marc Fauvelle et Marie Chantrait",
     "heure": "18:00",
     "jours": "Dimanche",
-    "actif": false
+    "actif": true
   },
   "bfm-vous-president": {
     "nom": "Vous Président",

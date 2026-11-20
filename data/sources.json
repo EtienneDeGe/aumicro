@@ -175,6 +175,18 @@
         "id": "PLRwgXecE0bRMPNMm07uKrihRUE_g3IOYs",
         "par_date": false
       }
+    ],
+    "bfm-100-mabrouk": [
+      {
+        "id": "PL-qBKb-rfbhjZjW0RQr3Dm8iIvXFE0Gwy",
+        "par_date": false
+      }
+    ],
+    "bfm-vous-president": [
+      {
+        "id": "PL-qBKb-rfbhjZjW0RQr3Dm8iIvXFE0Gwy",
+        "par_date": false
+      }
     ]
   },
   "youtube_chaines_desactivees": {
@@ -217,6 +229,12 @@
       "playlist": "PLVEWryhrHzoQ",
       "titre": "^(?:Candidat en 2027 \\? )?(?P<nom>[^:]+?) : discussion sans filtre avec François Lenglet",
       "commentaire": "Playlist « TF1 2027 » ; heure = mise en ligne."
+    },
+    {
+      "emission": "bfm-grand-oral",
+      "playlist": "PL-qBKb-rfbhjZjW0RQr3Dm8iIvXFE0Gwy",
+      "titre": "[Ll]e Grand Oral d(?:e |['’])(?P<nom>[^,｜|]+)",
+      "commentaire": "Playlist « Politique » de BFMTV (15 dernières vidéos, extraits et interviews mêlés) : seules les vidéos « le Grand Oral de X » sont prises comme émissions."
     }
   ]
 }
