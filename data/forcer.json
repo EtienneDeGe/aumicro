@@ -32,6 +32,11 @@
       "nom": "David Lisnard",
       "titre_contient": "Lisnard",
       "fonction": "Candidat à l'élection présidentielle, maire de Cannes"
+    },
+    {
+      "date": "2026-10-15",
+      "emission": "lci-objectif-2027",
+      "nom": "François Ruffin"
     }
   ]
 }

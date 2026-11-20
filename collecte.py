@@ -378,6 +378,10 @@ def titres_par_personne(jours, personnes):
             if x.get("fonction"):
                 par_pers.setdefault(x["personne"], []).append(x["fonction"])
     titres = {}
+    coupe = re.compile(r",? (?:et|ainsi que) (?=[A-ZÉÈ][\w'’-]+ [A-ZÉÈ])|, (?!ancien|ancienne|député|sénat|maire|président|ministre|candidat|"
+                       r"porte-parole|membre|vice-|co-|secrétaire|premier|première|haut|haute|conseill|adjoint|chef|fondat|cofondat|"
+                       r"soutien|élu|eurodéput)(?=[a-zàâçéèêëîïôûù])")
+    par_pers = {slug: [coupe.split(f)[0].strip(" ,") or f for f in fs] for slug, fs in par_pers.items()}
     for slug, fonctions in par_pers.items():
         fixe = personnes.get(slug, {}).get("fonction_fixe")
         precises = [f for f in fonctions if not GENERIQUE.search(f)]
@@ -586,7 +590,7 @@ def main():
             h_v = f"{v['heure'][:2]}:{int(v['heure'][3:]) // 5 * 5:02d}"
             liste.append({"heure": em.get("heure") or h_v, "emission": em_id, "personne": slug, "fonction": fonction,
                           "ecouter": None, "voir": v["url"], "statut": "confirme"})
-            nouveaux.append((v["date"], em, nom_aff, fonction, v["url"]))
+            nouveaux.append((v["date"], {**em, "heure": em.get("heure") or h_v}, nom_aff, fonction, v["url"]))
             print(f"  + {v['date']} {nom_aff}")
 
     # 2. Vidéos YouTube pour les passages récents sans vidéo
