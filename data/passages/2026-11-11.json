@@ -1,5 +1,15 @@
 [
   {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "stephanie-rist",
+    "fonction": "Ministre de la Santé",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6af5da6cd397467e34e5c27c",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Oriane Mancini"
+  },
+  {
     "heure": "08:13",
     "emission": "e1-grande-interview",
     "personne": "catherine-vautrin",

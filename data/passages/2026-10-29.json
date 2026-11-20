@@ -1,9 +1,36 @@
 [
   {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "prisca-thevenot",
+    "fonction": "Députée Renaissance des Hauts-de-Seine",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6ae3371d6e82d8489f757eab",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "laure-darcos",
+    "fonction": "Sénatrice (LIRT) de l'Essonne et membre d’Horizons",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6ae3488a5a3cc3c4c49a3762",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:25",
+    "emission": "lci-interview",
+    "personne": "edouard-geffray",
+    "fonction": "Ministre de l'éducation",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/619bc0e8-86cb-417a-92e7-209e0b843fa5.mp3?_=1793275963",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
     "heure": "08:30",
     "emission": "fi-830",
     "personne": "philippe-baptiste",
-    "fonction": "Ministre de l'Enseignement supérieur, de la Recherche et de l'Espace",
+    "fonction": "Ingénieur",
     "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/mobilisation-des-lyceens-parcoursup-maintien-de-l-ordre-le-8h30-franceinfo-de-philippe-baptiste_8237956.html",
     "voir": "https://www.youtube.com/watch?v=VTzYV1lXRWA",
     "statut": "confirme"

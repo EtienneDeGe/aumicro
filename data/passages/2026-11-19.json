@@ -1,11 +1,75 @@
 [
   {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "frederique-puissat",
+    "fonction": "Sénatrice (LR) de l'Isère et",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6afed1f618a3c93bdb0e80cf",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:40",
+    "emission": "rtl-invite-7h40",
+    "personne": "jean-noel-barrot",
+    "fonction": "Ministre des Affaires étrangères",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/00214e6b-2321-4870-b931-a2d0aed0983c.mp3?_=1795071781",
+    "voir": "https://www.youtube.com/watch?v=0nRFGZ_T4jA",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "robert-menard",
+    "fonction": "Journaliste",
+    "ecouter": "https://podcasts.audiomeans.fr/l-invite-du-8h13-d-europe-1-51a1f498d911/la-grande-interview---laurence-ferrari---19-11-2026-0caff16eef64",
+    "voir": "https://www.youtube.com/watch?v=_CxVLQNA70E",
+    "statut": "confirme"
+  },
+  {
     "heure": "08:25",
     "emission": "lci-interview",
     "personne": "jean-philippe-tanguy",
-    "fonction": null,
+    "fonction": "Président délégué du groupe RN à l'Assemblée nationale",
     "ecouter": null,
     "voir": "https://www.youtube.com/watch?v=sQKcRHOBm30",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "raphael-glucksmann",
+    "fonction": "Eurodéputé et cofondateur de Place publique, candidat à l’élection présidentielle",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/sommet-international-presidentielle-pouvoir-d-achat-le-8h30-franceinfo-de-raphael-glucksmann_8268626.html",
+    "voir": "https://www.youtube.com/watch?v=PIf7YDzhBUQ",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "rmc-face-a-face",
+    "personne": "jean-louis-borloo",
+    "fonction": "Ancien ministre, ancien maire de Valenciennes",
+    "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/7e797da8-9feb-41ff-85ba-5bc9d0a72921/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=7e797da8-9feb-41ff-85ba-5bc9d0a72921&category=News%2CSociety+%26+Culture&episode_published_at=2026-11-19T07%3A59%3A34&episode_title=Face+%C3%A0+Face+%3A+Jean-Louis+Borloo+-+19%2F11&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
+    "voir": "https://www.youtube.com/watch?v=Uhhbjg5FLYc",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "nathalie-loiseau",
+    "fonction": "Députée européenne Horizons et porte-parole d'Edouard Philippe",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-780",
+    "voir": "https://www.youtube.com/watch?v=eySpqRQLN-w",
+    "statut": "confirme",
+    "animateur": "Jacques Cardoze"
+  },
+  {
+    "heure": "20:05",
+    "emission": "bfm-100-mabrouk",
+    "personne": "gerard-larcher",
+    "fonction": "Président du Sénat",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/f3c99df0-2ab5-49a9-9919-68ec39adc423/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=f3c99df0-2ab5-49a9-9919-68ec39adc423&category=News&episode_published_at=2026-11-19T19%3A07%3A42&episode_title=Larcher+%3A+%22Pas+certain+du+succ%C3%A8s%22+de+la+primaire+%E2%80%93+19%2F11&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
     "statut": "confirme"
   }
 ]

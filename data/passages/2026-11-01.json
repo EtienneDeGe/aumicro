@@ -3,7 +3,7 @@
     "heure": "07:50",
     "emission": "inter-7h50-we",
     "personne": "prisca-thevenot",
-    "fonction": "Députée Renaissance des Hauts-de-Seine, justifie l'absence de Gabriel Attal à l'hommage organisé à Trappes après l'attentat raciste",
+    "fonction": "Députée Renaissance des Hauts-de-Seine",
     "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50/l-invite-de-7h50-du-we-du-dimanche-01-novembre-2026-5827215",
     "voir": null,
     "statut": "confirme"
@@ -27,10 +27,19 @@
     "statut": "confirme"
   },
   {
+    "heure": "12:00",
+    "emission": "rtl-grand-jury",
+    "personne": "natacha-polony",
+    "fonction": "Candidate à l'élection présidentielle",
+    "ecouter": "https://shows.acast.com/le-grand-jury-rtl-le-figaro-public-senat-m6/episodes/6ae73c44b478422f91c4a555",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
     "heure": "19:55",
     "emission": "bfm-100-mabrouk",
     "personne": "robert-menard",
-    "fonction": "Maire de Béziers",
+    "fonction": "Journaliste",
     "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/7a44f602-85ce-4a94-8b72-9ae2755c3309/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=7a44f602-85ce-4a94-8b72-9ae2755c3309&category=News&episode_published_at=2026-11-01T18%3A57%3A44&episode_title=M%C3%A9nard+%3A+attentat+%C3%A0+Trappes%2C+%22une+monstruosit%C3%A9%22+%E2%80%93+01%2F11&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
     "voir": null,
     "statut": "confirme"
@@ -41,7 +50,7 @@
     "personne": "bruno-retailleau",
     "fonction": "Sénateur de Vendée, Président des Républicains et candidat à l'élection présidentielle",
     "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/de4174d5-0054-4ae1-a3c7-1360472736b2/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=de4174d5-0054-4ae1-a3c7-1360472736b2&category=News&episode_published_at=2026-11-01T19%3A59%3A01&episode_title=Retailleau%2C+Lisnard+%3A+qui+est+le+candidat+de+la+droite+%3F+%E2%80%93+01%2F11&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
-    "voir": null,
+    "voir": "https://www.youtube.com/watch?v=NkeIYlj9Xv8",
     "statut": "confirme"
   }
 ]

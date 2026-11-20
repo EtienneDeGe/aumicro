@@ -1,9 +1,27 @@
 [
   {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "marine-tondelier",
+    "fonction": "Secrétaire nationale des Écologistes et candidate Écologiste à l'élection ultime",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6aec6d2092924d4001e298ca",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "ronan-le-gleut",
+    "fonction": "Sénateur (LR) représentant les Français établis hors de France et président de la commission des affaires européennes",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6aec6f79d4f8b3b748d3aa0d",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
     "heure": "08:13",
     "emission": "e1-grande-interview",
     "personne": "robert-menard",
-    "fonction": "Maire de Béziers",
+    "fonction": "Journaliste",
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/09a156cb-b7c1-49e5-9945-ec942e527691.mp3?_=1793863137&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
     "voir": "https://www.youtube.com/watch?v=Lrf_8bhsVI4",
     "statut": "confirme"
@@ -49,7 +67,7 @@
     "heure": "20:30",
     "emission": "bfm-100-mabrouk",
     "personne": "marine-tondelier",
-    "fonction": "Femme politique française",
+    "fonction": "Secrétaire nationale des Écologistes et candidate Écologiste à l'élection ultime",
     "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/5c34cc25-46ce-4af8-8ef4-704dbcf346aa/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=5c34cc25-46ce-4af8-8ef4-704dbcf346aa&category=News&episode_published_at=2026-11-05T19%3A31%3A11&episode_title=Tondelier+%3A+%22D%C3%A9monstration+de+force+dans+la+vie%22+%E2%80%93+05%2F11&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
     "voir": null,
     "statut": "confirme"
@@ -58,7 +76,7 @@
     "heure": "22:20",
     "emission": "bfm-100-mabrouk",
     "personne": "jean-philippe-tanguy",
-    "fonction": "Président délégué du groupe RN à l'Assemblée nationale et député de la Somme",
+    "fonction": "Président délégué du groupe RN à l'Assemblée nationale",
     "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/87b10234-49de-4265-aabb-08cedbc7ff7e/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=87b10234-49de-4265-aabb-08cedbc7ff7e&category=News&episode_published_at=2026-11-05T21%3A22%3A32&episode_title=Tanguy+%3A+feu+dans+un+lyc%C3%A9e%2C+%22C%27est+r%C3%A9voltant%22+%E2%80%93+05%2F11&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
     "voir": null,
     "statut": "confirme"

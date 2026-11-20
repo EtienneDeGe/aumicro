@@ -1,9 +1,18 @@
 [
   {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "clement-beaune",
+    "fonction": "Haut-commissaire à la Stratégie et au Plan et ancien ministre de l’Europe",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6ae86c61d64a96f0f34943a0",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
     "heure": "07:40",
     "emission": "rtl-invite-7h40",
     "personne": "serge-papin",
-    "fonction": "Ministre des Petites et moyennes entreprises, du Commerce, de l'Artisanat, du Tourisme et du Pouvoir d'achat",
+    "fonction": "Ministre des Petites et moyennes entreprises",
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/79f5694e-3072-458e-9f43-54de44e021f2.mp3?_=1793602981",
     "voir": "https://www.youtube.com/watch?v=uVzKk4oAvKY",
     "statut": "confirme"
@@ -40,8 +49,17 @@
     "heure": "08:20",
     "emission": "inter-8h20",
     "personne": "laurent-joly",
-    "fonction": "Historien, directeur de recherche au CNRS, spécialiste de l'extrême droite",
+    "fonction": "Historien",
     "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-8h20-le-grand-entretien/l-invite-de-8h20-le-grand-entretien-du-lundi-02-novembre-2026-3249332",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:25",
+    "emission": "lci-interview",
+    "personne": "philippe-baptiste",
+    "fonction": "Ingénieur",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/68193a43-496e-40e2-a7b0-a3a8666d17cd.mp3?_=1793621568",
     "voir": null,
     "statut": "confirme"
   },
@@ -58,7 +76,7 @@
     "heure": "08:30",
     "emission": "rmc-face-a-face",
     "personne": "raphael-glucksmann",
-    "fonction": "Candidat PS - Place Publique à l'élection présidentielle, et député européen",
+    "fonction": "Eurodéputé et cofondateur de Place publique, candidat à l’élection présidentielle",
     "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/457ac0d3-f106-4160-907d-ef074f42e18f/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=457ac0d3-f106-4160-907d-ef074f42e18f&category=News%2CSociety+%26+Culture&episode_published_at=2026-11-02T07%3A59%3A09&episode_title=Face+%C3%A0+Face+%3A+Rapha%C3%ABl+Glucksmann+-+02%2F11&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
     "voir": "https://www.youtube.com/watch?v=GFTBHZH78LY",
     "statut": "confirme"

@@ -1,5 +1,33 @@
 [
   {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "dominique-santoni",
+    "fonction": "Sénatrice (LR) du Vaucluse et membre de la commission des affaires sociales",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6afdb55c58de7292de64393f",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "pierre-moscovici",
+    "fonction": "Ancien premier Président de la Cour des comptes",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6afdb56820b40c3539ab0e94",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Oriane Mancini"
+  },
+  {
+    "heure": "08:25",
+    "emission": "lci-interview",
+    "personne": "fabien-roussel",
+    "fonction": "Secrétaire national du PCF à l’élection présidentielle",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/54b030b2-119f-43e4-bb3d-59045ec749c4.mp3?_=1794917632",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
     "heure": "08:30",
     "emission": "fi-830",
     "personne": "manuel-bompard",
@@ -12,7 +40,7 @@
     "heure": "08:30",
     "emission": "sud-invite-politique",
     "personne": "mathieu-lefevre",
-    "fonction": "Ministre délégué chargé de la transition écologique et Porte-parole du Gouvernement",
+    "fonction": "Porte-parole du gouvernement",
     "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-778",
     "voir": "https://www.youtube.com/watch?v=qtmjKiGfDwI",
     "statut": "confirme",
@@ -31,7 +59,7 @@
     "heure": "21:35",
     "emission": "bfm-100-mabrouk",
     "personne": "louis-aliot",
-    "fonction": "Premier vice-président du Rassemblement national et maire RN de Perpignan",
+    "fonction": "Vice-président du RN",
     "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/d6cb8f46-a86f-4f3e-8993-c278d8ee4e54/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=d6cb8f46-a86f-4f3e-8993-c278d8ee4e54&category=News&episode_published_at=2026-11-17T20%3A38%3A51&episode_title=Louis+Aliot+%3A+%22La+primaire+des+perdants%22+%E2%80%93+17%2F11&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
     "voir": null,
     "statut": "confirme"

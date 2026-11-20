@@ -3,7 +3,7 @@
     "heure": "08:30",
     "emission": "fi-830",
     "personne": "carole-zerbib",
-    "fonction": "Proviseure d'un lycée parisien, et Philémon Jouglet Marcus, responsable de l'Union syndicale lycéenne",
+    "fonction": "Proviseure d'un lycée parisien",
     "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/colere-des-lyceens-debat-entre-une-proviseure-et-un-lyceen-dans-le-8h30-franceinfo_8179235.html",
     "voir": null,
     "statut": "confirme",
@@ -13,7 +13,7 @@
     "heure": "12:00",
     "emission": "rtl-grand-jury",
     "personne": "clemence-guette",
-    "fonction": "Également députée LFI du Val-de-Marne, évoque le programme",
+    "fonction": "Également députée LFI du Val-de-Marne",
     "ecouter": "https://shows.acast.com/le-grand-jury-rtl-le-figaro-public-senat-m6/episodes/6ac23b2a8da1db2e6f67f85e",
     "voir": null,
     "statut": "confirme"
@@ -37,10 +37,19 @@
     "statut": "confirme"
   },
   {
+    "heure": "20:00",
+    "emission": "tf1-route-nationale",
+    "personne": "edouard-philippe",
+    "fonction": "Président de Horizons",
+    "ecouter": null,
+    "voir": "https://www.youtube.com/watch?v=5MisFTPUReE",
+    "statut": "confirme"
+  },
+  {
     "heure": "20:20",
     "emission": "bfm-100-mabrouk",
     "personne": "robert-menard",
-    "fonction": "Maire de Béziers",
+    "fonction": "Journaliste",
     "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/02ee1b9d-9226-4f05-9844-366e3b9d76a0/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=02ee1b9d-9226-4f05-9844-366e3b9d76a0&category=News&episode_published_at=2026-10-04T18%3A22%3A42&episode_title=M%C3%A9nard+%3A+l%27affaire+Bardella%2C+%22un+poison%22+pour+le+RN+%E2%80%93+04%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
     "voir": null,
     "statut": "confirme"

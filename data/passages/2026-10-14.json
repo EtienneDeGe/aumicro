@@ -1,10 +1,56 @@
 [
   {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "david-margueritte",
+    "fonction": "Sénateur (LR) de la Manche",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6acf4c287c5c47f85ed87079",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "francoise-gatel",
+    "fonction": "Ministre de l’Aménagement du territoire et de la Décentralisation",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6acf4d269fea6e0a64f51751",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Oriane Mancini"
+  },
+  {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "bernard-fialaire",
+    "fonction": "Sénateur (RDSE) du Rhône et membre du parti radical, Guilhem Carayon, vice-président de l'UDR et avocat au barreau de Paris",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6acf528039599f7c561e8136",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
     "heure": "07:40",
     "emission": "rtl-invite-7h40",
     "personne": "fabien-roussel",
-    "fonction": "Secrétaire national du PCF et candidat à l'élection présidentielle",
+    "fonction": "Secrétaire national du PCF à l’élection présidentielle",
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/3330db10-5f17-44bb-928b-92ec434a2122.mp3?_=1791957781",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:50",
+    "emission": "inter-7h50",
+    "personne": "natacha-polony",
+    "fonction": "Candidate à l'élection présidentielle",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50/l-invite-de-7h50-du-mercredi-14-octobre-2026-3340206",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:25",
+    "emission": "lci-interview",
+    "personne": "marion-marechal",
+    "fonction": "Députée européenne et présidente d'Identité Libertés",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/bd59f045-f2cd-4773-bbbe-1b1d62330120.mp3?_=1791977089",
     "voir": null,
     "statut": "confirme"
   },
@@ -12,7 +58,7 @@
     "heure": "08:30",
     "emission": "fi-830",
     "personne": "roland-lescure",
-    "fonction": "Ministre de l'Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique",
+    "fonction": "Ministre de l'Économie",
     "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/colere-des-lyceens-crise-de-la-dette-budget-2027-le-8h30-franceinfo-de-roland-lescure_8215592.html",
     "voir": null,
     "statut": "confirme"
@@ -30,7 +76,7 @@
     "heure": "08:30",
     "emission": "sud-invite-politique",
     "personne": "sebastien-chenu",
-    "fonction": "Député RN du Nord, et président du groupe RN à l'Assemblée nationale",
+    "fonction": "Député RN du Nord",
     "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-756",
     "voir": "https://www.youtube.com/watch?v=278Ad7MynQQ",
     "statut": "confirme",
@@ -58,7 +104,7 @@
     "heure": "21:15",
     "emission": "bfm-100-mabrouk",
     "personne": "natacha-polony",
-    "fonction": "Journaliste et essayiste",
+    "fonction": "Candidate à l'élection présidentielle",
     "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/1b158d9c-39df-41f1-bd97-08493c86b27a/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=1b158d9c-39df-41f1-bd97-08493c86b27a&category=News&episode_published_at=2026-10-14T19%3A15%3A19&episode_title=Natacha+Polony+%3A+%22je+suis+candidate%22+%E2%80%93+14%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
     "voir": null,
     "statut": "confirme"

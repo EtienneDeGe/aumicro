@@ -1,5 +1,23 @@
 [
   {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "bernard-jomier",
+    "fonction": "Sénateur de Paris et ancien médecin",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6accba4f253c13a898be772b",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "nicolas-mayer-rossignol",
+    "fonction": "Maire (PS) de Rouen et premier secrétaire délégué du parti socialiste",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6accbc403b4184313797ae60",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
     "heure": "07:40",
     "emission": "rtl-invite-7h40",
     "personne": "eric-zemmour",
@@ -31,8 +49,17 @@
     "heure": "08:20",
     "emission": "inter-8h20",
     "personne": "raphael-glucksmann",
-    "fonction": "Candidat PS - Place Publique à l'élection présidentielle, et député européen",
+    "fonction": "Eurodéputé et cofondateur de Place publique, candidat à l’élection présidentielle",
     "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-8h20-le-grand-entretien/l-invite-de-8h20-le-grand-entretien-du-lundi-12-octobre-2026-8406439",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:25",
+    "emission": "lci-interview",
+    "personne": "sophie-binet",
+    "fonction": "Secrétaire générale de la CGT",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/1bc3e4ca-4eab-4dd3-8203-cf3922b95271.mp3?_=1791803378",
     "voir": null,
     "statut": "confirme"
   },
@@ -49,7 +76,7 @@
     "heure": "08:30",
     "emission": "sud-invite-politique",
     "personne": "jonas-haddad",
-    "fonction": "Porte parole des Républicains, vice président de la région Normandie",
+    "fonction": "Porte parole des Républicains",
     "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-749",
     "voir": null,
     "statut": "confirme",

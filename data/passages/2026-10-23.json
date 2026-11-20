@@ -3,7 +3,7 @@
     "heure": "07:40",
     "emission": "rtl-invite-7h40",
     "personne": "marine-tondelier",
-    "fonction": "Femme politique française",
+    "fonction": "Secrétaire nationale des Écologistes et candidate Écologiste à l'élection ultime",
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/1a641cdc-8992-4fd3-b644-fd7ca924dc2a.mp3?_=1792735681",
     "voir": null,
     "statut": "confirme"
@@ -12,7 +12,7 @@
     "heure": "07:50",
     "emission": "inter-7h50",
     "personne": "romain-boulet",
-    "fonction": "Coprésident de l’ADAP (Association des Avocats Pénalistes), avocat chez Cabinet B&S",
+    "fonction": "Coprésident de l’ADAP (Association des Avocats Pénalistes)",
     "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50/l-invite-de-7h50-du-we-du-vendredi-23-octobre-2026-8870428",
     "voir": "https://www.youtube.com/watch?v=NyCyACmVn5k",
     "statut": "confirme"
@@ -21,7 +21,7 @@
     "heure": "08:13",
     "emission": "e1-grande-interview",
     "personne": "sebastien-chenu",
-    "fonction": "Député RN du Nord, et président du groupe RN à l'Assemblée nationale",
+    "fonction": "Député RN du Nord",
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/715ef239-459a-4090-b649-8d761d16a93b.mp3?_=1792738367&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
     "voir": "https://www.youtube.com/watch?v=qu5ZxwO03Kg",
     "statut": "confirme",
@@ -33,6 +33,15 @@
     "personne": "laure-lavalette",
     "fonction": "La députée du Var",
     "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/le-8h20-du-week-end/le-grand-entretien-du-vendredi-23-octobre-2026-7124679",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:25",
+    "emission": "lci-interview",
+    "personne": "benoit-payan",
+    "fonction": "Maire de Marseille",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/a2e2c5a3-f28b-4846-a66f-a395e0e6ce9a.mp3?_=1792753778",
     "voir": null,
     "statut": "confirme"
   },

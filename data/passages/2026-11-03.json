@@ -1,5 +1,24 @@
 [
   {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "bernard-delcros",
+    "fonction": "Sénateur (Union Centriste et Indépendants) du Cantal et président de la délégation sénatoriale aux collectivités territoriales et à la décentralisation",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6ae9b515d6cfd0e908808618",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Oriane Mancini"
+  },
+  {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "pierre-jouvet",
+    "fonction": "Secrétaire général du PS et député européen",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6ae9be7cb1966848f37fe029",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
     "heure": "07:40",
     "emission": "rtl-invite-7h40",
     "personne": "bruno-bouchard",
@@ -12,7 +31,7 @@
     "heure": "08:13",
     "emission": "e1-grande-interview",
     "personne": "louis-aliot",
-    "fonction": "Premier vice-président du Rassemblement national et maire RN de Perpignan",
+    "fonction": "Vice-président du RN",
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/3b767918-e1fe-49d2-9d9b-40f9585496fe.mp3?_=1793690169&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
     "voir": "https://www.youtube.com/watch?v=PgBo_c5thOY",
     "statut": "confirme",
@@ -22,7 +41,7 @@
     "heure": "08:20",
     "emission": "inter-8h20",
     "personne": "dominique-de-villepin",
-    "fonction": "Ancien Premier ministre, et fondateur de La France Humaniste",
+    "fonction": "Diplomate",
     "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-8h20-le-grand-entretien/l-invite-de-8h20-le-grand-entretien-du-mardi-03-novembre-2026-9976645",
     "voir": "https://www.youtube.com/watch?v=i34D6efKffU",
     "statut": "confirme"
@@ -31,7 +50,7 @@
     "heure": "08:30",
     "emission": "fi-830",
     "personne": "fabien-roussel",
-    "fonction": "Secrétaire national du PCF et candidat à l'élection présidentielle",
+    "fonction": "Secrétaire national du PCF à l’élection présidentielle",
     "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/mobilisations-sociales-colere-des-lyceens-presidentielle-le-8h30-franceinfo-de-fabien-roussel_8244898.html",
     "voir": "https://www.youtube.com/watch?v=xVKVhq354hk",
     "statut": "confirme"
@@ -70,7 +89,7 @@
     "personne": "bruno-retailleau",
     "fonction": "Sénateur de Vendée, Président des Républicains et candidat à l'élection présidentielle",
     "ecouter": null,
-    "voir": null,
+    "voir": "https://www.youtube.com/watch?v=NkeIYlj9Xv8",
     "statut": "confirme"
   },
   {

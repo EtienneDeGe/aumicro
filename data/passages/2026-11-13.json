@@ -1,6 +1,15 @@
 [
   {
     "heure": "07:40",
+    "emission": "fc-invite-matins",
+    "personne": "jean-marc-jancovici",
+    "fonction": "Président du Shift Project",
+    "ecouter": "https://www.radiofrance.fr/franceculture/podcasts/l-invite-e-des-matins/cop31-presidentielle-jean-marc-jancovici-est-l-invite-des-matins-8673676",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:40",
     "emission": "rtl-invite-7h40",
     "personne": "fabien-vanhemelryck",
     "fonction": "Secrétaire général du syndicat Alliance Police nationale",
@@ -21,11 +30,20 @@
     "heure": "08:13",
     "emission": "e1-grande-interview",
     "personne": "edwige-diaz",
-    "fonction": "Présidente du groupe Rassemblement national au Sénat, et sénatrice de la Gironde",
+    "fonction": "Présidente du groupe Rassemblement national au Sénat",
     "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/e75dc9da-b931-49de-bd18-0a5caeac44e1.mp3?_=1794554441&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
     "voir": "https://www.youtube.com/watch?v=xLNHumZ0nQ0",
     "statut": "confirme",
     "animateur": "Yoann Usaï"
+  },
+  {
+    "heure": "08:25",
+    "emission": "lci-interview",
+    "personne": "laurent-nunez",
+    "fonction": "Ministre de l’Intérieur",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/ab10bb80-a69f-4aed-8d58-f9560dd3fc78.mp3?_=1794571999",
+    "voir": null,
+    "statut": "confirme"
   },
   {
     "heure": "08:30",
