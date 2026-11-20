@@ -4,7 +4,7 @@ UA = {"User-Agent": "AuMicro/1.0 (https://etiennedege.github.io/aumicro/)"}
 def api(**p):
     p["format"] = "json"
     return json.loads(urllib.request.urlopen(urllib.request.Request("https://www.wikidata.org/w/api.php?" + urllib.parse.urlencode(p), headers=UA), timeout=30).read())
-for nom in ["France Culture", "BFM TV", "BFMTV"]:
+for nom in ["LCI", "Public Sénat", "France 24", "TF1", "France 2", "France 5", "La Chaîne parlementaire", "CNews"]:
     hits = api(action="wbsearchentities", search=nom, language="fr", type="item", limit=6)["search"]
     for h in hits:
         e = api(action="wbgetentities", ids=h["id"], props="claims")["entities"][h["id"]]
