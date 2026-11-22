@@ -216,6 +216,7 @@
  "pos:Q106987409": "président-directeur du musée du Louvre",
  "pos:Q108399360": "directeur général adjoint",
  "pos:Q108552181": "président du musée d'Orsay",
+ "pos:Q112671159": "président du directoire",
  "pos:Q113637637": "directeur général de l'enseignement scolaire",
  "pos:Q1162163": "directeur ou directrice",
  "pos:Q118436384": "directeur général d'Engie",
@@ -268,12 +269,18 @@
  "pos:Q58910656": "directeur du Trésor",
  "pos:Q589298": "rédacteur ou rédactrice en chef",
  "pos:Q59142848": "directeur de cabinet du ministre de la Justice",
+ "pos:Q61927390": "préfet de la Creuse",
  "pos:Q62078932": "conseiller ou conseillère à la Cour de cassation",
+ "pos:Q62092417": "secrétaire général du ministère de l'Intérieur",
  "pos:Q62489725": "rédacteur en chef adjoint ou rédactrice en chef adjointe",
  "pos:Q63439276": "procureur de la République près le tribunal de grande instance de Nîmes",
  "pos:Q64154210": "directeur adjoint ou directrice adjointe",
+ "pos:Q64443538": "préfet des Alpes-Maritimes",
+ "pos:Q64447994": "préfet du Loiret",
  "pos:Q64840924": "procureur national antiterroriste",
+ "pos:Q64990090": "préfet de la Drôme",
  "pos:Q6501749": "secrétaire général ou secrétaire générale",
+ "pos:Q65493673": "préfet de l'Hérault",
  "pos:Q65939186": "président de la SNCF",
  "pos:Q66712770": "secrétaire général adjoint ou secrétaire générale adjointe",
  "pos:Q6827278": "directeur ou directrice scientifique",
@@ -389,6 +396,7 @@
   "politique": false,
   "qid": "Q124389"
  },
+ "v2:alberto toscano": null,
  "v2:aleksandar nikolic": {
   "description": "homme politique français",
   "fonction_publique": true,
@@ -1463,6 +1471,14 @@
   "politique": true,
   "qid": "Q560682"
  },
+ "v2:hugues moutouh": {
+  "description": "juriste et haut fonctionnaire français",
+  "fonction_publique": true,
+  "nom": "Hugues Moutouh",
+  "photo_fichier": null,
+  "politique": false,
+  "qid": "Q33192675"
+ },
  "v2:ian brossat": {
   "description": "homme politique français",
   "fonction_publique": true,
@@ -1495,6 +1511,14 @@
   "photo_fichier": null,
   "politique": false,
   "qid": "Q127785676"
+ },
+ "v2:jean david zeitoun": {
+  "description": "chercheur français",
+  "fonction_publique": false,
+  "nom": "Jean-David Zeitoun",
+  "photo_fichier": null,
+  "politique": false,
+  "qid": "Q88616832"
  },
  "v2:jean didier berger": {
   "description": "personnalité politique française",
@@ -1650,6 +1674,14 @@
   "politique": true,
   "qid": "Q3175020"
  },
+ "v2:jerome clement": {
+  "description": "personnalité du monde des médias et écrivain français",
+  "fonction_publique": true,
+  "nom": "Jérôme Clément",
+  "photo_fichier": "Jérôme Clément.jpg",
+  "politique": false,
+  "qid": "Q1714990"
+ },
  "v2:jerome fourquet": {
   "description": "analyste politique français",
   "fonction_publique": false,
@@ -1777,6 +1809,14 @@
   "photo_fichier": "Laure.Lavalette.jpg",
   "politique": true,
   "qid": "Q112308110"
+ },
+ "v2:laurence devillairs": {
+  "description": "philosophe française",
+  "fonction_publique": false,
+  "nom": "Laurence Devillairs",
+  "photo_fichier": "Laurence Devillairs (born 1969) in the video 'Laurence Devillairs – La splendeur du monde – aller à la rencontre de la beauté'.png",
+  "politique": false,
+  "qid": "Q93242197"
  },
  "v2:laurent gaude": {
   "description": "écrivain français",

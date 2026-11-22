@@ -99,5 +99,14 @@
     "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/49e9c02d-ff0d-48dd-8e7e-2a606be4da19/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=49e9c02d-ff0d-48dd-8e7e-2a606be4da19&category=News&episode_published_at=2026-10-21T08%3A41%3A50&episode_title=Sasha+Straub-Kahn+face+aux+GG+-+21%2F10&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
     "voir": null,
     "statut": "confirme"
+  },
+  {
+    "heure": "20:10",
+    "emission": "bfm-100-mabrouk",
+    "personne": "manuel-valls",
+    "fonction": "Homme d'état français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/148f51fb-0922-4ff9-9593-ff62aaf75b0c/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=148f51fb-0922-4ff9-9593-ff62aaf75b0c&category=News&episode_published_at=2026-10-21T18%3A11%3A51&episode_title=Valls+%3A+%22Nous+avons+v%C3%A9cu+une+forme+d%27effondrement%22+%E2%80%93+21%2F10&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
   }
 ]
