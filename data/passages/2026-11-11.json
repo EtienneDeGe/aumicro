@@ -54,5 +54,14 @@
     "ecouter": "https://altice.simplecastaudio.com/75a38262-4f24-43a2-bee5-e3ce74641d20/episodes/fe3ca1bc-5e0a-4c03-bcba-c16c842317fb/audio/128/default.mp3?aid=rss_feed&awCollectionId=75a38262-4f24-43a2-bee5-e3ce74641d20&awEpisodeId=fe3ca1bc-5e0a-4c03-bcba-c16c842317fb&category=News&episode_published_at=2026-11-11T09%3A29%3A51&episode_title=Manon+Aubry+face+aux+GG+-+11%2F11&feed=MBdw4Qrw&network=&podcast_title=Les+Grandes+Gueules",
     "voir": null,
     "statut": "confirme"
+  },
+  {
+    "heure": "21:45",
+    "emission": "bfm-100-mabrouk",
+    "personne": "jean-luc-melenchon",
+    "fonction": "Homme politique français",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/60ead866-7106-4d67-a55f-70835d110681/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=60ead866-7106-4d67-a55f-70835d110681&category=News&episode_published_at=2026-11-11T20%3A46%3A51&episode_title=M%C3%A9lenchon+%3A+%22Riner%2C+il+a+de+l%27allure+de+gars%22+%E2%80%93+11%2F11&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
   }
 ]

@@ -1,0 +1,20 @@
+[
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "nicolas-dupont-aignan",
+    "fonction": "Candidat Debout la France à la présidentielle",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/guerre-en-ukraine-crise-sociale-sortie-de-l-ue-le-8h30-franceinfo-de-nicolas-dupont-aignan_8250490.html",
+    "voir": "https://www.youtube.com/watch?v=ZsiQfnEC1xA",
+    "statut": "confirme"
+  },
+  {
+    "heure": "13:20",
+    "emission": "inter-franc-jeu",
+    "personne": "marine-le-pen",
+    "fonction": "Candidate RN à la présidentielle présidente du groupe RN à l'Assemblée nationale",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/franc-jeu/franc-jeu-du-dimanche-22-novembre-2026-2672721",
+    "voir": null,
+    "statut": "confirme"
+  }
+]
