@@ -1,0 +1,85 @@
+[
+  {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "vincent-capo-canellas",
+    "fonction": "Sénateur (UC) de la Seine-Saint-Denis et résident du Groupe d'études Aviation civile au Sénat",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6b0560f3a1933fc906c2fbaf",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "mathieu-lefevre",
+    "fonction": "Porte-parole du gouvernement et ministre de la transition écologique",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6b056384458948a54c5b973b",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Oriane Mancini"
+  },
+  {
+    "heure": "07:40",
+    "emission": "rtl-invite-7h40",
+    "personne": "jean-louis-borloo",
+    "fonction": "Ancien ministre, ancien maire de Valenciennes",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/074f2210-2713-42d6-a809-ec0dbef42029.mp3?_=1795503781",
+    "voir": "https://www.youtube.com/watch?v=j4TpnA9uo9M",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "eric-ciotti",
+    "fonction": "Président de l’Union des droites",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/25854f0c-45e7-4a80-9c51-9f18bfa07d15.mp3?_=1795505597&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
+    "voir": "https://www.youtube.com/watch?v=rdF-2wgMlpE",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "francois-bayrou",
+    "fonction": "Ancien Premier ministre, président du MoDem",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/presidentielle-primaire-du-bloc-central-regle-d-or-budgetaire-le-8h30-franceinfo-de-francois-bayrou_8275349.html",
+    "voir": "https://www.youtube.com/watch?v=hLphDwBcqEc",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "rmc-face-a-face",
+    "personne": "natacha-polony",
+    "fonction": "Candidate à la présidentielle",
+    "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/3e14652b-90b7-4386-8d98-b37a0b89cc27/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=3e14652b-90b7-4386-8d98-b37a0b89cc27&category=News%2CSociety+%26+Culture&episode_published_at=2026-11-24T07%3A53%3A39&episode_title=Face+%C3%A0+Face+%3A+Natacha+Polony+-+24%2F11&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
+    "voir": "https://www.youtube.com/watch?v=jBlFECCVs-Y",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "olivier-galzi",
+    "fonction": "Maire d'Avignon et fondateur du mouvement Le bon sens des territoires,est l'invité politique de Sud Radio",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-783",
+    "voir": "https://www.youtube.com/watch?v=Te_TPIrN9IU",
+    "statut": "confirme",
+    "animateur": "Jacques Cardoze"
+  },
+  {
+    "heure": "18:45",
+    "emission": "rtl-invite-soir",
+    "personne": "jean-philippe-jal",
+    "fonction": "Maire de La Tour-de-Salvagny",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/1595a386-2c85-463c-904d-34adb7f0d6ee.mp3?_=1795542781",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "22:15",
+    "emission": "lci-objectif-2027",
+    "personne": "fabien-roussel",
+    "fonction": "Secrétaire national du PCF à l’élection présidentielle",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/78b9b0fd-1ad7-4ae3-b94a-4e541dbe9a08.mp3?_=1795556381",
+    "voir": null,
+    "statut": "confirme"
+  }
+]

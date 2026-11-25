@@ -1,0 +1,112 @@
+[
+  {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "mathieu-lefevre",
+    "fonction": "Porte-parole du gouvernement et ministre de la transition écologique",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6b05621b6d7baea6e1b66b11",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Oriane Mancini"
+  },
+  {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "micheline-jacques",
+    "fonction": "Sénatrice (LR) de Saint-Barthélemy et présidente de la délégation sénatoriale aux Outre-mer",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6b0442d22e1921ea66d2c4db",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "david-lisnard",
+    "fonction": "Candidat à sa succession",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6b055f0dced26bb723d26b1f",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:40",
+    "emission": "fc-invite-matins",
+    "personne": "andre-malraux",
+    "fonction": "Écrivain et ministre des Affaires culturelles français",
+    "ecouter": "https://www.radiofrance.fr/franceculture/podcasts/l-invite-e-des-matins/50-ans-apres-la-mort-de-malraux-que-reste-t-il-du-modele-culturel-francais-2460297",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:40",
+    "emission": "fc-invite-matins",
+    "personne": "jon-ossoff",
+    "fonction": "Sénateur de l'État de Géorgie depuis 2021",
+    "ecouter": "https://www.radiofrance.fr/franceculture/podcasts/l-invite-e-des-matins/jon-ossoff-l-etoile-montante-du-parti-democrate-2928013",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "francois-xavier-bellamy",
+    "fonction": "Eurodéputé et vice-président du parti Les Républicains",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/d200b29b-8be8-464d-9157-739160264a47.mp3?_=1795419192&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
+    "voir": "https://www.youtube.com/watch?v=kmQ7R5ZaYOQ",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:25",
+    "emission": "lci-interview",
+    "personne": "edouard-geffray",
+    "fonction": "Ministre de l'Éducation Nationale",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/4d03a141-f272-4b38-9b36-917366229931.mp3?_=1795435061",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "thierry-breton",
+    "fonction": "Ancien commissaire européen au marché intérieur et ancien ministre de l'Économie",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/regle-d-or-budgetaire-dette-le-8h30-franceinfo-de-thierry-breton_8273870.html",
+    "voir": "https://www.youtube.com/watch?v=WmJPpncUdKY",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "rmc-face-a-face",
+    "personne": "valerie-pecresse",
+    "fonction": "Présidente LR de la région Île-de-France",
+    "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/915bbfea-7d02-4a50-b209-703e8a8fd771/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=915bbfea-7d02-4a50-b209-703e8a8fd771&category=News%2CSociety+%26+Culture&episode_published_at=2026-11-23T07%3A56%3A26&episode_title=Face+%C3%A0+Face+%3A+Val%C3%A9rie+P%C3%A9cresse+-+23%2F11&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
+    "voir": "https://www.youtube.com/watch?v=5Pr-lzB14x0",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "laurent-jacobelli",
+    "fonction": "Député de Moselle et porte-parole du RN",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-782",
+    "voir": "https://www.youtube.com/watch?v=2iIcAN3xcZA",
+    "statut": "confirme",
+    "animateur": "Jacques Cardoze"
+  },
+  {
+    "heure": "19:25",
+    "emission": "bfm-100-mabrouk",
+    "personne": "segolene-royal",
+    "fonction": "Candidate à la primaire de la gauche",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/68e88200-f0ff-431d-9760-ea157c7436a6/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=68e88200-f0ff-431d-9760-ea157c7436a6&category=News&episode_published_at=2026-11-23T18%3A26%3A43&episode_title=Royal+%3A+%22un+d%C3%A9ferlement+de+violence%22+si+le+RN+est+%C3%A9lu+%E2%80%93+23%2F11&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "22:00",
+    "emission": "bfm-100-mabrouk",
+    "personne": "jordan-bardella",
+    "fonction": "Président du Rassemblement National",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/7ad4279d-7bd3-40b4-9f3f-9190234e6468/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=7ad4279d-7bd3-40b4-9f3f-9190234e6468&category=News&episode_published_at=2026-11-23T21%3A04%3A22&episode_title=Bardella+%3A+%22Tout+est+fait+pour+nous+salir%22+%E2%80%93+23%2F11&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  }
+]
