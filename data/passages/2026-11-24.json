@@ -19,6 +19,15 @@
     "animateur": "Oriane Mancini"
   },
   {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "david-lisnard",
+    "fonction": "Candidat à la présidentielle",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6b06bc06ea5e837f8febb59e",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
     "heure": "07:40",
     "emission": "rtl-invite-7h40",
     "personne": "jean-louis-borloo",
