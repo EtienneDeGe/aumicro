@@ -35,6 +35,12 @@
     "credit_photo": null,
     "wikidata": null
   },
+  "andre-malraux": {
+    "nom": "André Malraux",
+    "photo": null,
+    "credit_photo": null,
+    "wikidata": null
+  },
   "andrea-kotarac": {
     "nom": "Andréa Kotarac",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Andr%C3%A9a.Kotarac_%28cropped%29.jpg?width=240",
@@ -553,6 +559,12 @@
     "credit_photo": "Belgian Presidency of the Council of the EU 2024 from Belgium, CC BY 2.0, Wikimedia Commons",
     "wikidata": "Q30339198"
   },
+  "jean-philippe-jal": {
+    "nom": "Jean-Philippe Jal",
+    "photo": null,
+    "credit_photo": null,
+    "wikidata": "Q139614944"
+  },
   "jean-philippe-tanguy": {
     "nom": "Jean-Philippe Tanguy",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/JeanPhilippe_Tanguy.jpg?width=240",
@@ -564,6 +576,12 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/J%C3%A9r%C3%B4me_Guedj_2010.jpg?width=240",
     "credit_photo": "Audrey AK, CC BY-SA 2.0, Wikimedia Commons",
     "wikidata": "Q3190925"
+  },
+  "jon-ossoff": {
+    "nom": "Jon Ossoff",
+    "photo": null,
+    "credit_photo": null,
+    "wikidata": null
   },
   "jonas-haddad": {
     "nom": "Jonas Haddad",
@@ -775,6 +793,12 @@
     "credit_photo": "Florian David Pm, CC BY-SA 4.0, Wikimedia Commons",
     "wikidata": "Q438465"
   },
+  "micheline-jacques": {
+    "nom": "Micheline Jacques",
+    "photo": null,
+    "credit_photo": null,
+    "wikidata": "Q99670779"
+  },
   "mickael-vallet": {
     "nom": "Mickaël Vallet",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Micka%C3%ABl_Vallet_lors_de_la_semaine_de_la_francophonie_2023.jpg?width=240",
@@ -823,6 +847,12 @@
     "photo": "static/photos/olivier-faure.jpg",
     "credit_photo": "Chris93, CC BY 4.0, Wikimedia Commons (recadrée), septembre 2025",
     "wikidata": "Q3351018"
+  },
+  "olivier-galzi": {
+    "nom": "Olivier Galzi",
+    "photo": null,
+    "credit_photo": null,
+    "wikidata": "Q3351059"
   },
   "olivier-henno": {
     "nom": "Olivier Henno",
@@ -1064,6 +1094,12 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Val%C3%A9rie_P%C3%A9cresse_at_a_2024_Paralympic_Games_media_conference_in_2024_3_%28cropped%29.jpg?width=240",
     "credit_photo": "Gail Leenstra, CC BY-SA 4.0, Wikimedia Commons",
     "wikidata": "Q455023"
+  },
+  "vincent-capo-canellas": {
+    "nom": "Vincent Capo-Canellas",
+    "photo": null,
+    "credit_photo": null,
+    "wikidata": "Q3559512"
   },
   "vincent-jeanbrun": {
     "nom": "Vincent Jeanbrun",

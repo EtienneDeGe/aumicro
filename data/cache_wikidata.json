@@ -241,16 +241,21 @@
  "pos:Q189010": "notaire",
  "pos:Q202660": "Collège de France",
  "pos:Q20722965": "grand maître du Grand Orient de France",
+ "pos:Q20942020": "ambassadeur de France en Allemagne",
  "pos:Q22132694": "directeur ou directrice de musée",
  "pos:Q23958341": "président du jury du festival de Cannes",
  "pos:Q2406696": "conseiller de tribunal administratif",
  "pos:Q2420458": "président ou présidente d'université",
+ "pos:Q25293347": "ambassadeur de France au Royaume-Uni",
  "pos:Q25293795": "ambassadeur de France en Israël",
  "pos:Q2534525": "président ou présidente du conseil d'administration",
  "pos:Q25378518": "directeur général délégué ou directrice générale déléguée",
  "pos:Q25917777": "procureur de la République près le tribunal judiciaire de Paris",
+ "pos:Q26252218": "ambassadeur de France en Chine",
+ "pos:Q26252334": "ambassadeur de France au Japon",
  "pos:Q26253853": "ambassadeur de France à Monaco",
  "pos:Q266569": "animateur ou animatrice",
+ "pos:Q28004591": "professeur des universités ou professeure des universités",
  "pos:Q2868277": "associé",
  "pos:Q2992731": "Confédération des petites et moyennes entreprises",
  "pos:Q2994439": "conservateur de bibliothèque",
@@ -261,10 +266,12 @@
  "pos:Q3029564": "Direction générale des Impôts",
  "pos:Q30461": "président ou présidente",
  "pos:Q3254304": "secrétaire perpétuel de l'Académie française",
+ "pos:Q3477314": "secrétaire général du ministère des Affaires étrangères",
  "pos:Q42178": "vice-président",
  "pos:Q428322": "président-directeur général ou présidente-directrice générale",
  "pos:Q484876": "directeur général ou directrice générale",
  "pos:Q5280566": "directeur de la communication",
+ "pos:Q535645": "sherpa",
  "pos:Q55168644": "membre du conseil d'administration",
  "pos:Q58910656": "directeur du Trésor",
  "pos:Q589298": "rédacteur ou rédactrice en chef",
@@ -464,6 +471,14 @@
  },
  "v2:amy greene": null,
  "v2:anais ella": null,
+ "v2:andre comte sponville": {
+  "description": "philosophe français",
+  "fonction_publique": false,
+  "nom": "André Comte-Sponville",
+  "photo_fichier": "André Comte-Sponville - Salon du livre de Paris - 23 mars 2014.JPG",
+  "politique": false,
+  "qid": "Q247016"
+ },
  "v2:andre dussollier": {
   "description": "acteur français",
   "fonction_publique": false,
@@ -472,6 +487,7 @@
   "politique": false,
   "qid": "Q518457"
  },
+ "v2:andre malraux": null,
  "v2:andrea kotarac": {
   "description": "homme politique français",
   "fonction_publique": true,
@@ -819,6 +835,7 @@
   "politique": true,
   "qid": "Q2980738"
  },
+ "v2:clementine sabrie": null,
  "v2:colin gruel": null,
  "v2:comment trump": null,
  "v2:coppelia moreau": null,
@@ -838,6 +855,14 @@
   "photo_fichier": null,
   "politique": false,
   "qid": "Q3013686"
+ },
+ "v2:daniel riolo": {
+  "description": "journaliste sportif et essayiste franco-italien",
+  "fonction_publique": false,
+  "nom": "Daniel Riolo",
+  "photo_fichier": "Daniel Riolo.JPG",
+  "politique": false,
+  "qid": "Q3014605"
  },
  "v2:david amiel": {
   "description": "haut fonctionnaire et homme politique français",
@@ -932,6 +957,8 @@
   "politique": false,
   "qid": "Q5302352"
  },
+ "v2:duel le pen melenchon": null,
+ "v2:edition marabout": null,
  "v2:editions du seuil": null,
  "v2:edouard geffray": {
   "description": "Ministre de l'Éducation Nationale",
@@ -1344,6 +1371,14 @@
   "politique": true,
   "qid": "Q3123610"
  },
+ "v2:geraldine woessner": {
+  "description": "journaliste française",
+  "fonction_publique": false,
+  "nom": "Géraldine Woessner",
+  "photo_fichier": null,
+  "politique": false,
+  "qid": "Q104640831"
+ },
  "v2:gerard davet": {
   "description": "journaliste français",
   "fonction_publique": false,
@@ -1368,6 +1403,14 @@
   "politique": true,
   "qid": "Q784021"
  },
+ "v2:gilbert brisbois": {
+  "description": "journaliste sportif français",
+  "fonction_publique": false,
+  "nom": "Gilbert Brisbois",
+  "photo_fichier": "Gilbert Brisbois.JPG",
+  "politique": false,
+  "qid": "Q3105623"
+ },
  "v2:gilles attaf": null,
  "v2:gilles finchelstein": {
   "description": "juriste, homme politique et essayiste français",
@@ -1377,6 +1420,7 @@
   "politique": true,
   "qid": "Q3106228"
  },
+ "v2:gina hinojosa": null,
  "v2:gisele halimi": null,
  "v2:giuliano da empoli": null,
  "v2:gregory doucet": {
@@ -1487,6 +1531,7 @@
   "politique": true,
   "qid": "Q3147241"
  },
+ "v2:james talarico": null,
  "v2:jean brossier": null,
  "v2:jean christophe grange": {
   "description": "écrivain français",
@@ -1641,6 +1686,14 @@
   "politique": true,
   "qid": "Q30339198"
  },
+ "v2:jean philippe jal": {
+  "description": null,
+  "fonction_publique": true,
+  "nom": "Jean-Philippe Jal",
+  "photo_fichier": null,
+  "politique": true,
+  "qid": "Q139614944"
+ },
  "v2:jean philippe tangu": null,
  "v2:jean philippe tanguy": {
   "description": "Homme politique français",
@@ -1707,6 +1760,7 @@
   "qid": "Q119042990"
  },
  "v2:john malkovich": null,
+ "v2:jon ossoff": null,
  "v2:jonas haddad": {
   "description": "avocat et homme politique français",
   "fonction_publique": true,
@@ -1818,6 +1872,15 @@
   "politique": false,
   "qid": "Q93242197"
  },
+ "v2:laurent berger": {
+  "description": "mathématicien français",
+  "fonction_publique": true,
+  "nom": "Laurent Berger",
+  "photo_fichier": null,
+  "politique": false,
+  "qid": "Q47320145"
+ },
+ "v2:laurent berger ex": null,
  "v2:laurent gaude": {
   "description": "écrivain français",
   "fonction_publique": false,
@@ -1916,6 +1979,7 @@
   "qid": "Q18173445"
  },
  "v2:leonard landry": null,
+ "v2:levent alpoge": null,
  "v2:linda kebbab": {
   "description": "policière syndicaliste française",
   "fonction_publique": false,
@@ -2121,6 +2185,14 @@
   "politique": true,
   "qid": "Q104032664"
  },
+ "v2:maurice gourdault montagne": {
+  "description": "diplomate français",
+  "fonction_publique": true,
+  "nom": "Maurice Gourdault-Montagne",
+  "photo_fichier": "Gedenkfeier Charles de Gaulles Besuch in Köln vor 50 Jahren-9225.jpg",
+  "politique": true,
+  "qid": "Q16001"
+ },
  "v2:maxence lambrecq": null,
  "v2:mayada boulos": null,
  "v2:melanie vogel": {
@@ -2173,6 +2245,22 @@
   "qid": "Q3308806"
  },
  "v2:michel foucault": null,
+ "v2:michel zecler": {
+  "description": "producteur de musique français, victime de violences policières",
+  "fonction_publique": false,
+  "nom": "Michel Zecler",
+  "photo_fichier": null,
+  "politique": false,
+  "qid": "Q102390662"
+ },
+ "v2:micheline jacques": {
+  "description": "femme politique française",
+  "fonction_publique": true,
+  "nom": "Micheline Jacques",
+  "photo_fichier": null,
+  "politique": true,
+  "qid": "Q99670779"
+ },
  "v2:mickael vallet": {
   "description": "homme politique français",
   "fonction_publique": true,
@@ -2289,6 +2377,14 @@
   "photo_fichier": "Portrait d'Olivier Faure.jpg",
   "politique": true,
   "qid": "Q3351018"
+ },
+ "v2:olivier galzi": {
+  "description": "journaliste et homme politique",
+  "fonction_publique": true,
+  "nom": "Olivier Galzi",
+  "photo_fichier": null,
+  "politique": true,
+  "qid": "Q3351059"
  },
  "v2:olivier henno": {
   "description": "personnalité politique française",
@@ -2574,6 +2670,14 @@
  },
  "v2:route du rhum": null,
  "v2:royal historical society": null,
+ "v2:salome saque": {
+  "description": "journaliste française",
+  "fonction_publique": false,
+  "nom": "Salomé Saqué",
+  "photo_fichier": "Réponse de Macron aux Jeunes, La Grande Illusion — Salomé Saqué.png",
+  "politique": false,
+  "qid": "Q110507860"
+ },
  "v2:sam rockwell": null,
  "v2:sandrine kiberlain": {
   "description": "actrice, réalisatrice et chanteuse française",
@@ -2616,6 +2720,7 @@
   "qid": "Q82637284"
  },
  "v2:sasha straub kahn": null,
+ "v2:scott colom": null,
  "v2:sebastien chenu": {
   "description": "homme politique français",
   "fonction_publique": true,
@@ -2667,6 +2772,7 @@
   "qid": "Q7488628"
  },
  "v2:simeon brand": null,
+ "v2:solidarite vous": null,
  "v2:sophie binet": {
   "description": "syndicaliste française",
   "fonction_publique": true,
@@ -2854,6 +2960,14 @@
   "qid": "Q16683042"
  },
  "v2:victor hugo": null,
+ "v2:vincent capo canellas": {
+  "description": "personnalité politique française",
+  "fonction_publique": true,
+  "nom": "Vincent Capo-Canellas",
+  "photo_fichier": null,
+  "politique": true,
+  "qid": "Q3559512"
+ },
  "v2:vincent jeanbrun": {
   "description": "homme politique français",
   "fonction_publique": true,
