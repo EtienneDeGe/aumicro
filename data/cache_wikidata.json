@@ -239,6 +239,7 @@
  "pos:Q18121578": "directeur ou directrice de recherche",
  "pos:Q18705668": "membre de l'Académie française",
  "pos:Q189010": "notaire",
+ "pos:Q20113740": "commandant de la station spatiale internationale",
  "pos:Q202660": "Collège de France",
  "pos:Q20722965": "grand maître du Grand Orient de France",
  "pos:Q20942020": "ambassadeur de France en Allemagne",
@@ -544,7 +545,23 @@
   "politique": false,
   "qid": "Q106291727"
  },
+ "v2:antoine diers": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Antoine Diers",
+  "photo_fichier": null,
+  "politique": true,
+  "qid": "Q110322075"
+ },
  "v2:antoine foucher": null,
+ "v2:antoine frerot": {
+  "description": "chef d'entreprise français",
+  "fonction_publique": true,
+  "nom": "Antoine Frérot",
+  "photo_fichier": "Antoine Frérot - Janvier 2012.jpg",
+  "politique": false,
+  "qid": "Q2853963"
+ },
  "v2:antoine izambard": {
   "description": "journaliste économique français",
   "fonction_publique": false,
@@ -727,6 +744,14 @@
   "qid": "Q127275063"
  },
  "v2:british academy": null,
+ "v2:bruno belin": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Bruno Belin",
+  "photo_fichier": "Jean-Pierre RAFFARIN et Bruno BELIN.jpg",
+  "politique": true,
+  "qid": "Q43457971"
+ },
  "v2:bruno bouchard": null,
  "v2:bruno le maire": {
   "description": "homme politique français",
@@ -777,6 +802,14 @@
   "photo_fichier": "Vautrin 1503548.jpg",
   "politique": true,
   "qid": "Q2942097"
+ },
+ "v2:celine sitouze": {
+  "description": null,
+  "fonction_publique": true,
+  "nom": "Céline Sitouze",
+  "photo_fichier": null,
+  "politique": true,
+  "qid": "Q139617894"
  },
  "v2:chamathka warahena": null,
  "v2:charles alloncle": {
@@ -1208,6 +1241,14 @@
   "qid": "Q12963"
  },
  "v2:francois bujon": null,
+ "v2:francois de canson": {
+  "description": "politicien français",
+  "fonction_publique": true,
+  "nom": "François de Canson",
+  "photo_fichier": null,
+  "politique": true,
+  "qid": "Q63371162"
+ },
  "v2:francois hollande": {
   "description": "homme d'État français",
   "fonction_publique": true,
@@ -1311,6 +1352,14 @@
   "photo_fichier": null,
   "politique": false,
   "qid": "Q41561298"
+ },
+ "v2:frederic encel": {
+  "description": "essayiste et géopolitologue français",
+  "fonction_publique": false,
+  "nom": "Frédéric Encel",
+  "photo_fichier": "Frédéric Encel par Claude Truong-Ngoc octobre 2015.jpg",
+  "politique": false,
+  "qid": "Q639227"
  },
  "v2:frederic pechenard": {
   "description": "haut fonctionnaire de police et homme politique français",
@@ -1507,6 +1556,7 @@
   "qid": "Q521021"
  },
  "v2:histoire de blois": null,
+ "v2:hotel de ville de limoges": null,
  "v2:hubert vedrine": {
   "description": "diplomate et homme politique français",
   "fonction_publique": true,
@@ -2412,6 +2462,14 @@
   "politique": true,
   "qid": "Q19952226"
  },
+ "v2:pascal perri": {
+  "description": "journaliste et entrepreneur français",
+  "fonction_publique": false,
+  "nom": "Pascal Perri",
+  "photo_fichier": "Pascal Perri 2013.jpg",
+  "politique": false,
+  "qid": "Q3367558"
+ },
  "v2:pasteur don": null,
  "v2:patrice duhamel": {
   "description": "journaliste français",
@@ -2899,6 +2957,14 @@
   "politique": true,
   "qid": "Q112650795"
  },
+ "v2:thomas pesquet": {
+  "description": "astronaute français",
+  "fonction_publique": true,
+  "nom": "Thomas Pesquet",
+  "photo_fichier": "Thomas Pesquet, official portrait (2).jpg",
+  "politique": false,
+  "qid": "Q512266"
+ },
  "v2:thomas piketty": {
   "description": "économiste français",
   "fonction_publique": true,
@@ -3033,6 +3099,7 @@
   "politique": false,
   "qid": "Q112731154"
  },
+ "v2:ziad takieddine": null,
  "v2:zohra bitan": {
   "description": "militante française",
   "fonction_publique": true,

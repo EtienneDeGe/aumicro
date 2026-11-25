@@ -1,0 +1,93 @@
+[
+  {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "bruno-belin",
+    "fonction": "Sénateur (rattaché au groupe LR) de la Vienne et vice-président de la commission des finances",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6b06b9bcb6f9fb45eca53ddd",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "david-lisnard",
+    "fonction": "Candidat à la présidentielle",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6b06bc6eb6f9fb45eca64657",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "celine-sitouze",
+    "fonction": "Maire (DVG) de Sainte-Marie (La Réunion), Arnaud Murgia, maire (DVD) de Briançon et vice-Président du département des Hautes Alpes",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6b06bdad6131f7309610c54f",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:40",
+    "emission": "rtl-invite-7h40",
+    "personne": "guillaume-guerin",
+    "fonction": "Maire de Limoges est",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/8f41659b-a409-477c-a4bd-098e5fcc8678.mp3?_=1795590181",
+    "voir": "https://www.youtube.com/watch?v=thZtg06QcY0",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "aurore-berge",
+    "fonction": "Ministre chargée de l'Égalité entre les femmes et les hommes et de la Lutte contre les discriminations",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/74068207-01db-4134-aff9-66305fcbbafd.mp3?_=1795591881&ps=7dd2a532-d19a-46bb-9ac7-a5eefff10b62",
+    "voir": "https://www.youtube.com/watch?v=0xMGhOVFPNE",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:20",
+    "emission": "inter-8h20",
+    "personne": "gerald-darmanin",
+    "fonction": "Garde des Sceaux, ministre de la Justice",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-8h20-le-grand-entretien/l-invite-de-8h20-le-grand-entretien-du-mercredi-25-novembre-2026-3839037",
+    "voir": "https://www.youtube.com/watch?v=yKz761MTnw0",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "jean-philippe-tanguy",
+    "fonction": "Député RN de la Somme, président délégué du groupe à l'Assemblée nationale",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/reforme-des-retraites-presence-d-un-procureur-au-siege-du-rn-le-8h30-franceinfo-de-jean-philippe-tanguy_8277152.html",
+    "voir": "https://www.youtube.com/watch?v=0sDDaTJewIA",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "francois-de-canson",
+    "fonction": "Président de la Région Sud Provence-Alpes-Côte d'Azur",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-784",
+    "voir": "https://www.youtube.com/watch?v=2pOCNDUVvlQ",
+    "statut": "confirme",
+    "animateur": "Jacques Cardoze"
+  },
+  {
+    "heure": "19:50",
+    "emission": "bfm-100-mabrouk",
+    "personne": "marine-le-pen",
+    "fonction": "Candidate RN à la présidentielle présidente du groupe RN à l'Assemblée nationale",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/fe94c31d-e712-4862-9b10-2597d3455033/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=fe94c31d-e712-4862-9b10-2597d3455033&category=News&episode_published_at=2026-11-25T18%3A54%3A41&episode_title=David+Lisnard+fait-il+peur+%C3%A0+Marine+Le+Pen+%3F+%E2%80%93+25%2F11&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "19:55",
+    "emission": "bfm-100-mabrouk",
+    "personne": "teddy-riner",
+    "fonction": "Candidat à l'élection présidentielle",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/96d5ea33-d684-453b-8636-b729b91964f0/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=96d5ea33-d684-453b-8636-b729b91964f0&category=News&episode_published_at=2026-11-25T18%3A57%3A51&episode_title=Teddy+Riner+%3A+%22L%27Ukraine%2C+ce+n%27est+pas+notre+guerre%22+%E2%80%93+25%2F11&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  }
+]

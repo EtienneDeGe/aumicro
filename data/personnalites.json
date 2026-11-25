@@ -143,6 +143,12 @@
     "credit_photo": "Wikimedia Commons",
     "wikidata": "Q127275063"
   },
+  "bruno-belin": {
+    "nom": "Bruno Belin",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Pierre_RAFFARIN_et_Bruno_BELIN.jpg?width=240",
+    "credit_photo": "AMRF, CC BY 2.0, Wikimedia Commons",
+    "wikidata": "Q43457971"
+  },
   "bruno-bouchard": {
     "nom": "Bruno Bouchard",
     "photo": null,
@@ -172,6 +178,12 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Vautrin_1503548.jpg?width=240",
     "credit_photo": "G.Garitan, CC BY-SA 4.0, Wikimedia Commons",
     "wikidata": "Q2942097"
+  },
+  "celine-sitouze": {
+    "nom": "Céline Sitouze",
+    "photo": null,
+    "credit_photo": null,
+    "wikidata": "Q139617894"
   },
   "charles-alloncle": {
     "nom": "Charles Alloncle",
@@ -353,6 +365,12 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Bayrou_Matignon_%28cropped%29.jpg?width=240",
     "credit_photo": "Service photographique de Matignon, Licence Ouverte, Wikimedia Commons",
     "wikidata": "Q12963"
+  },
+  "francois-de-canson": {
+    "nom": "François de Canson",
+    "photo": null,
+    "credit_photo": null,
+    "wikidata": "Q63371162"
   },
   "francois-hollande": {
     "nom": "François Hollande",
