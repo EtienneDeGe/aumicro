@@ -1,0 +1,94 @@
+[
+  {
+    "heure": "07:30",
+    "emission": "ps-bonjour",
+    "personne": "bruno-le-maire",
+    "fonction": "Ancien ministre de l'Économie et des Finances",
+    "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6b0813e537fa8fa0c4fe4340",
+    "voir": null,
+    "statut": "confirme",
+    "animateur": "Oriane Mancini"
+  },
+  {
+    "heure": "07:40",
+    "emission": "fc-invite-matins",
+    "personne": "david-lisnard",
+    "fonction": "Maire de Cannes et candidat à l'élection présidentielle",
+    "ecouter": "https://www.radiofrance.fr/franceculture/podcasts/l-invite-e-des-matins/presidentielle-avec-david-lisnard-le-retour-en-grace-du-liberalisme-6072074",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "07:50",
+    "emission": "inter-7h50",
+    "personne": "david-lisnard",
+    "fonction": "Maire de Cannes et candidat à l'élection présidentielle",
+    "ecouter": "https://www.radiofrance.fr/franceinter/podcasts/l-invite-de-7h50/l-invite-de-7h50-du-jeudi-26-novembre-2026-3666315",
+    "voir": "https://www.youtube.com/watch?v=RVJXU7IG4uI",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "laurent-jacobelli",
+    "fonction": "Député RN de la Moselle et porte-parole de la campagne présidentielle",
+    "ecouter": "https://podcasts.audiomeans.fr/l-invite-du-8h13-d-europe-1-51a1f498d911/la-grande-interview-de-laurence-ferrari-avec-laurent-jacobelli-1cd936757a85",
+    "voir": "https://www.youtube.com/watch?v=8SXDGU_Nn1Q",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:25",
+    "emission": "lci-interview",
+    "personne": "christophe-bechu",
+    "fonction": "Maire d’Angers",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/3b659dee-1ffe-42b0-836a-e354b6af00b7.mp3?_=1795694614",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "benoit-payan",
+    "fonction": "Maire de Marseille",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/violences-du-17-octobre-ecrits-antisemites-attribues-a-jordan-bardella-presidentielle-le-8h30-franceinfo-de-benoit-payan_8278502.html",
+    "voir": "https://www.youtube.com/watch?v=K0b7eI9MLBg",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "rmc-face-a-face",
+    "personne": "robert-menard",
+    "fonction": "Maire de Béziers",
+    "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/62ef131c-da10-46cd-a964-66ef05c622cf/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=62ef131c-da10-46cd-a964-66ef05c622cf&category=News%2CSociety+%26+Culture&episode_published_at=2026-11-26T07%3A54%3A19&episode_title=Face+%C3%A0+Face+%3A+Robert+Menard+-+26%2F11&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
+    "voir": "https://www.youtube.com/watch?v=NO9ugYmmEFU",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "sud-invite-politique",
+    "personne": "natacha-bouchart",
+    "fonction": "Maire divers droite de Calais",
+    "ecouter": "https://www.sudradio.fr/emission/le-petit-dejeuner-politique-sudradio-785",
+    "voir": "https://www.youtube.com/watch?v=g7BZ5r70t7s",
+    "statut": "confirme",
+    "animateur": "Jacques Cardoze"
+  },
+  {
+    "heure": "21:00",
+    "emission": "e1-objectif-elysee",
+    "personne": "eric-zemmour",
+    "fonction": "Journaliste",
+    "ecouter": null,
+    "voir": "https://www.youtube.com/watch?v=LoXVLCQlOFw",
+    "statut": "confirme"
+  },
+  {
+    "heure": "21:50",
+    "emission": "bfm-100-mabrouk",
+    "personne": "benoit-payan",
+    "fonction": "Maire de Marseille",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/bdf35f33-f946-45fe-8382-d2b59b2c2b83/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=bdf35f33-f946-45fe-8382-d2b59b2c2b83&category=News&episode_published_at=2026-11-26T20%3A53%3A56&episode_title=Payan+%3A+%22Des+ordres+donn%C3%A9s+pour+lib%C3%A9rer+les+pilleurs%22+%E2%80%93+26%2F11&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": "https://www.youtube.com/watch?v=grWqK83xilE",
+    "statut": "confirme"
+  }
+]
