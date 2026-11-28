@@ -216,6 +216,7 @@
  "pos:Q106987409": "président-directeur du musée du Louvre",
  "pos:Q108399360": "directeur général adjoint",
  "pos:Q108552181": "président du musée d'Orsay",
+ "pos:Q111286525": "directeur général de l'Agence nationale de la sécurité des systèmes d'information",
  "pos:Q112671159": "président du directoire",
  "pos:Q113637637": "directeur général de l'enseignement scolaire",
  "pos:Q1162163": "directeur ou directrice",
@@ -627,6 +628,7 @@
   "politique": false,
   "qid": "Q139592055"
  },
+ "v2:august debouzy": null,
  "v2:aurelie trouve": {
   "description": "femme politique et militante altermondialiste française",
   "fonction_publique": true,
@@ -743,6 +745,7 @@
   "politique": true,
   "qid": "Q127275063"
  },
+ "v2:bourdin media": null,
  "v2:british academy": null,
  "v2:bruno belin": {
   "description": "homme politique français",
@@ -803,6 +806,14 @@
   "politique": true,
   "qid": "Q2942097"
  },
+ "v2:cedric vial": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Cédric Vial",
+  "photo_fichier": null,
+  "politique": true,
+  "qid": "Q62887964"
+ },
  "v2:celine sitouze": {
   "description": null,
   "fonction_publique": true,
@@ -812,6 +823,7 @@
   "qid": "Q139617894"
  },
  "v2:chamathka warahena": null,
+ "v2:chambre haute": null,
  "v2:charles alloncle": {
   "description": "homme politique français",
   "fonction_publique": true,
@@ -827,6 +839,14 @@
   "photo_fichier": "20260217-P1380221 Rodwell Charles Wikipedia.jpg",
   "politique": true,
   "qid": "Q112518535"
+ },
+ "v2:charlotte arnould": {
+  "description": "comédienne, danseuse et pianiste française",
+  "fonction_publique": false,
+  "nom": "Charlotte Arnould",
+  "photo_fichier": null,
+  "politique": false,
+  "qid": "Q118138898"
  },
  "v2:christophe bechu": {
   "description": "homme politique français",
@@ -860,6 +880,7 @@
   "politique": true,
   "qid": "Q33172434"
  },
+ "v2:clement guillou": null,
  "v2:clementine autain": {
   "description": "femme politique française",
   "fonction_publique": true,
@@ -1040,6 +1061,14 @@
   "photo_fichier": null,
   "politique": false,
   "qid": "Q14902295"
+ },
+ "v2:elsa vidal": {
+  "description": "journaliste française",
+  "fonction_publique": false,
+  "nom": "Elsa Vidal",
+  "photo_fichier": "Elsa Vidal (born 1974) in the video 'Elsa Vidal - Que pensent les Russes'.png",
+  "politique": false,
+  "qid": "Q111810449"
  },
  "v2:emil cioran": null,
  "v2:emilie lanez": {
@@ -1581,6 +1610,7 @@
   "politique": true,
   "qid": "Q3147241"
  },
+ "v2:info television": null,
  "v2:james talarico": null,
  "v2:jean brossier": null,
  "v2:jean christophe grange": {
@@ -1776,6 +1806,14 @@
   "photo_fichier": "Jean Viard - Réunion publique 26-05-2017 à Sarrians 4 (cropped).jpg",
   "politique": true,
   "qid": "Q3175020"
+ },
+ "v2:jefferson desport": {
+  "description": null,
+  "fonction_publique": false,
+  "nom": "Jefferson Desport",
+  "photo_fichier": "Jefferson Desport in the video 'Jefferson Desport & Xavier Sota – Pierre Hurmic – un écolo à l'épreuve du pouvoir'.png",
+  "politique": false,
+  "qid": "Q141407771"
  },
  "v2:jerome clement": {
   "description": "personnalité du monde des médias et écrivain français",
@@ -2054,6 +2092,7 @@
   "politique": true,
   "qid": "Q30339229"
  },
+ "v2:los angeles": null,
  "v2:louis aliot": {
   "description": "avocat et homme politique français",
   "fonction_publique": true,
@@ -2243,7 +2282,16 @@
   "politique": true,
   "qid": "Q16001"
  },
+ "v2:max brisson": {
+  "description": "historien et homme politique français",
+  "fonction_publique": true,
+  "nom": "Max Brisson",
+  "photo_fichier": "Max Brisson, 2017.jpg",
+  "politique": true,
+  "qid": "Q38285283"
+ },
  "v2:maxence lambrecq": null,
+ "v2:maxime kurkdjian des millionnaires": null,
  "v2:mayada boulos": null,
  "v2:melanie vogel": {
   "description": "femme politique française",
@@ -2329,6 +2377,14 @@
   "qid": "Q28977139"
  },
  "v2:nabil diab": null,
+ "v2:natacha bouchart": {
+  "description": "femme politique française",
+  "fonction_publique": true,
+  "nom": "Natacha Bouchart",
+  "photo_fichier": "Émission de radio Europe Midi - 5 septembre 2014 24 (cropped).JPG",
+  "politique": true,
+  "qid": "Q3336315"
+ },
  "v2:natacha polony": {
   "description": "journaliste et essayiste française",
   "fonction_publique": true,
@@ -2536,6 +2592,7 @@
   "politique": true,
   "qid": "Q62616094"
  },
+ "v2:pedro pascal": null,
  "v2:philippe baptiste": {
   "description": "ingénieur, chercheur et homme politique français",
   "fonction_publique": true,
@@ -2881,6 +2938,14 @@
   "politique": false,
   "qid": "Q107451704"
  },
+ "v2:sylvain maillard": {
+  "description": "homme politique français",
+  "fonction_publique": true,
+  "nom": "Sylvain Maillard",
+  "photo_fichier": "Sylvain-Maillard (cropped).jpg",
+  "politique": true,
+  "qid": "Q30239185"
+ },
  "v2:sylvie goulard": {
   "description": "femme politique française",
   "fonction_publique": true,
@@ -2983,6 +3048,7 @@
   "qid": "Q108618483"
  },
  "v2:tom laperche navigateur vous": null,
+ "v2:tony gilroy": null,
  "v2:tour de lombardie": null,
  "v2:tristan seguela": {
   "description": "réalisateur français",
@@ -3057,6 +3123,14 @@
   "photo_fichier": "Vincent Niclo 2011.jpg",
   "politique": false,
   "qid": "Q778977"
+ },
+ "v2:vincent strubel": {
+  "description": null,
+  "fonction_publique": true,
+  "nom": "Vincent Strubel",
+  "photo_fichier": null,
+  "politique": false,
+  "qid": "Q116020417"
  },
  "v2:wild horse nine": null,
  "v2:xavier chardon": {

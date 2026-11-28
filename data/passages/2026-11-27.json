@@ -1,0 +1,47 @@
+[
+  {
+    "heure": "07:40",
+    "emission": "rtl-invite-7h40",
+    "personne": "nicolas-dupont-aignan",
+    "fonction": "Candidat Debout la France à la présidentielle",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/4d650324-65be-4828-a53f-e4222ec5fdef.mp3?_=1795762981",
+    "voir": "https://www.youtube.com/watch?v=NOtQe6eadRM",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:13",
+    "emission": "e1-grande-interview",
+    "personne": "sylvain-maillard",
+    "fonction": "Homme politique français",
+    "ecouter": "https://podcasts.audiomeans.fr/l-entretien-de-romain-desarbres-07e39084d327/la-grande-interview---romain-desarbres---27-11-2026-0e83d5bcf19c",
+    "voir": "https://www.youtube.com/watch?v=ToNMNgThqf0",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:25",
+    "emission": "lci-interview",
+    "personne": "thierry-breton",
+    "fonction": "Ancien ministre et ancien commissaire européen au Marché intérieur",
+    "ecouter": "https://audio.audiomeans.fr/file/OXGADyGXgY/b6b811bd-6c96-45d6-8335-7594767775cc.mp3?_=1795781203",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "fi-830",
+    "personne": "manon-aubry",
+    "fonction": "Députée européenne de la France Insoumise",
+    "ecouter": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/ukraine-accusations-contre-jordan-bardella-le-8h30-franceinfo-de-manon-aubry_8280272.html",
+    "voir": "https://www.youtube.com/watch?v=iMG5sfKsdx8",
+    "statut": "confirme"
+  },
+  {
+    "heure": "08:30",
+    "emission": "rmc-face-a-face",
+    "personne": "bruno-le-maire",
+    "fonction": "Ancien ministre de l'Économie et des Finances",
+    "ecouter": "https://altice.simplecastaudio.com/758a36a0-c188-43d5-a887-6d2a055fd5fe/episodes/41237831-4da5-41ad-a745-97c7f31a0396/audio/128/default.mp3?aid=rss_feed&awCollectionId=758a36a0-c188-43d5-a887-6d2a055fd5fe&awEpisodeId=41237831-4da5-41ad-a745-97c7f31a0396&category=News%2CSociety+%26+Culture&episode_published_at=2026-11-27T07%3A54%3A54&episode_title=Face+%C3%A0+Face+%3A+Bruno+Le+Maire+-+27%2F11&feed=0H53ly_3&network=&podcast_title=Face+%C3%A0+Face+",
+    "voir": "https://www.youtube.com/watch?v=52P0Lv23JiI",
+    "statut": "confirme"
+  }
+]

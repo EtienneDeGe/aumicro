@@ -77,6 +77,12 @@
     "credit_photo": "Nicolas Kovarik - European Commission, CC BY 4.0, Wikimedia Commons",
     "wikidata": "Q62077623"
   },
+  "august-debouzy": {
+    "nom": "August Debouzy",
+    "photo": null,
+    "credit_photo": null,
+    "wikidata": null
+  },
   "aurelie-trouve": {
     "nom": "Aurélie Trouvé",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Meeting_d%27Aur%C3%A9lie_Trouv%C3%A9.jpg?width=240",
@@ -829,6 +835,12 @@
     "credit_photo": "Jennifer Lempert, CC BY-SA 4.0, Wikimedia Commons",
     "wikidata": "Q28977139"
   },
+  "natacha-bouchart": {
+    "nom": "Natacha Bouchart",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%89mission_de_radio_Europe_Midi_-_5_septembre_2014_24_%28cropped%29.JPG?width=240",
+    "credit_photo": "Supporterhéninois, CC0, Wikimedia Commons",
+    "wikidata": "Q3336315"
+  },
   "natacha-polony": {
     "nom": "Natacha Polony",
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Natacha_Polony_Cannes_2015.jpg?width=240",
@@ -1081,6 +1093,12 @@
     "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/St%C3%A9phanie_Rist.jpg?width=240",
     "credit_photo": "Antoine Lamielle, CC BY-SA 4.0, Wikimedia Commons",
     "wikidata": "Q30339281"
+  },
+  "sylvain-maillard": {
+    "nom": "Sylvain Maillard",
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Sylvain-Maillard_%28cropped%29.jpg?width=240",
+    "credit_photo": "Lionel Barbe, CC BY-SA 4.0, Wikimedia Commons",
+    "wikidata": "Q30239185"
   },
   "sylvie-goulard": {
     "nom": "Sylvie Goulard",

@@ -12,7 +12,7 @@
     "heure": "07:30",
     "emission": "ps-bonjour",
     "personne": "david-lisnard",
-    "fonction": "Candidat à la présidentielle",
+    "fonction": "Maire de Cannes et candidat à l'élection présidentielle",
     "ecouter": "https://shows.acast.com/bonjour-chez-vous/episodes/6b06bc6eb6f9fb45eca64657",
     "voir": null,
     "statut": "confirme"
@@ -87,6 +87,15 @@
     "personne": "teddy-riner",
     "fonction": "Candidat à l'élection présidentielle",
     "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/96d5ea33-d684-453b-8636-b729b91964f0/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=96d5ea33-d684-453b-8636-b729b91964f0&category=News&episode_published_at=2026-11-25T18%3A57%3A51&episode_title=Teddy+Riner+%3A+%22L%27Ukraine%2C+ce+n%27est+pas+notre+guerre%22+%E2%80%93+25%2F11&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
+    "voir": null,
+    "statut": "confirme"
+  },
+  {
+    "heure": "22:40",
+    "emission": "bfm-100-mabrouk",
+    "personne": "david-lisnard",
+    "fonction": "Maire de Cannes et candidat à l'élection présidentielle",
+    "ecouter": "https://altice.simplecastaudio.com/1b175f1d-599b-4b71-9fd8-4d52ecb05fc7/episodes/f833a7d3-1734-4fe5-a784-72ec1a8377c1/audio/128/default.mp3?aid=rss_feed&awCollectionId=1b175f1d-599b-4b71-9fd8-4d52ecb05fc7&awEpisodeId=f833a7d3-1734-4fe5-a784-72ec1a8377c1&category=News&episode_published_at=2026-11-25T21%3A41%3A22&episode_title=Lisnard+%3A+deux+campagnes%2C+et+une+premi%C3%A8re+victoire+%E2%80%93+25%2F11&feed=c2TGFkfx&network=228028218708&podcast_title=100%25+Mabrouk",
     "voir": null,
     "statut": "confirme"
   }
